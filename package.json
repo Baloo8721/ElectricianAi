@@ -1,0 +1,8 @@
+{
+  "name": "electrician-ai",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "npx --yes serve . -l 3000"
+  }
+}

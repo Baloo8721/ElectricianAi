@@ -76,13 +76,18 @@ function renderPosterQuadrant(section) {
 function renderCard(card) {
   let html = `<article class="lesson-card"><h3>${escapeHtml(card.title)}</h3>`;
   if (card.safety) {
-    const text = Array.isArray(card.body) ? card.body.join(" ") : card.body;
-    html += `<p class="callout-safety">${escapeHtml(text)}</p>`;
-  } else {
+    const text = card.body
+      ? Array.isArray(card.body)
+        ? card.body.join(" ")
+        : card.body
+      : "";
+    if (text) html += `<p class="callout-safety">${escapeHtml(text)}</p>`;
+  } else if (card.body) {
     html += paragraphs(card.body);
   }
   if (card.list) {
-    html += `<ul class="compact">${card.list.map((i) => `<li>${escapeHtml(i)}</li>`).join("")}</ul>`;
+    const listClass = card.safety ? "compact callout-safety-list" : "compact";
+    html += `<ul class="${listClass}">${card.list.map((i) => `<li>${escapeHtml(i)}</li>`).join("")}</ul>`;
   }
   if (card.table) html += renderTable(card.table);
   if (card.image) html += renderImage(card.image);

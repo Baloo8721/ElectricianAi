@@ -335,6 +335,15 @@ body {
   font-weight: 500;
 }
 
+.callout-safety-list {
+  background: var(--safety-bg);
+  border-left: 4px solid var(--safety);
+  padding: 0.65rem 0.85rem 0.65rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  margin: 0.75rem 0;
+  color: #7f1d1d;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin: 0.75rem 0;

@@ -1,0 +1,1004 @@
+{
+  "suggestedPath": [
+    "safety-first",
+    "power-flow",
+    "phases-colors",
+    "wire-breakers",
+    "multimeter",
+    "panels-bonding",
+    "nec-essentials"
+  ],
+  "topics": [
+    {
+      "id": "safety-first",
+      "number": 1,
+      "title": "Safety First",
+      "description": "LOTO, PPE, and test before touch",
+      "intro": "Safety is not a chapter you skip. These rules keep you alive on day one.",
+      "cards": [
+        {
+          "title": "Treat every wire as hot",
+          "body": [
+            "Never assume a circuit is off because someone said so or because a switch is down.",
+            "Verify with your meter every time before you touch."
+          ],
+          "remember": "If you did not test it, it is still live."
+        },
+        {
+          "title": "Lockout / Tagout (LOTO)",
+          "body": [
+            "Shut off power at the breaker or disconnect.",
+            "Lock it so nobody can turn it back on.",
+            "Tag it with your name and why it is locked.",
+            "Test with a meter to prove zero energy."
+          ],
+          "remember": "Test before touch — every job, every time."
+        },
+        {
+          "title": "Live → Dead → Live",
+          "safety": true,
+          "body": "Before checking a dead circuit: test your meter on a known live source, test the circuit, then test the live source again. This proves your meter and leads work."
+        },
+        {
+          "title": "PPE you actually wear",
+          "list": [
+            "Safety glasses — always",
+            "Gloves when appropriate",
+            "Hearing protection in loud areas",
+            "Proper boots (no sneakers on site)"
+          ],
+          "remember": "PPE only works if it is on your body."
+        },
+        {
+          "title": "Never work live (as a new apprentice)",
+          "body": [
+            "Working energized is for trained, authorized people on specific tasks.",
+            "Your job is to de-energize, lock out, and verify."
+          ],
+          "remember": "Say: I am not comfortable working it hot."
+        },
+        {
+          "title": "Panel doors and clearances",
+          "body": [
+            "Keep panel doors closed when you are not working inside.",
+            "NEC 110.26: about 3 ft deep, 30 in wide, 6.5 ft tall working space — never block panels with storage."
+          ],
+          "remember": "Neat work and clear space keep everyone safe."
+        }
+      ]
+    },
+    {
+      "id": "power-flow",
+      "number": 2,
+      "title": "How Power Gets to a Building",
+      "description": "From the utility to your lights and appliances",
+      "intro": "Follow the path of electricity from the pole to the outlet. When you see the whole picture, troubleshooting gets easier.",
+      "cards": [
+        {
+          "title": "The big picture",
+          "body": [
+            "Utility transformer sends power to the building.",
+            "Service drop or underground feed goes to the meter.",
+            "Meter measures usage, then power enters the main panel.",
+            "Branch circuits feed lights, outlets, and big appliances."
+          ],
+          "image": {
+            "src": "assets/power-systems-overview.png",
+            "alt": "Residential and commercial power flow diagrams",
+            "caption": "Tap to zoom — residential (top) and commercial (bottom)."
+          },
+          "remember": "Power always has a path: in on the hots, back on the neutral, safety on the ground."
+        },
+        {
+          "title": "Residential path step by step",
+          "list": [
+            "Utility transformer",
+            "Service drop → weatherhead",
+            "Meter can",
+            "Main breaker panel (neutral and ground bonded here only)",
+            "Branch circuits → lights, receptacles, HVAC",
+            "Ground rods to earth"
+          ],
+          "remember": "The main panel is the first disconnect — neutral and ground bond only here."
+        },
+        {
+          "title": "What the main breaker does",
+          "body": [
+            "It shuts off all power to the house in one move.",
+            "Individual breakers only shut off their circuit."
+          ],
+          "remember": "Main off = whole house dark."
+        },
+        {
+          "title": "120V vs 240V at home",
+          "table": {
+            "headers": ["Voltage", "Between", "Used for"],
+            "rows": [
+              ["120V", "Hot to neutral", "Lights, most outlets, fans"],
+              ["240V", "Hot to hot", "Dryer, range, water heater, large AC"]
+            ]
+          },
+          "remember": "Two hots plus neutral give you both 120V and 240V."
+        },
+        {
+          "title": "Common home circuits",
+          "table": {
+            "headers": ["Circuit", "Wire", "Breaker"],
+            "rows": [
+              ["Lights", "14/2 NM-B", "15A"],
+              ["Outlets", "12/2 NM-B", "20A"],
+              ["Kitchen", "12/2 NM-B", "20A"],
+              ["Dryer", "10/3", "30A"],
+              ["Water heater", "10/2", "30A"],
+              ["Range / oven", "6/3 or 8/3", "40–50A"],
+              ["EV charger", "8/3", "40A"]
+            ]
+          },
+          "remember": "Breaker protects the wire — not the appliance."
+        },
+        {
+          "title": "Commercial power flow (simple)",
+          "body": [
+            "Utility sends 3-phase power to a meter section and main switchboard.",
+            "Distribution panels feed lighting, kitchen equipment, and HVAC.",
+            "Large motors often use 480V from an MCC (motor control center)."
+          ],
+          "posterQuadrants": ["residential", "commercial"],
+          "remember": "Commercial has more voltage flavors: 120, 208, 277, and 480."
+        },
+        {
+          "title": "Fast food restaurant example",
+          "list": [
+            "120V — POS, registers, small appliances",
+            "208V 3-phase — fryers, ovens, grills, walk-in coolers",
+            "277V — LED lighting",
+            "480V — roof HVAC, large motors"
+          ],
+          "remember": "Follow the one-line in your head: utility → meter → main → panels → loads."
+        }
+      ]
+    },
+    {
+      "id": "phases-colors",
+      "number": 3,
+      "title": "Single-Phase vs Three-Phase & Colors",
+      "description": "BRB and BOY — interview favorites",
+      "intro": "Know what system you are on and which color is which phase. Interviewers ask this a lot.",
+      "cards": [
+        {
+          "title": "Residential = single-phase",
+          "body": [
+            "120/240V single-phase for houses, apartments, and small shops.",
+            "Two hots (often black and red), one neutral (white), one ground (green or bare)."
+          ],
+          "remember": "Home = single-phase 120/240V."
+        },
+        {
+          "title": "Commercial often = three-phase",
+          "body": [
+            "120/208V wye — offices, restaurants, retail.",
+            "277/480V wye — warehouses, big HVAC, industrial lighting."
+          ],
+          "remember": "More phases = more power for big equipment."
+        },
+        {
+          "title": "120/208V wire colors — BRB",
+          "table": {
+            "headers": ["Phase", "Color"],
+            "rows": [
+              ["A", "Black"],
+              ["B", "Red"],
+              ["C", "Blue"],
+              ["Neutral", "White"],
+              ["Ground", "Green"]
+            ]
+          },
+          "remember": "BRB = Black, Red, Blue."
+        },
+        {
+          "title": "277/480V wire colors — BOY",
+          "table": {
+            "headers": ["Phase", "Color"],
+            "rows": [
+              ["A", "Brown"],
+              ["B", "Orange"],
+              ["C", "Yellow"],
+              ["Neutral", "Gray"],
+              ["Ground", "Green"]
+            ]
+          },
+          "remember": "BOY = Brown, Orange, Yellow."
+        },
+        {
+          "title": "Residential conductor colors",
+          "table": {
+            "headers": ["Wire", "Purpose", "Color"],
+            "rows": [
+              ["Hot L1", "120V leg", "Black"],
+              ["Hot L2", "120V leg", "Red"],
+              ["Neutral", "Return", "White"],
+              ["Ground", "Safety", "Green / bare"]
+            ]
+          },
+          "remember": "White is neutral — not a hot unless code allows a marked exception."
+        },
+        {
+          "title": "Voltage cheat sheet",
+          "table": {
+            "headers": ["System", "L-L", "L-N", "Where"],
+            "rows": [
+              ["120/240V 1-ph", "240", "120", "Houses, garages"],
+              ["120/208V 3-ph", "208", "120", "Offices, restaurants"],
+              ["277/480V 3-ph", "480", "277", "Big buildings, factories"]
+            ]
+          },
+          "remember": "Read the nameplate — voltage tells the truth."
+        }
+      ]
+    },
+    {
+      "id": "panels-bonding",
+      "number": 4,
+      "title": "Panels: Main vs Sub",
+      "description": "Bonding rules that fail inspections",
+      "intro": "The #1 apprentice mistake is bonding neutral and ground together in a subpanel. Learn the rule once and never forget it.",
+      "cards": [
+        {
+          "title": "Main service panel",
+          "list": [
+            "First disconnect after the meter",
+            "Has a main breaker",
+            "Neutral and ground are bonded together here only"
+          ],
+          "remember": "Main panel = bond neutral and ground."
+        },
+        {
+          "title": "Subpanel rules",
+          "list": [
+            "Fed from main with 4 wires: 2 hots, neutral, ground",
+            "Neutral bar floats (isolated from ground)",
+            "Ground bar bonded to the enclosure",
+            "No bond screw between neutral and ground"
+          ],
+          "safety": true,
+          "body": "NEVER bond neutral and ground in a subpanel. You create parallel paths and ghost trips."
+        },
+        {
+          "title": "Bonding cheat card",
+          "table": {
+            "headers": ["Location", "N-G bonded?", "4-wire feeder?", "Float neutral?"],
+            "rows": [
+              ["Service (main)", "Yes", "—", "No"],
+              ["Subpanel (residential)", "No", "Yes", "Yes"],
+              ["Detached garage", "No", "Yes", "Yes + ground rod"]
+            ]
+          },
+          "remember": "Main bonds. Sub floats neutral."
+        },
+        {
+          "title": "Landing feeder wires — safe order",
+          "body": [
+            "With power locked out: ground first, neutral second, hots last.",
+            "Keeps your tools away from live lugs while you work."
+          ],
+          "remember": "Ground → neutral → hots."
+        },
+        {
+          "title": "Subpanel feed example",
+          "body": [
+            "Garage, workshop, or EV subpanel needs L1, L2, neutral, and ground.",
+            "Neutrals land only on the isolated neutral bar.",
+            "Grounds only on the ground bar tied to the can."
+          ],
+          "posterQuadrant": "residential",
+          "remember": "Four wires in — neutrals and grounds separated in the sub."
+        },
+        {
+          "title": "Disconnect switch & MCC (know the names)",
+          "body": [
+            "Disconnect: local shutoff for HVAC, motors, equipment service.",
+            "MCC: industrial cabinet with starters, VFDs, breakers, overloads."
+          ],
+          "remember": "Disconnect = local off. MCC = motor neighborhood."
+        }
+      ]
+    },
+    {
+      "id": "wire-breakers",
+      "number": 5,
+      "title": "Wire Sizes & Breakers",
+      "description": "Ampacity basics every apprentice needs",
+      "intro": "The breaker protects the wire. Size the wire first, then pick the breaker.",
+      "cards": [
+        {
+          "title": "Memory trick: 14-20-30-50-65-100",
+          "table": {
+            "headers": ["Wire (copper)", "Ampacity (typical)", "Breaker"],
+            "rows": [
+              ["#14", "15A", "15A"],
+              ["#12", "20A", "20A"],
+              ["#10", "30A", "30A"],
+              ["#8", "50A", "40–50A"],
+              ["#6", "65A", "60A"],
+              ["#4", "85A", "—"],
+              ["#3", "100A", "100A"]
+            ]
+          },
+          "remember": "Breaker size must not exceed wire ampacity."
+        },
+        {
+          "title": "Why this matters",
+          "body": [
+            "If the breaker is too big for the wire, the wire can overheat before the breaker trips.",
+            "That is a fire risk. Never use whatever wire is on the truck without checking."
+          ],
+          "remember": "Breaker protects wire — not the toaster."
+        },
+        {
+          "title": "Common wire types",
+          "table": {
+            "headers": ["Type", "Use"],
+            "rows": [
+              ["Romex (NM-B)", "Residential"],
+              ["THHN", "Inside conduit"],
+              ["MC cable", "Commercial branch"],
+              ["EMT", "Thin-wall conduit"],
+              ["RMC", "Heavy rigid conduit"],
+              ["PVC", "Underground / exterior"],
+              ["Flex", "Vibration / equipment connection"]
+            ]
+          },
+          "remember": "Wire type must match where and how it is installed."
+        },
+        {
+          "title": "Voltage drop (simple rule)",
+          "body": [
+            "Long runs lose voltage. Keep branch drop under about 3%, total under about 5%.",
+            "If a run is over 100 ft, consider going up one wire size — cheaper than a callback."
+          ],
+          "remember": "Long run? Bigger wire."
+        },
+        {
+          "title": "Continuous loads",
+          "body": [
+            "Loads that run 3+ hours (heat, some motors) may need 125% when sizing.",
+            "For interviews: know that a 20A breaker is not always 20A of load forever."
+          ],
+          "remember": "Volts × amps = watts. Size for load and duty."
+        },
+        {
+          "title": "Box fill (why boxes matter)",
+          "body": [
+            "Each box has a max number of wires based on volume.",
+            "Count conductors, clamps, and devices — too many wires fails inspection."
+          ],
+          "remember": "Stuffing a box is not neat — it is a fail."
+        }
+      ]
+    },
+    {
+      "id": "multimeter",
+      "number": 6,
+      "title": "Multimeter Mastery",
+      "description": "Test before touch — every day",
+      "intro": "Your meter is the most important tool in your bag. Learn the ports, the settings, and where to put the probes.",
+      "cards": [
+        {
+          "title": "What a multimeter measures",
+          "list": [
+            "AC voltage (V~) — outlets, panels",
+            "DC voltage (V⎓) — batteries, controls, solar",
+            "Resistance (Ω) — heaters, coils (power OFF)",
+            "Continuity (beep) — complete path (power OFF)",
+            "Current (A) — in series or use a clamp meter"
+          ],
+          "image": {
+            "src": "assets/multimeter-probe-guide.png",
+            "alt": "Multimeter probe placement guide",
+            "caption": "Tap to zoom — probe placement A through L."
+          },
+          "remember": "Wrong setting + live circuit = damaged meter or injury."
+        },
+        {
+          "title": "Meter ports",
+          "table": {
+            "headers": ["Port", "Lead", "Use"],
+            "rows": [
+              ["COM", "Black", "Always"],
+              ["VΩmA", "Red", "Voltage, resistance, continuity"],
+              ["10A", "Red", "High current only — then move back"]
+            ]
+          },
+          "remember": "Black to COM. Red to VΩ unless you are doing high amps in series."
+        },
+        {
+          "title": "NEVER do this",
+          "list": [
+            "Measure voltage on the amp port",
+            "Measure resistance or continuity on a live circuit",
+            "Move leads while touching live parts",
+            "Hold metal probe tips with your fingers"
+          ],
+          "safety": true,
+          "body": "These mistakes blow meters and hurt people."
+        },
+        {
+          "title": "Test a 120V outlet",
+          "body": [
+            "Dial: AC voltage (V~). Black to neutral (wide slot), red to hot (narrow slot).",
+            "Expect about 110–125V. Hot to ground should also read ~120V.",
+            "Neutral to ground should be near 0V."
+          ],
+          "remember": "Hot-neutral ~120. Neutral-ground ~0."
+        },
+        {
+          "title": "Troubleshooting trick: open neutral",
+          "body": [
+            "If hot-to-neutral reads 0 but hot-to-ground reads 120V, you may have an open neutral.",
+            "This is a common real-world problem — not magic."
+          ],
+          "remember": "Weird voltages mean follow the path — do not guess."
+        },
+        {
+          "title": "Test 240V",
+          "body": [
+            "Hot 1 to hot 2: expect ~240V.",
+            "Each hot to ground: expect ~120V each."
+          ],
+          "remember": "240V is hot-to-hot. Each leg is still 120V to ground."
+        },
+        {
+          "title": "Continuity test",
+          "body": [
+            "Power OFF. Dial to continuity. Beep = complete path.",
+            "Use on switches, fuses, and wire ends."
+          ],
+          "remember": "No beep = open (broken). Beep = good path."
+        },
+        {
+          "title": "Current — use a clamp when you can",
+          "body": [
+            "Series amperage requires breaking the circuit — apprentices often blow meters here.",
+            "Clamp meters read amps around a single conductor — safer and faster."
+          ],
+          "remember": "Clamp around one wire — not both hots together."
+        },
+        {
+          "title": "Poster: multimeter section",
+          "posterQuadrant": "multimeter",
+          "body": "Zoom the field poster multimeter quadrant for dial symbols and safety reminders.",
+          "remember": "Live → dead → live before you trust any reading."
+        }
+      ]
+    },
+    {
+      "id": "conduit-bending",
+      "number": 7,
+      "title": "Conduit Bending (EMT)",
+      "description": "Stubs, offsets, and take-up",
+      "intro": "Clean bends look professional and save rework. EMT is the most common commercial raceway.",
+      "cards": [
+        {
+          "title": "Common bends",
+          "table": {
+            "headers": ["Bend", "Purpose"],
+            "rows": [
+              ["Stub 90", "Turn into a box"],
+              ["Offset", "Change elevation / go around obstacle"],
+              ["Back-to-back 90", "U shape"],
+              ["3-point saddle", "Go over a pipe or obstacle"]
+            ]
+          },
+          "posterQuadrant": "bender",
+          "remember": "Measure twice, bend once."
+        },
+        {
+          "title": "Bender parts",
+          "list": [
+            "Hook — holds conduit",
+            "Arrow — alignment for bends",
+            "Star — back of a 90",
+            "Degree marks — bend angle",
+            "Handle — leverage"
+          ],
+          "remember": "Line up the arrow with your mark."
+        },
+        {
+          "title": "Stub-up 90 with take-up",
+          "body": [
+            "Measure stub height wanted. Subtract take-up. Mark conduit at that distance.",
+            "Align arrow with mark. Bend to 90°."
+          ],
+          "table": {
+            "headers": ["EMT size", "Take-up"],
+            "rows": [
+              ["1/2\"", "5\""],
+              ["3/4\"", "6\""],
+              ["1\"", "8\""]
+            ]
+          },
+          "remember": "24\" stub on 1/2\" EMT: 24 − 5 = mark at 19\"."
+        },
+        {
+          "title": "Offset multipliers",
+          "table": {
+            "headers": ["Angle", "Multiplier"],
+            "rows": [
+              ["10°", "6"],
+              ["22.5°", "2.6"],
+              ["30°", "2"],
+              ["45°", "1.4"],
+              ["60°", "1.2"]
+            ]
+          },
+          "body": [
+            "Obstacle height × multiplier = distance between marks.",
+            "Example: 4\" obstacle at 30° → 4 × 2 = 8\" between marks."
+          ],
+          "remember": "30° offset is the fast field favorite (×2)."
+        },
+        {
+          "title": "Common bending mistakes",
+          "list": [
+            "Overbending",
+            "Dogleg (not on same plane)",
+            "Wrong take-up",
+            "Kinked EMT from poor foot pressure"
+          ],
+          "remember": "Keep conduit straight in the bender plane."
+        },
+        {
+          "title": "Support rules (typical)",
+          "body": [
+            "Support within 3 ft of a box and about every 10 ft along the run (check NEC for your install).",
+            "Good work is level, parallel, and symmetrical."
+          ],
+          "remember": "Ugly bends get ripped out — take your time."
+        }
+      ]
+    },
+    {
+      "id": "nec-essentials",
+      "number": 8,
+      "title": "NEC Essentials",
+      "description": "Top articles apprentices hear about",
+      "intro": "You do not memorize the whole NEC. You learn where to look and the big rules interviewers expect.",
+      "cards": [
+        {
+          "title": "What the NEC is for",
+          "body": [
+            "NFPA 70 — practical safeguarding of people and property.",
+            "It is not a design manual. It sets minimum safe rules."
+          ],
+          "remember": "Code = minimum safe. Good craftsmen go beyond sloppy minimums."
+        },
+        {
+          "title": "Top articles to know by name",
+          "table": {
+            "headers": ["Article", "Topic"],
+            "rows": [
+              ["110", "General installs, working space, torque"],
+              ["200", "Neutral identification (white/gray)"],
+              ["210", "Branch circuits, GFCI, AFCI, receptacles"],
+              ["250", "Grounding and bonding"],
+              ["300", "Wiring methods, burial, protection"],
+              ["310", "Conductors and ampacity tables"],
+              ["430", "Motors"]
+            ]
+          },
+          "remember": "Article 250 is the safety superstar."
+        },
+        {
+          "title": "Article 250 — grounding & bonding",
+          "list": [
+            "Ground rods and electrode system",
+            "Bonding metal parts together",
+            "Equipment grounding (green/bare)",
+            "Service neutral bonding only at main"
+          ],
+          "remember": "Grounding connects to earth. Bonding connects metal to clear faults fast."
+        },
+        {
+          "title": "Article 110 — working space",
+          "body": [
+            "110.26: about 3 ft deep, 30 in wide, 6.5 ft tall in front of panels.",
+            "110.14: torque terminations — use a torque screwdriver on lugs."
+          ],
+          "remember": "Never block a panel with boxes or shelves."
+        },
+        {
+          "title": "Article 300 — wiring methods",
+          "list": [
+            "Same circuit conductors in same raceway",
+            "Burial depths vary by installation",
+            "6 inches minimum free conductor in boxes (300.14)"
+          ],
+          "remember": "Protection from physical damage — nail plates on studs."
+        },
+        {
+          "title": "How to answer code questions in an interview",
+          "body": [
+            "Say you use the index and tables — speed finding matters.",
+            "Admit when you do not know, but know which article you would open."
+          ],
+          "remember": "Honest + safe beats pretending to know everything."
+        }
+      ]
+    },
+    {
+      "id": "devices-switches",
+      "number": 9,
+      "title": "GFCI, AFCI, Devices & Switches",
+      "description": "People protection vs fire protection",
+      "intro": "Know what device does what job, where it is required, and how to wire a receptacle and switch.",
+      "cards": [
+        {
+          "title": "GFCI — protects people",
+          "body": [
+            "Trips on small leakage current (around 4–6 mA).",
+            "Required near water: baths, kitchens, garages, outdoors, and more per 210.8."
+          ],
+          "remember": "GFCI = shock protection near water."
+        },
+        {
+          "title": "AFCI — protects against fire",
+          "body": [
+            "Detects dangerous arcing.",
+            "Required in many dwelling living areas per 210.12."
+          ],
+          "remember": "AFCI = arc / fire protection in living spaces."
+        },
+        {
+          "title": "Device wiring colors",
+          "list": [
+            "Brass screw = hot (black or red)",
+            "Silver screw = neutral (white)",
+            "Green screw = ground (green or bare)",
+            "Wrap wire clockwise under screws"
+          ],
+          "remember": "Brass hot, silver neutral, green ground."
+        },
+        {
+          "title": "Pigtail neutrals",
+          "body": [
+            "Do not depend on the device to carry neutral downstream.",
+            "Pigtail neutrals in the box — pros do it every time."
+          ],
+          "remember": "Pigtail the neutral — do not chain through the device."
+        },
+        {
+          "title": "3-way switches",
+          "body": [
+            "Two switches control one light from two places (stairs, halls).",
+            "Uses traveler wires between 3-ways plus line and load."
+          ],
+          "remember": "3-way = two locations, one light."
+        },
+        {
+          "title": "4-way switches",
+          "body": [
+            "Goes between two 3-ways when you need three or more switch locations."
+          ],
+          "remember": "4-way = middle switch between two 3-ways."
+        },
+        {
+          "title": "Receptacle spacing (residential basics)",
+          "body": [
+            "210.52: walls — no point more than 6 ft from a receptacle (12 ft max apart).",
+            "Countertops: within 2 ft of edge; gaps matter on islands too."
+          ],
+          "remember": "6 ft rule on walls — learn it before layout."
+        }
+      ]
+    },
+    {
+      "id": "commercial-industrial",
+      "number": 10,
+      "title": "Commercial & Industrial Intro",
+      "description": "Motors, MCCs, PLCs, and bigger voltage",
+      "intro": "After residential basics, commercial and industrial work adds 3-phase gear and controls. Learn the words first.",
+      "cards": [
+        {
+          "title": "Commercial wiring methods",
+          "table": {
+            "headers": ["Type", "Use"],
+            "rows": [
+              ["EMT", "Most common raceway indoors"],
+              ["MC cable", "Branch wiring"],
+              ["Rigid", "Service / outdoors"],
+              ["Flex", "Equipment connection"]
+            ]
+          },
+          "remember": "EMT indoors, MC branches, rigid where toughness matters."
+        },
+        {
+          "title": "T-bar ceiling work",
+          "body": [
+            "You will pull MC, EMT, lights, and often data in grid ceilings.",
+            "Keep runs parallel and supported — GCs and inspectors notice."
+          ],
+          "remember": "Ceiling work = neat parallel runs."
+        },
+        {
+          "title": "Motors — basics",
+          "list": [
+            "L1-L2-L3 in, T1-T2-T3 to motor",
+            "Overload sized to FLA on nameplate",
+            "Motor breakers can be larger than wire for inrush (Article 430)"
+          ],
+          "remember": "Read the motor nameplate — FLA is your friend."
+        },
+        {
+          "title": "VFD and PLC (know the names)",
+          "body": [
+            "VFD: variable frequency drive — controls motor speed. Very common.",
+            "PLC: programmable logic controller — automation brain for conveyors, pumps, plants."
+          ],
+          "remember": "Controls and automation pay well later — learn terms now."
+        },
+        {
+          "title": "Pull boxes",
+          "body": [
+            "Needed when conduit runs are too long or have too many bends.",
+            "Pulling without boxes burns time and wire."
+          ],
+          "remember": "Too many bends? Add a pull box."
+        },
+        {
+          "title": "Arc flash respect",
+          "safety": true,
+          "body": "480V systems can kill instantly. Wear required PPE, respect labels, and never work outside your training."
+        }
+      ]
+    },
+    {
+      "id": "tools-jobsite",
+      "number": 11,
+      "title": "Tools & Jobsite Habits",
+      "description": "What to carry and how to act",
+      "intro": "Interviewers care more about reliability and hustle than genius-level code memory.",
+      "cards": [
+        {
+          "title": "First-year tools to own",
+          "list": [
+            "Lineman pliers",
+            "Wire strippers (#14–#10)",
+            "Needle-nose pliers",
+            "11-in-1 screwdriver",
+            "25 ft tape measure",
+            "Torpedo level",
+            "Utility knife",
+            "Tick tester + multimeter",
+            "Channel locks",
+            "Sharpies and headlamp"
+          ],
+          "remember": "Show up with tools — borrow less, learn more."
+        },
+        {
+          "title": "First-year rules — ALWAYS",
+          "list": [
+            "Show up early",
+            "Carry tools",
+            "Write things down",
+            "Ask questions once, then do the work",
+            "Stay moving and clean constantly"
+          ],
+          "remember": "Hustle and cleanup get you invited back."
+        },
+        {
+          "title": "First-year rules — NEVER",
+          "list": [
+            "Assume power is off",
+            "Leave trash for someone else",
+            "Stand around on your phone",
+            "Lie about what you know",
+            "Work live without training and permission"
+          ],
+          "remember": "Honesty about what you do not know builds trust."
+        },
+        {
+          "title": "Daily 2-minute drill",
+          "list": [
+            "Tug test devices — screws tight?",
+            "Panels closed and labeled?",
+            "Trash and scraps picked up",
+            "Photo anything weird for the foreman",
+            "Tools accounted for"
+          ],
+          "remember": "Plan like rocket science, work smooth, test like you are paranoid."
+        },
+        {
+          "title": "Magic phrases that save you",
+          "list": [
+            "I need to verify that with the foreman.",
+            "Can you show me on the print?",
+            "I am not comfortable working it hot.",
+            "Let me LOTO that first."
+          ],
+          "remember": "Nobody got fired for being too safe."
+        },
+        {
+          "title": "Print marking system",
+          "table": {
+            "headers": ["Color", "Meaning"],
+            "rows": [
+              ["Red", "Field changes"],
+              ["Blue", "Verified / powered up"],
+              ["Green", "Future work — not yet"]
+            ]
+          },
+          "remember": "Photo every redline — that is your as-built backup."
+        }
+      ]
+    },
+    {
+      "id": "interview-career",
+      "number": 12,
+      "title": "Interview & Career",
+      "description": "Sound prepared, stay humble",
+      "intro": "You are not expected to know everything. You are expected to be safe, reliable, and eager to learn.",
+      "cards": [
+        {
+          "title": "What interviewers actually want",
+          "list": [
+            "Reliability — show up every day",
+            "Safety mindset",
+            "Work ethic and hustle",
+            "Willingness to learn",
+            "Honesty about your level"
+          ],
+          "remember": "Attitude beats memorizing the whole NEC."
+        },
+        {
+          "title": "Why electrician?",
+          "body": [
+            "I like working with my hands, solving problems, and learning a skilled trade with long-term growth."
+          ],
+          "remember": "Keep answers short and real."
+        },
+        {
+          "title": "What do you know already?",
+          "body": [
+            "I study NEC basics — grounding and bonding, residential vs commercial, conduit, and safety. I verify every circuit before I touch it."
+          ],
+          "remember": "Mention test-before-touch — it marks you as safe."
+        },
+        {
+          "title": "Low-voltage background (if that is you)",
+          "body": [
+            "I have pulled cable, terminated, followed paths, and kept work neat for testing.",
+            "I am ready to apply that discipline to higher voltage and learn the NEC on the job."
+          ],
+          "remember": "Neat low-voltage work proves you can learn high-voltage right."
+        },
+        {
+          "title": "Five concepts that sound smart",
+          "list": [
+            "LOTO and test before touch",
+            "#14-15A, #12-20A, #10-30A",
+            "Box fill limits",
+            "GFCI vs AFCI",
+            "Conduit fill and basic bending"
+          ],
+          "remember": "Five solid topics beat fifty vague ones."
+        },
+        {
+          "title": "Fastest way to earn respect",
+          "list": [
+            "Carry material without being asked",
+            "Clean up without being asked",
+            "Label things",
+            "Remember instructions",
+            "Stay off your phone"
+          ],
+          "remember": "Respect on site is earned with actions, not talk."
+        },
+        {
+          "title": "High-value skills for years 2–4",
+          "list": [
+            "EMT bending",
+            "Motor controls",
+            "Reading prints",
+            "Load calculations",
+            "Troubleshooting service calls"
+          ],
+          "remember": "Specialize later — master safety and basics first."
+        }
+      ]
+    },
+    {
+      "id": "quick-reference",
+      "number": 13,
+      "title": "Quick Reference Tables",
+      "description": "Pocket cheat sheets",
+      "intro": "Bookmark this topic in your head for field days — wire, colors, and formulas in one place.",
+      "cards": [
+        {
+          "title": "Ohm's law & power",
+          "table": {
+            "headers": ["Formula", "Meaning"],
+            "rows": [
+              ["E = I × R", "Volts = amps × ohms"],
+              ["P = V × I", "Watts = volts × amps"],
+              ["3-phase P ≈ 1.732 × V × I", "√3 factor for 3-phase power"]
+            ]
+          },
+          "remember": "Volts push, amps flow, ohms resist."
+        },
+        {
+          "title": "Grounding vs bonding",
+          "table": {
+            "headers": ["Term", "Purpose"],
+            "rows": [
+              ["Grounding", "Connection to earth — stabilize voltage, surges"],
+              ["Bonding", "Metal connected together — fault path to trip breaker"]
+            ]
+          },
+          "remember": "They are not the same thing — interviewers trap you here."
+        },
+        {
+          "title": "Conduit fill — fist rule (#12 THHN)",
+          "table": {
+            "headers": ["EMT size", "Max #12 wires (approx)"],
+            "rows": [
+              ["1/2\"", "6–7"],
+              ["3/4\"", "16"],
+              ["1\"", "26"]
+            ]
+          },
+          "remember": "Overfill = hard pull, hot wire, failed inspection."
+        },
+        {
+          "title": "Multimeter readings (AC)",
+          "table": {
+            "headers": ["Reading", "Meaning"],
+            "rows": [
+              ["110–125V", "Normal 120V"],
+              ["220–250V", "Normal 240V"],
+              ["~0V", "Off or no power"],
+              ["OL", "Open circuit"],
+              ["0Ω on power off", "Possible short — investigate"]
+            ]
+          },
+          "remember": "Voltage tells the truth. Prints lie sometimes."
+        },
+        {
+          "title": "Abbreviations",
+          "table": {
+            "headers": ["Abbr", "Meaning"],
+            "rows": [
+              ["HR", "Homerun"],
+              ["WP", "Weatherproof"],
+              ["EM", "Emergency"],
+              ["EGC", "Equipment grounding conductor"],
+              ["GEC", "Grounding electrode conductor"],
+              ["FLA", "Full load amps"],
+              ["LOTO", "Lockout tagout"]
+            ]
+          },
+          "remember": "Learn the language — it speeds up every conversation on site."
+        },
+        {
+          "title": "Apprentice quick memory — three worlds",
+          "table": {
+            "headers": ["World", "Keywords"],
+            "rows": [
+              ["Residential", "Single-phase, Romex, 120/240V, wood"],
+              ["Commercial", "3-phase, EMT, MC, 120/208V"],
+              ["Industrial", "Motors, MCC, PLC, 480V+, automation"]
+            ]
+          },
+          "remember": "Know which world you are in before you touch anything."
+        },
+        {
+          "title": "Master's bottom line",
+          "body": [
+            "Power does not care how smart you sound.",
+            "It cares how tight, how big, and how right your neutrals and grounds are."
+          ],
+          "remember": "Test before touch. Every time."
+        }
+      ]
+    }
+  ]
+}

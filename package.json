@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build": "node scripts/build.mjs",
+    "lessons": "node scripts/generate-lessons.mjs",
     "preview": "npx --yes serve dist -l 3000"
   }
 }

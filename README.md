@@ -7,7 +7,7 @@ A simple, mobile-first training site for electrician apprentices. All topics are
 ## Features
 
 - 6-digit PIN gate (re-enter every visit — nothing stored in the browser)
-- 13 topics: safety, power flow, multimeter, conduit, NEC, interview prep, and more
+- 14 topics: electrical theory, safety, power flow, multimeter, conduit, NEC, interview prep, and more
 - Reference posters and diagrams (zoom on tap)
 - Search across all lesson cards
 
@@ -32,7 +32,7 @@ GitHub Pages is **static hosting**. The PIN keeps casual visitors out of the UI,
 
 ## Source content
 
-- `info1.md` – `info4.md`: original reference notes
+- `info1.md` – `info5.md`: original reference notes
 - `content/lessons.json`: structured lessons used by the app
 - `assets/`: diagrams and posters
 

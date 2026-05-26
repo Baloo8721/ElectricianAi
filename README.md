@@ -25,8 +25,10 @@ GitHub Pages is **static hosting**. The PIN keeps casual visitors out of the UI,
 
 1. Push to `main` on [Baloo8721/ElectricianAi](https://github.com/Baloo8721/ElectricianAi).
 2. Repo **Settings → Secrets and variables → Actions** → add `APP_PIN` (your 6-digit code).
-3. **Settings → Pages** → Source: **GitHub Actions** (not “Deploy from branch”).
-4. Each push to `main` runs the workflow and publishes the site.
+3. **Settings → Pages** → use either:
+   - **Deploy from branch** → `gh-pages` → `/ (root)`, or
+   - **GitHub Actions** (workflow supports both)
+4. After each push to `main`, wait for the green **Deploy GitHub Pages** workflow, then hard-refresh the site.
 
 ## Source content
 

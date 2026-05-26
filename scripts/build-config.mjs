@@ -35,5 +35,6 @@ const out = `// Generated — do not edit. Run: npm run build
 window.APP_CONFIG = ${JSON.stringify({ pinHash, salt }, null, 2)};
 `;
 
-writeFileSync(join(root, "js", "config.js"), out);
-console.log("Wrote js/config.js");
+// pin-hash.js must NOT be in .gitignore — gh-pages deploy skips ignored files
+writeFileSync(join(root, "js", "pin-hash.js"), out);
+console.log("Wrote js/pin-hash.js");

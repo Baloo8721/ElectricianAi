@@ -23,6 +23,11 @@ jobs:
         env:
           APP_PIN: ${{ secrets.APP_PIN }}
 
+      - name: Verify PIN config exists
+        run: |
+          test -f js/pin-hash.js || (echo "pin-hash.js missing — check APP_PIN secret" && exit 1)
+          grep -q pinHash js/pin-hash.js
+
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4
         with:

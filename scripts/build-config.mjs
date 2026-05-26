@@ -30,11 +30,16 @@ if (!pin || !/^\d{6}$/.test(pin)) {
 
 const salt = randomBytes(16).toString("hex");
 const pinHash = createHash("sha256").update(`${salt}:${pin}`).digest("hex");
+const appConfig = { pinHash, salt };
+
+writeFileSync(
+  join(root, "scripts", ".pin-build.json"),
+  JSON.stringify(appConfig)
+);
 
 const out = `// Generated — do not edit. Run: npm run build
-window.APP_CONFIG = ${JSON.stringify({ pinHash, salt }, null, 2)};
+window.APP_CONFIG = ${JSON.stringify(appConfig, null, 2)};
 `;
 
-// pin-hash.js must NOT be in .gitignore — gh-pages deploy skips ignored files
 writeFileSync(join(root, "js", "pin-hash.js"), out);
 console.log("Wrote js/pin-hash.js");

@@ -32,18 +32,15 @@ jobs:
         env:
           APP_PIN: ${{ secrets.APP_PIN }}
 
-      - name: Verify PIN config exists
+      - name: Verify dist bundle
         run: |
-          test -f js/pin-hash.js || (echo "pin-hash.js missing — check APP_PIN secret" && exit 1)
-          grep -q pinHash js/pin-hash.js
-
-      - name: Add .nojekyll
-        run: touch .nojekyll
+          test -f dist/index.html || exit 1
+          grep -q pinHash dist/index.html || (echo "PIN not injected — check APP_PIN secret" && exit 1)
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: dist
 
       - name: Deploy to GitHub Pages
         id: deployment

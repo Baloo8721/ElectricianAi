@@ -18,7 +18,7 @@ GitHub Pages is **static hosting**. The PIN keeps casual visitors out of the UI,
 ## Local development
 
 1. Copy `.env.example` to `.env` and set a 6-digit `APP_PIN`.
-2. Build config: `npm run build`
+2. Build config: `npm run build` (creates `js/pin-hash.js` — do not commit this file)
 3. Preview: `npm run preview` → open http://localhost:3000
 
 ## Deploy (GitHub Actions)

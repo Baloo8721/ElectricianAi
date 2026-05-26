@@ -94,7 +94,8 @@ function init() {
     pinPad.innerHTML = "";
     const msg = document.createElement("p");
     msg.className = "pin-error";
-    msg.textContent = "Run npm run build with APP_PIN in .env first.";
+    msg.textContent =
+      "PIN config not loaded. If this is the live site, wait for the deploy workflow to finish, then hard-refresh.";
     pinScreen.appendChild(msg);
     return;
   }

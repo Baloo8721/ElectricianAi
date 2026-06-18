@@ -1,4 +1,5 @@
 import { panelScenarios } from "./panel-scenarios.js";
+import { renderPanelSVG } from "./panel-visual-svg.js";
 
 let simState = null;
 
@@ -122,102 +123,7 @@ function renderStep() {
 
 function renderPanelVisual(visual) {
   if (!simEls.panelCanvas) return;
-  const sc = simState?.scenario;
-  const type = visual?.type || "main";
-
-  const isBonded = visual?.bonding === "bonded";
-  const neutralFeeder = visual?.feeder === "neutral" || visual?.feeder === "complete";
-  const groundFeeder = visual?.feeder === "ground" || visual?.feeder === "complete";
-  const hotsFeeder = visual?.feeder === "hots" || visual?.feeder === "complete";
-  const done = visual?.done;
-  const rods = visual?.rods;
-  const colors = visual?.colors;
-  const breakers = visual?.breakers || [];
-  const voltage = sc?.voltage || "120/240V";
-
-  const isThreePhase = voltage.includes("208") || voltage.includes("277") || voltage.includes("480");
-  const phaseCount = isThreePhase ? (colors === "BRB" || colors === "BOY" ? 3 : 3) : 2;
-
-  simEls.panelCanvas.innerHTML = `
-    <div class="sim-panel ${type === "sub" ? "sim-panel-sub" : ""}">
-      <div class="sim-panel-label">${type === "sub" ? "SUBPANEL" : "MAIN PANEL"} — ${voltage}</div>
-      <div class="sim-panel-enclosure">
-        ${renderMainBreaker(isBonded, type, hotsFeeder, phaseCount)}
-        ${renderBusBars(phaseCount)}
-        ${renderBars(isBonded, type, neutralFeeder, groundFeeder, rods)}
-        ${done ? `<div class="sim-panel-done">&#10003; COMPLETE</div>` : ""}
-      </div>
-      ${breakers.length ? renderBreakPreview(breakers) : ""}
-    </div>
-  `;
-
-  function renderMainBreaker(bonded, type, hotFed, phases) {
-    const bondingBadge = bonded
-      ? `<span class="sim-bonding-badge sim-bonded">BONDED</span>`
-      : `<span class="sim-bonding-badge sim-floating">FLOATING</span>`;
-
-    const mainLugs = type === "main"
-      ? `<div class="sim-main-lugs">
-          ${Array.from({ length: phases }, (_, i) =>
-            `<div class="sim-lug sim-lug-hot ${hotFed ? "sim-wired" : ""}">${isThreePhase ? ["A","B","C"][i] : ["L1","L2"][i]}</div>`
-          ).join("")}
-          <div class="sim-main-label">MAIN BREAKER</div>
-        </div>`
-      : `<div class="sim-main-lugs sim-main-lugs-sub">
-          <div class="sim-main-label">FEED FROM MAIN</div>
-          ${hotFed
-            ? `<div class="sim-lug-row">
-                ${Array.from({ length: phases }, (_, i) =>
-                  `<div class="sim-lug sim-lug-hot sim-wired">${isThreePhase ? ["A","B","C"][i] : ["L1","L2"][i]}</div>`
-                ).join("")}
-              </div>`
-            : `<div class="sim-lug-row"><div class="sim-lug sim-lug-empty"></div></div>`
-          }
-        </div>`;
-
-    return `
-      <div class="sim-main-area">
-        ${mainLugs}
-        <div class="sim-bonding-indicator">${bondingBadge}</div>
-      </div>
-    `;
-  }
-
-  function renderBusBars(phases) {
-    return `
-      <div class="sim-bus-bars">
-        ${Array.from({ length: phases }, (_, i) =>
-          `<div class="sim-bus-bar sim-bus-${["a","b","c"][i] || "a"}"></div>`
-        ).join("")}
-      </div>
-    `;
-  }
-
-  function renderBars(bonded, type, neutFed, grndFed, hasRods) {
-    const neutLabel = type === "sub" ? "NEUTRAL (FLOATING)" : "NEUTRAL (BONDED)";
-
-    return `
-      <div class="sim-bottom-bars">
-        <div class="sim-bar sim-neutral-bar ${neutFed ? "sim-wired" : ""}">
-          <span class="sim-bar-label">${neutLabel}</span>
-          ${neutFed ? '<span class="sim-wire-tag">N</span>' : ""}
-        </div>
-        <div class="sim-bar sim-ground-bar ${grndFed ? "sim-wired" : ""}">
-          <span class="sim-bar-label">GROUND</span>
-          ${grndFed ? '<span class="sim-wire-tag">G</span>' : ""}
-          ${hasRods ? '<span class="sim-rod-tag">&#9888; ROD</span>' : ""}
-        </div>
-      </div>
-    `;
-  }
-
-  function renderBreakPreview(breakers) {
-    return `
-      <div class="sim-breaker-preview">
-        ${breakers.map((b) => `<span class="sim-breaker-chip">${escapeHtml(b)}</span>`).join("")}
-      </div>
-    `;
-  }
+  simEls.panelCanvas.innerHTML = renderPanelSVG(visual, simState?.scenario);
 }
 
 function updateProgress() {

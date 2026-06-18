@@ -1,9 +1,17 @@
+import { initNecViewer } from "./nec-viewer.js";
+import { initSimulator } from "./panel-simulator.js";
+
 let lessons = { topics: [], suggestedPath: [] };
 let searchIndex = [];
+let studyMode = "read";
+let currentTopicId = null;
+let quizState = null;
 
 const views = {
   home: document.getElementById("view-home"),
   topic: document.getElementById("view-topic"),
+  nec: document.getElementById("view-nec"),
+  simulator: document.getElementById("view-simulator"),
   search: document.getElementById("view-search"),
 };
 
@@ -19,9 +27,47 @@ const els = {
   searchResults: document.getElementById("search-results"),
   imageModal: document.getElementById("image-modal"),
   imageModalImg: document.getElementById("image-modal-img"),
+  progressBar: document.getElementById("progress-bar"),
+  progressText: document.getElementById("progress-text"),
+  quizArea: document.getElementById("quiz-area"),
+  quizQuestion: document.getElementById("quiz-question"),
+  quizOptions: document.getElementById("quiz-options"),
+  quizFeedback: document.getElementById("quiz-feedback"),
+  quizProgress: document.getElementById("quiz-progress"),
+  btnQuizNext: document.getElementById("btn-quiz-next"),
+  quizResultsModal: document.getElementById("quiz-results-modal"),
+  quizResultsScore: document.getElementById("quiz-results-score"),
+  quizResultsDetail: document.getElementById("quiz-results-detail"),
+  btnQuizCloseResults: document.getElementById("btn-quiz-close-results"),
+  btnStudyRead: document.getElementById("btn-study-read"),
+  btnStudyFlash: document.getElementById("btn-study-flash"),
+  btnStudyQuiz: document.getElementById("btn-study-quiz"),
+  btnStudySim: document.getElementById("btn-study-sim"),
+  btnNecViewer: document.getElementById("btn-nec-viewer"),
+  btnPanelSim: document.getElementById("btn-panel-sim"),
+  btnNfpaLink: document.getElementById("btn-nfpa-link"),
 };
 
 let currentView = "home";
+const STORAGE_KEY = "electricianai_progress";
+
+function getProgress() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}");
+  } catch {
+    return {};
+  }
+}
+
+function saveProgress(progress) {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+}
+
+function markTopicViewed(topicId) {
+  const p = getProgress();
+  p[topicId] = true;
+  saveProgress(p);
+}
 
 function escapeHtml(s) {
   const d = document.createElement("div");
@@ -74,12 +120,14 @@ function renderPosterQuadrant(section) {
 }
 
 function renderCard(card) {
-  let html = `<article class="lesson-card"><h3>${escapeHtml(card.title)}</h3>`;
+  let html = `<article class="lesson-card" data-card-title="${escapeHtml(card.title)}" data-card-body="${escapeHtml(JSON.stringify(card))}">`;
+  html += `<h3>${escapeHtml(card.title)}</h3>`;
+  if (studyMode === "flash") {
+    html += `<div class="flash-reveal" hidden>`;
+  }
   if (card.safety) {
     const text = card.body
-      ? Array.isArray(card.body)
-        ? card.body.join(" ")
-        : card.body
+      ? Array.isArray(card.body) ? card.body.join(" ") : card.body
       : "";
     if (text) html += `<p class="callout-safety">${escapeHtml(text)}</p>`;
   } else if (card.body) {
@@ -98,6 +146,10 @@ function renderCard(card) {
   if (card.remember) {
     html += `<p class="remember">Remember: ${escapeHtml(card.remember)}</p>`;
   }
+  if (studyMode === "flash") {
+    html += `</div>`;
+    html += `<button type="button" class="btn-flip" aria-label="Reveal card">Tap to reveal</button>`;
+  }
   html += "</article>";
   return html;
 }
@@ -106,6 +158,8 @@ function showView(name) {
   currentView = name;
   views.home.hidden = name !== "home";
   views.topic.hidden = name !== "topic";
+  views.nec.hidden = name !== "nec";
+  views.simulator.hidden = name !== "simulator";
   views.search.hidden = name !== "search";
   els.back.hidden = name === "home";
   if (name === "home") els.title.textContent = "ElectricianAi";
@@ -114,12 +168,40 @@ function showView(name) {
 function openTopic(topicId) {
   const topic = lessons.topics.find((t) => t.id === topicId);
   if (!topic) return;
+  currentTopicId = topicId;
+  markTopicViewed(topicId);
+  updateProgress();
   els.title.textContent = topic.title;
   els.topicIntro.textContent = topic.intro || "";
-  els.topicCards.innerHTML = topic.cards.map(renderCard).join("");
-  bindZoomButtons(els.topicCards);
+  els.btnStudyRead.classList.add("btn-mode-active");
+  els.btnStudyFlash.classList.remove("btn-mode-active");
+  els.btnStudyQuiz.classList.remove("btn-mode-active");
+  els.btnStudySim.classList.remove("btn-mode-active");
+  els.btnStudySim.style.display = topic.keywords?.includes("panel") || topic.keywords?.includes("panels") ? "" : "none";
+  studyMode = "read";
+  els.quizArea.hidden = true;
+  els.topicCards.hidden = false;
+  renderTopicCards(topic);
   showView("topic");
   window.scrollTo(0, 0);
+}
+
+function renderTopicCards(topic) {
+  els.topicCards.innerHTML = topic.cards.map(renderCard).join("");
+  bindZoomButtons(els.topicCards);
+  if (studyMode === "flash") {
+    els.topicCards.querySelectorAll(".lesson-card").forEach((card) => {
+      const btn = card.querySelector(".btn-flip");
+      if (!btn) return;
+      btn.addEventListener("click", () => {
+        const content = card.querySelector(".flash-reveal");
+        if (content) {
+          content.hidden = !content.hidden;
+          btn.textContent = content.hidden ? "Tap to reveal" : "Tap to hide";
+        }
+      });
+    });
+  }
 }
 
 function bindZoomButtons(root) {
@@ -132,14 +214,25 @@ function bindZoomButtons(root) {
   });
 }
 
+function updateProgress() {
+  const p = getProgress();
+  const total = lessons.topics.length;
+  const done = lessons.topics.filter((t) => p[t.id]).length;
+  const pct = total ? Math.round((done / total) * 100) : 0;
+  if (els.progressBar) els.progressBar.style.setProperty("--pct", pct + "%");
+  if (els.progressText) els.progressText.textContent = `${done} / ${total} topics`;
+}
+
 function renderHome() {
+  const p = getProgress();
   els.topicGrid.innerHTML = lessons.topics
     .map(
       (t) => `
-    <button type="button" class="topic-card" data-topic="${escapeHtml(t.id)}">
+    <button type="button" class="topic-card ${p[t.id] ? "topic-done" : ""}" data-topic="${escapeHtml(t.id)}">
       <span class="topic-card-num">${t.number}</span>
       <h2>${escapeHtml(t.title)}</h2>
       <p>${escapeHtml(t.description)}</p>
+      ${p[t.id] ? '<span class="topic-check">&#10003;</span>' : ""}
     </button>`
     )
     .join("");
@@ -154,6 +247,7 @@ function renderHome() {
       return t ? `<li>${escapeHtml(t.title)}</li>` : "";
     })
     .join("");
+  updateProgress();
 }
 
 function buildSearchIndex() {
@@ -222,10 +316,168 @@ function openSearch() {
   els.searchInput.focus();
 }
 
+function setStudyMode(mode) {
+  if (!currentTopicId) return;
+  studyMode = mode;
+  const topic = lessons.topics.find((t) => t.id === currentTopicId);
+  if (!topic) return;
+  els.btnStudyRead.classList.toggle("btn-mode-active", mode === "read");
+  els.btnStudyFlash.classList.toggle("btn-mode-active", mode === "flash");
+  els.btnStudyQuiz.classList.toggle("btn-mode-active", mode === "quiz");
+  els.topicCards.hidden = mode === "quiz";
+  els.quizArea.hidden = mode !== "quiz";
+  if (mode === "quiz") {
+    startQuiz(topic);
+  } else {
+    renderTopicCards(topic);
+  }
+}
+
+function startQuiz(topic) {
+  const questions = [];
+  const cardsWithRemember = topic.cards.filter((c) => c.remember);
+  const cardsWithList = topic.cards.filter((c) => c.list);
+  const cardsWithBody = topic.cards.filter((c) => c.body);
+  const allCards = topic.cards;
+
+  for (const card of allCards.slice(0, 10)) {
+    const q = makeQuestion(card, topic);
+    if (q) questions.push(q);
+  }
+
+  if (questions.length < 5) {
+    for (const card of allCards) {
+      if (questions.length >= 10) break;
+      if (!questions.find((q) => q.answer === card.title)) {
+        const q = makeQuestion(card, topic);
+        if (q) questions.push(q);
+      }
+    }
+  }
+
+  if (questions.length < 3) {
+    els.quizArea.innerHTML = `<p class="lead">Not enough quiz material for this topic. Try Flash or Read mode.</p>`;
+    els.topicCards.hidden = true;
+    return;
+  }
+
+  quizState = {
+    questions,
+    index: 0,
+    correct: 0,
+    answered: false,
+  };
+  showQuestion();
+}
+
+function makeQuestion(card, topic) {
+  if (card.remember) {
+    const distractors = getDistractors(card.remember, topic);
+    if (distractors.length >= 3) {
+      return {
+        question: `What is the key point of "${card.title}"?`,
+        options: shuffle([card.remember, ...distractors.slice(0, 3)]),
+        answer: card.remember,
+      };
+    }
+  }
+  if (card.list && card.list.length > 0) {
+    const item = card.list[Math.floor(Math.random() * card.list.length)];
+    const part = item.split(/[—\-:]/)[0].trim();
+    if (part && part.length > 10) {
+      const distractors = getDistractors(part, topic);
+      if (distractors.length >= 3) {
+        return {
+          question: `Which of these is mentioned in "${card.title}"?`,
+          options: shuffle([part, ...distractors.slice(0, 3)]),
+          answer: part,
+        };
+      }
+    }
+  }
+  return null;
+}
+
+function getDistractors(exclude, topic) {
+  const pool = [];
+  for (const c of topic.cards) {
+    if (c.remember && c.remember !== exclude) pool.push(c.remember);
+    if (c.list) {
+      for (const item of c.list) {
+        const part = item.split(/[—\-:]/)[0].trim();
+        if (part && part !== exclude && part.length > 5) pool.push(part);
+      }
+    }
+    if (pool.length >= 10) break;
+  }
+  return shuffle(pool);
+}
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function showQuestion() {
+  if (!quizState || quizState.index >= quizState.questions.length) {
+    finishQuiz();
+    return;
+  }
+  const q = quizState.questions[quizState.index];
+  els.quizQuestion.innerHTML = `<p class="quiz-q-text">${escapeHtml(q.question)}</p>`;
+  els.quizOptions.innerHTML = q.options
+    .map(
+      (opt, i) =>
+        `<button type="button" class="quiz-opt" data-index="${i}">${escapeHtml(opt)}</button>`
+    )
+    .join("");
+  els.quizFeedback.hidden = true;
+  els.btnQuizNext.hidden = true;
+  els.quizProgress.textContent = `${quizState.index + 1} / ${quizState.questions.length}`;
+  quizState.answered = false;
+
+  els.quizOptions.querySelectorAll(".quiz-opt").forEach((btn) => {
+    btn.addEventListener("click", () => answerQuestion(btn, q));
+  });
+}
+
+function answerQuestion(btn, q) {
+  if (quizState.answered) return;
+  quizState.answered = true;
+  const selected = btn.textContent;
+  const isCorrect = selected === q.answer;
+  if (isCorrect) quizState.correct++;
+  els.quizOptions.querySelectorAll(".quiz-opt").forEach((b) => {
+    b.disabled = true;
+    if (b.textContent === q.answer) b.classList.add("quiz-correct");
+    else if (b === btn && !isCorrect) b.classList.add("quiz-wrong");
+  });
+  els.quizFeedback.hidden = false;
+  els.quizFeedback.textContent = isCorrect ? "Correct!" : `Incorrect. Answer: ${q.answer}`;
+  els.quizFeedback.className = isCorrect ? "quiz-feedback quiz-feedback-correct" : "quiz-feedback quiz-feedback-wrong";
+  els.btnQuizNext.hidden = false;
+}
+
+function finishQuiz() {
+  if (!quizState) return;
+  const total = quizState.questions.length;
+  const correct = quizState.correct;
+  const pct = total ? Math.round((correct / total) * 100) : 0;
+  els.quizResultsScore.textContent = `${correct} / ${total} correct (${pct}%)`;
+  let grade = pct >= 90 ? "Excellent!" : pct >= 70 ? "Good job!" : pct >= 50 ? "Keep studying." : "Review this topic again.";
+  els.quizResultsDetail.textContent = grade;
+  els.quizResultsModal.hidden = false;
+}
+
 els.back.addEventListener("click", () => {
-  if (currentView === "search" || currentView === "topic") {
+  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator") {
     showView("home");
     els.title.textContent = "ElectricianAi";
+    quizState = null;
   }
 });
 
@@ -242,6 +494,42 @@ els.imageModal.addEventListener("click", (e) => {
     els.imageModal.hidden = true;
     els.imageModalImg.src = "";
   }
+});
+
+els.btnStudyRead?.addEventListener("click", () => setStudyMode("read"));
+els.btnStudyFlash?.addEventListener("click", () => setStudyMode("flash"));
+els.btnStudyQuiz?.addEventListener("click", () => setStudyMode("quiz"));
+els.btnStudySim?.addEventListener("click", openSimulator);
+
+els.btnQuizNext?.addEventListener("click", () => {
+  quizState.index++;
+  showQuestion();
+});
+
+els.btnQuizCloseResults?.addEventListener("click", () => {
+  els.quizResultsModal.hidden = true;
+});
+
+els.quizResultsModal?.addEventListener("click", (e) => {
+  if (e.target === els.quizResultsModal) els.quizResultsModal.hidden = true;
+});
+
+function openNecViewer() {
+  els.title.textContent = "NEC Code Book";
+  showView("nec");
+  initNecViewer();
+}
+
+function openSimulator() {
+  els.title.textContent = "Panel Simulator";
+  showView("simulator");
+  initSimulator();
+}
+
+els.btnNecViewer?.addEventListener("click", openNecViewer);
+els.btnPanelSim?.addEventListener("click", openSimulator);
+els.btnNfpaLink?.addEventListener("click", () => {
+  window.open("https://link.nfpa.org/free-access/publications/70/2026", "_blank");
 });
 
 async function loadLessons() {

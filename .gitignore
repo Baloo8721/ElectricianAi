@@ -4,3 +4,4 @@ node_modules/
 .DS_Store
 dist/
 scripts/.pin-build.json
+js/pin-hash.js

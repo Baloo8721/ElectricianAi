@@ -7,7 +7,22 @@
     "wire-breakers",
     "multimeter",
     "panels-bonding",
-    "nec-essentials"
+    "nec-essentials",
+    "devices-switches",
+    "conduit-bending",
+    "commercial-industrial",
+    "tools-jobsite",
+    "interview-career",
+    "quick-reference",
+    "underground-construction",
+    "wire-pulling",
+    "material-identification",
+    "tape-measure-fractions",
+    "bucket-trucks-rigging",
+    "equipment-machinery",
+    "lighting-systems",
+    "troubleshooting",
+    "youtube-university"
   ],
   "topics": [
     {
@@ -431,6 +446,77 @@
             "Electricity always wants: (1) a source, (2) a path, (3) to return to source."
           ],
           "remember": "Master the foundation — the code builds on this."
+        },
+        {
+          "title": "AC Waveforms & Frequency",
+          "body": [
+            "AC voltage alternates in a sine wave pattern.",
+            "60 Hz = 60 complete cycles per second in the US.",
+            "A full sine wave = 360\u00B0. One alternation = 180\u00B0."
+          ],
+          "remember": "60 Hz is the US standard \u2014 50 Hz in many other countries."
+        },
+        {
+          "title": "Single-Phase vs Three-Phase (deeper)",
+          "table": {
+            "headers": ["Feature", "Single-Phase", "Three-Phase"],
+            "rows": [
+              ["Waves", "One sine wave", "Three sine waves 120\u00B0 apart"],
+              ["Power Formula", "P = V \u00D7 I", "P = 1.732 \u00D7 V \u00D7 I"],
+              ["Motors", "Simple, smaller", "Smoother, more efficient"],
+              ["Wires", "2 hots + neutral", "3 hots + neutral (wye)"]
+            ]
+          },
+          "body": [
+            "Three-phase delivers constant power \u2014 motors run smoother.",
+            "Single-phase power dips to zero 120 times/sec."
+          ],
+          "remember": "Three-phase = 1.732 factor everywhere."
+        },
+        {
+          "title": "Transformers (how they work)",
+          "list": [
+            "Primary coil creates magnetic field",
+            "Secondary coil picks up induced voltage",
+            "Turns ratio determines voltage step-up or step-down",
+            "Example: 480V primary \u2192 120/208V secondary for building use",
+            "KVA rating = voltage \u00D7 amps \u00D7 1.732 (3-phase)"
+          ],
+          "body": [
+            "Transformers only work with AC \u2014 DC cannot induce voltage."
+          ],
+          "remember": "More turns on secondary = step-up. Fewer turns = step-down."
+        },
+        {
+          "title": "120/208V vs 277/480V Systems",
+          "table": {
+            "headers": ["System", "Phase-to-Phase", "Phase-to-Neutral", "Phase Colors", "Neutral Color"],
+            "rows": [
+              ["120/208V Wye", "208V", "120V", "Black, Red, Blue", "White"],
+              ["277/480V Wye", "480V", "277V", "Brown, Orange, Yellow", "Gray"],
+              ["120/240V 1-ph", "240V", "120V", "Black, Red", "White"]
+            ]
+          },
+          "body": [
+            "277V is phase-to-neutral on 480V wye \u2014 common for commercial LED lighting.",
+            "480V motors run more efficiently than 208V motors."
+          ],
+          "remember": "277V never appears in a residential building."
+        },
+        {
+          "title": "Ground vs Neutral (the critical difference)",
+          "list": [
+            "Neutral (white): carries current BACK to source \u2014 part of the circuit",
+            "Ground (green/bare): safety path \u2014 only carries fault current",
+            "Neutral is bonded to ground ONCE at the main service",
+            "Neutral and ground are SEPARATE in subpanels",
+            "Neutral carries current normally. Ground does NOT (unless a fault)"
+          ],
+          "body": [
+            "Interviewers love this question. Do not confuse them."
+          ],
+          "remember": "Neutral = current-carrying return. Ground = emergency fault path.",
+          "safety": true
         }
       ]
     },
@@ -510,6 +596,82 @@
             "Voltage kills; current burns"
           ],
           "remember": "Tight terminations matter — torque to spec."
+        },
+        {
+          "title": "Heat Illness Recognition",
+          "list": [
+            "Early signs: headache, dizziness, excessive thirst, cramps",
+            "Heat exhaustion: cool clammy skin, nausea, weakness",
+            "Heat stroke: hot dry skin, confusion, unconsciousness — MEDICAL EMERGENCY",
+            "Prevention: hydrate before you are thirsty, shade breaks, light layers"
+          ],
+          "body": [
+            "Heat illness kills construction workers every year — do not tough it out."
+          ],
+          "remember": "If you feel off in heat — stop, shade, water, tell someone.",
+          "safety": true
+        },
+        {
+          "title": "Hydration Guidelines",
+          "list": [
+            "Drink 8 oz water every 15-20 minutes in heat",
+            "Electrolytes in extreme sweat — not just water",
+            "Avoid energy drinks — they dehydrate you",
+            "Pale urine = hydrated. Dark = drink more"
+          ],
+          "remember": "Hydrate BEFORE you feel thirsty — by then you are already behind."
+        },
+        {
+          "title": "Ladder Safety",
+          "list": [
+            "4:1 ratio — base 1 ft out for every 4 ft up",
+            "3-point contact at all times — 2 hands + 1 foot or 2 feet + 1 hand",
+            "Never stand on top 2 rungs of stepladder",
+            "Face ladder when climbing",
+            "Keep belt buckle between side rails",
+            "Inspect for damage before use"
+          ],
+          "remember": "Ladders cause more falls than almost anything else on site.",
+          "safety": true
+        },
+        {
+          "title": "Trench & Excavation Safety",
+          "list": [
+            "OSHA: any trench 5 ft+ deep needs protective system (shoring, sloping, shielding)",
+            "Soil type determines slope angle — Type C is most unstable (1.5:1 slope)",
+            "Spoil pile at least 2 ft from edge",
+            "Never enter an unprotected trench",
+            "Daily inspections by competent person",
+            "Atmospheric testing for confined spaces"
+          ],
+          "remember": "Trench collapses kill fast — never enter an unprotected trench.",
+          "safety": true
+        },
+        {
+          "title": "NFPA 70E & Arc Flash",
+          "list": [
+            "NFPA 70E = Standard for Electrical Safety in the Workplace",
+            "Arc Flash Boundary: distance where incident energy = 1.2 cal/cm²",
+            "PPE Categories (1-4) determine what you wear",
+            "Incident Energy Analysis required for equipment above 240V",
+            "Always de-energize if possible — energized work requires written permit"
+          ],
+          "body": [
+            "Arc flash can reach 35,000°F — hotter than the sun's surface."
+          ],
+          "remember": "NFPA 70E says: de-energize first, then work.",
+          "safety": true
+        },
+        {
+          "title": "811 — Call Before You Dig",
+          "list": [
+            "8-1-1 is the national \"Call Before You Dig\" number",
+            "Required by law at least 2-3 business days before digging",
+            "Utilities mark underground lines with color codes",
+            "White = proposed excavation, Red = electric, Yellow = gas, Blue = water, Green = sewer, Orange = communications",
+            "Hand dig within 24\" of marked lines — no power equipment"
+          ],
+          "remember": "811 is free and the law — hitting a gas line is expensive and deadly."
         }
       ]
     },
@@ -735,6 +897,23 @@
             "4-way: goes between two 3-ways for three or more switch locations."
           ],
           "remember": "3-way = two switches; 4-way = middle switch in a chain."
+        },
+        {
+          "title": "Transformer Connections (Wye vs Delta)",
+          "table": {
+            "headers": ["Feature", "Wye (Y)", "Delta (\u0394)"],
+            "rows": [
+              ["Neutral", "Has neutral at center", "No neutral (usually)"],
+              ["Voltages", "277/480V or 120/208V", "240V or 480V"],
+              ["Grounding", "Neutral grounded at source", "One corner or center-tap grounded"],
+              ["Common Use", "Commercial buildings", "Industrial motors, old buildings"]
+            ]
+          },
+          "body": [
+            "Delta has no neutral \u2014 floating or corner grounded.",
+            "Residential transformers are center-tapped for 120/240V."
+          ],
+          "remember": "Wye = has neutral. Delta = no neutral (usually)."
         }
       ]
     },
@@ -1753,6 +1932,53 @@
             "Offset height ÷ multiplier = distance between marks."
           ],
           "remember": "30° ×2 is the fast field favorite."
+        },
+        {
+          "title": "Gain (Stub 90 explanation)",
+          "body": [
+            "Gain = amount the conduit seems to shorten when you bend a 90°.",
+            "When you bend a 90, the pipe actually uses more length than the straight distance between the two ends.",
+            "Gain = (rise + run) — measured length after bend.",
+            "Typical gain values: 1/2\" EMT ≈ 2-1/2\", 3/4\" EMT ≈ 3-1/4\", 1\" EMT ≈ 4\""
+          ],
+          "remember": "Gain matters when you need two 90s on the same pipe (back-to-back)."
+        },
+        {
+          "title": "Back-to-Back 90s",
+          "body": [
+            "Two 90° bends on same conduit, facing opposite directions (U-shape).",
+            "Step 1: bend first 90. Step 2: measure from back of first 90 to desired end. Step 3: subtract gain. Step 4: bend second 90."
+          ],
+          "table": {
+            "headers": ["EMT Size", "Take-up", "Gain"],
+            "rows": [
+              ["1/2\"", "5\"", "2-1/2\""],
+              ["3/4\"", "6\"", "3-1/4\""],
+              ["1\"", "8\"", "4\""]
+            ]
+          },
+          "remember": "Back-to-back = measure center-to-center, subtract gain."
+        },
+        {
+          "title": "Kick Bends",
+          "body": [
+            "A kick is a slight angle (10°-30°) to change direction slightly without a full 90.",
+            "Used to enter a box or panel at a slight angle.",
+            "Same offset multiplier applies — measure the kick height, multiply."
+          ],
+          "remember": "Kicks are just small offsets — same math."
+        },
+        {
+          "title": "Conduit Bending Calculator Guide",
+          "list": [
+            "Stub 90: desired height — take-up = mark distance",
+            "Offset: obstacle height × multiplier = distance between marks",
+            "Shrink at 30°: offset depth × 1/4\" per inch",
+            "Saddle: center bend at obstacle width, outer bends at half",
+            "Gain for back-to-back: subtract gain from total length",
+            "34\" stub on 1/2\" EMT: 34 - 5 = mark at 29\""
+          ],
+          "remember": "Practice on scrap — one bad bend costs more than 10 minutes of practice."
         }
       ]
     },
@@ -2370,6 +2596,92 @@
             "Missing ground paths"
           ],
           "remember": "Protect yourself — ask before you burn money."
+        },
+        {
+          "title": "Hand Tools Mastery — Pliers",
+          "table": {
+            "headers": ["Tool", "Primary Use", "Pro Tip"],
+            "rows": [
+              ["Linesman Pliers", "Twisting wires, cutting, pulling", "Grip and twist — the #1 tool in your pouch"],
+              ["Diagonal Cutters (Dykes)", "Flush cutting wire flush to surface", "Do NOT cut screws or nails — ruins the edge"],
+              ["Needle-Nose Pliers", "Tight spaces, bending small wire", "Great for box work and control panels"],
+              ["Channel Locks", "Gripping large objects, locknuts, conduit", "Adjust to size — do not crush fittings"]
+            ]
+          },
+          "remember": "Your linesman pliers are your primary tool — keep them on your hip."
+        },
+        {
+          "title": "Levels & Measuring",
+          "table": {
+            "headers": ["Tool", "Use", "Pro Tip"],
+            "rows": [
+              ["Torpedo Level", "Leveling boxes, panels, conduit", "6-9\" — fits in pouch, checks everything"],
+              ["Tape Measure (25\")", "Measuring everything on site", "Know your fractions cold — 1/16, 1/8, 3/16, 1/4, 5/16, 3/8, 7/16, 1/2"]
+            ]
+          },
+          "remember": "A crooked box screams apprentice — use your level."
+        },
+        {
+          "title": "Power Tools",
+          "table": {
+            "headers": ["Tool", "Use", "Pro Tip"],
+            "rows": [
+              ["Impact Driver", "Driving screws, tapping anchors", "Use impact-rated bits — regular bits snap"],
+              ["Hole Saws", "Cutting holes in wood, metal, drywall", "Pilot bit first — lubricate on metal"],
+              ["Hammer Drill", "Drilling into concrete/masonry", "Rotary hammer mode — not just drill"]
+            ]
+          },
+          "remember": "Let the tool do the work — too much pressure burns bits."
+        },
+        {
+          "title": "Pulling Tools",
+          "table": {
+            "headers": ["Tool", "Use", "Pro Tip"],
+            "rows": [
+              ["Fish Tape", "Pulling wire through existing conduit", "Tape end securely — do not lose wire mid-pull"],
+              ["Cable Tugger", "Pulling heavy wire (250 kcmil+)", "Read max tension — overpull damages wire"],
+              ["Hydraulic Crimper", "Crimping lugs on large wire", "Dies must match lug size exactly"]
+            ]
+          },
+          "remember": "Fish tape + lube + communication = a successful pull."
+        },
+        {
+          "title": "First Week Expectations",
+          "list": [
+            "Show up 15 minutes early every day",
+            "Carry your tools — do not borrow",
+            "Listen more than you talk",
+            "Write down instructions — do not trust memory",
+            "Ask: 'What can I do next?' when finishing a task",
+            "Stay off your phone — completely",
+            "Clean as you go — every day"
+          ],
+          "remember": "Your reputation in week 1 determines how much you get taught in month 1."
+        },
+        {
+          "title": "Daily Routine (6AM Yard)",
+          "list": [
+            "6:00 AM: Arrive at yard, fuel truck, check oil",
+            "6:15 AM: Load materials for the day from the night before list",
+            "6:30 AM: Morning meeting — assignments, safety talk",
+            "7:00 AM: On site — setup, material staging",
+            "12:00 PM: Lunch — clean area first",
+            "3:30 PM: Cleanup, tool inventory, organize truck",
+            "4:00 PM: Report to foreman on progress, prep tomorrow's list"
+          ],
+          "remember": "Good apprentices think ahead — what material will we need tomorrow?"
+        },
+        {
+          "title": "Material Staging & Jobsite Etiquette",
+          "list": [
+            "Stage material where it is needed — minimize walking",
+            "Keep walkways clear — GCs and other trades need access",
+            "Stack pipe neatly — do not block doors or paths",
+            "Clean up wire scraps, boxes, trash at end of day",
+            "Label subpanels and homeruns as you go — not later",
+            "Photo everything before drywall cover"
+          ],
+          "remember": "Neat jobsite = respect from every trade on site."
         }
       ]
     },
@@ -2562,6 +2874,78 @@
             "They want reliability, safety, work ethic, willingness to learn, showing up every day."
           ],
           "remember": "Attitude and safety beat memorizing the whole NEC."
+        },
+        {
+          "title": "What Foremen Actually Want",
+          "list": [
+            "Reliability — show up every day, on time",
+            "Hustle — stay busy without being told",
+            "Safety — think before you touch",
+            "Teachable — take feedback without getting defensive",
+            "Honest — admit what you don't know",
+            "Clean — leave every area better than you found it"
+          ],
+          "body": [
+            "Foremen would rather teach a humble apprentice than fix a cocky one's mistakes."
+          ],
+          "remember": "Attitude and reliability beat knowledge every time."
+        },
+        {
+          "title": "Things Journeymen Hate",
+          "list": [
+            "Standing around on phone",
+            "Saying 'that's not my job'",
+            "Repeating the same instruction twice",
+            "Leaving mess for others",
+            "Working live without thinking",
+            "Lying about experience",
+            "Borrowing tools without returning",
+            "Walking past trash without picking it up"
+          ],
+          "remember": "The fastest way to get taught? Stay busy and ask good questions."
+        },
+        {
+          "title": "Apprentice to Master Roadmap",
+          "table": {
+            "headers": ["Level", "Experience", "Can Do"],
+            "rows": [
+              ["Helper", "0-6 months", "Material handling, digging, cleaning, basic tools"],
+              ["Apprentice Year 1", "0-1 year", "Wire pulling, basic conduit, observing"],
+              ["Apprentice Year 2", "1-2 years", "EMT bending, rough-in, receptacles, switches"],
+              ["Apprentice Year 3", "2-3 years", "Commercial work, panels, troubleshooting"],
+              ["Apprentice Year 4", "3-4 years", "Motor controls, transformers, prints"],
+              ["Journeyman", "4+ years / exam", "Lead work, train apprentices, pull permits"],
+              ["Master", "Journeyman + exam", "Design, calculations, business owner"]
+            ]
+          },
+          "remember": "Every master was once an apprentice who never quit."
+        },
+        {
+          "title": "Florida Apprentice Requirements",
+          "list": [
+            "8,000 hours of on-the-job training (about 4 years)",
+            "576 hours of related classroom instruction",
+            "Registered apprenticeship through FDOE or approved program",
+            "Must work under a licensed electrician at all times",
+            "Earn while you learn — current rate ~$15-20/hr starting",
+            "After hours + class: eligible for Journeyman exam",
+            "Journeyman: 4 years experience + exam",
+            "Master: 2 years as Journeyman + exam + business/financial"
+          ],
+          "remember": "Track every hour — you need documentation for licensure."
+        },
+        {
+          "title": "First Year Goals",
+          "list": [
+            "Learn tool names and proper use",
+            "Read prints — understand symbols and schedules",
+            "Master wire types and sizes (#14, #12, #10)",
+            "Safety: LOTO, test-before-touch, PPE",
+            "Basic rough-in: boxes, staples, MC/romex",
+            "Conduit bending basics: stubs and offsets",
+            "Communication: ask questions, repeat back instructions"
+          ],
+          "remember": "Year 1 = safety and foundation. Do not rush to be a journeyman."
         }
       ]
     },
@@ -2838,6 +3222,1183 @@
             ]
           },
           "remember": "Voltage tells the truth. Prints lie. Your meter is king."
+        },
+        {
+          "title": "Fraction to Decimal Chart",
+          "table": {
+            "headers": ["Fraction", "Decimal", "On Tape Measure"],
+            "rows": [
+              ["1/16\"", "0.0625\"", "1 tick past"],
+              ["1/8\"", "0.125\"", "2 ticks"],
+              ["3/16\"", "0.1875\"", "3 ticks"],
+              ["1/4\"", "0.25\"", "4 ticks"],
+              ["5/16\"", "0.3125\"", "5 ticks"],
+              ["3/8\"", "0.375\"", "6 ticks"],
+              ["7/16\"", "0.4375\"", "7 ticks"],
+              ["1/2\"", "0.5\"", "8 ticks"],
+              ["9/16\"", "0.5625\"", "9 ticks"],
+              ["5/8\"", "0.625\"", "10 ticks"],
+              ["11/16\"", "0.6875\"", "11 ticks"],
+              ["3/4\"", "0.75\"", "12 ticks"],
+              ["13/16\"", "0.8125\"", "13 ticks"],
+              ["7/8\"", "0.875\"", "14 ticks"],
+              ["15/16\"", "0.9375\"", "15 ticks"],
+              ["1\"", "1.0\"", "16 ticks"]
+            ]
+          },
+          "remember": "Know your 16ths — every tick on the tape is 1/16\"."
+        },
+        {
+          "title": "Bend Multipliers Quick Card",
+          "table": {
+            "headers": ["Bend Angle", "Multiplier", "Shrink per inch"],
+            "rows": [
+              ["10\u00b0", "6.0", "1/16\""],
+              ["22.5\u00b0", "2.6", "3/16\""],
+              ["30\u00b0", "2.0", "1/4\""],
+              ["45\u00b0", "1.4", "3/8\""],
+              ["60\u00b0", "1.2", "1/2\""]
+            ]
+          },
+          "remember": "30\u00b0 offset \u00d72 is fastest and most common in the field."
+        },
+        {
+          "title": "Rigging Hand Signals Quick Card",
+          "table": {
+            "headers": ["Signal", "Meaning", "Motion"],
+            "rows": [
+              ["Stop", "Stop immediately", "Arm extended, palm down, swing side to side"],
+              ["Hoist", "Lift load up", "Index finger up, rotate hand in circle"],
+              ["Lower", "Bring load down", "Arm extended, palm down, lower slowly"],
+              ["Dog Everything", "Hold position", "Hands clasped together at waist"],
+              ["Swing", "Move load left/right", "Arm extended, point direction"],
+              ["Come Ahead", "Move toward signaler", "Arm up, palm in, beckon"]
+            ]
+          },
+          "remember": "Hand signals are universal — use them even if you think the operator can hear you."
+        },
+        {
+          "title": "OSHA Daily Reminders",
+          "list": [
+            "Treat every wire as hot until tested",
+            "LOTO before working on any equipment",
+            "Hard hat + safety glasses + boots minimum",
+            "Hydrate before you feel thirsty",
+            "Never enter a trench without protection (5ft+ rule)",
+            "811 before digging — always",
+            "Call for help at first sign of heat stroke",
+            "No phone while climbing or near energized gear"
+          ],
+          "remember": "OSHA rules are written in blood — follow them."
+        },
+        {
+          "title": "Daily Checklist (Pocket Card)",
+          "list": [
+            "Show up 15 min early",
+            "Fueled and loaded?",
+            "Tools accounted for?",
+            "Safety talk — what's the hazard today?",
+            "Review prints for today's tasks",
+            "Stage materials first thing",
+            "Work: clean as you go",
+            "End-of-day: inventory, cleanup, report",
+            "Prep list for tomorrow",
+            "Lock up / secure site"
+          ],
+          "remember": "A good plan today beats a perfect plan tomorrow."
+        }
+      ]
+    },
+    {
+      "id": "underground-construction",
+      "number": 15,
+      "title": "Underground Construction",
+      "description": "PVC conduit, sweeps, glue, and common mistakes",
+      "intro": "Underground work is common in outdoor and site lighting. PVC is the go-to raceway. Get the joints right and the inspector will move on fast.",
+      "cards": [
+        {
+          "title": "PVC Conduit Basics",
+          "list": [
+            "PVC is the standard for underground electrical raceway",
+            "Schedule 40 vs Schedule 80: 80 has thicker walls (more protection)",
+            "Common sizes: 1/2\", 3/4\", 1\", 1-1/2\", 2\", 3\", 4\"",
+            "Use expansion fittings where PVC enters a building or structure",
+            "PVC expands and contracts with temperature — long runs need expansion fittings every ~100 ft"
+          ],
+          "body": ["Schedule 80 is required where subject to physical damage (above ground transitions)."],
+          "remember": "Schedule 80 where exposed — Schedule 40 underground."
+        },
+        {
+          "title": "PVC Couplings & Connectors",
+          "list": [
+            "Coupling: joins two pieces of conduit in a straight run",
+            "Bell end: factory-expanded end — no coupling needed",
+            "Terminal adapter: threaded PVC to male/female connections at boxes",
+            "Female adapter: threads onto a threaded hub",
+            "Male adapter: threads into a female hub or box"
+          ],
+          "remember": "Glue couplings fully — quarter turn when seating."
+        },
+        {
+          "title": "PVC Sweeps (Bends)",
+          "list": [
+            "Pre-formed sweeps come in 90\u00b0, 45\u00b0, 30\u00b0, 22.5\u00b0, and 15\u00b0",
+            "Radius matters: larger radius = easier pull",
+            "Common radius: 2\" PVC 90\u00b0 sweep \u2248 24\" radius",
+            "Maximum of 360\u00b0 total bends between pull boxes (NEC 300.34)",
+            "NEVER field-bend PVC with heat unless you know what you're doing — use factory sweeps for underground"
+          ],
+          "remember": "Factory sweeps pull easier than field-bent PVC."
+        },
+        {
+          "title": "Primer & Glue (Solvent Welding)",
+          "body": [
+            "Purple primer cleans and softens PVC for bonding — required by code for a visible joint.",
+            "Apply primer to both surfaces (pipe OD and coupling ID).",
+            "Apply PVC cement to both surfaces immediately after primer.",
+            "Assemble with a QUARTER TURN (1/4 twist) to distribute glue evenly.",
+            "Hold for 15-30 seconds to prevent push-out.",
+            "Wipe off excess — sloppy glue fails inspection."
+          ],
+          "list": [
+            "Purple primer = inspector can see you did it right",
+            "Grey cement for PVC schedule 40/80",
+            "Blue cement for CPVC (hot environments)"
+          ],
+          "remember": "Primer first, glue second, quarter turn, hold 15 seconds.",
+          "safety": true
+        },
+        {
+          "title": "Expansion Fittings",
+          "list": [
+            "Required where PVC enters a building or structure",
+            "Allows for thermal expansion/contraction",
+            "Install at transitions from underground to above ground",
+            "Split coupling or telescoping type",
+            "Position in middle of straight run, not near boxes"
+          ],
+          "remember": "Underground PVC moves with temperature — expansion fittings prevent buckling."
+        },
+        {
+          "title": "PVC Support & Backfill",
+          "list": [
+            "Trench bottom: 4-6\" of compacted sand or gravel bedding",
+            "PVC supported every 3-4 ft in trench, no large rocks directly against pipe",
+            "Backfill first 12\" with sand or sifted dirt — no sharp rocks",
+            "Warning tape placed 12\" above conduit",
+            "Tamp in 6\" lifts — settling causes problems later"
+          ],
+          "remember": "Sand bedding + warning tape = happy inspector."
+        },
+        {
+          "title": "Common Underground Mistakes",
+          "list": [
+            "Using standard PVC glue without primer — instant fail",
+            "No expansion fitting at building transition",
+            "Too many bends (over 360\u00b0) between pull boxes",
+            "Sharp rocks in backfill cutting conduit later",
+            "No warning tape or tracer wire",
+            "Sch 40 where Sch 80 required (above ground transitions)",
+            "Glue joints not held long enough — push-out leaks"
+          ],
+          "remember": "Every mistake above is a callback that costs more than doing it right the first time."
+        },
+        {
+          "title": "Underground Pull Boxes & Handholes",
+          "list": [
+            "Required where conduit changes direction or needs access",
+            "Must be accessible — not buried or paved over",
+            "Minimum size: longest pull + 6\" for straight pulls (NEC 314.28)",
+            "Angle pulls: 6\u00d7 raceway + all entries",
+            "Handholes for site lighting are common — specify rated cover for traffic"
+          ],
+          "remember": "Too few pull boxes = nightmare pull that damages wire."
+        },
+        {
+          "title": "Bell Ends & Terminations",
+          "table": {
+            "headers": ["Fitting", "Use"],
+            "rows": [
+              ["Bell End", "Expanded PVC end — eliminates coupling in straight runs"],
+              ["Terminal Adapter (MTA)", "Male threads for boxes with female hubs"],
+              ["Female Adapter", "Female threads for male-threaded hubs"],
+              ["Plugs", "Seal unused conduit entries"]
+            ]
+          },
+          "remember": "Bell ends save couplings on long straight runs — use them."
+        },
+        {
+          "title": "PVC Trenching Tips",
+          "list": [
+            "Call 811 before ANY digging — minimum 48 hours notice",
+            "Minimum cover: 18\" for residential (NEC 300.5)",
+            "24\" under driveways and parking areas",
+            "Trench width: pipe OD + 4\" minimum on each side",
+            "Glue joints BEFORE placing in trench when possible",
+            "Wait 30 min for glue to cure before backfill in cold weather"
+          ],
+          "remember": "Depth, bedding, tape, and cure time — four things inspectors check."
+        }
+      ]
+    },
+    {
+      "id": "wire-pulling",
+      "number": 16,
+      "title": "Wire Pulling Masterclass",
+      "description": "Rope, fish tape, lubricant, and communication",
+      "intro": "Pulling wire seems simple until you have 500 ft of 500 kcmil with three 90s. Proper technique saves your back and the wire.",
+      "cards": [
+        {
+          "title": "Pulling Methods Overview",
+          "table": {
+            "headers": ["Method", "Best For", "When"],
+            "rows": [
+              ["Fish Tape", "Short runs, existing conduit", "Residential, small commercial"],
+              ["Pull Rope (Poly)", "Long runs, large wire", "Commercial/industrial new runs"],
+              ["Cable Tugger", "Very large wire, long runs", "500 kcmil, service entrances"],
+              ["Pulling Sock (Grip)", "Pulling multiple conductors together", "Holding all conductors at pulling end"]
+            ]
+          },
+          "remember": "Match the method to the run — fish tape is not for 4/0 feeders."
+        },
+        {
+          "title": "Fish Tape Technique",
+          "list": [
+            "Push fish tape through from pull end to feed end",
+            "Always push with the reel, not the tape end",
+            "Keep tension on the tape as you push — prevents birdnesting",
+            "Use a leader or bullet tip to navigate bends",
+            "Never force past a bend — you may be stabbing insulation",
+            "Lube helps even with fish tape"
+          ],
+          "body": ["Pro tip: put a 90\u00b0 hook on the tape end for turning corners."],
+          "remember": "Push the reel, not the tape — and keep it taught."
+        },
+        {
+          "title": "Pull Rope (Polypropylene)",
+          "list": [
+            "Poly rope is cheap, strong, and floats on lube",
+            "Blow or fish a pull line through first, then attach pulling rope",
+            "Use a swivel to prevent rope twist transferring to wire",
+            "Tie a proper knot: figure-8 or bowline on a coil",
+            "Mark rope every 50 ft with tape for distance reference",
+            "Never use rope as a permanent support for wire"
+          ],
+          "remember": "Pull rope first — then attach wire. Never pull wire directly with fish tape on long runs."
+        },
+        {
+          "title": "Wire Lubricant",
+          "list": [
+            "Lubricant reduces friction by 50%+ on long pulls",
+            "Types: water-based soap, gel, slippery polymer",
+            "Apply generously at head end and every pull box along the way",
+            "Pour lube into conduit before pushing wire in",
+            "Use a lube pump or spray for best coverage",
+            "More lube = less pulling tension = less damage"
+          ],
+          "remember": "Lube is cheaper than replacing damaged wire — use it liberally."
+        },
+        {
+          "title": "Staggering Conductors",
+          "list": [
+            "When pulling multiple conductors, stagger the ends at different lengths (6-12\" apart)",
+            "Staggering makes the pulling head more aerodynamic through bends",
+            "All conductors enter the bend at different times — reduces binding",
+            "Mark each conductor at the pull end with phase tape before starting"
+          ],
+          "body": ["Cut conductors in a staircase pattern at the pulling end — not all the same length."],
+          "remember": "Staggered head = smoother pull through conduit."
+        },
+        {
+          "title": "Pulling Commands & Communication",
+          "list": [
+            "\"READY?\" — puller asks if feed end is ready",
+            "\"PULLING\" — puller starts pulling slowly",
+            "\"HOLD\" — stop pulling immediately, hold position",
+            "\"STOP\" — stop and release tension",
+            "\"TAKE TENSION\" — feeder person pulls slack out before puller pulls",
+            "\"READY FOR MORE\" — feeder has more wire to feed",
+            "Establish clear verbal commands BEFORE starting the pull"
+          ],
+          "remember": "Communication saves fingers and wire — agree on commands before you pull.",
+          "safety": true
+        },
+        {
+          "title": "Cable Tugger Operation",
+          "list": [
+            "Set up tugger in line with conduit — avoid side pulls",
+            "Check max pull rating on tugger — do not exceed",
+            "Use pulling socks (wire mesh grips) for multiple conductors",
+            "Monitor tension gauge — if it spikes, STOP and investigate",
+            "Pull speed: slow and steady — fast pulling heats wire",
+            "Anchor the tugger securely — 2,000 lbs+ of force can move an unsecured tugger"
+          ],
+          "remember": "Tugger pulls are powerful — respect the tension gauge."
+        },
+        {
+          "title": "Maximum Pulling Tension",
+          "table": {
+            "headers": ["Conductor", "Max Pull Tension (lbs)"],
+            "rows": [
+              ["#12 Cu", "60 lbs"],
+              ["#10 Cu", "120 lbs"],
+              ["#8 Cu", "180 lbs"],
+              ["#6 Cu", "300 lbs"],
+              ["#4 Cu", "480 lbs"],
+              ["#2 Cu", "720 lbs"],
+              ["#1/0 Cu", "1,000 lbs"],
+              ["#4/0 Cu", "1,700 lbs"],
+              ["250 kcmil Cu", "2,000 lbs"],
+              ["500 kcmil Cu", "3,200 lbs"]
+            ]
+          },
+          "body": [
+            "Max tension = 0.008 \u00d7 circular mil area of each conductor.",
+            "For multiple conductors in parallel, multiply by number of conductors."
+          ],
+          "remember": "If it feels like too much tension, it probably is — stop and investigate."
+        },
+        {
+          "title": "Pulling Socks & Grips",
+          "list": [
+            "Mesh pulling grip slides over conductor bundle",
+            "Kellems grip for multiple conductors (woven wire mesh)",
+            "Wrap mesh tight — tape over the end to prevent snagging",
+            "Never exceed the grip's rated pulling tension",
+            "Inspect grip for broken wires before each use",
+            "Use a swivel between rope and grip to prevent twisting"
+          ],
+          "remember": "A failed pulling sock mid-conduit is a nightmare — inspect every time."
+        },
+        {
+          "title": "Preventing Wire Damage",
+          "list": [
+            "Wire damage = nicked insulation, stretched conductors, broken strands",
+            "Use proper size pulling eye or basket grip",
+            "Keep wire off the ground to avoid dirt/grit embedding in insulation",
+            "Smooth out sharp edges at pull boxes (use bushings or rollers)",
+            "Never pull wire across sharp edges without protection",
+            "Check insulation integrity after pull with megger on critical runs"
+          ],
+          "remember": "Damaged wire fails early and always at the worst time."
+        }
+      ]
+    },
+    {
+      "id": "material-identification",
+      "number": 17,
+      "title": "Material Identification",
+      "description": "LB, LL, LR, condulets, and more",
+      "intro": "Electricians speak in part numbers. Knowing a 'C-condulet' from a 'Meyers hub' by sight saves trips to the supply house.",
+      "cards": [
+        {
+          "title": "Conduit Bodies (Condulets) Overview",
+          "list": [
+            "Conduit bodies are access fittings for pulling wire at direction changes",
+            "Types: LB, LL, LR, C, T, X — letter tells you the entry pattern",
+            "LB = L body with a back (rear) opening",
+            "LL = L body with left opening",
+            "LR = L body with right opening",
+            "C = straight-through body",
+            "T = T-body with three entries",
+            "X = cross body with four entries"
+          ],
+          "body": ["The letter indicates the configuration: L = 90\u00b0 turn, and the last letter tells you where the cover/access is (B=back, L=left, R=right)."],
+          "remember": "LB = L-body Back. LL = L-body Left. LR = L-body Right."
+        },
+        {
+          "title": "Meyers Hubs (Watertight Connectors)",
+          "list": [
+            "Meyers hub = watertight sealing hub for rigid/IMC conduit entering enclosures",
+            "Used on outdoor enclosures, panel tops, and weatherproof boxes",
+            "Has an O-ring seal and locknut — install on the box before conduit",
+            "Two types: standard and insulated throat (protects wire)",
+            "Torque to spec — overtightening damages seal",
+            "Look for the neoprene gasket — signs of a proper seal"
+          ],
+          "remember": "Meyers hub = weatherproof entry — O-ring must be visible after install."
+        },
+        {
+          "title": "Bushings & Inserts",
+          "table": {
+            "headers": ["Type", "Use"],
+            "rows": [
+              ["Standard Bushing", "Threads onto end of rigid/IMC — protects wire from sharp edges"],
+              ["Insulated Bushing", "Has plastic ring inside — protects THHN insulation from cuts"],
+              ["Reducing Bushing", "Reduces from larger to smaller hub size"],
+              ["Ground Bushing", "Has a lug for bonding — used at service equipment"],
+              ["Locknut", "Secures conduit into box or enclosure"]
+            ]
+          },
+          "remember": "Insulated bushing on every THHN pull — prevents wire chafing."
+        },
+        {
+          "title": "Beam Clamps & Strut Fittings",
+          "table": {
+            "headers": ["Fitting", "Use"],
+            "rows": [
+              ["Beam Clamp", "Attaches to steel beam — supports conduit hangers"],
+              ["C-Clamp", "Clamps to I-beam flange"],
+              ["Strut (Unistrut)", "Metal channel for mounting everything — panels, conduit, trays"],
+              ["Spring Nut", "Slides into strut channel — holds bolts at any position"],
+              ["Strut Strap", "Holds conduit to strut"],
+              ["Pipe Clamp", "Clamps conduit to strut or beam"]
+            ]
+          },
+          "remember": "Strut is the erector set of electrical construction — learn all the fittings."
+        },
+        {
+          "title": "All-Thread Rod & Hardware",
+          "list": [
+            "All-thread (threaded rod): used to suspend trapeze, strut racks, and panels",
+            "Sizes: 1/4\", 3/8\", 1/2\", 5/8\", 3/4\"",
+            "Use with beam clamps, nuts, washers, and strut",
+            "Cut with hacksaw or reciprocating saw — deburr threading end",
+            "Double-nut: lock two nuts together to prevent vibration loosening"
+          ],
+          "remember": "All-thread + strut + beam clamps = the backbone of overhead mounts."
+        },
+        {
+          "title": "Ground Rods & Clamps",
+          "list": [
+            "Ground rod: 8 ft copper-clad or galvanized steel",
+            "Drive full length — only 2-4\" above grade",
+            "Ground rod clamp: bronze or brass, connects GEC to rod",
+            "Acorn clamp: single bolt for easy install",
+            "Split bolt: for tapping ground conductors",
+            "Two rods required if first rod tests > 25\u03A9 (NEC 250.56)",
+            "Rods at least 6 ft apart"
+          ],
+          "remember": "Rod goes in full length — clamp above grade for inspection."
+        },
+        {
+          "title": "Pull Boxes & Junction Boxes",
+          "table": {
+            "headers": ["Type", "Use"],
+            "rows": [
+              ["Pull Box", "Access point for pulling wire — large, often no devices"],
+              ["Junction Box", "Splices and connections — must remain accessible"],
+              ["Handhole", "Underground access box — rated for traffic load"],
+              ["Weatherproof Box", "Outdoor — has gasketed cover"],
+              ["Box Extension", "Adds depth when box is too shallow"],
+              ["Mud Ring / Plaster Ring", "Raises device up to finished wall surface"]
+            ]
+          },
+          "remember": "All boxes must remain accessible — never bury a junction box."
+        },
+        {
+          "title": "Conduit Straps & Supports",
+          "table": {
+            "headers": ["Type", "Use"],
+            "rows": [
+              ["One-Hole Strap", "Single screw — EMT and PVC"],
+              ["Two-Hole Strap", "Heavy support for rigid, large pipe"],
+              ["Mineralac (BX) Strap", "For MC/BX cable"],
+              ["Conduit Hanger", "Hangs conduit from strut or beam"],
+              ["Stand-Off Bracket", "Keeps conduit off wall surface"]
+            ]
+          },
+          "remember": "Support EMT every 10 ft and within 3 ft of every box."
+        },
+        {
+          "title": "Pole Bases & Outdoor Distribution",
+          "list": [
+            "Pole base: concrete foundation for light pole",
+            "Must have pull box (handhole) adjacent to pole base",
+            "Anchor bolts cast in concrete — template critical",
+            "Ground lug in pole base for bonding pole to GEC",
+            "PVC stub-up through concrete base to pole interior",
+            "Seal conduit entry to pole — prevents water ingress"
+          ],
+          "remember": "Pole lighting = pole base + handhole + ground + sealed entry."
+        },
+        {
+          "title": "Service Entrance Hardware",
+          "table": {
+            "headers": ["Fitting", "Use"],
+            "rows": [
+              ["Weatherhead", "Top of service riser — protects drop from weather"],
+              ["Service Mast", "Rigid conduit that holds weatherhead and service drop"],
+              ["Meter Socket", "Enclosure for utility meter — belongs to utility"],
+              ["Meter Main", "Combination meter + main breaker enclosure"],
+              ["Service Disconnect", "Switch that shuts off all building power"],
+              ["Lugs", "Terminate wires at meter, panel, or disconnect"]
+            ]
+          },
+          "remember": "Service hardware is utility-specific — verify with local requirements."
+        }
+      ]
+    },
+    {
+      "id": "tape-measure-fractions",
+      "number": 18,
+      "title": "Tape Measure & Fractions",
+      "description": "Master every mark on the tape",
+      "intro": "Fractions mess up more apprentices than voltage calculations. Learn the tape measure cold and you will never cut a stud short again.",
+      "cards": [
+        {
+          "title": "The Tape Measure Anatomy",
+          "list": [
+            "Hook: loose rivets let it slide for inside/outside measurements",
+            "Blade: curved shape keeps it rigid when extended",
+            "Standout: distance blade extends without support (longer = better)",
+            "Belt clip: keep it on your tool belt at all times",
+            "Markings: 1/16, 1/8, 1/4, 1/2, inch — 16 marks per inch"
+          ],
+          "remember": "Every inch has 16 marks — the hook end slides 1/16\" for accuracy."
+        },
+        {
+          "title": "Reading 16ths (Every Mark)",
+          "table": {
+            "headers": ["Mark #", "Fraction", "Decimal"],
+            "rows": [
+              ["1", "1/16\"", "0.0625"],
+              ["2", "1/8\"", "0.125"],
+              ["3", "3/16\"", "0.1875"],
+              ["4", "1/4\"", "0.25"],
+              ["5", "5/16\"", "0.3125"],
+              ["6", "3/8\"", "0.375"],
+              ["7", "7/16\"", "0.4375"],
+              ["8", "1/2\"", "0.5"],
+              ["9", "9/16\"", "0.5625"],
+              ["10", "5/8\"", "0.625"],
+              ["11", "11/16\"", "0.6875"],
+              ["12", "3/4\"", "0.75"],
+              ["13", "13/16\"", "0.8125"],
+              ["14", "7/8\"", "0.875"],
+              ["15", "15/16\"", "0.9375"],
+              ["16", "1\"", "1.0"]
+            ]
+          },
+          "remember": "The longest mark = inch. 2nd longest = 1/2\". 3rd longest = 1/4\". Shortest = 1/16\"."
+        },
+        {
+          "title": "Adding & Subtracting Fractions (Field Method)",
+          "list": [
+            "36\" + 1/4\" = 36-1/4\" — write it as a mixed number",
+            "1/2 + 1/4 = 3/4 — common denominator is always 16 in field work",
+            "2-1/8\" + 1-3/16\" = convert: 2-2/16 + 1-3/16 = 3-5/16\"",
+            "Favorite trick: measure to nearest 1/16 and add the remainder",
+            "Pro trick: use the tape itself to add/subtract — mark, then align"
+          ],
+          "remember": "When adding fractions: convert to /16 first, then add normally."
+        },
+        {
+          "title": "Marking Strategies",
+          "list": [
+            "V-notch: razor knife V-mark for precise alignment",
+            "Pencil line: thin line across the mark",
+            "Chalk line: long straight lines for conduit and layout",
+            "Fence: use a square scrap as a guide for repetitive cuts",
+            "Burn an inch: measure from 1\" mark and subtract 1\" to avoid worn hook"
+          ],
+          "remember": "Sharp pencil + straight edge = accurate cut."
+        },
+        {
+          "title": "Common Tape Measure Mistakes",
+          "list": [
+            "Reading the wrong mark (counting 1/4 marks instead of 1/2)",
+            "Forgetting the hook slides 1/16\" (inside vs outside measurement)",
+            "Not accounting for blade bend on long horizontal spans",
+            "Misreading 3/4\" as 5/8\" — look closely at the mark height",
+            "Cutting conduit 1/2\" too long because you read 10\" instead of 10-1/2\""
+          ],
+          "remember": "Check twice, read aloud, cut once."
+        },
+        {
+          "title": "Mental Math for Fractions",
+          "list": [
+            "1/2\" = 8/16\" — always your reference",
+            "Reduce when possible: 4/16 = 1/4, 8/16 = 1/2, 12/16 = 3/4",
+            "5/8 = 10/16 — useful for adding",
+            "3/4\" is 12/16\" — three 1/4\" marks from the inch",
+            "If you can count to 16, you can read a tape"
+          ],
+          "remember": "16/16 = 1 — memorize the 16s and you'll never guess."
+        }
+      ]
+    },
+    {
+      "id": "bucket-trucks-rigging",
+      "number": 19,
+      "title": "Bucket Trucks & Rigging",
+      "description": "Spotter duties, outriggers, fall protection, and hand signals",
+      "intro": "Bucket trucks and rigging go together on outdoor lighting jobs. Safety is non-negotiable — one mistake can kill.",
+      "cards": [
+        {
+          "title": "Bucket Truck Pre-Operation Checks",
+          "list": [
+            "Check hydraulic fluid level",
+            "Inspect boom for cracks, damage, or leaks",
+            "Verify outriggers deploy and lock properly",
+            "Test emergency lowering system",
+            "Check tires and air pressure",
+            "Verify all safety decals are present and readable",
+            "Inspect harness and lanyard for wear",
+            "Never operate if any safety device is disabled"
+          ],
+          "remember": "Daily pre-check takes 5 minutes — skipping it costs lives.",
+          "safety": true
+        },
+        {
+          "title": "Spotter Duties",
+          "list": [
+            "Spotter watches boom clearance at all times",
+            "Maintains visual contact with operator in bucket",
+            "Keeps people and equipment clear of work area",
+            "Communicates with hand signals if voice fails",
+            "Watches for power lines, trees, building edges",
+            "Responsible for stopping operation immediately if unsafe",
+            "NEVER leave the spotter position while the boom is elevated"
+          ],
+          "remember": "The spotter is the operator's eyes on the ground — never distracted.",
+          "safety": true
+        },
+        {
+          "title": "Outrigger Setup",
+          "list": [
+            "Deploy outriggers on stable, level ground",
+            "Use outrigger pads on asphalt, dirt, or grass (never directly on soft ground)",
+            "Extend to full width — narrower stance = less stable",
+            "Level the truck using bubble indicator before extending boom",
+            "Chock wheels on slopes even with outriggers deployed",
+            "Lock outriggers in position — verify pinned"
+          ],
+          "remember": "Outriggers on pads + truck level + locked = stable platform."
+        },
+        {
+          "title": "Fall Protection in Bucket",
+          "list": [
+            "Full-body harness with D-ring in center of back",
+            "Lanyard attached to designated bucket anchor point (not the boom)",
+            "Never climb out of the bucket — use it ONLY from inside",
+            "Keep both feet on bucket floor",
+            "No leaning over bucket edge — reposition instead",
+            "Self-retracting lanyard for fall arrest",
+            "100% tie-off: always connected to something"
+          ],
+          "remember": "Harness on before you leave the ground — no exceptions.",
+          "safety": true
+        },
+        {
+          "title": "Minimum Approach Distances (MAD)",
+          "table": {
+            "headers": ["Voltage", "Minimum Distance"],
+            "rows": [
+              ["0-50kV", "10 ft"],
+              ["51-200kV", "15 ft"],
+              ["201-350kV", "20 ft"],
+              ["351-500kV", "25 ft"],
+              ["501-750kV", "35 ft"],
+              ["751-1000kV", "45 ft"]
+            ]
+          },
+          "body": [
+            "These are OSHA minimums — many companies have stricter limits.",
+            "Add 4 ft for non-rated workers near power lines."
+          ],
+          "remember": "10 ft for 50kV and under — if unsure, stay farther.",
+          "safety": true
+        },
+        {
+          "title": "Traffic Safety (Work Zone Setup)",
+          "list": [
+            "Cones and signs: warn drivers 500 ft+ before work area",
+            "Flaggers with stop/slow paddles when lane is affected",
+            "Vests: Class 2 or 3 hi-vis reflective",
+            "Truck with arrow board facing traffic",
+            "Park truck between work area and traffic as barrier",
+            "Never turn your back to traffic — always face oncoming",
+            "Use hand signals — horn blast for emergency stop"
+          ],
+          "remember": "Traffic kills more workers than electricity — respect the zone."
+        },
+        {
+          "title": "Rigging Slings & Hardware",
+          "table": {
+            "headers": ["Type", "Use", "Inspect For"],
+            "rows": [
+              ["Web Sling (Nylon)", "General lifting — flexible, non-marring", "Cut edges, burns, pulled stitches"],
+              ["Round Sling", "Heavy lifts — conforms to load shape", "Cuts, chemical damage, worn cover"],
+              ["Chain Sling", "Very heavy / hot loads", "Stretch, cracks, deformed links"],
+              ["Wire Rope Sling", "Steel cable — extreme loads", "Broken wires, kinks, corrosion"],
+              ["Shackle", "Connects sling to load", "Bent pin, cracked body, thread damage"]
+            ]
+          },
+          "remember": "Inspect every sling before use — damaged rigging kills.",
+          "safety": true
+        },
+        {
+          "title": "Tag Lines & Load Control",
+          "list": [
+            "Tag line = rope attached to load for directional control",
+            "Never stand under a suspended load",
+            "Keep tag line taut — prevents load spinning",
+            "Use on all crane and boom truck picks",
+            "Clear the area of non-essential personnel before lift",
+            "Communication: hand signals between rigger and operator"
+          ],
+          "remember": "Tag line keeps the load under control — never lift without one."
+        }
+      ]
+    },
+    {
+      "id": "equipment-machinery",
+      "number": 20,
+      "title": "Equipment & Machinery",
+      "description": "Mini excavators, trenchers, generators, and more",
+      "intro": "Outdoor lighting work means operating equipment. Know how each machine works and what it does best.",
+      "cards": [
+        {
+          "title": "Mini Excavator",
+          "list": [
+            "Rental/company machine for digging trenches and holes",
+            "Controls: left stick = swing + boom; right stick = arm + bucket; pedals = tracks",
+            "Track or wheel: tracks better on soft ground, wheels faster on hard",
+            "Digging: use boom to position, arm to pull bucket through soil",
+            "Do not dig near utilities — hand dig within 24\" of marked lines",
+            "Keep the machine level — use the blade to stabilize",
+            "Swing drive: watch counterweight clearance when rotating"
+          ],
+          "remember": "Mini ex is for digging — not for lifting heavy loads with the bucket."
+        },
+        {
+          "title": "Skid Steer",
+          "list": [
+            "Versatile loader for grading, moving material, backfilling",
+            "Controls: joysticks or hand/foot — left drive right drive (tank steer)",
+            "Bucket for grading/loading — forks for pallets — auger for holes",
+            "Wheels or tracks: tracks better on soft ground",
+            "Never carry riders — they can fall into the machine",
+            "Keep ROPS up and seatbelt on at all times",
+            "Load capacity varies — check the plate"
+          ],
+          "remember": "Skid steer = material moving — not a people hauler."
+        },
+        {
+          "title": "Trencher",
+          "list": [
+            "Purpose: cutting narrow trenches for conduit and cable",
+            "Walk-behind for small jobs (18-24\" deep), ride-on for larger",
+            "Chain-type: chain with teeth digs through soil and rock",
+            "Wheel-type: wheel with cutting teeth for shallow, wide trenches",
+            "Call 811 before ANY trenching — no exceptions",
+            "Mark utility lines — trencher will destroy unmarked lines",
+            "Keep hands and feet away from cutting chain — it will pull you in"
+          ],
+          "remember": "Trencher cuts fast — call 811 and mark ALL utilities first.",
+          "safety": true
+        },
+        {
+          "title": "Generators (Construction)",
+          "list": [
+            "Portable generators for temporary power",
+            "Size: total running watts + 25% for startup surge",
+            "Ground the generator per NEC — use a grounding rod",
+            "Never run indoors or in enclosed space — CO poisoning kills",
+            "Use proper extension cords rated for load",
+            "Fuel: gasoline, diesel, or propane — diesel most common for large",
+            "Maintain fuel levels — running dry damages injectors on diesel"
+          ],
+          "remember": "Generator + CO = deadly — always run outdoors with ventilation.",
+          "safety": true
+        },
+        {
+          "title": "Cable Tugger (Setup & Use)",
+          "list": [
+            "Position in line with conduit pull direction",
+            "Anchor to truck, beam, or ground using straps/chains",
+            "Set max tension to wire rating — do not exceed",
+            "Pull speed: steady and slow — jerking damages wire",
+            "Operator monitors tension gauge — stop if it spikes",
+            "Feed end: one person feeds wire with lube",
+            "Communication: clear commands to tugger operator"
+          ],
+          "remember": "Tugger pulls are powerful — never stand in line with a pull under tension."
+        },
+        {
+          "title": "Hydraulic Crimper",
+          "list": [
+            "Used for crimping lugs on #6 to 750 kcmil+ wire",
+            "Interchangeable dies must match lug size exactly",
+            "Pump types: hand, battery, or electric",
+            "Battery crimpers are fast — common on commercial/industrial",
+            "Crimp twice for lugs rated for dual indents",
+            "Pull test after crimp — wire should not pull out of lug",
+            "Keep dies clean — dirt = weak crimp"
+          ],
+          "remember": "Die must match lug perfectly — wrong die = bad crimp = fire risk.",
+          "safety": true
+        }
+      ]
+    },
+    {
+      "id": "lighting-systems",
+      "number": 21,
+      "title": "Lighting Systems",
+      "description": "Sports fields, parking lots, photocells, and controls",
+      "intro": "Lighting is the most visible part of an electrical job. Good lighting work gets you called back for the next project.",
+      "cards": [
+        {
+          "title": "Outdoor Lighting Overview",
+          "list": [
+            "Types: sports field, parking lot, wall packs, flood lights, bollards",
+            "Mounting: pole mounted, wall mounted, ground mounted",
+            "Control: photocell, time clock, contactor, smart controls",
+            "Voltages: 120V, 208V, 240V, 277V, 480V",
+            "Light source: LED is standard now — HID (metal halide) being phased out"
+          ],
+          "remember": "LED = today's standard. HID = old tech still found in retrofits."
+        },
+        {
+          "title": "Sports Field Lighting",
+          "list": [
+            "High-mast poles: 40-80 ft tall with multiple fixture banks",
+            "Requires engineered foundation and anchor bolt template",
+            "Each fixture bank aimed at specific zone on field",
+            "Light level measured in foot-candles — varies by sport level",
+            "Controls: typically photocell + time clock + contactor",
+            "Dimming for different events (practice vs game)",
+            "Emergency generator backup for safety lighting"
+          ],
+          "remember": "Field lighting is precision — aim matters as much as power."
+        },
+        {
+          "title": "Parking Lot Lighting",
+          "list": [
+            "Standard pole heights: 20-40 ft",
+            "Fixture cutoff type matters — full cutoff reduces light trespass",
+            "Zoning: perimeter, aisle, and canopy zones have different requirements",
+            "Pole spacing based on fixture pattern and desired foot-candles",
+            "Photocell on each fixture or group control",
+            "Pole base with handhole adjacent for pull access"
+          ],
+          "remember": "Parking lot lighting = even coverage without dark spots."
+        },
+        {
+          "title": "Photocells",
+          "list": [
+            "Light-sensitive switch — turns lights on at dusk, off at dawn",
+            "Types: stem-mounted on fixture, integral (in-fixture), remote (on panel)",
+            "Test: cover sensor to simulate dark — lights should come on",
+            "Common problem: sensors fail in 'on' or 'off' position",
+            "Nighttime troubleshooting: aim flashlight at sensor to simulate daylight",
+            "Orientation: should face north to avoid vehicle headlight interference"
+          ],
+          "remember": "Photocell north-facing = fewer false triggers from headlights."
+        },
+        {
+          "title": "Contactors (Lighting Control)",
+          "list": [
+            "Contactor = big relay for switching multiple circuits at once",
+            "Coil voltage: 24V, 120V, 208V, 240V, 277V — must match control circuit",
+            "Use contactor when switching multiple lights or high load",
+            "Mechanically held contactors stay closed (no coil hum)",
+            "Always wire coil per manufacturer diagram",
+            "Lighting contactors are in a dedicated enclosure (often gray)"
+          ],
+          "remember": "Photo cell or time clock triggers the contactor coil — contactor does the heavy switching."
+        },
+        {
+          "title": "Time Clocks",
+          "list": [
+            "Mechanical or digital timer that switches lights on/off at set times",
+            "Astronomical time clock: adjusts for sunrise/sunset automatically",
+            "Battery backup: maintains schedule during power outage",
+            "Set time of day and on/off events",
+            "Override switch for manual control during maintenance",
+            "Common on parking lot and sign lighting"
+          ],
+          "remember": "Astronomical clocks adjust for seasons — best for outdoor lighting."
+        },
+        {
+          "title": "LED Retrofits",
+          "list": [
+            "Replace HID fixtures/bulbs with LED for energy savings",
+            "Retrofit kit: replaces bulb + ballast with LED driver + board",
+            "Compatibility: check that LED works with existing dimming/controls",
+            "Color temperature: 3000K (warm), 4000K (neutral), 5000K (daylight)",
+            "Wattage reduction: typical 50-70% savings vs HID",
+            "Wiring: bypass ballast — wire line to LED driver directly"
+          ],
+          "remember": "LED retrofits pay for themselves in energy savings — know how to bypass ballasts."
+        },
+        {
+          "title": "Pole Bases & Handholes (Detail)",
+          "list": [
+            "Pole base: concrete poured to engineered spec",
+            "Anchor bolts: 4-bolt pattern — template must be level and plumb",
+            "Stub-up: PVC conduit from handhole to pole interior",
+            "Ground: grounding lug in pole base — bond pole to GEC",
+            "Handhole: access box adjacent to pole for pulling wire",
+            "Wire: feed in handhole, pull through stub-up into pole",
+            "Seal: duct seal around wires entering pole — prevent moisture"
+          ],
+          "remember": "Pole base = template accuracy \u00b1 1/4\" — once concrete is poured, there is no adjustment."
+        },
+        {
+          "title": "Underground Feeds for Lighting",
+          "list": [
+            "PVC conduit from source to each pole/light location",
+            "Minimum 18\" cover for residential, 24\" under paved areas",
+            "Pull boxes at direction changes and long straight runs",
+            "Wire: THWN (wet rated) for underground conduit",
+            "Loop feed: wire runs pole-to-pole in continuous conduit",
+            "Tee feed: wire splits at handhole to multiple poles",
+            "Label circuits at both ends"
+          ],
+          "remember": "Underground lighting feeds = THWN in PVC with pull boxes at every turn."
+        },
+        {
+          "title": "480V Lighting",
+          "list": [
+            "277/480V systems use 277V phase-to-neutral for lighting",
+            "Lighter wire gauge for same wattage vs 120V (lower current)",
+            "Typical in big-box stores, warehouses, industrial facilities",
+            "Fixtures must be rated for 277V",
+            "Switching: 277V rated switches and contactors required",
+            "Safety: 277V can kill — LOTO and confirm voltage before touching"
+          ],
+          "remember": "277V = commercial lighting voltage — higher voltage, smaller wire, same safety risk."
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "number": 22,
+      "title": "Troubleshooting",
+      "description": "Photocells, open neutrals, breakers, and multimeter skills",
+      "intro": "Troubleshooting is 90% thinking and 10% testing. Follow the path, check voltages, and don't swap parts until you understand the problem.",
+      "cards": [
+        {
+          "title": "Troubleshooting Mindset",
+          "list": [
+            "Do not guess — follow the circuit path",
+            "Start at the source and work toward the load",
+            "Ask: What should be happening? What is actually happening?",
+            "Divide the system in half — narrow the fault location",
+            "Voltage does not lie — let your meter tell the story",
+            "Check the simple things first (breaker, switch, connection)"
+          ],
+          "remember": "You fix what you understand. You guess at what you do not."
+        },
+        {
+          "title": "Bad Photocell",
+          "list": [
+            "Symptoms: lights stay on all day, or never come on at night",
+            "Test: cover photocell completely — lights should turn on",
+            "If lights do not come on: photocell may be failed, or no power to circuit",
+            "If lights stay on in daylight: photocell is stuck closed (failed)",
+            "Check for loose neutral — photocells need neutral to operate",
+            "Note: some photocells have a delay (1-5 min) — wait before diagnosing"
+          ],
+          "remember": "Cover photocell \u2192 lights on? Photocell is good. No change? Photocell or power problem."
+        },
+        {
+          "title": "Open Neutral",
+          "list": [
+            "Symptoms: lights dim/bright randomly, voltages fluctuate, electronics damaged",
+            "On a 120V circuit: hot-neutral reads 0V, hot-ground reads 120V",
+            "On MWBC: 240V across legs, 120V loads get 120-180V frying electronics",
+            "Danger: open neutral in MWBC = 240V on 120V devices — instant damage",
+            "Find: check all neutral connections in boxes, panels, and devices",
+            "Fix: tighten or replace wire nut on neutral bundle"
+          ],
+          "remember": "Open neutral = weird voltages = instant equipment damage.",
+          "safety": true
+        },
+        {
+          "title": "Open Circuit (No Power)",
+          "list": [
+            "Check breaker — tripped?",
+            "Check GFCI — tripped?",
+            "Check switch — working?",
+            "Test voltage at closest upstream device",
+            "Work backward from dead device to last working device",
+            "Check for loose connections, cut wires, or rodent damage",
+            "Test continuity on switches (power OFF)"
+          ],
+          "remember": "Dead outlet + neighbors working? Check connections at the working outlet — it feeds the dead one."
+        },
+        {
+          "title": "Bad Breaker",
+          "list": [
+            "Signs: breaker trips immediately, will not reset, or trips under normal load",
+            "Test: swap with same type breaker from another slot (power OFF)",
+            "If the problem moves with the breaker = bad breaker",
+            "If the problem stays on the same circuit = wiring issue",
+            "Never replace a breaker with higher amp rating — wire must match",
+            "Arc fault breakers are sensitive — nuisance trips possible"
+          ],
+          "remember": "Swap test: move breaker to different slot to confirm bad vs good."
+        },
+        {
+          "title": "Voltage Checks (Systematic)",
+          "list": [
+            "Step 1: Test main lugs — power coming into building?",
+            "Step 2: Test main breaker output — main breaker good?",
+            "Step 3: Test branch breaker — power leaving panel?",
+            "Step 4: Test at first device on circuit",
+            "Step 5: Test at each device working toward the dead one",
+            "Record readings at each step — compare to expected",
+            "Always test hot-neutral AND hot-ground AND neutral-ground"
+          ],
+          "remember": "Systematic voltage checks find the break every time — skip steps at your own risk."
+        },
+        {
+          "title": "Multimeter Basics for Troubleshooting",
+          "list": [
+            "AC voltage: V~ with wavy line — outlets, panels, switches",
+            "DC voltage: V with straight/dashed line — batteries, sensors",
+            "Resistance: \u03A9 — heaters, coils, motor windings (power OFF)",
+            "Continuity: beep symbol — wires, fuses, switches (power OFF)",
+            "Clamp meter: measures current without breaking circuit",
+            "Frequency: Hz — VFD output, generator frequency"
+          ],
+          "remember": "Wrong setting = wrong reading = wrong diagnosis — confirm mode before probing."
+        },
+        {
+          "title": "Continuity Testing",
+          "list": [
+            "Power OFF — always — or you blow the meter fuse",
+            "Touch probes together — should beep (good meter)",
+            "Test: one probe each end of wire — beep = good path",
+            "Test: switch across terminals — beep when on, no beep when off",
+            "Test: fuse across ends — beep = good, no beep = blown",
+            "Test: heater element across terminals — low ohms = good",
+            "OL = open. 0\u03A9 = short. Both mean something is wrong"
+          ],
+          "remember": "Power OFF before continuity — never test continuity on a live circuit.",
+          "safety": true
+        },
+        {
+          "title": "Reading Schematics & One-Lines",
+          "list": [
+            "One-line: shows power flow from utility to load — not physical layout",
+            "Schematic: shows how components connect and operate",
+            "Follow voltage left to right on schematics",
+            "Identify: source, switch, load, and return path",
+            "Labels: wire numbers match terminal numbers on devices",
+            "For troubleshooting: find the device that is not getting power"
+          ],
+          "remember": "Schematic = logic. One-line = power path. Both help you find the break."
+        },
+        {
+          "title": "Troubleshooting Flow (The 7 Steps)",
+          "list": [
+            "1. Identify the problem — what is not working?",
+            "2. Understand the circuit — what should be happening?",
+            "3. Check the obvious — tripped breaker? tripped GFCI? dead switch?",
+            "4. Measure voltage at the source and work outward",
+            "5. Isolate — what part of the system works vs does not work?",
+            "6. Test component — continuity, resistance, or suspect device swap",
+            "7. Fix and verify — repair, restore power, confirm operation"
+          ],
+          "remember": "Step 3 (check the obvious) solves 50% of problems — do not skip it."
+        }
+      ]
+    },
+    {
+      "id": "youtube-university",
+      "number": 23,
+      "title": "YouTube University",
+      "description": "Best channels and videos for apprentices",
+      "intro": "The best electricians never stop learning. These YouTube channels teach everything from theory to field tricks.",
+      "cards": [
+        {
+          "title": "Electrician U",
+          "list": [
+            "Dustin Stelzer — excellent for exam prep and field knowledge",
+            "Tons of walk-throughs, code questions, and real-world scenarios",
+            "Great for apprentice and journeyman exam study",
+            "Search: 'Electrician U conduit bending', 'Electrician U grounding'",
+            "Best starter: 'Electrical Basics — Everything You Need to Know'"
+          ],
+          "remember": "Electrician U = best all-around channel for exam prep."
+        },
+        {
+          "title": "The Engineering Mindset",
+          "list": [
+            "Best for understanding electrical THEORY visually",
+            "Animated explanations of voltage, current, AC/DC, transformers",
+            "Great 3D animations show electron flow clearly",
+            "Titles: 'How Electricity Works', 'How Transformers Work', 'AC vs DC'",
+            "Not field-focused — pure science and engineering"
+          ],
+          "remember": "Engineering Mindset = theory made visual — watch before your exam."
+        },
+        {
+          "title": "Mike Holt (NEC)",
+          "list": [
+            "Mike Holt is the authority on the National Electrical Code",
+            "Code training videos, podcasts, and free resources",
+            "Best for: understanding CODE, not just how-to",
+            "Watch: 'Grounding vs Bonding' — most important NEC topic",
+            "His website/app is a study tool too"
+          ],
+          "remember": "Mike Holt = go-to for code answers — practical theory."
+        },
+        {
+          "title": "Essential Craftsman",
+          "list": [
+            "Not electrical-specific — but the BEST channel for trade mindset",
+            "Scott Wadsworth teaches work ethic, professionalism, and construction",
+            "Watch: 'The Spec House' series — full construction build",
+            "Also: '7 Things You Need to Know Before Starting Construction'",
+            "Life lessons every apprentice needs to hear"
+          ],
+          "remember": "Essential Craftsman = mindset and work ethic — every apprentice should watch."
+        },
+        {
+          "title": "Sparky Channel",
+          "list": [
+            "Real electrician doing residential and commercial work",
+            "Good for watching actual installs and methods",
+            "See how pros do rough-in, trim-out, panel work",
+            "Learn tips for everyday electrical tasks",
+            "Practical, not overly produced"
+          ],
+          "remember": "Sparky Channel = watch real work being done — learn by seeing."
+        },
+        {
+          "title": "Daily Study Plan for YouTube",
+          "table": {
+            "headers": ["Day", "Watch", "Focus"],
+            "rows": [
+              ["Monday", "Electrician U \u2014 Theory", "Voltage, current, resistance"],
+              ["Tuesday", "Engineering Mindset", "How electricity works (animated)"],
+              ["Wednesday", "Mike Holt", "Grounding vs bonding"],
+              ["Thursday", "Electrician U \u2014 Bending", "Stubs and offsets"],
+              ["Friday", "Essential Craftsman", "Work ethic and trade skills"],
+              ["Saturday", "Sparky Channel", "Real install walk-through"],
+              ["Sunday", "Review notes", "Reread what you watched"]
+            ]
+          },
+          "remember": "30 min daily = 182 hours of learning in a year."
+        },
+        {
+          "title": "Other Great Channels",
+          "list": [
+            "MAKE: electronics for understanding how components work",
+            "EEVBLOG: deep dives on electronics engineering",
+            "ElectroBOOM: funny but educational \u2014 safety awareness",
+            "Southwire: manufacturer training videos",
+            "Klein Tools: tool usage and techniques",
+            "Industrial Control Wizard: PLC and motor control"
+          ],
+          "remember": "Bookmark the channels that match what you are studying right now."
+        },
+        {
+          "title": "How to Use YouTube Effectively",
+          "list": [
+            "Do not just watch \u2014 take notes. Write down key facts.",
+            "Pause and rewind on bending and wiring \u2014 watch multiple times",
+            "Create a playlist for each topic (theory, bending, code)",
+            "Watch the comment section \u2014 pros add tips and corrections",
+            "Follow up by looking up the code article referenced",
+            "Practice what you watch \u2014 knowledge without practice fades"
+          ],
+          "remember": "Video shows you how. Your hands teach you why. Practice both."
         }
       ]
     }

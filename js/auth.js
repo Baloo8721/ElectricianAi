@@ -88,7 +88,23 @@ function buildPad() {
   });
 }
 
-function init() {
+async function loadConfig() {
+  if (window.APP_CONFIG?.pinHash) return;
+  try {
+    const res = await fetch("js/pin-hash.js");
+    if (!res.ok) throw new Error("Not found");
+    const code = await res.text();
+    const match = code.match(/window\.APP_CONFIG\s*=\s*(\{[^;]+\})/);
+    if (match) {
+      window.APP_CONFIG = JSON.parse(match[1]);
+    }
+  } catch {
+    // pin-hash.js not available either
+  }
+}
+
+async function init() {
+  await loadConfig();
   if (!window.APP_CONFIG?.pinHash) {
     pinScreen.hidden = false;
     pinPad.innerHTML = "";

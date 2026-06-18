@@ -326,6 +326,136 @@ const panelScenarios = [
         visual: { type: "main", voltage: "208-3ph", bonding: "bonded", colors: "BRB", done: true }
       }
     ]
+  },
+  {
+    id: "panel-replacement",
+    title: "Panel Replacement",
+    description: "Full 12-step panel replacement process — old to new",
+    type: "main",
+    voltage: "120/240V",
+    ampacity: "200A",
+    wires: "4/0 AL SEU + #6 Cu GEC",
+    steps: [
+      {
+        id: "prep-safety",
+        instruction: "Before touching anything — what is the FIRST safety step?",
+        info: "Panel replacement starts before you open any panel.",
+        options: ["Shut off main power and verify dead with meter", "Start removing breakers", "Order the new panel first"],
+        correct: 0,
+        explanation: "Always shut off main power and test with a meter. 'Test before touch.' LOTO your own lock if working alone.",
+        visual: { type: "main", bonding: "bonded", feeder: "none" }
+      },
+      {
+        id: "evaluation",
+        instruction: "You arrive at a 60A fuse box with cloth wiring. What should you plan for?",
+        info: "Old panels often hide problems behind the dead front.",
+        options: [
+          "Upgrade to at least 100A (200A preferred), replace all wiring in panel",
+          "Just swap the fuses for breakers",
+          "Leave the 60A service, just replace the box"
+        ],
+        correct: 0,
+        explanation: "Modern homes need 100A minimum, 200A recommended. Cloth wiring is brittle and unsafe. Plan a full service upgrade.",
+        visual: { type: "main", bonding: "bonded", feeder: "none" }
+      },
+      {
+        id: "panel-selection",
+        instruction: "Selecting the new panel — which factors matter most?",
+        info: "Panel selection affects everything downstream.",
+        options: [
+          "Ampacity, number of breaker spaces, type (main lug vs main breaker), future loads",
+          "Just the cheapest option that fits",
+          "Same brand as the old panel only"
+        ],
+        correct: 0,
+        explanation: "Choose the panel for current AND future needs. 200A with 40+ spaces leaves room for EV charger, solar, etc.",
+        visual: { type: "main", bonding: "bonded", feeder: "none" }
+      },
+      {
+        id: "label-photo",
+        instruction: "Before disconnecting any wires — critical step?",
+        info: "This step saves hours of troubleshooting later.",
+        options: ["Label every wire AND take photos of the old wiring", "Just mark the hots", "Trust your memory — wire it back the same way"],
+        correct: 0,
+        explanation: "Label every wire and take photos. Wire colors fade, cloth wiring hides identity, and memory fails. Photos are your backup.",
+        visual: { type: "main", bonding: "bonded", feeder: "none" }
+      },
+      {
+        id: "disconnect-order",
+        instruction: "What is the correct wire disconnect order?",
+        info: "The order matters for safety — reverse of installation order.",
+        options: ["Hots first, neutral second, ground last", "Ground first, neutral second, hots last", "All at once — doesn't matter"],
+        correct: 0,
+        explanation: "Disconnect hots first (live even when off), then neutral, then ground. Reverse of installation to keep ground connected longest.",
+        visual: { type: "main", bonding: "bonded", feeder: "complete" }
+      },
+      {
+        id: "mount-level",
+        instruction: "Mounting the new panel — what is the minimum requirement?",
+        info: "How you mount affects everything that follows.",
+        options: ["Level and plumb on fire-rated backing, 36\" clearance in front", "Screwed to any wall surface", "Recessed into the wall with no backing"],
+        correct: 0,
+        explanation: "Panel must be level, plumb, on proper backing (plywood on studs). NEC 110.26 requires 36\" clearance in front, 30\" wide, 6.5' tall.",
+        visual: { type: "main", bonding: "bonded", feeder: "none" }
+      },
+      {
+        id: "grounding-first",
+        instruction: "Installing the new panel — what gets connected first?",
+        info: "The safety grounding path must be established before anything else.",
+        options: ["Grounding electrode conductor (GEC) to ground bar", "Neutral to neutral bar", "Branch circuit breakers"],
+        correct: 0,
+        explanation: "GEC connects first. If the panel is in a detached building, install ground rod(s) before running any conductors.",
+        visual: { type: "main", bonding: "bonded", feeder: "ground", rods: true }
+      },
+      {
+        id: "feeder-order",
+        instruction: "Landing the feeder wires — correct order?",
+        info: "Establishes ground path before working near live lugs.",
+        options: ["Ground first, neutral second, hots last", "Hots first, neutral second, ground last", "Neutral first, then ground, then hots"],
+        correct: 0,
+        explanation: "Ground first establishes the safety path. Then neutral. Hots last — with ground already connected and neutral landed, your final connections are safer.",
+        visual: { type: "main", bonding: "bonded", feeder: "complete" }
+      },
+      {
+        id: "torque",
+        instruction: "Final torque on lugs — why does it matter?",
+        info: "This is the #1 cause of post-installation service calls.",
+        options: [
+          "Loose lugs cause arcing, overheating, and fires — always torque to spec",
+          "Hand-tight is fine for residential",
+          "Only the main lugs need torquing"
+        ],
+        correct: 0,
+        explanation: "Every lug must be torqued to manufacturer spec. Loose connections are the leading cause of electrical fires. Use a torque wrench — not feel.",
+        visual: { type: "main", bonding: "bonded", feeder: "complete" }
+      },
+      {
+        id: "labeling",
+        instruction: "Panel directory — what constitutes a defect?",
+        info: "Inspectors check this on every final.",
+        options: [
+          "Vague labels like 'lights' or 'plugs' — each breaker must specify exact circuit",
+          "Handwritten labels with permanent marker",
+          "Leaving spare breakers unlabeled"
+        ],
+        correct: 0,
+        explanation: "Vague labeling is a code violation. Every breaker must specify its exact circuit (e.g., 'Kitchen counter outlets NW wall' not 'plugs').",
+        visual: { type: "main", bonding: "bonded", feeder: "complete", breakers: ["15A", "20A", "20A", "30A", "50A", "15A"], done: false }
+      },
+      {
+        id: "testing",
+        instruction: "Before calling the inspection — final test?",
+        info: "The last check before closing up the panel.",
+        options: [
+          "Phase-to-phase voltage, phase-to-neutral, N-G ~0V, test every circuit and GFCI/AFCI",
+          "Just turn on the main breaker and check the lights",
+          "Measure amps on every circuit"
+        ],
+        correct: 0,
+        explanation: "Verify L1-L2 = 240V, L1-N = L2-N = 120V, N-G = ~0V. Test every branch circuit. Test all GFCI/AFCI breakers with their test buttons.",
+        visual: { type: "main", bonding: "bonded", feeder: "complete", breakers: ["15A", "20A", "20A", "30A", "50A", "15A"], done: true }
+      }
+    ]
   }
 ];
 

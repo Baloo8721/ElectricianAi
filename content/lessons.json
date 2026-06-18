@@ -22,7 +22,9 @@
     "equipment-machinery",
     "lighting-systems",
     "troubleshooting",
-    "youtube-university"
+    "youtube-university",
+    "panel-inspection",
+    "panel-replacement"
   ],
   "topics": [
     {
@@ -452,23 +454,43 @@
           "body": [
             "AC voltage alternates in a sine wave pattern.",
             "60 Hz = 60 complete cycles per second in the US.",
-            "A full sine wave = 360\u00B0. One alternation = 180\u00B0."
+            "A full sine wave = 360°. One alternation = 180°."
           ],
-          "remember": "60 Hz is the US standard \u2014 50 Hz in many other countries."
+          "remember": "60 Hz is the US standard — 50 Hz in many other countries."
         },
         {
           "title": "Single-Phase vs Three-Phase (deeper)",
           "table": {
-            "headers": ["Feature", "Single-Phase", "Three-Phase"],
+            "headers": [
+              "Feature",
+              "Single-Phase",
+              "Three-Phase"
+            ],
             "rows": [
-              ["Waves", "One sine wave", "Three sine waves 120\u00B0 apart"],
-              ["Power Formula", "P = V \u00D7 I", "P = 1.732 \u00D7 V \u00D7 I"],
-              ["Motors", "Simple, smaller", "Smoother, more efficient"],
-              ["Wires", "2 hots + neutral", "3 hots + neutral (wye)"]
+              [
+                "Waves",
+                "One sine wave",
+                "Three sine waves 120° apart"
+              ],
+              [
+                "Power Formula",
+                "P = V × I",
+                "P = 1.732 × V × I"
+              ],
+              [
+                "Motors",
+                "Simple, smaller",
+                "Smoother, more efficient"
+              ],
+              [
+                "Wires",
+                "2 hots + neutral",
+                "3 hots + neutral (wye)"
+              ]
             ]
           },
           "body": [
-            "Three-phase delivers constant power \u2014 motors run smoother.",
+            "Three-phase delivers constant power — motors run smoother.",
             "Single-phase power dips to zero 120 times/sec."
           ],
           "remember": "Three-phase = 1.732 factor everywhere."
@@ -479,26 +501,50 @@
             "Primary coil creates magnetic field",
             "Secondary coil picks up induced voltage",
             "Turns ratio determines voltage step-up or step-down",
-            "Example: 480V primary \u2192 120/208V secondary for building use",
-            "KVA rating = voltage \u00D7 amps \u00D7 1.732 (3-phase)"
+            "Example: 480V primary → 120/208V secondary for building use",
+            "KVA rating = voltage × amps × 1.732 (3-phase)"
           ],
           "body": [
-            "Transformers only work with AC \u2014 DC cannot induce voltage."
+            "Transformers only work with AC — DC cannot induce voltage."
           ],
           "remember": "More turns on secondary = step-up. Fewer turns = step-down."
         },
         {
           "title": "120/208V vs 277/480V Systems",
           "table": {
-            "headers": ["System", "Phase-to-Phase", "Phase-to-Neutral", "Phase Colors", "Neutral Color"],
+            "headers": [
+              "System",
+              "Phase-to-Phase",
+              "Phase-to-Neutral",
+              "Phase Colors",
+              "Neutral Color"
+            ],
             "rows": [
-              ["120/208V Wye", "208V", "120V", "Black, Red, Blue", "White"],
-              ["277/480V Wye", "480V", "277V", "Brown, Orange, Yellow", "Gray"],
-              ["120/240V 1-ph", "240V", "120V", "Black, Red", "White"]
+              [
+                "120/208V Wye",
+                "208V",
+                "120V",
+                "Black, Red, Blue",
+                "White"
+              ],
+              [
+                "277/480V Wye",
+                "480V",
+                "277V",
+                "Brown, Orange, Yellow",
+                "Gray"
+              ],
+              [
+                "120/240V 1-ph",
+                "240V",
+                "120V",
+                "Black, Red",
+                "White"
+              ]
             ]
           },
           "body": [
-            "277V is phase-to-neutral on 480V wye \u2014 common for commercial LED lighting.",
+            "277V is phase-to-neutral on 480V wye — common for commercial LED lighting.",
             "480V motors run more efficiently than 208V motors."
           ],
           "remember": "277V never appears in a residential building."
@@ -506,8 +552,8 @@
         {
           "title": "Ground vs Neutral (the critical difference)",
           "list": [
-            "Neutral (white): carries current BACK to source \u2014 part of the circuit",
-            "Ground (green/bare): safety path \u2014 only carries fault current",
+            "Neutral (white): carries current BACK to source — part of the circuit",
+            "Ground (green/bare): safety path — only carries fault current",
             "Neutral is bonded to ground ONCE at the main service",
             "Neutral and ground are SEPARATE in subpanels",
             "Neutral carries current normally. Ground does NOT (unless a fault)"
@@ -901,16 +947,36 @@
         {
           "title": "Transformer Connections (Wye vs Delta)",
           "table": {
-            "headers": ["Feature", "Wye (Y)", "Delta (\u0394)"],
+            "headers": [
+              "Feature",
+              "Wye (Y)",
+              "Delta (Δ)"
+            ],
             "rows": [
-              ["Neutral", "Has neutral at center", "No neutral (usually)"],
-              ["Voltages", "277/480V or 120/208V", "240V or 480V"],
-              ["Grounding", "Neutral grounded at source", "One corner or center-tap grounded"],
-              ["Common Use", "Commercial buildings", "Industrial motors, old buildings"]
+              [
+                "Neutral",
+                "Has neutral at center",
+                "No neutral (usually)"
+              ],
+              [
+                "Voltages",
+                "277/480V or 120/208V",
+                "240V or 480V"
+              ],
+              [
+                "Grounding",
+                "Neutral grounded at source",
+                "One corner or center-tap grounded"
+              ],
+              [
+                "Common Use",
+                "Commercial buildings",
+                "Industrial motors, old buildings"
+              ]
             ]
           },
           "body": [
-            "Delta has no neutral \u2014 floating or corner grounded.",
+            "Delta has no neutral — floating or corner grounded.",
             "Residential transformers are center-tapped for 120/240V."
           ],
           "remember": "Wye = has neutral. Delta = no neutral (usually)."
@@ -1950,11 +2016,27 @@
             "Step 1: bend first 90. Step 2: measure from back of first 90 to desired end. Step 3: subtract gain. Step 4: bend second 90."
           ],
           "table": {
-            "headers": ["EMT Size", "Take-up", "Gain"],
+            "headers": [
+              "EMT Size",
+              "Take-up",
+              "Gain"
+            ],
             "rows": [
-              ["1/2\"", "5\"", "2-1/2\""],
-              ["3/4\"", "6\"", "3-1/4\""],
-              ["1\"", "8\"", "4\""]
+              [
+                "1/2\"",
+                "5\"",
+                "2-1/2\""
+              ],
+              [
+                "3/4\"",
+                "6\"",
+                "3-1/4\""
+              ],
+              [
+                "1\"",
+                "8\"",
+                "4\""
+              ]
             ]
           },
           "remember": "Back-to-back = measure center-to-center, subtract gain."
@@ -2600,12 +2682,32 @@
         {
           "title": "Hand Tools Mastery — Pliers",
           "table": {
-            "headers": ["Tool", "Primary Use", "Pro Tip"],
+            "headers": [
+              "Tool",
+              "Primary Use",
+              "Pro Tip"
+            ],
             "rows": [
-              ["Linesman Pliers", "Twisting wires, cutting, pulling", "Grip and twist — the #1 tool in your pouch"],
-              ["Diagonal Cutters (Dykes)", "Flush cutting wire flush to surface", "Do NOT cut screws or nails — ruins the edge"],
-              ["Needle-Nose Pliers", "Tight spaces, bending small wire", "Great for box work and control panels"],
-              ["Channel Locks", "Gripping large objects, locknuts, conduit", "Adjust to size — do not crush fittings"]
+              [
+                "Linesman Pliers",
+                "Twisting wires, cutting, pulling",
+                "Grip and twist — the #1 tool in your pouch"
+              ],
+              [
+                "Diagonal Cutters (Dykes)",
+                "Flush cutting wire flush to surface",
+                "Do NOT cut screws or nails — ruins the edge"
+              ],
+              [
+                "Needle-Nose Pliers",
+                "Tight spaces, bending small wire",
+                "Great for box work and control panels"
+              ],
+              [
+                "Channel Locks",
+                "Gripping large objects, locknuts, conduit",
+                "Adjust to size — do not crush fittings"
+              ]
             ]
           },
           "remember": "Your linesman pliers are your primary tool — keep them on your hip."
@@ -2613,10 +2715,22 @@
         {
           "title": "Levels & Measuring",
           "table": {
-            "headers": ["Tool", "Use", "Pro Tip"],
+            "headers": [
+              "Tool",
+              "Use",
+              "Pro Tip"
+            ],
             "rows": [
-              ["Torpedo Level", "Leveling boxes, panels, conduit", "6-9\" — fits in pouch, checks everything"],
-              ["Tape Measure (25\")", "Measuring everything on site", "Know your fractions cold — 1/16, 1/8, 3/16, 1/4, 5/16, 3/8, 7/16, 1/2"]
+              [
+                "Torpedo Level",
+                "Leveling boxes, panels, conduit",
+                "6-9\" — fits in pouch, checks everything"
+              ],
+              [
+                "Tape Measure (25\")",
+                "Measuring everything on site",
+                "Know your fractions cold — 1/16, 1/8, 3/16, 1/4, 5/16, 3/8, 7/16, 1/2"
+              ]
             ]
           },
           "remember": "A crooked box screams apprentice — use your level."
@@ -2624,11 +2738,27 @@
         {
           "title": "Power Tools",
           "table": {
-            "headers": ["Tool", "Use", "Pro Tip"],
+            "headers": [
+              "Tool",
+              "Use",
+              "Pro Tip"
+            ],
             "rows": [
-              ["Impact Driver", "Driving screws, tapping anchors", "Use impact-rated bits — regular bits snap"],
-              ["Hole Saws", "Cutting holes in wood, metal, drywall", "Pilot bit first — lubricate on metal"],
-              ["Hammer Drill", "Drilling into concrete/masonry", "Rotary hammer mode — not just drill"]
+              [
+                "Impact Driver",
+                "Driving screws, tapping anchors",
+                "Use impact-rated bits — regular bits snap"
+              ],
+              [
+                "Hole Saws",
+                "Cutting holes in wood, metal, drywall",
+                "Pilot bit first — lubricate on metal"
+              ],
+              [
+                "Hammer Drill",
+                "Drilling into concrete/masonry",
+                "Rotary hammer mode — not just drill"
+              ]
             ]
           },
           "remember": "Let the tool do the work — too much pressure burns bits."
@@ -2636,11 +2766,27 @@
         {
           "title": "Pulling Tools",
           "table": {
-            "headers": ["Tool", "Use", "Pro Tip"],
+            "headers": [
+              "Tool",
+              "Use",
+              "Pro Tip"
+            ],
             "rows": [
-              ["Fish Tape", "Pulling wire through existing conduit", "Tape end securely — do not lose wire mid-pull"],
-              ["Cable Tugger", "Pulling heavy wire (250 kcmil+)", "Read max tension — overpull damages wire"],
-              ["Hydraulic Crimper", "Crimping lugs on large wire", "Dies must match lug size exactly"]
+              [
+                "Fish Tape",
+                "Pulling wire through existing conduit",
+                "Tape end securely — do not lose wire mid-pull"
+              ],
+              [
+                "Cable Tugger",
+                "Pulling heavy wire (250 kcmil+)",
+                "Read max tension — overpull damages wire"
+              ],
+              [
+                "Hydraulic Crimper",
+                "Crimping lugs on large wire",
+                "Dies must match lug size exactly"
+              ]
             ]
           },
           "remember": "Fish tape + lube + communication = a successful pull."
@@ -2907,15 +3053,47 @@
         {
           "title": "Apprentice to Master Roadmap",
           "table": {
-            "headers": ["Level", "Experience", "Can Do"],
+            "headers": [
+              "Level",
+              "Experience",
+              "Can Do"
+            ],
             "rows": [
-              ["Helper", "0-6 months", "Material handling, digging, cleaning, basic tools"],
-              ["Apprentice Year 1", "0-1 year", "Wire pulling, basic conduit, observing"],
-              ["Apprentice Year 2", "1-2 years", "EMT bending, rough-in, receptacles, switches"],
-              ["Apprentice Year 3", "2-3 years", "Commercial work, panels, troubleshooting"],
-              ["Apprentice Year 4", "3-4 years", "Motor controls, transformers, prints"],
-              ["Journeyman", "4+ years / exam", "Lead work, train apprentices, pull permits"],
-              ["Master", "Journeyman + exam", "Design, calculations, business owner"]
+              [
+                "Helper",
+                "0-6 months",
+                "Material handling, digging, cleaning, basic tools"
+              ],
+              [
+                "Apprentice Year 1",
+                "0-1 year",
+                "Wire pulling, basic conduit, observing"
+              ],
+              [
+                "Apprentice Year 2",
+                "1-2 years",
+                "EMT bending, rough-in, receptacles, switches"
+              ],
+              [
+                "Apprentice Year 3",
+                "2-3 years",
+                "Commercial work, panels, troubleshooting"
+              ],
+              [
+                "Apprentice Year 4",
+                "3-4 years",
+                "Motor controls, transformers, prints"
+              ],
+              [
+                "Journeyman",
+                "4+ years / exam",
+                "Lead work, train apprentices, pull permits"
+              ],
+              [
+                "Master",
+                "Journeyman + exam",
+                "Design, calculations, business owner"
+              ]
             ]
           },
           "remember": "Every master was once an apprentice who never quit."
@@ -3226,24 +3404,92 @@
         {
           "title": "Fraction to Decimal Chart",
           "table": {
-            "headers": ["Fraction", "Decimal", "On Tape Measure"],
+            "headers": [
+              "Fraction",
+              "Decimal",
+              "On Tape Measure"
+            ],
             "rows": [
-              ["1/16\"", "0.0625\"", "1 tick past"],
-              ["1/8\"", "0.125\"", "2 ticks"],
-              ["3/16\"", "0.1875\"", "3 ticks"],
-              ["1/4\"", "0.25\"", "4 ticks"],
-              ["5/16\"", "0.3125\"", "5 ticks"],
-              ["3/8\"", "0.375\"", "6 ticks"],
-              ["7/16\"", "0.4375\"", "7 ticks"],
-              ["1/2\"", "0.5\"", "8 ticks"],
-              ["9/16\"", "0.5625\"", "9 ticks"],
-              ["5/8\"", "0.625\"", "10 ticks"],
-              ["11/16\"", "0.6875\"", "11 ticks"],
-              ["3/4\"", "0.75\"", "12 ticks"],
-              ["13/16\"", "0.8125\"", "13 ticks"],
-              ["7/8\"", "0.875\"", "14 ticks"],
-              ["15/16\"", "0.9375\"", "15 ticks"],
-              ["1\"", "1.0\"", "16 ticks"]
+              [
+                "1/16\"",
+                "0.0625\"",
+                "1 tick past"
+              ],
+              [
+                "1/8\"",
+                "0.125\"",
+                "2 ticks"
+              ],
+              [
+                "3/16\"",
+                "0.1875\"",
+                "3 ticks"
+              ],
+              [
+                "1/4\"",
+                "0.25\"",
+                "4 ticks"
+              ],
+              [
+                "5/16\"",
+                "0.3125\"",
+                "5 ticks"
+              ],
+              [
+                "3/8\"",
+                "0.375\"",
+                "6 ticks"
+              ],
+              [
+                "7/16\"",
+                "0.4375\"",
+                "7 ticks"
+              ],
+              [
+                "1/2\"",
+                "0.5\"",
+                "8 ticks"
+              ],
+              [
+                "9/16\"",
+                "0.5625\"",
+                "9 ticks"
+              ],
+              [
+                "5/8\"",
+                "0.625\"",
+                "10 ticks"
+              ],
+              [
+                "11/16\"",
+                "0.6875\"",
+                "11 ticks"
+              ],
+              [
+                "3/4\"",
+                "0.75\"",
+                "12 ticks"
+              ],
+              [
+                "13/16\"",
+                "0.8125\"",
+                "13 ticks"
+              ],
+              [
+                "7/8\"",
+                "0.875\"",
+                "14 ticks"
+              ],
+              [
+                "15/16\"",
+                "0.9375\"",
+                "15 ticks"
+              ],
+              [
+                "1\"",
+                "1.0\"",
+                "16 ticks"
+              ]
             ]
           },
           "remember": "Know your 16ths — every tick on the tape is 1/16\"."
@@ -3251,28 +3497,80 @@
         {
           "title": "Bend Multipliers Quick Card",
           "table": {
-            "headers": ["Bend Angle", "Multiplier", "Shrink per inch"],
+            "headers": [
+              "Bend Angle",
+              "Multiplier",
+              "Shrink per inch"
+            ],
             "rows": [
-              ["10\u00b0", "6.0", "1/16\""],
-              ["22.5\u00b0", "2.6", "3/16\""],
-              ["30\u00b0", "2.0", "1/4\""],
-              ["45\u00b0", "1.4", "3/8\""],
-              ["60\u00b0", "1.2", "1/2\""]
+              [
+                "10°",
+                "6.0",
+                "1/16\""
+              ],
+              [
+                "22.5°",
+                "2.6",
+                "3/16\""
+              ],
+              [
+                "30°",
+                "2.0",
+                "1/4\""
+              ],
+              [
+                "45°",
+                "1.4",
+                "3/8\""
+              ],
+              [
+                "60°",
+                "1.2",
+                "1/2\""
+              ]
             ]
           },
-          "remember": "30\u00b0 offset \u00d72 is fastest and most common in the field."
+          "remember": "30° offset ×2 is fastest and most common in the field."
         },
         {
           "title": "Rigging Hand Signals Quick Card",
           "table": {
-            "headers": ["Signal", "Meaning", "Motion"],
+            "headers": [
+              "Signal",
+              "Meaning",
+              "Motion"
+            ],
             "rows": [
-              ["Stop", "Stop immediately", "Arm extended, palm down, swing side to side"],
-              ["Hoist", "Lift load up", "Index finger up, rotate hand in circle"],
-              ["Lower", "Bring load down", "Arm extended, palm down, lower slowly"],
-              ["Dog Everything", "Hold position", "Hands clasped together at waist"],
-              ["Swing", "Move load left/right", "Arm extended, point direction"],
-              ["Come Ahead", "Move toward signaler", "Arm up, palm in, beckon"]
+              [
+                "Stop",
+                "Stop immediately",
+                "Arm extended, palm down, swing side to side"
+              ],
+              [
+                "Hoist",
+                "Lift load up",
+                "Index finger up, rotate hand in circle"
+              ],
+              [
+                "Lower",
+                "Bring load down",
+                "Arm extended, palm down, lower slowly"
+              ],
+              [
+                "Dog Everything",
+                "Hold position",
+                "Hands clasped together at waist"
+              ],
+              [
+                "Swing",
+                "Move load left/right",
+                "Arm extended, point direction"
+              ],
+              [
+                "Come Ahead",
+                "Move toward signaler",
+                "Arm up, palm in, beckon"
+              ]
             ]
           },
           "remember": "Hand signals are universal — use them even if you think the operator can hear you."
@@ -3325,7 +3623,9 @@
             "Use expansion fittings where PVC enters a building or structure",
             "PVC expands and contracts with temperature — long runs need expansion fittings every ~100 ft"
           ],
-          "body": ["Schedule 80 is required where subject to physical damage (above ground transitions)."],
+          "body": [
+            "Schedule 80 is required where subject to physical damage (above ground transitions)."
+          ],
           "remember": "Schedule 80 where exposed — Schedule 40 underground."
         },
         {
@@ -3342,10 +3642,10 @@
         {
           "title": "PVC Sweeps (Bends)",
           "list": [
-            "Pre-formed sweeps come in 90\u00b0, 45\u00b0, 30\u00b0, 22.5\u00b0, and 15\u00b0",
+            "Pre-formed sweeps come in 90°, 45°, 30°, 22.5°, and 15°",
             "Radius matters: larger radius = easier pull",
-            "Common radius: 2\" PVC 90\u00b0 sweep \u2248 24\" radius",
-            "Maximum of 360\u00b0 total bends between pull boxes (NEC 300.34)",
+            "Common radius: 2\" PVC 90° sweep ≈ 24\" radius",
+            "Maximum of 360° total bends between pull boxes (NEC 300.34)",
             "NEVER field-bend PVC with heat unless you know what you're doing — use factory sweeps for underground"
           ],
           "remember": "Factory sweeps pull easier than field-bent PVC."
@@ -3395,7 +3695,7 @@
           "list": [
             "Using standard PVC glue without primer — instant fail",
             "No expansion fitting at building transition",
-            "Too many bends (over 360\u00b0) between pull boxes",
+            "Too many bends (over 360°) between pull boxes",
             "Sharp rocks in backfill cutting conduit later",
             "No warning tape or tracer wire",
             "Sch 40 where Sch 80 required (above ground transitions)",
@@ -3409,7 +3709,7 @@
             "Required where conduit changes direction or needs access",
             "Must be accessible — not buried or paved over",
             "Minimum size: longest pull + 6\" for straight pulls (NEC 314.28)",
-            "Angle pulls: 6\u00d7 raceway + all entries",
+            "Angle pulls: 6× raceway + all entries",
             "Handholes for site lighting are common — specify rated cover for traffic"
           ],
           "remember": "Too few pull boxes = nightmare pull that damages wire."
@@ -3417,12 +3717,27 @@
         {
           "title": "Bell Ends & Terminations",
           "table": {
-            "headers": ["Fitting", "Use"],
+            "headers": [
+              "Fitting",
+              "Use"
+            ],
             "rows": [
-              ["Bell End", "Expanded PVC end — eliminates coupling in straight runs"],
-              ["Terminal Adapter (MTA)", "Male threads for boxes with female hubs"],
-              ["Female Adapter", "Female threads for male-threaded hubs"],
-              ["Plugs", "Seal unused conduit entries"]
+              [
+                "Bell End",
+                "Expanded PVC end — eliminates coupling in straight runs"
+              ],
+              [
+                "Terminal Adapter (MTA)",
+                "Male threads for boxes with female hubs"
+              ],
+              [
+                "Female Adapter",
+                "Female threads for male-threaded hubs"
+              ],
+              [
+                "Plugs",
+                "Seal unused conduit entries"
+              ]
             ]
           },
           "remember": "Bell ends save couplings on long straight runs — use them."
@@ -3451,12 +3766,32 @@
         {
           "title": "Pulling Methods Overview",
           "table": {
-            "headers": ["Method", "Best For", "When"],
+            "headers": [
+              "Method",
+              "Best For",
+              "When"
+            ],
             "rows": [
-              ["Fish Tape", "Short runs, existing conduit", "Residential, small commercial"],
-              ["Pull Rope (Poly)", "Long runs, large wire", "Commercial/industrial new runs"],
-              ["Cable Tugger", "Very large wire, long runs", "500 kcmil, service entrances"],
-              ["Pulling Sock (Grip)", "Pulling multiple conductors together", "Holding all conductors at pulling end"]
+              [
+                "Fish Tape",
+                "Short runs, existing conduit",
+                "Residential, small commercial"
+              ],
+              [
+                "Pull Rope (Poly)",
+                "Long runs, large wire",
+                "Commercial/industrial new runs"
+              ],
+              [
+                "Cable Tugger",
+                "Very large wire, long runs",
+                "500 kcmil, service entrances"
+              ],
+              [
+                "Pulling Sock (Grip)",
+                "Pulling multiple conductors together",
+                "Holding all conductors at pulling end"
+              ]
             ]
           },
           "remember": "Match the method to the run — fish tape is not for 4/0 feeders."
@@ -3471,7 +3806,9 @@
             "Never force past a bend — you may be stabbing insulation",
             "Lube helps even with fish tape"
           ],
-          "body": ["Pro tip: put a 90\u00b0 hook on the tape end for turning corners."],
+          "body": [
+            "Pro tip: put a 90° hook on the tape end for turning corners."
+          ],
           "remember": "Push the reel, not the tape — and keep it taught."
         },
         {
@@ -3506,7 +3843,9 @@
             "All conductors enter the bend at different times — reduces binding",
             "Mark each conductor at the pull end with phase tape before starting"
           ],
-          "body": ["Cut conductors in a staircase pattern at the pulling end — not all the same length."],
+          "body": [
+            "Cut conductors in a staircase pattern at the pulling end — not all the same length."
+          ],
           "remember": "Staggered head = smoother pull through conduit."
         },
         {
@@ -3538,22 +3877,55 @@
         {
           "title": "Maximum Pulling Tension",
           "table": {
-            "headers": ["Conductor", "Max Pull Tension (lbs)"],
+            "headers": [
+              "Conductor",
+              "Max Pull Tension (lbs)"
+            ],
             "rows": [
-              ["#12 Cu", "60 lbs"],
-              ["#10 Cu", "120 lbs"],
-              ["#8 Cu", "180 lbs"],
-              ["#6 Cu", "300 lbs"],
-              ["#4 Cu", "480 lbs"],
-              ["#2 Cu", "720 lbs"],
-              ["#1/0 Cu", "1,000 lbs"],
-              ["#4/0 Cu", "1,700 lbs"],
-              ["250 kcmil Cu", "2,000 lbs"],
-              ["500 kcmil Cu", "3,200 lbs"]
+              [
+                "#12 Cu",
+                "60 lbs"
+              ],
+              [
+                "#10 Cu",
+                "120 lbs"
+              ],
+              [
+                "#8 Cu",
+                "180 lbs"
+              ],
+              [
+                "#6 Cu",
+                "300 lbs"
+              ],
+              [
+                "#4 Cu",
+                "480 lbs"
+              ],
+              [
+                "#2 Cu",
+                "720 lbs"
+              ],
+              [
+                "#1/0 Cu",
+                "1,000 lbs"
+              ],
+              [
+                "#4/0 Cu",
+                "1,700 lbs"
+              ],
+              [
+                "250 kcmil Cu",
+                "2,000 lbs"
+              ],
+              [
+                "500 kcmil Cu",
+                "3,200 lbs"
+              ]
             ]
           },
           "body": [
-            "Max tension = 0.008 \u00d7 circular mil area of each conductor.",
+            "Max tension = 0.008 × circular mil area of each conductor.",
             "For multiple conductors in parallel, multiply by number of conductors."
           ],
           "remember": "If it feels like too much tension, it probably is — stop and investigate."
@@ -3603,7 +3975,9 @@
             "T = T-body with three entries",
             "X = cross body with four entries"
           ],
-          "body": ["The letter indicates the configuration: L = 90\u00b0 turn, and the last letter tells you where the cover/access is (B=back, L=left, R=right)."],
+          "body": [
+            "The letter indicates the configuration: L = 90° turn, and the last letter tells you where the cover/access is (B=back, L=left, R=right)."
+          ],
           "remember": "LB = L-body Back. LL = L-body Left. LR = L-body Right."
         },
         {
@@ -3621,13 +3995,31 @@
         {
           "title": "Bushings & Inserts",
           "table": {
-            "headers": ["Type", "Use"],
+            "headers": [
+              "Type",
+              "Use"
+            ],
             "rows": [
-              ["Standard Bushing", "Threads onto end of rigid/IMC — protects wire from sharp edges"],
-              ["Insulated Bushing", "Has plastic ring inside — protects THHN insulation from cuts"],
-              ["Reducing Bushing", "Reduces from larger to smaller hub size"],
-              ["Ground Bushing", "Has a lug for bonding — used at service equipment"],
-              ["Locknut", "Secures conduit into box or enclosure"]
+              [
+                "Standard Bushing",
+                "Threads onto end of rigid/IMC — protects wire from sharp edges"
+              ],
+              [
+                "Insulated Bushing",
+                "Has plastic ring inside — protects THHN insulation from cuts"
+              ],
+              [
+                "Reducing Bushing",
+                "Reduces from larger to smaller hub size"
+              ],
+              [
+                "Ground Bushing",
+                "Has a lug for bonding — used at service equipment"
+              ],
+              [
+                "Locknut",
+                "Secures conduit into box or enclosure"
+              ]
             ]
           },
           "remember": "Insulated bushing on every THHN pull — prevents wire chafing."
@@ -3635,14 +4027,35 @@
         {
           "title": "Beam Clamps & Strut Fittings",
           "table": {
-            "headers": ["Fitting", "Use"],
+            "headers": [
+              "Fitting",
+              "Use"
+            ],
             "rows": [
-              ["Beam Clamp", "Attaches to steel beam — supports conduit hangers"],
-              ["C-Clamp", "Clamps to I-beam flange"],
-              ["Strut (Unistrut)", "Metal channel for mounting everything — panels, conduit, trays"],
-              ["Spring Nut", "Slides into strut channel — holds bolts at any position"],
-              ["Strut Strap", "Holds conduit to strut"],
-              ["Pipe Clamp", "Clamps conduit to strut or beam"]
+              [
+                "Beam Clamp",
+                "Attaches to steel beam — supports conduit hangers"
+              ],
+              [
+                "C-Clamp",
+                "Clamps to I-beam flange"
+              ],
+              [
+                "Strut (Unistrut)",
+                "Metal channel for mounting everything — panels, conduit, trays"
+              ],
+              [
+                "Spring Nut",
+                "Slides into strut channel — holds bolts at any position"
+              ],
+              [
+                "Strut Strap",
+                "Holds conduit to strut"
+              ],
+              [
+                "Pipe Clamp",
+                "Clamps conduit to strut or beam"
+              ]
             ]
           },
           "remember": "Strut is the erector set of electrical construction — learn all the fittings."
@@ -3666,7 +4079,7 @@
             "Ground rod clamp: bronze or brass, connects GEC to rod",
             "Acorn clamp: single bolt for easy install",
             "Split bolt: for tapping ground conductors",
-            "Two rods required if first rod tests > 25\u03A9 (NEC 250.56)",
+            "Two rods required if first rod tests > 25Ω (NEC 250.56)",
             "Rods at least 6 ft apart"
           ],
           "remember": "Rod goes in full length — clamp above grade for inspection."
@@ -3674,14 +4087,35 @@
         {
           "title": "Pull Boxes & Junction Boxes",
           "table": {
-            "headers": ["Type", "Use"],
+            "headers": [
+              "Type",
+              "Use"
+            ],
             "rows": [
-              ["Pull Box", "Access point for pulling wire — large, often no devices"],
-              ["Junction Box", "Splices and connections — must remain accessible"],
-              ["Handhole", "Underground access box — rated for traffic load"],
-              ["Weatherproof Box", "Outdoor — has gasketed cover"],
-              ["Box Extension", "Adds depth when box is too shallow"],
-              ["Mud Ring / Plaster Ring", "Raises device up to finished wall surface"]
+              [
+                "Pull Box",
+                "Access point for pulling wire — large, often no devices"
+              ],
+              [
+                "Junction Box",
+                "Splices and connections — must remain accessible"
+              ],
+              [
+                "Handhole",
+                "Underground access box — rated for traffic load"
+              ],
+              [
+                "Weatherproof Box",
+                "Outdoor — has gasketed cover"
+              ],
+              [
+                "Box Extension",
+                "Adds depth when box is too shallow"
+              ],
+              [
+                "Mud Ring / Plaster Ring",
+                "Raises device up to finished wall surface"
+              ]
             ]
           },
           "remember": "All boxes must remain accessible — never bury a junction box."
@@ -3689,13 +4123,31 @@
         {
           "title": "Conduit Straps & Supports",
           "table": {
-            "headers": ["Type", "Use"],
+            "headers": [
+              "Type",
+              "Use"
+            ],
             "rows": [
-              ["One-Hole Strap", "Single screw — EMT and PVC"],
-              ["Two-Hole Strap", "Heavy support for rigid, large pipe"],
-              ["Mineralac (BX) Strap", "For MC/BX cable"],
-              ["Conduit Hanger", "Hangs conduit from strut or beam"],
-              ["Stand-Off Bracket", "Keeps conduit off wall surface"]
+              [
+                "One-Hole Strap",
+                "Single screw — EMT and PVC"
+              ],
+              [
+                "Two-Hole Strap",
+                "Heavy support for rigid, large pipe"
+              ],
+              [
+                "Mineralac (BX) Strap",
+                "For MC/BX cable"
+              ],
+              [
+                "Conduit Hanger",
+                "Hangs conduit from strut or beam"
+              ],
+              [
+                "Stand-Off Bracket",
+                "Keeps conduit off wall surface"
+              ]
             ]
           },
           "remember": "Support EMT every 10 ft and within 3 ft of every box."
@@ -3715,14 +4167,35 @@
         {
           "title": "Service Entrance Hardware",
           "table": {
-            "headers": ["Fitting", "Use"],
+            "headers": [
+              "Fitting",
+              "Use"
+            ],
             "rows": [
-              ["Weatherhead", "Top of service riser — protects drop from weather"],
-              ["Service Mast", "Rigid conduit that holds weatherhead and service drop"],
-              ["Meter Socket", "Enclosure for utility meter — belongs to utility"],
-              ["Meter Main", "Combination meter + main breaker enclosure"],
-              ["Service Disconnect", "Switch that shuts off all building power"],
-              ["Lugs", "Terminate wires at meter, panel, or disconnect"]
+              [
+                "Weatherhead",
+                "Top of service riser — protects drop from weather"
+              ],
+              [
+                "Service Mast",
+                "Rigid conduit that holds weatherhead and service drop"
+              ],
+              [
+                "Meter Socket",
+                "Enclosure for utility meter — belongs to utility"
+              ],
+              [
+                "Meter Main",
+                "Combination meter + main breaker enclosure"
+              ],
+              [
+                "Service Disconnect",
+                "Switch that shuts off all building power"
+              ],
+              [
+                "Lugs",
+                "Terminate wires at meter, panel, or disconnect"
+              ]
             ]
           },
           "remember": "Service hardware is utility-specific — verify with local requirements."
@@ -3750,24 +4223,92 @@
         {
           "title": "Reading 16ths (Every Mark)",
           "table": {
-            "headers": ["Mark #", "Fraction", "Decimal"],
+            "headers": [
+              "Mark #",
+              "Fraction",
+              "Decimal"
+            ],
             "rows": [
-              ["1", "1/16\"", "0.0625"],
-              ["2", "1/8\"", "0.125"],
-              ["3", "3/16\"", "0.1875"],
-              ["4", "1/4\"", "0.25"],
-              ["5", "5/16\"", "0.3125"],
-              ["6", "3/8\"", "0.375"],
-              ["7", "7/16\"", "0.4375"],
-              ["8", "1/2\"", "0.5"],
-              ["9", "9/16\"", "0.5625"],
-              ["10", "5/8\"", "0.625"],
-              ["11", "11/16\"", "0.6875"],
-              ["12", "3/4\"", "0.75"],
-              ["13", "13/16\"", "0.8125"],
-              ["14", "7/8\"", "0.875"],
-              ["15", "15/16\"", "0.9375"],
-              ["16", "1\"", "1.0"]
+              [
+                "1",
+                "1/16\"",
+                "0.0625"
+              ],
+              [
+                "2",
+                "1/8\"",
+                "0.125"
+              ],
+              [
+                "3",
+                "3/16\"",
+                "0.1875"
+              ],
+              [
+                "4",
+                "1/4\"",
+                "0.25"
+              ],
+              [
+                "5",
+                "5/16\"",
+                "0.3125"
+              ],
+              [
+                "6",
+                "3/8\"",
+                "0.375"
+              ],
+              [
+                "7",
+                "7/16\"",
+                "0.4375"
+              ],
+              [
+                "8",
+                "1/2\"",
+                "0.5"
+              ],
+              [
+                "9",
+                "9/16\"",
+                "0.5625"
+              ],
+              [
+                "10",
+                "5/8\"",
+                "0.625"
+              ],
+              [
+                "11",
+                "11/16\"",
+                "0.6875"
+              ],
+              [
+                "12",
+                "3/4\"",
+                "0.75"
+              ],
+              [
+                "13",
+                "13/16\"",
+                "0.8125"
+              ],
+              [
+                "14",
+                "7/8\"",
+                "0.875"
+              ],
+              [
+                "15",
+                "15/16\"",
+                "0.9375"
+              ],
+              [
+                "16",
+                "1\"",
+                "1.0"
+              ]
             ]
           },
           "remember": "The longest mark = inch. 2nd longest = 1/2\". 3rd longest = 1/4\". Shortest = 1/16\"."
@@ -3883,14 +4424,35 @@
         {
           "title": "Minimum Approach Distances (MAD)",
           "table": {
-            "headers": ["Voltage", "Minimum Distance"],
+            "headers": [
+              "Voltage",
+              "Minimum Distance"
+            ],
             "rows": [
-              ["0-50kV", "10 ft"],
-              ["51-200kV", "15 ft"],
-              ["201-350kV", "20 ft"],
-              ["351-500kV", "25 ft"],
-              ["501-750kV", "35 ft"],
-              ["751-1000kV", "45 ft"]
+              [
+                "0-50kV",
+                "10 ft"
+              ],
+              [
+                "51-200kV",
+                "15 ft"
+              ],
+              [
+                "201-350kV",
+                "20 ft"
+              ],
+              [
+                "351-500kV",
+                "25 ft"
+              ],
+              [
+                "501-750kV",
+                "35 ft"
+              ],
+              [
+                "751-1000kV",
+                "45 ft"
+              ]
             ]
           },
           "body": [
@@ -3916,13 +4478,37 @@
         {
           "title": "Rigging Slings & Hardware",
           "table": {
-            "headers": ["Type", "Use", "Inspect For"],
+            "headers": [
+              "Type",
+              "Use",
+              "Inspect For"
+            ],
             "rows": [
-              ["Web Sling (Nylon)", "General lifting — flexible, non-marring", "Cut edges, burns, pulled stitches"],
-              ["Round Sling", "Heavy lifts — conforms to load shape", "Cuts, chemical damage, worn cover"],
-              ["Chain Sling", "Very heavy / hot loads", "Stretch, cracks, deformed links"],
-              ["Wire Rope Sling", "Steel cable — extreme loads", "Broken wires, kinks, corrosion"],
-              ["Shackle", "Connects sling to load", "Bent pin, cracked body, thread damage"]
+              [
+                "Web Sling (Nylon)",
+                "General lifting — flexible, non-marring",
+                "Cut edges, burns, pulled stitches"
+              ],
+              [
+                "Round Sling",
+                "Heavy lifts — conforms to load shape",
+                "Cuts, chemical damage, worn cover"
+              ],
+              [
+                "Chain Sling",
+                "Very heavy / hot loads",
+                "Stretch, cracks, deformed links"
+              ],
+              [
+                "Wire Rope Sling",
+                "Steel cable — extreme loads",
+                "Broken wires, kinks, corrosion"
+              ],
+              [
+                "Shackle",
+                "Connects sling to load",
+                "Bent pin, cracked body, thread damage"
+              ]
             ]
           },
           "remember": "Inspect every sling before use — damaged rigging kills.",
@@ -4134,7 +4720,7 @@
             "Wire: feed in handhole, pull through stub-up into pole",
             "Seal: duct seal around wires entering pole — prevent moisture"
           ],
-          "remember": "Pole base = template accuracy \u00b1 1/4\" — once concrete is poured, there is no adjustment."
+          "remember": "Pole base = template accuracy ± 1/4\" — once concrete is poured, there is no adjustment."
         },
         {
           "title": "Underground Feeds for Lighting",
@@ -4192,7 +4778,7 @@
             "Check for loose neutral — photocells need neutral to operate",
             "Note: some photocells have a delay (1-5 min) — wait before diagnosing"
           ],
-          "remember": "Cover photocell \u2192 lights on? Photocell is good. No change? Photocell or power problem."
+          "remember": "Cover photocell → lights on? Photocell is good. No change? Photocell or power problem."
         },
         {
           "title": "Open Neutral",
@@ -4250,7 +4836,7 @@
           "list": [
             "AC voltage: V~ with wavy line — outlets, panels, switches",
             "DC voltage: V with straight/dashed line — batteries, sensors",
-            "Resistance: \u03A9 — heaters, coils, motor windings (power OFF)",
+            "Resistance: Ω — heaters, coils, motor windings (power OFF)",
             "Continuity: beep symbol — wires, fuses, switches (power OFF)",
             "Clamp meter: measures current without breaking circuit",
             "Frequency: Hz — VFD output, generator frequency"
@@ -4266,7 +4852,7 @@
             "Test: switch across terminals — beep when on, no beep when off",
             "Test: fuse across ends — beep = good, no beep = blown",
             "Test: heater element across terminals — low ohms = good",
-            "OL = open. 0\u03A9 = short. Both mean something is wrong"
+            "OL = open. 0Ω = short. Both mean something is wrong"
           ],
           "remember": "Power OFF before continuity — never test continuity on a live circuit.",
           "safety": true
@@ -4363,15 +4949,47 @@
         {
           "title": "Daily Study Plan for YouTube",
           "table": {
-            "headers": ["Day", "Watch", "Focus"],
+            "headers": [
+              "Day",
+              "Watch",
+              "Focus"
+            ],
             "rows": [
-              ["Monday", "Electrician U \u2014 Theory", "Voltage, current, resistance"],
-              ["Tuesday", "Engineering Mindset", "How electricity works (animated)"],
-              ["Wednesday", "Mike Holt", "Grounding vs bonding"],
-              ["Thursday", "Electrician U \u2014 Bending", "Stubs and offsets"],
-              ["Friday", "Essential Craftsman", "Work ethic and trade skills"],
-              ["Saturday", "Sparky Channel", "Real install walk-through"],
-              ["Sunday", "Review notes", "Reread what you watched"]
+              [
+                "Monday",
+                "Electrician U — Theory",
+                "Voltage, current, resistance"
+              ],
+              [
+                "Tuesday",
+                "Engineering Mindset",
+                "How electricity works (animated)"
+              ],
+              [
+                "Wednesday",
+                "Mike Holt",
+                "Grounding vs bonding"
+              ],
+              [
+                "Thursday",
+                "Electrician U — Bending",
+                "Stubs and offsets"
+              ],
+              [
+                "Friday",
+                "Essential Craftsman",
+                "Work ethic and trade skills"
+              ],
+              [
+                "Saturday",
+                "Sparky Channel",
+                "Real install walk-through"
+              ],
+              [
+                "Sunday",
+                "Review notes",
+                "Reread what you watched"
+              ]
             ]
           },
           "remember": "30 min daily = 182 hours of learning in a year."
@@ -4381,7 +4999,7 @@
           "list": [
             "MAKE: electronics for understanding how components work",
             "EEVBLOG: deep dives on electronics engineering",
-            "ElectroBOOM: funny but educational \u2014 safety awareness",
+            "ElectroBOOM: funny but educational — safety awareness",
             "Southwire: manufacturer training videos",
             "Klein Tools: tool usage and techniques",
             "Industrial Control Wizard: PLC and motor control"
@@ -4391,14 +5009,565 @@
         {
           "title": "How to Use YouTube Effectively",
           "list": [
-            "Do not just watch \u2014 take notes. Write down key facts.",
-            "Pause and rewind on bending and wiring \u2014 watch multiple times",
+            "Do not just watch — take notes. Write down key facts.",
+            "Pause and rewind on bending and wiring — watch multiple times",
             "Create a playlist for each topic (theory, bending, code)",
-            "Watch the comment section \u2014 pros add tips and corrections",
+            "Watch the comment section — pros add tips and corrections",
             "Follow up by looking up the code article referenced",
-            "Practice what you watch \u2014 knowledge without practice fades"
+            "Practice what you watch — knowledge without practice fades"
           ],
           "remember": "Video shows you how. Your hands teach you why. Practice both."
+        }
+      ]
+    },
+    {
+      "id": "panel-inspection",
+      "number": 24,
+      "title": "Panel Inspection & Service Equipment",
+      "description": "How power gets in, panel components, and inspection checklist",
+      "intro": "Knowing how to inspect a panel is just as important as installing one. Learn the full service path from transformer to breakers — and what inspectors look for.",
+      "keywords": [
+        "panel",
+        "panels"
+      ],
+      "cards": [
+        {
+          "title": "Power Service Overview",
+          "list": [
+            "Overhead service: service drop from utility pole to weatherhead on building",
+            "Underground service: service lateral in buried conduit from transformer to meter",
+            "Both deliver 120/240V single-phase to residential buildings",
+            "Service includes: drop/lateral → meter → main disconnect → panelboard"
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1705266680174-2021+IRC+Figure+3501+power+for+dwellings+from+transformer+of+a+120-240+volt+system.jpg",
+            "alt": "2021 IRC Figure 3501 — power from transformer to dwelling",
+            "caption": "Transformer to dwelling — 120/240V single-phase system (tap to zoom)"
+          },
+          "remember": "Follow the path: transformer → meter → main disconnect → panel."
+        },
+        {
+          "title": "Service Mast & Weatherhead",
+          "body": [
+            "The service mast is rigid conduit that supports overhead service conductors above the roof.",
+            "The weatherhead (service head) is the fitting at the top that prevents water from entering.",
+            "Conductors must have proper drip loops before entering the weatherhead.",
+            "Minimum 8 ft clearance above roof, 10 ft above ground, 12 ft above driveways."
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1704833968405-electric+service+mast+internachi.jpg",
+            "alt": "Electric service mast above roof",
+            "caption": "Service mast with weatherhead and overhead service drop (tap to zoom)"
+          },
+          "remember": "Service mast clearance: 8 ft above roof, 10 ft above ground, 12 ft above driveway."
+        },
+        {
+          "title": "Overhead vs Underground Service",
+          "list": [
+            "Overhead: 3-wire service drop — 2 insulated hots wrapped around bare aluminum neutral/messenger",
+            "Underground: service lateral in PVC or rigid conduit buried to required depth",
+            "Underground depths: 24\" under driveways, 18\" under residential, 12\" under 20A circuits (NEC 300.5)"
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1704825106482-overhead+servcie.jpg",
+            "alt": "Overhead service drop and weatherhead",
+            "caption": "Overhead service drop showing two hots and bare neutral (tap to zoom)"
+          },
+          "remember": "Overhead: 3-wire drop. Underground: buried conduit at code depth."
+        },
+        {
+          "title": "Meter Base Configurations",
+          "body": [
+            "The meter base houses the utility meter that measures power consumption.",
+            "Two common arrangements:",
+            "1) Meter outside → panel inside with integral main breaker",
+            "2) Meter + main disconnect outside → feeder to interior panel (which becomes a subpanel)"
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1704825801524-meter+base+arrangement.jpg",
+            "alt": "Meter base arrangement diagrams",
+            "caption": "Meter base and panel arrangements (tap to zoom)"
+          },
+          "remember": "If main disconnect is at the meter, the indoor panel is a subpanel — float the neutral."
+        },
+        {
+          "title": "Service-Entrance Cable: SEU vs SER",
+          "table": {
+            "headers": [
+              "Type",
+              "Conductors",
+              "Shape",
+              "Use"
+            ],
+            "rows": [
+              [
+                "SEU",
+                "2 hots + 1 bare neutral (3-wire)",
+                "Oval",
+                "Before service disconnect only"
+              ],
+              [
+                "SER",
+                "2 hots + neutral + ground (4-wire)",
+                "Round",
+                "After service disconnect (feeders and branch circuits)"
+              ]
+            ]
+          },
+          "body": [
+            "SEU has no separate ground — neutral wraps around the cable. Can only be used up to the service disconnect.",
+            "SER has a separate ground conductor — safe for use as feeder after the main disconnect."
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1704825855292-SE+service+entrance+cable+internachi.jpg",
+            "alt": "SEU service-entrance cable",
+            "caption": "SEU cable — oval shape with wrapped neutral (tap to zoom)"
+          },
+          "remember": "SEU = service only (no ground). SER = feeder (has separate ground)."
+        },
+        {
+          "title": "Panelboard Components",
+          "list": [
+            "Cabinet (can): metal enclosure housing all components",
+            "Dead front: protective cover over live parts (inspectors do NOT remove this)",
+            "Main lugs/terminals: connection point for incoming service conductors",
+            "Main breaker: master switch — shuts off all power downstream",
+            "Hot bus bars: distribute power to branch breakers",
+            "Neutral bus bar: silver bar with holes for neutral wire terminations",
+            "Ground bar: bonded to enclosure for equipment grounding conductors"
+          ],
+          "image": {
+            "src": "assets/page-images_2024_01_1704826001187-electrical+panelboard+cabinet.jpg",
+            "alt": "200-amp panelboard with cabinet",
+            "caption": "200-amp panelboard showing cabinet and internal components (tap to zoom)"
+          },
+          "remember": "Cabinet → dead front → breakers → bus bars → neutral/ground bars."
+        },
+        {
+          "title": "Main Bonding Jumper (MBJ)",
+          "body": [
+            "The MBJ connects the neutral bar to the panel enclosure at the service equipment ONLY.",
+            "It is the single most important connection in the entire electrical system.",
+            "Can be a screw, strap, wire, or busbar — often a green screw.",
+            "At the service (main) panel: MBJ installed — neutral bonded to enclosure.",
+            "At a subpanel: MBJ removed — neutral floats, isolated from enclosure."
+          ],
+          "list": [
+            "Provides low-impedance fault path back to source",
+            "Ensures breaker trips during a ground fault",
+            "Connects grounded conductor to grounding electrode conductor",
+            "Only at the first means of disconnect"
+          ],
+          "remember": "MBJ = main bonding jumper — IN at service, OUT at subpanel."
+        },
+        {
+          "title": "Grounding vs Bonding",
+          "table": {
+            "headers": [
+              "Concept",
+              "Definition",
+              "Purpose"
+            ],
+            "rows": [
+              [
+                "Grounding",
+                "Connection to earth via grounding electrode",
+                "Stabilize voltage, lightning/surge protection"
+              ],
+              [
+                "Bonding",
+                "Connecting metal parts together",
+                "Fault current path to trip breaker quickly"
+              ]
+            ]
+          },
+          "body": [
+            "Grounding = connection to earth. Bonding = connecting conductive parts.",
+            "Both work together for safety — bonding provides the path, grounding provides the destination."
+          ],
+          "remember": "Ground = earth. Bond = connect metal parts. Both needed for safety."
+        },
+        {
+          "title": "Grounding Electrode System",
+          "list": [
+            "Grounding electrode conductor (GEC) connects system to earth",
+            "Common electrodes: ground rods, metal water pipe, Ufer (concrete-encased), well casing",
+            "Minimum one 8 ft ground rod; two rods if first tests > 25 ohms",
+            "Rods must be at least 6 ft apart",
+            "GEC sizing depends on service ampacity"
+          ],
+          "table": {
+            "headers": [
+              "Service",
+              "GEC to rod",
+              "GEC to water pipe"
+            ],
+            "rows": [
+              [
+                "100A",
+                "#8 Cu",
+                "#8 Cu"
+              ],
+              [
+                "200A",
+                "#6 Cu",
+                "#4 Cu"
+              ],
+              [
+                "400A",
+                "#3/0 Cu",
+                "#3/0 Cu"
+              ]
+            ]
+          },
+          "remember": "Gas pipe is NEVER used as a ground electrode. Water pipe bond within 5 ft of entrance."
+        },
+        {
+          "title": "Subpanel Wiring Rules",
+          "body": [
+            "Subpanels require 4-wire feeder: 2 hots, neutral, and ground.",
+            "Neutral bar must be ISOLATED (floating) from the enclosure — never bond in a subpanel.",
+            "Ground bar IS bonded to the enclosure.",
+            "Neutrals and grounds must be on SEPARATE bars.",
+            "Detached buildings need their own ground rod(s) per NEC 250.32."
+          ],
+          "image": {
+            "src": "assets/How_To_Wire_a_Subpanel-_240V_150A__3_600x600.webp",
+            "alt": "Subpanel wiring diagram",
+            "caption": "Subpanel wiring — 4-wire feed with isolated neutral (tap to zoom)"
+          },
+          "remember": "Subpanel: 4 wires, float neutral, separate grounds. Never bond."
+        },
+        {
+          "title": "Double-Tapped Breakers & Neutrals",
+          "body": [
+            "Double-tapping = more than one wire under a single breaker screw or neutral lug.",
+            "Most breakers are UL-listed for ONE wire only.",
+            "Exception: Square D QO breakers with dual-lug terminals are listed for two conductors.",
+            "Double-tapped neutrals are NEVER allowed — one wire per hole on neutral bar."
+          ],
+          "safety": true,
+          "list": [
+            "Double-tapping causes loose connections → arcing → overheating",
+            "One wire may lose connection while other stays",
+            "Circuits cannot be isolated for maintenance",
+            "Always check if breaker is rated for two conductors"
+          ],
+          "remember": "One wire per screw unless breaker is marked for two."
+        },
+        {
+          "title": "Wire Size & Breaker Matching",
+          "table": {
+            "headers": [
+              "Wire (Cu)",
+              "Max Breaker",
+              "Common Use"
+            ],
+            "rows": [
+              [
+                "14 AWG",
+                "15A",
+                "Lighting circuits"
+              ],
+              [
+                "12 AWG",
+                "20A",
+                "General outlets, kitchen"
+              ],
+              [
+                "10 AWG",
+                "30A",
+                "Dryer, water heater"
+              ],
+              [
+                "8 AWG",
+                "40-50A",
+                "Range, oven"
+              ],
+              [
+                "6 AWG",
+                "60A",
+                "Subpanel feeder, HVAC"
+              ]
+            ]
+          },
+          "body": [
+            "CRITICAL: Breaker protects the WIRE, not the appliance.",
+            "A 14-gauge wire on a 20A breaker = fire hazard. The wire overheats before the breaker trips."
+          ],
+          "remember": "Wire must be rated for at least the breaker size — never undersize wire."
+        },
+        {
+          "title": "AC Breaker Exception",
+          "body": [
+            "Air conditioners and heat pumps have a special exception in NEC 240.4(D)/IRC E3705.5.4.",
+            "The breaker size can exceed the wire ampacity — the equipment nameplate determines min/max breaker size.",
+            "An 8-gauge wire on a 50A AC breaker is NOT necessarily a defect — check the nameplate.",
+            "The nameplate states: minimum circuit ampacity AND maximum overcurrent protection device rating."
+          ],
+          "remember": "AC/HP breakers follow the nameplate, not the standard wire size chart."
+        },
+        {
+          "title": "AFCI & GFCI Requirements",
+          "body": [
+            "GFCI protects PEOPLE from shock — trips at 4-6mA leakage.",
+            "AFCI protects against ARC faults that cause fires.",
+            "Combination AFCI breakers now required in most habitable rooms."
+          ],
+          "table": {
+            "headers": [
+              "Location",
+              "Protection Required"
+            ],
+            "rows": [
+              [
+                "Bathrooms",
+                "GFCI"
+              ],
+              [
+                "Kitchen countertops",
+                "GFCI"
+              ],
+              [
+                "Garages",
+                "GFCI"
+              ],
+              [
+                "Outdoors",
+                "GFCI"
+              ],
+              [
+                "Bedrooms",
+                "AFCI"
+              ],
+              [
+                "Living/family rooms",
+                "AFCI"
+              ],
+              [
+                "Unfinished basements",
+                "GFCI"
+              ],
+              [
+                "Kitchen, dining, laundry",
+                "AFCI"
+              ]
+            ]
+          },
+          "remember": "GFCI = shock protection. AFCI = fire protection. Know where each is required."
+        },
+        {
+          "title": "Panel Inspection Checklist",
+          "body": [
+            "The full checklist used by professional home inspectors:"
+          ],
+          "safety": true,
+          "list": [
+            "Wear PPE — glasses and gloves at minimum",
+            "Test panel cover with non-contact voltage detector before touching",
+            "Check working space: 36\" deep, 30\" wide, 6.5' tall minimum",
+            "Lighting must be provided at the panel location",
+            "Dead front: check for proper fasteners and condition",
+            "All breakers must be clearly labeled with specific purpose",
+            "No unused knockout openings — must be filled with plugs",
+            "No rust, corrosion, water, pest nests, or contamination inside",
+            "Check main bonding jumper: IN at service, OUT at subpanel",
+            "Neutrals and grounds on separate bars in subpanels",
+            "No double-tapped breakers (unless breaker is rated for it)",
+            "No double-tapped neutrals — one wire per hole",
+            "Wire gauge must match breaker size (15A=#14, 20A=#12, 30A=#10)",
+            "Check for solid conductor aluminum wiring (pre-1972)",
+            "Verify handle ties on all 240V and multi-wire branch circuits",
+            "Test GFCI/AFCI breakers with test button",
+            "Check for backfed breakers — must have retaining device",
+            "Document all defects with photos"
+          ],
+          "remember": "30-second panel scan: bond screw, neutral/ground separation, double-taps, label quality."
+        }
+      ]
+    },
+    {
+      "id": "panel-replacement",
+      "number": 25,
+      "title": "Panel Replacement Guide",
+      "description": "Signs, types, and step-by-step replacement",
+      "intro": "Replacing an electrical panel is one of the most common upgrade jobs. Learn the types of panels, when to replace, and the full step-by-step replacement process.",
+      "keywords": [
+        "panel",
+        "panels"
+      ],
+      "cards": [
+        {
+          "title": "Types of Electrical Panels",
+          "list": [
+            "Main Service Panel: primary distribution point, has main breaker, N-G bonded here",
+            "Subpanel: secondary panel fed from main, 4-wire feeder, N-G separate",
+            "Main Lug Panel: no main breaker, used when main disconnect is elsewhere",
+            "Transfer Switch: for backup generator — switches between utility and generator",
+            "Fuse Box: older technology using fuses instead of breakers — less common today"
+          ],
+          "remember": "Main = bonded. Sub = floating. Fuse boxes need replacement."
+        },
+        {
+          "title": "Signs You Need a Replacement",
+          "body": [
+            "Don't wait for failure — recognize these warning signs:"
+          ],
+          "safety": true,
+          "list": [
+            "Frequent circuit breaker trips — circuits overloaded or breakers worn out",
+            "Flickering or dimming lights — loose connections or inadequate capacity",
+            "Burn marks or burning smell near the panel — arcing or overheating",
+            "Outdated panel capacity — 60A panel can't handle modern loads",
+            "Corrosion or rust on panel components — moisture damage",
+            "Persistent electrical issues — shocks, buzzing, hot breakers",
+            "Federal Pacific Electric (FPE), Zinsco, or Bulldog Pushmatic panels — known safety defects"
+          ],
+          "remember": "Burning smell, frequent trips, or FPE/Zinsco panel = replace immediately."
+        },
+        {
+          "title": "Safety First — Before You Start",
+          "body": [
+            "Panel replacement is dangerous work. Follow these rules without exception."
+          ],
+          "safety": true,
+          "list": [
+            "Always turn off main power before working inside any panel",
+            "Use proper PPE: safety glasses, gloves, rubber mat",
+            "Verify power is off with a multimeter — test before touch",
+            "Check local codes — permits are usually required",
+            "Hire a licensed electrician if you are not qualified",
+            "Clear the area around the panel for safe working space",
+            "Communicate with occupants — they will lose power"
+          ],
+          "remember": "Verify dead with meter. LOTO your own lock. Never trust the handle alone."
+        },
+        {
+          "title": "Step 1-2: Preparation & Old Panel Evaluation",
+          "body": [
+            "Preparation: Gather tools (screwdrivers, pliers, wire strippers, multimeter, torque wrench), get permits, shut off main power, clear workspace.",
+            "Evaluation: Inspect the existing panel thoroughly.",
+            "Check for signs of wear, damage, or malfunction.",
+            "Assess capacity — does the new panel need to be larger?",
+            "Check condition of wiring leading into panel.",
+            "Plan the upgrade — more spaces, higher ampacity, future loads."
+          ],
+          "remember": "Measure twice, cut once — evaluate before you disconnect."
+        },
+        {
+          "title": "Step 3-4: Panel Selection & Disconnection",
+          "body": [
+            "Selection: Choose the right panel — size, type, brand, and number of breaker spaces. Consider future loads. Verify compliance with local codes.",
+            "Select breaker types: standard, AFCI, GFCI as required.",
+            "Consider surge protection — built-in or add-on.",
+            "Disconnection: Label all wires before removing anything.",
+            "Take photos of the old wiring for reference.",
+            "Disconnect and remove wires systematically.",
+            "Remove old panel carefully."
+          ],
+          "remember": "Label and photograph every wire before disconnecting. Photos save hours."
+        },
+        {
+          "title": "Step 5: New Panel Installation",
+          "body": [
+            "Mount the new panel level and plumb on appropriate backing.",
+            "Ensure proper grounding: connect GEC to ground bar, bond neutral at main (if service), float neutral at subpanel.",
+            "Allow proper ventilation and working clearance per 110.26.",
+            "Connect feeder wires in correct order: ground first, neutral second, hots last.",
+            "Torque all lugs to manufacturer specifications.",
+            "Label all circuits clearly before closing up."
+          ],
+          "list": [
+            "Mount level and secure",
+            "Ground electrode conductor connected first",
+            "Feeder order: ground → neutral → hots",
+            "All lugs torqued to spec",
+            "Bonding screw: IN at service, OUT at subpanel"
+          ],
+          "remember": "Level, bond correctly, torque everything, label before closing."
+        },
+        {
+          "title": "Step 6-7: Wiring, Reconnection & Circuit Testing",
+          "body": [
+            "Reconnect all branch circuits to the new panel using your labels and photos.",
+            "Verify each connection is tight — loose connections cause arcing and fires.",
+            "Individual circuit testing: Test each breaker by turning it on and checking its circuit.",
+            "Verify outlets, switches, and lights work on each circuit.",
+            "Test AFCI and GFCI breakers with their test buttons."
+          ],
+          "remember": "Test EVERY circuit after reconnection, not just a few."
+        },
+        {
+          "title": "Step 8-9: System Testing & Grounding Verification",
+          "body": [
+            "Comprehensive system test: Check voltage stability across phases.",
+            "Verify even load distribution across both legs (L1 and L2).",
+            "Check phase-to-phase and phase-to-ground voltages.",
+            "Grounding and bonding verification:",
+            "Confirm neutral bar is bonded at service equipment only.",
+            "Confirm ground bar is bonded to enclosure.",
+            "Measure neutral-to-ground voltage — should be near 0V at service."
+          ],
+          "remember": "Phase-to-phase = 240V. Phase-to-neutral = 120V. N-G = ~0V at main."
+        },
+        {
+          "title": "Step 10-12: Labeling, Compliance & Cleanup",
+          "body": [
+            "Labeling: Fill out the panel directory completely. Every breaker must have a clear, specific label.",
+            "No vague labels like 'lights' or 'plugs' — each must be distinguishable.",
+            "Map each circuit to its outlets and appliances.",
+            "Compliance check: Verify entire installation meets NEC and local codes.",
+            "Check for any loose connections, exposed wires, or hazards.",
+            "Cleanup: Remove debris, tools, and materials from the work area.",
+            "Consider final inspection by qualified electrical inspector."
+          ],
+          "remember": "Label every breaker specifically. 'Kitchen outlets' not 'plugs.' Get final inspection."
+        },
+        {
+          "title": "Troubleshooting Common Issues",
+          "body": [
+            "After replacement, some issues may need attention:"
+          ],
+          "list": [
+            "Frequent overloads: redistribute load or upgrade service",
+            "Tripped breakers: check for short circuits or overloads",
+            "Flickering lights: loose connections or faulty fixtures",
+            "Hot outlets/switches: loose connections, overloading, faulty wiring",
+            "Burning smell or sparks: SHUT OFF POWER and call electrician immediately",
+            "GFCI/AFCI nuisance trips: check for shared neutrals or faulty devices",
+            "Humming sound from panel: loose connection or faulty breaker"
+          ],
+          "safety": true,
+          "remember": "Burning smell or sparks = emergency. Shut off main and call pro."
+        },
+        {
+          "title": "Panel Maintenance Tips",
+          "list": [
+            "Schedule professional inspection every 3-5 years",
+            "Periodically check for loose connections, signs of wear, corrosion",
+            "Keep area around panel clean and free of clutter",
+            "Test GFCIs and AFCIs monthly using test button",
+            "Avoid overloading circuits — know your panel's capacity",
+            "Consider surge protector for sensitive electronics",
+            "Update panel directory if circuits change"
+          ],
+          "remember": "Test GFCI/AFCI breakers monthly. Keep panel accessible. Never block working space."
+        },
+        {
+          "title": "When to Call a Professional",
+          "body": [
+            "Some situations absolutely require a licensed electrician:"
+          ],
+          "safety": true,
+          "list": [
+            "Service upgrade (100A → 200A or more)",
+            "Replacing FPE, Zinsco, or other recalled panels",
+            "Adding new circuits when panel is full",
+            "Any work involving the utility service conductors",
+            "If you are not confident working with live electrical equipment",
+            "When permits and inspections are required by local code"
+          ],
+          "remember": "When in doubt, call a pro. Panels are not a DIY project."
         }
       ]
     }

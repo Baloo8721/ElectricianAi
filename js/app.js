@@ -46,6 +46,9 @@ const els = {
   btnNecViewer: document.getElementById("btn-nec-viewer"),
   btnPanelSim: document.getElementById("btn-panel-sim"),
   btnNfpaLink: document.getElementById("btn-nfpa-link"),
+  btnTapeMeasure: document.getElementById("btn-tape-measure"),
+  btnTradeCalc: document.getElementById("btn-trade-calc"),
+  btnMeterSim: document.getElementById("btn-meter-sim"),
 };
 
 let currentView = "home";
@@ -530,6 +533,15 @@ els.btnNecViewer?.addEventListener("click", openNecViewer);
 els.btnPanelSim?.addEventListener("click", openSimulator);
 els.btnNfpaLink?.addEventListener("click", () => {
   window.open("https://link.nfpa.org/free-access/publications/70/2026", "_blank");
+});
+els.btnTapeMeasure?.addEventListener("click", () => {
+  window.open("https://baloo8721.github.io/TradeMath-Ruler-Multimeter/ruler.html", "_blank");
+});
+els.btnTradeCalc?.addEventListener("click", () => {
+  window.open("https://baloo8721.github.io/TradeMath-Ruler-Multimeter/calculator.html", "_blank");
+});
+els.btnMeterSim?.addEventListener("click", () => {
+  window.open("https://baloo8721.github.io/TradeMath-Ruler-Multimeter/Multi-Meter.html", "_blank");
 });
 
 async function loadLessons() {

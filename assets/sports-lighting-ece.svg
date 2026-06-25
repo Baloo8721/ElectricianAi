@@ -1,119 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#151828"/>
-      <stop offset="100%" stop-color="#0d1018"/>
-    </linearGradient>
-    <linearGradient id="boxBody" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#2a3040"/>
-      <stop offset="100%" stop-color="#1c2028"/>
-    </linearGradient>
-    <linearGradient id="driverGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1a2230"/>
-      <stop offset="100%" stop-color="#222a38"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="1.5"/>
-    </filter>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" width="440" height="500">
+  <rect width="440" height="500" fill="#f5f0e8"/>
+  <text x="220" y="30" fill="#222" font-size="15" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">ECE — Electrical Components Enclosure</text>
+  <text x="220" y="46" fill="#666" font-size="11" text-anchor="middle" font-family="Arial,sans-serif">Mounted ~10 ft AFF on each pole · Factory-wired and tested</text>
 
-  <!-- Background -->
-  <rect width="400" height="500" fill="url(#bg)"/>
+  <!-- ECE box outline -->
+  <rect x="40" y="60" width="360" height="380" rx="6" fill="#e8dcc8" stroke="#8a7a6a" stroke-width="2"/>
+  <rect x="50" y="70" width="340" height="360" rx="3" fill="#faf5ee" stroke="#c4b8a8" stroke-width="1.5"/>
 
-  <!-- ECE Enclosure outline -->
-  <rect x="40" y="30" width="320" height="380" rx="6" fill="url(#boxBody)" stroke="#4a5a6a" stroke-width="2"/>
-  <!-- Enclosure inner -->
-  <rect x="50" y="40" width="300" height="360" rx="3" fill="#1a1e28" stroke="#3a4a5a" stroke-width="1"/>
+  <!-- Section divider -->
+  <line x1="60" y1="370" x2="380" y2="370" stroke="#c4b8a8" stroke-width="1.5"/>
 
-  <!-- Door label area -->
-  <rect x="55" y="44" width="290" height="24" rx="2" fill="#0d1018" stroke="#3a4a5a" stroke-width="0.8"/>
-  <text x="200" y="58" fill="#f5c400" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">ELECTRICAL COMPONENTS ENCLOSURE (ECE)</text>
-  <text x="200" y="68" fill="#7a8fa8" font-size="7" text-anchor="middle" font-family="Arial,sans-serif">Model: ECE-7 · 277/480V 3-Phase</text>
-
-  <!-- ===== LED DRIVERS ===== -->
-  <text x="60" y="88" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">LED DRIVERS</text>
+  <!-- ===== SECTION 1: LED DRIVERS ===== -->
+  <text x="55" y="92" fill="#222" font-size="11" font-family="Arial,sans-serif" font-weight="700">1. LED DRIVERS (up to 4 per ECE · each powers 2 luminaires)</text>
 
   <!-- Driver 1 -->
-  <rect x="55" y="95" width="135" height="50" rx="3" fill="url(#driverGrad)" stroke="#3a4a5a" stroke-width="1.2"/>
-  <text x="122" y="112" fill="#7ab8ff" font-size="8" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Driver 1</text>
-  <text x="122" y="124" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Input: 277V · Output: 48V 2.1A</text>
-  <text x="122" y="134" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Luminaires: A1, A2</text>
-  <!-- Status LED -->
-  <circle cx="60" cy="105" r="3" fill="#3aaa6e"/>
-  <text x="65" y="107" fill="#3aaa6e" font-size="5" font-family="Arial,sans-serif">OK</text>
+  <rect x="55" y="100" width="160" height="54" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="55" y="100" width="160" height="18" rx="3" fill="#3a4048"/>
+  <text x="135" y="113" fill="#f5c400" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Driver 1</text>
+  <text x="65" y="132" fill="#222" font-size="8" font-family="Arial,sans-serif">Input: 277V  ·  Output: 48V 2.1A</text>
+  <text x="65" y="146" fill="#666" font-size="8" font-family="Arial,sans-serif">Luminaires: A1, A2</text>
+  <circle cx="200" cy="108" r="4" fill="#3aaa6e"/>
+  <text x="206" y="112" fill="#3aaa6e" font-size="7" font-family="Arial,sans-serif">OK</text>
 
   <!-- Driver 2 -->
-  <rect x="210" y="95" width="135" height="50" rx="3" fill="url(#driverGrad)" stroke="#3a4a5a" stroke-width="1.2"/>
-  <text x="277" y="112" fill="#7ab8ff" font-size="8" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Driver 2</text>
-  <text x="277" y="124" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Input: 277V · Output: 48V 2.1A</text>
-  <text x="277" y="134" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Luminaires: B1, B2</text>
-  <circle cx="215" cy="105" r="3" fill="#3aaa6e"/>
-  <text x="220" y="107" fill="#3aaa6e" font-size="5" font-family="Arial,sans-serif">OK</text>
+  <rect x="225" y="100" width="160" height="54" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="225" y="100" width="160" height="18" rx="3" fill="#3a4048"/>
+  <text x="305" y="113" fill="#f5c400" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Driver 2</text>
+  <text x="235" y="132" fill="#222" font-size="8" font-family="Arial,sans-serif">Input: 277V  ·  Output: 48V 2.1A</text>
+  <text x="235" y="146" fill="#666" font-size="8" font-family="Arial,sans-serif">Luminaires: B1, B2</text>
+  <circle cx="370" cy="108" r="4" fill="#3aaa6e"/>
+  <text x="376" y="112" fill="#3aaa6e" font-size="7" font-family="Arial,sans-serif">OK</text>
 
   <!-- Driver 3 -->
-  <rect x="55" y="150" width="135" height="50" rx="3" fill="url(#driverGrad)" stroke="#3a4a5a" stroke-width="1.2"/>
-  <text x="122" y="167" fill="#7ab8ff" font-size="8" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Driver 3</text>
-  <text x="122" y="179" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Input: 277V · Output: 48V 2.1A</text>
-  <text x="122" y="189" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Luminaires: C1, C2</text>
-  <circle cx="60" cy="160" r="3" fill="#3aaa6e"/>
-  <text x="65" y="162" fill="#3aaa6e" font-size="5" font-family="Arial,sans-serif">OK</text>
+  <rect x="55" y="160" width="160" height="54" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="55" y="160" width="160" height="18" rx="3" fill="#3a4048"/>
+  <text x="135" y="173" fill="#f5c400" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Driver 3</text>
+  <text x="65" y="192" fill="#222" font-size="8" font-family="Arial,sans-serif">Input: 277V  ·  Output: 48V 2.1A</text>
+  <text x="65" y="206" fill="#666" font-size="8" font-family="Arial,sans-serif">Luminaires: C1, C2</text>
 
   <!-- Driver 4 -->
-  <rect x="210" y="150" width="135" height="50" rx="3" fill="url(#driverGrad)" stroke="#3a4a5a" stroke-width="1.2"/>
-  <text x="277" y="167" fill="#7ab8ff" font-size="8" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">Driver 4</text>
-  <text x="277" y="179" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Input: 277V · Output: 48V 2.1A</text>
-  <text x="277" y="189" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Luminaires: D1, D2</text>
-  <circle cx="215" cy="160" r="3" fill="#3aaa6e"/>
-  <text x="220" y="162" fill="#3aaa6e" font-size="5" font-family="Arial,sans-serif">OK</text>
+  <rect x="225" y="160" width="160" height="54" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <rect x="225" y="160" width="160" height="18" rx="3" fill="#3a4048"/>
+  <text x="305" y="173" fill="#f5c400" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Driver 4</text>
+  <text x="235" y="192" fill="#222" font-size="8" font-family="Arial,sans-serif">Input: 277V  ·  Output: 48V 2.1A</text>
+  <text x="235" y="206" fill="#666" font-size="8" font-family="Arial,sans-serif">Luminaires: D1, D2</text>
 
-  <!-- Divider -->
-  <line x1="55" y1="212" x2="345" y2="212" stroke="#3a4a5a" stroke-width="1" opacity="0.5"/>
+  <!-- ===== SECTION 2: FUSES + DISCONNECT ===== -->
+  <line x1="60" y1="226" x2="380" y2="226" stroke="#ddd" stroke-width="1"/>
+  <text x="55" y="246" fill="#222" font-size="11" font-family="Arial,sans-serif" font-weight="700">2. FUSE BLOCKS + DISCONNECT</text>
 
-  <!-- ===== FUSE BLOCKS ===== -->
-  <text x="60" y="228" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">FUSE BLOCKS (per-circuit protection)</text>
-  <rect x="55" y="235" width="40" height="28" rx="2" fill="#2a2020" stroke="#e05a2b" stroke-width="1.2"/>
-  <text x="75" y="250" fill="#e05a2b" font-size="7" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">F1</text>
-  <rect x="100" y="235" width="40" height="28" rx="2" fill="#2a2020" stroke="#e05a2b" stroke-width="1.2"/>
-  <text x="120" y="250" fill="#e05a2b" font-size="7" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">F2</text>
-  <rect x="145" y="235" width="40" height="28" rx="2" fill="#2a2020" stroke="#e05a2b" stroke-width="1.2"/>
-  <text x="165" y="250" fill="#e05a2b" font-size="7" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">F3</text>
-  <rect x="190" y="235" width="40" height="28" rx="2" fill="#2a2020" stroke="#e05a2b" stroke-width="1.2"/>
-  <text x="210" y="250" fill="#e05a2b" font-size="7" text-anchor="middle" font-family="Arial,sans-serif" font-weight="600">F4</text>
+  <!-- Fuses -->
+  <rect x="55" y="254" width="50" height="34" rx="3" fill="#fff" stroke="#e05a2b" stroke-width="2"/>
+  <text x="80" y="272" fill="#e05a2b" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">F1</text>
+  <rect x="110" y="254" width="50" height="34" rx="3" fill="#fff" stroke="#e05a2b" stroke-width="2"/>
+  <text x="135" y="272" fill="#e05a2b" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">F2</text>
+  <rect x="165" y="254" width="50" height="34" rx="3" fill="#fff" stroke="#e05a2b" stroke-width="2"/>
+  <text x="190" y="272" fill="#e05a2b" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">F3</text>
+  <rect x="220" y="254" width="50" height="34" rx="3" fill="#fff" stroke="#e05a2b" stroke-width="2"/>
+  <text x="245" y="272" fill="#e05a2b" font-size="9" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">F4</text>
 
-  <!-- ===== DISCONNECT SWITCH ===== -->
-  <text x="60" y="282" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">DISCONNECT SWITCH</text>
-  <rect x="55" y="288" width="100" height="32" rx="3" fill="#1a2228" stroke="#5a6a7a" stroke-width="1.5"/>
-  <text x="105" y="300" fill="#ddd" font-size="8" text-anchor="middle" font-family="Arial,sans-serif">OFF / ON</text>
-  <rect x="80" y="292" width="24" height="12" rx="2" fill="#e05a2b"/>
-  <text x="92" y="300" fill="#fff" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">OFF</text>
+  <text x="290" y="272" fill="#888" font-size="9" font-family="Arial,sans-serif">Per-circuit</text>
+  <text x="290" y="282" fill="#888" font-size="9" font-family="Arial,sans-serif">protection</text>
 
-  <!-- ===== GROUND BAR ===== -->
-  <text x="220" y="282" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">GROUND BAR</text>
-  <rect x="220" y="290" width="120" height="16" rx="2" fill="#1a2820" stroke="#3aaa6e" stroke-width="1.5"/>
-  <text x="280" y="301" fill="#3aaa6e" font-size="7" text-anchor="middle" font-family="Arial,sans-serif">Equipment Ground</text>
+  <!-- Disconnect switch -->
+  <rect x="55" y="296" width="130" height="34" rx="3" fill="#fff" stroke="#333" stroke-width="1.5"/>
+  <text x="120" y="316" fill="#222" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Disconnect Switch</text>
+  <rect x="195" y="300" width="20" height="26" rx="3" fill="#e05a2b"/>
+  <rect x="197" y="314" width="16" height="4" rx="1" fill="#fff"/>
+  <text x="220" y="316" fill="#e05a2b" font-size="10" font-family="Arial,sans-serif">OFF / ON</text>
 
-  <!-- Ground bar connections -->
-  <circle cx="230" cy="306" r="2" fill="#3aaa6e"/>
-  <circle cx="250" cy="306" r="2" fill="#3aaa6e"/>
-  <circle cx="270" cy="306" r="2" fill="#3aaa6e"/>
-  <circle cx="290" cy="306" r="2" fill="#3aaa6e"/>
-  <circle cx="310" cy="306" r="2" fill="#3aaa6e"/>
+  <!-- ===== SECTION 3: GROUND + COMMS ===== -->
+  <line x1="60" y1="340" x2="380" y2="340" stroke="#ddd" stroke-width="1"/>
 
-  <!-- ===== CONTROL-LINK BOARD ===== -->
-  <line x1="55" y1="325" x2="345" y2="325" stroke="#3a4a5a" stroke-width="1" opacity="0.5"/>
-  <text x="60" y="340" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">CONTROL-LINK COMMUNICATION BOARD</text>
-  <rect x="55" y="346" width="200" height="36" rx="3" fill="#1a2028" stroke="#4a6a8a" stroke-width="1.2"/>
-  <text x="155" y="360" fill="#7ab8ff" font-size="8" text-anchor="middle" font-family="Arial,sans-serif">Network / Remote Monitoring Interface</text>
-  <text x="155" y="372" fill="#6a8aaa" font-size="6" text-anchor="middle" font-family="Arial,sans-serif">Status: Connected · Signal: Good</text>
-  <!-- Antenna icon -->
-  <path d="M270 350 L280 380 M275 355 L280 375 M278 360 L280 370" stroke="#7ab8ff" stroke-width="1.2" fill="none"/>
-  <circle cx="280" cy="380" r="2" fill="#7ab8ff"/>
+  <!-- Ground bar -->
+  <text x="55" y="358" fill="#222" font-size="11" font-family="Arial,sans-serif" font-weight="700">3. GROUND BAR + CONTROL-LINK</text>
+  <rect x="55" y="366" width="140" height="24" rx="2" fill="#e0f0e0" stroke="#3aaa6e" stroke-width="2"/>
+  <text x="125" y="382" fill="#1a6a3e" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Equipment Ground Bar</text>
+  <!-- Ground wire connections -->
+  <circle cx="70" cy="390" r="2.5" fill="#3aaa6e"/>
+  <circle cx="90" cy="390" r="2.5" fill="#3aaa6e"/>
+  <circle cx="110" cy="390" r="2.5" fill="#3aaa6e"/>
+  <circle cx="130" cy="390" r="2.5" fill="#3aaa6e"/>
 
-  <!-- ===== BONDING JUMPER ===== -->
-  <text x="60" y="400" fill="#f5c400" font-size="8" font-family="Arial,sans-serif" font-weight="600">BONDING JUMPER (to next ECE stack)</text>
-  <line x1="55" y1="408" x2="170" y2="408" stroke="#f5c400" stroke-width="2.5"/>
-  <circle cx="170" cy="408" r="4" fill="#f5c400" stroke="#a88800" stroke-width="1"/>
+  <!-- Control-Link -->
+  <rect x="210" y="366" width="170" height="24" rx="2" fill="#e0e8f0" stroke="#4a6a8a" stroke-width="2"/>
+  <text x="295" y="382" fill="#2a4a6a" font-size="10" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">Control-Link Communication</text>
 
-  <!-- Bottom label -->
-  <text x="200" y="490" fill="#f5c400" font-size="11" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700">ECE Internal Layout — LED System (tap to zoom)</text>
+  <!-- Bonding jumper -->
+  <text x="55" y="418" fill="#222" font-size="10" font-family="Arial,sans-serif" font-weight="700">Bonding Jumper</text>
+  <line x1="55" y1="426" x2="220" y2="426" stroke="#f5c400" stroke-width="3"/>
+  <circle cx="220" cy="426" r="5" fill="#f5c400" stroke="#a88800" stroke-width="1.5"/>
+  <text x="230" y="430" fill="#888" font-size="8" font-family="Arial,sans-serif">to next ECE stack</text>
+
+  <!-- Bottom note -->
+  <rect x="55" y="440" width="340" height="28" rx="3" fill="#fff8e0" stroke="#f5c400" stroke-width="1.5"/>
+  <text x="225" y="458" fill="#665200" font-size="9" text-anchor="middle" font-family="Arial,sans-serif">Multiple ECE stacks may exist on one pole for multi-circuit setups</text>
+
+  <!-- Legend -->
+  <g font-family="Arial,sans-serif" font-size="9" fill="#555">
+    <rect x="55" y="478" width="8" height="8" fill="#3aaa6e"/>
+    <text x="68" y="486">Ground path</text>
+    <rect x="140" y="478" width="8" height="8" fill="#e05a2b"/>
+    <text x="153" y="486">Fuse</text>
+    <rect x="200" y="478" width="8" height="8" fill="#f5c400"/>
+    <text x="213" y="486">Bonding</text>
+    <rect x="290" y="478" width="8" height="8" fill="#4a6a8a"/>
+    <text x="303" y="486">Comms</text>
+  </g>
 </svg>

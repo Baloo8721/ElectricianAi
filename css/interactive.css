@@ -534,7 +534,180 @@
   color: #fff;
 }
 
-/* Home screen tool buttons */
+/* ===== Sports Lighting Simulator ===== */
+
+#view-sports-sim {
+  padding-bottom: calc(2rem + var(--safe-bottom, 0px));
+}
+
+#sports-sim-main {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+#sports-visual-canvas {
+  background: var(--surface, #fff);
+  border-radius: var(--radius, 12px);
+  box-shadow: var(--shadow, 0 2px 12px rgba(0,0,0,0.08));
+  margin-bottom: 1rem;
+  overflow: hidden;
+  line-height: 0;
+}
+
+#sports-visual-canvas svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+#sports-sim-top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+#sports-progress {
+  height: 6px;
+  background: #e5e5e5;
+  border-radius: 3px;
+  overflow: hidden;
+  flex: 1;
+  min-width: 60px;
+}
+
+#sports-progress::after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: var(--sim-pct, 0%);
+  background: var(--accent, #d97706);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+#sports-score {
+  font-size: 0.8rem;
+  color: var(--muted, #5c5c5c);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#sports-reset-btn {
+  padding: 0.3rem 0.7rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: var(--surface, #fff);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+#sports-step-area {
+  background: var(--surface, #fff);
+  border-radius: var(--radius, 12px);
+  padding: 1.1rem 1.2rem;
+  box-shadow: var(--shadow, 0 2px 12px rgba(0,0,0,0.08));
+}
+
+#sports-step-header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+#sports-step-num {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent-dark, #b45309);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+#sports-step-info {
+  font-size: 0.8rem;
+  color: var(--muted, #5c5c5c);
+  font-style: italic;
+}
+
+#sports-step-instruction {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  line-height: 1.4;
+}
+
+#sports-step-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+#sports-step-explanation {
+  padding: 0.75rem 1rem;
+  background: var(--tip-bg, #fffbeb);
+  border-left: 4px solid var(--tip-border, #f59e0b);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+#sports-step-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#sports-next-btn {
+  padding: 0.6rem 1.25rem;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent, #d97706);
+  color: #fff;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+#sports-next-btn:active {
+  transform: scale(0.97);
+  background: var(--accent-dark, #b45309);
+}
+
+#sports-completion {
+  background: var(--surface, #fff);
+  border-radius: var(--radius, 12px);
+  padding: 2rem;
+  box-shadow: var(--shadow, 0 2px 12px rgba(0,0,0,0.08));
+  text-align: center;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+#sports-completion h2 {
+  margin: 0 0 0.75rem;
+  color: var(--accent-dark, #b45309);
+}
+
+#sports-completion-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+#sports-completion-detail {
+  font-size: 1rem;
+  color: var(--muted, #5c5c5c);
+  margin: 0 0 1.25rem;
+}
+
+/* ===== Home screen tool buttons ===== */
 .home-tools {
   display: flex;
   gap: 0.75rem;

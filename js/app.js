@@ -1,5 +1,6 @@
 import { initNecViewer } from "./nec-viewer.js";
 import { initSimulator } from "./panel-simulator.js";
+import { initSportsSim } from "./sports-lighting-sim.js";
 
 let lessons = { topics: [], suggestedPath: [] };
 let searchIndex = [];
@@ -12,6 +13,7 @@ const views = {
   topic: document.getElementById("view-topic"),
   nec: document.getElementById("view-nec"),
   simulator: document.getElementById("view-simulator"),
+  sportsSim: document.getElementById("view-sports-sim"),
   search: document.getElementById("view-search"),
 };
 
@@ -45,6 +47,7 @@ const els = {
   btnStudySim: document.getElementById("btn-study-sim"),
   btnNecViewer: document.getElementById("btn-nec-viewer"),
   btnPanelSim: document.getElementById("btn-panel-sim"),
+  btnSportsSim: document.getElementById("btn-sports-sim"),
   btnNfpaLink: document.getElementById("btn-nfpa-link"),
   btnTapeMeasure: document.getElementById("btn-tape-measure"),
   btnTradeCalc: document.getElementById("btn-trade-calc"),
@@ -163,6 +166,7 @@ function showView(name) {
   views.topic.hidden = name !== "topic";
   views.nec.hidden = name !== "nec";
   views.simulator.hidden = name !== "simulator";
+  views.sportsSim.hidden = name !== "sportsSim";
   views.search.hidden = name !== "search";
   els.back.hidden = name === "home";
   if (name === "home") els.title.textContent = "ElectricianAi";
@@ -477,7 +481,7 @@ function finishQuiz() {
 }
 
 els.back.addEventListener("click", () => {
-  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator") {
+  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator" || currentView === "sportsSim") {
     showView("home");
     els.title.textContent = "ElectricianAi";
     quizState = null;
@@ -529,8 +533,15 @@ function openSimulator() {
   initSimulator();
 }
 
+function openSportsSim() {
+  els.title.textContent = "Sports Lighting Sim";
+  showView("sportsSim");
+  initSportsSim();
+}
+
 els.btnNecViewer?.addEventListener("click", openNecViewer);
 els.btnPanelSim?.addEventListener("click", openSimulator);
+els.btnSportsSim?.addEventListener("click", openSportsSim);
 els.btnNfpaLink?.addEventListener("click", () => {
   window.open("https://link.nfpa.org/free-access/publications/70/2026", "_blank");
 });

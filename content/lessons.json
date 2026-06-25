@@ -24,7 +24,8 @@
     "troubleshooting",
     "youtube-university",
     "panel-inspection",
-    "panel-replacement"
+    "panel-replacement",
+    "sports-lighting"
   ],
   "topics": [
     {
@@ -5568,6 +5569,319 @@
             "When permits and inspections are required by local code"
           ],
           "remember": "When in doubt, call a pro. Panels are not a DIY project."
+        }
+      ]
+    },
+    {
+      "id": "sports-lighting",
+      "number": 26,
+      "title": "Sports Lighting Systems",
+      "description": "Musco sports lighting — installation, systems, troubleshooting",
+      "intro": "Sports lighting is a specialized niche within commercial/industrial electrical work. This section covers Musco systems: pole installation, electrical components enclosures (ECE), contactor cabinets, Control-Link remote monitoring, commissioning, troubleshooting, and field pro tips.",
+      "keywords": [
+        "sports-lighting"
+      ],
+      "cards": [
+        {
+          "title": "Role & Qualifications",
+          "body": [
+            "Sports lighting electricians handle new installation, commissioning, maintenance, and troubleshooting of high-wattage field lighting systems — often at height, outdoors, on 3-phase power."
+          ],
+          "list": [
+            "Installation: trenching, conduit runs, underground feeders, pole wiring, service/contactor cabinet hookup",
+            "Commissioning: energizing systems, verifying voltage/phase, activating remote control systems",
+            "Maintenance & Diagnostics: outage response, component replacement, controls testing",
+            "Safety: bucket truck and pole climber work, arc flash, LOTO on high-wattage systems"
+          ],
+          "remember": "You need journeyman/masters license, 3-phase knowledge, HID/LED lamp tech, and low-voltage controls experience."
+        },
+        {
+          "title": "Musco Product Lines",
+          "list": [
+            "TLC for LED (Total Light Control) — flagship current system, factory-aimed, 10-year maintenance-free warranty",
+            "Light-Structure Green — widely deployed LED system for mid-size fields (ECE 5/7 config)",
+            "SportsCluster Green — larger cluster luminaire, common on baseball and larger venues (ECE 9 config)",
+            "Mini-Pitch System — modular solution for smaller courts and multi-use areas",
+            "Show-Light — entertainment/color effects for pro venues"
+          ],
+          "body": [
+            "Every project ships with a Control System Summary — this is your bible for voltage, phase, and full info. Never work without it."
+          ],
+          "remember": "Musco has been the dominant sports lighting manufacturer since 1976. Know the product lines by name."
+        },
+        {
+          "title": "Pole System — The 5 Components",
+          "body": [
+            "Every Musco pole installation uses five matched factory-built components. All five pieces are labeled and matched per pole ID (A1, A2, B1, etc.) at the factory — never mix components between poles."
+          ],
+          "list": [
+            "Precast Concrete Base — slip-fit underground foundation with integrated lightning ground",
+            "Galvanized Steel Pole — multi-section, heights 40-120+ ft",
+            "Electrical Components Enclosure (ECE) — mounted ~10 ft AFF, contains drivers/ballasts",
+            "Wire Harness — factory-built connection from ECE to poletop",
+            "Poletop Luminaire Assembly — factory-aimed fixture cluster"
+          ],
+          "image": {
+            "src": "assets/sports-lighting-pole.svg",
+            "alt": "Musco pole system cross-section showing 5 components: luminaire, harness, ECE, steel pole, concrete base",
+            "caption": "The 5 matched components of a Musco pole system (tap to zoom)"
+          },
+          "remember": "Never mix components between poles without engineering authorization. All 5 pieces are factory-matched per pole ID."
+        },
+        {
+          "title": "Foundation & Base",
+          "body": [
+            "The precast concrete base is set directly into the ground, backfilled with concrete, and must cure 12-24 hours before the pole is set. The integrated lightning ground system is built into the base."
+          ],
+          "table": {
+            "headers": ["Spec", "Value"],
+            "rows": [
+              ["Min Compressive Strength", "3,000 psi (20 MPa)"],
+              ["Top 2 ft Backfill", "Class 5, 95% compaction"],
+              ["Cure Time", "12-24 hours"],
+              ["Connection Type", "Slip-fit to pole"]
+            ]
+          },
+          "list": [
+            "Wire access runs up through the base to a handhole at grade",
+            "Conduit adapter plates with knockouts are provided for underground conduit entry",
+            "Lightning ground conductor is integrated — verify connection at the handhole"
+          ],
+          "remember": "Base must cure 12-24 hours before pole set. Lightning ground is built into the base."
+        },
+        {
+          "title": "Pole Structure & Assembly",
+          "body": [
+            "Steel sections overlap the concrete base and are seated tight with 1.5-ton come-alongs (contractor-supplied). Align weld marks on steel sections before assembling — this is critical for structural integrity."
+          ],
+          "list": [
+            "Heights typically 40 ft to 120+ ft depending on field size and sport",
+            "Precast base pole — most common, direct-embed concrete base",
+            "Baseplate pole — bolt-circle flange to poured concrete foundation (per stamped engineering)",
+            "Optional: climbing steps and safety cable system, work platform, external lightning ground"
+          ],
+          "table": {
+            "headers": ["Component", "Torque"],
+            "rows": [
+              ["Pole clamping hardware (ECE)", "80 ft·lb (108 N·m)"],
+              ["Luminaire mounting bolts", "20 ft·lb max (27 N·m)"]
+            ]
+          },
+          "remember": "Align weld marks before assembling steel sections. ECE clamp torque = 80 ft·lb."
+        },
+        {
+          "title": "Wire Harness",
+          "body": [
+            "The factory-built wire harness connects the ECE to the poletop luminaire assembly. This is the most common failure point on aging systems."
+          ],
+          "list": [
+            "Musco-supplied tools: 5/32 in hex key, quick connectors, polecap fastener, 9/16 in wrench, spade connectors, wire support grip",
+            "Contractor-supplied: fish tape, electrician's tape",
+            "Verify pole ID on harness matches the Field Aiming Diagram before installing",
+            "If luminaire polarity wire ID labels get trimmed off, apply new ID labels immediately",
+            "Do not splice additional length onto conductors",
+            "Use Musco-provided LEVER-NUTS wire connectors for connections"
+          ],
+          "remember": "Harness connectors at the poletop degrade from heat cycles and weather. Inspect connectors first on aging systems."
+        },
+        {
+          "title": "ECE — Electrical Components Enclosure",
+          "body": [
+            "The ECE is the heart of each pole's electrical system. It's factory-wired and tested before shipping, mounted ~10 ft above grade."
+          ],
+          "list": [
+            "LED Systems: LED drivers (up to 4 per ECE, each powers 2 luminaires), fuse blocks, equipment grounding conductors, Control-Link communication terminations, disconnect switch",
+            "HID/Legacy Systems: lamp ballasts (matched to lamp type), capacitors (power factor correction), fuses per luminaire, ignitors (on some HPS configurations)",
+            "Multiple ECE stacks may exist on a single pole for multi-circuit setups"
+          ],
+          "image": {
+            "src": "assets/sports-lighting-ece.svg",
+            "alt": "ECE internal layout showing LED drivers, fuse blocks, disconnect switch, ground bar, and Control-Link board",
+            "caption": "ECE internal layout — LED system with 4 drivers (tap to zoom)"
+          },
+          "remember": "Route equipment grounding conductors from upper enclosures down to the ground bar in the bottom enclosure. Bond jumper between stacks."
+        },
+        {
+          "title": "Supply Wiring Requirements",
+          "body": [
+            "Musco systems run on multiple voltage configurations — never assume. Always verify voltage/phase from the ECE door label and Control System Summary before working."
+          ],
+          "table": {
+            "headers": ["Spec", "Requirement"],
+            "rows": [
+              ["Supply Wire Temp Rating", "90°C minimum"],
+              ["Hub Rating", "NEMA 3R (IP44) minimum"],
+              ["Breaker Sizing", "Full load amps per circuit (see cabinet label)"],
+              ["Ground Bar Torque", "3/16 in hex key"]
+            ]
+          },
+          "list": [
+            "Create electrical system design prior to installation",
+            "Provide and install trenching, supply wiring, and conduit (contractor scope)",
+            "Install supply wiring for each lighting circuit",
+            "All entrance hubs rated NEMA 3R or better",
+            "Test the complete lighting system after installation"
+          ],
+          "remember": "Common voltages: 120/208V, 277/480V, and 240V delta. Always verify from the ECE door label."
+        },
+        {
+          "title": "Contactor Cabinets",
+          "body": [
+            "The main switching cabinets are typically mounted at grade near the field. One cabinet may serve multiple poles and circuits."
+          ],
+          "list": [
+            "Multi-pole contactors — one per lighting circuit",
+            "Control power transformer",
+            "Surge protection device (SPD) — use provided flexible conduit, do not splice SPD conductors",
+            "Control-Link communication board",
+            "Individual circuit breakers per pole zone",
+            "Terminal strips for control wiring (L1, N, G)"
+          ],
+          "image": {
+            "src": "assets/sports-lighting-cabinet.svg",
+            "alt": "Contactor cabinet layout with main breaker, contactors, control transformer, SPD, and Control-Link board",
+            "caption": "Contactor cabinet internal layout (tap to zoom)"
+          },
+          "remember": "Control system requires power at all times — install a breaker lock-on device. Never accidentally shut off control power."
+        },
+        {
+          "title": "Lightning Grounding",
+          "body": [
+            "Lightning protection is integrated into the precast concrete base. Each pole has a bonded ground path from luminaires through the ECE to the base ground system."
+          ],
+          "list": [
+            "Base includes integrated lightning ground conductor — verify connection at handhole",
+            "Bond all ECE stacks together with grounding conductors (green/yellow)",
+            "Equipment grounding conductor routes from each luminaire through the harness to the ECE ground bar",
+            "External lightning ground rod option available for high-exposure sites",
+            "All ground connections must be clean, tight, and protected from corrosion"
+          ],
+          "remember": "Floating or poorly grounded pole on a sports field is a major liability. Check all bonds and grounds."
+        },
+        {
+          "title": "Control-Link System",
+          "body": [
+            "Musco's proprietary remote monitoring, scheduling, and control platform. Every current system uses it. The control system must be commissioned by Musco before handover."
+          ],
+          "list": [
+            "Remote on/off scheduling via web portal or phone",
+            "Real-time fault monitoring and notification",
+            "Manual override from any device",
+            "24/7 Musco monitoring from Control-Link Central",
+            "Usage reporting and runtime logging"
+          ],
+          "remember": "Control system needs power 24/7. Call Control-Link Central at 877-347-3319 at least 2 weeks before commissioning."
+        },
+        {
+          "title": "Commissioning Procedure",
+          "body": [
+            "Commissioning must be scheduled with Control-Link Central at least 2 weeks in advance. The electrician must remain on-site throughout (~2 hours)."
+          ],
+          "list": [
+            "Verify all supply wiring, grounding, and conduit work is complete and inspected",
+            "Confirm control power transformer is wired and energized",
+            "Set all manual switches to AUTO position at the contactor cabinet",
+            "Call Control-Link Central (877-347-3319) to initiate commissioning",
+            "Musco remotely tests contactors, circuits, and communication links",
+            "Electrician stays on-site for troubleshooting assistance",
+            "Verify all lights fire and circuits match the Field Aiming Diagram",
+            "Document any discrepancies and resolve before sign-off"
+          ],
+          "remember": "Schedule commissioning at least 2 weeks ahead. Stay on-site for the full ~2 hour session."
+        },
+        {
+          "title": "Key Documents Checklist",
+          "body": [
+            "Always collect and keep these on-site during installation:"
+          ],
+          "list": [
+            "Field Aiming Diagram — pole layout, ID labels, luminaire positions and aiming",
+            "Control System Summary — voltage, phase, full load amps per circuit, contactor specs",
+            "Installation Instructions — specific to the product model (ECE 5/7, etc.)",
+            "Assembly Drawing — foundation/structural details if baseplate poles",
+            "As-builts — request from general contractor or owner"
+          ],
+          "remember": "Musco labels all equipment at factory. If docs are missing on a service call, call Musco with the pole ID — they have records."
+        },
+        {
+          "title": "Troubleshooting — Systematic Diagnosis",
+          "body": [
+            "Musco troubleshooting works from the source toward the fixture. Eliminate one stage at a time."
+          ],
+          "list": [
+            "Check voltage at contactor cabinet — right voltage and phases at each breaker?",
+            "Check contactor coil — is it energizing? (Control-Link signal vs. power issue)",
+            "Check voltage at the ECE on the pole — getting feed through?",
+            "Check fuses inside ECE per circuit — individual fuse per luminaire or per driver",
+            "Check voltage output from each LED driver (or ballast) to the harness",
+            "Check harness connectors at top of pole — corrosion, cracked insulation, water intrusion",
+            "Visually inspect luminaire for physical damage, moisture ingress, or LED module failure"
+          ],
+          "remember": "Work from source (contactor cabinet) toward fixture. Eliminate one stage at a time."
+        },
+        {
+          "title": "Symptom → Likely Cause",
+          "table": {
+            "headers": ["Symptom", "Likely Cause"],
+            "rows": [
+              ["Single luminaire out", "Failed LED driver, blown fuse, bad harness connector at fixture"],
+              ["Entire ECE stack out — voltage good at breaker", "Upstream fuse, contactor not pulling in, ECE wiring disconnect"],
+              ["All lights on one pole out", "Tripped breaker, lost feed to pole, damaged underground conduit"],
+              ["Lights dim or flickering", "Failing driver, loose connection, voltage drop, bad capacitor (HID)"],
+              ["No remote control — lights work manually", "Control-Link failure, lost control power, network/ cellular issue"],
+              ["Whole bank out (HID) — good voltage", "Failed capacitors (brown residue/smell), poletop harness, bad ballast"],
+              ["Slow starting on HID lamps", "Failed/weak capacitor, aging ballast, low supply voltage"],
+              ["Uneven light distribution", "Luminaires knocked out of aim, obstruction, wrong pole position"],
+              ["Moisture inside ECE", "Failed gasket, conduit not sealed with duct seal, hub not NEMA 3R"]
+            ]
+          },
+          "remember": "Harness connectors at the poletop are the most common failure on aging systems."
+        },
+        {
+          "title": "HID Legacy Systems",
+          "body": [
+            "Older Musco installations use HID lamps with ballasts and capacitors. These have specific failure modes."
+          ],
+          "list": [
+            "Capacitors: look for brown residue or burnt smell — means they've failed. Lamp may start slowly or not at all.",
+            "Ballasts: verify correct type for lamp (HPS, MH, etc.). Overheating, buzzing, burn marks = failed.",
+            "Harness workaround: connectors at top of pole are the most common failure point. You can cut connector ends and wire-nut directly, or install a new harness."
+          ],
+          "remember": "One bank of 4 lights out with good voltage at fuses = suspect the harness, not 4 simultaneous ballast failures."
+        },
+        {
+          "title": "Pro Tips — Voltage & Grounding",
+          "body": [
+            "Musco systems run on multiple voltage configurations. Never assume — always read the ECE door label."
+          ],
+          "table": {
+            "headers": ["Parameter", "Common Values"],
+            "rows": [
+              ["Voltage", "120/208V, 277/480V, 240V delta"],
+              ["Phases", "Single-phase or 3-phase depending on system size"]
+            ]
+          },
+          "list": [
+            "Verify all bonding jumpers between ECE stacks are connected and torqued",
+            "Confirm the lightning ground conductor in the base is continuous to grade",
+            "Ground conductors from every luminaire must land on the ECE ground bar — don't skip any"
+          ],
+          "remember": "A floating ground on a sports field is a major liability. Verify all bonds and grounds twice."
+        },
+        {
+          "title": "Pro Tips — Moisture, Support & Aiming",
+          "list": [
+            "All conduit entries must be sealed with duct seal compound — no exceptions",
+            "Inspect ECE gaskets on older systems — they harden and crack over time",
+            "Water in a harness connector at the poletop causes intermittent faults",
+            "Store ECE enclosures in a dry location or cover until ready to mount",
+            "Musco Technical Support: 800-825-6020 — they have records for most installations by pole ID",
+            "Control-Link Central (24/7): 877-347-3319",
+            "Warranty systems (up to 25 years on TLC for LED) include labor — check warranty before billing",
+            "Luminaires are factory-aimed. Never eyeball aim adjustments — contact Musco for original aiming data",
+            "Uneven field illumination after a repair = aiming was changed without documentation"
+          ],
+          "remember": "Musco support has system records keyed to pole IDs. Call before assuming you need parts. 800-825-6020."
         }
       ]
     }

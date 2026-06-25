@@ -5882,6 +5882,88 @@
             "Uneven field illumination after a repair = aiming was changed without documentation"
           ],
           "remember": "Musco support has system records keyed to pole IDs. Call before assuming you need parts. 800-825-6020."
+        },
+        {
+          "title": "Power Flow Through the ECE",
+          "body": [
+            "AC power enters through the disconnect switch in the bottom right of the enclosure. Top = line side, bottom = load side. Rotate 90° CCW to turn off, 90° CW to turn on."
+          ],
+          "list": [
+            "Disconnect → distribution blocks (A, B, C for 3-phase; A, B for phase-to-phase; + N for phase-to-neutral)",
+            "Distribution blocks → fuse holders (line side = left, load side = right)",
+            "Fuse holders → driver via primary harness (black, green, blue/white-stripe wires)",
+            "Driver → controller board (if present) → pole harness to luminaires",
+            "Without controller: driver output connects directly to pole harness"
+          ],
+          "image": {
+            "src": "assets/systemtechnology.jpg",
+            "alt": "Musco system technology diagram showing power flow path",
+            "caption": "Musco system power flow — trace the path from disconnect to luminaire (tap to zoom)"
+          },
+          "remember": "Always verify voltage and phase from the ECE door label before working. Power flows: disconnect → blocks → fuses → driver → controller → pole."
+        },
+        {
+          "title": "Driver & Controller Field Diagnosis",
+          "body": [
+            "Step-by-step procedure to check the driver and controller when troubleshooting Musco LED lights. Call Musco Control-Link Center (877-347-3319) and request tech support before beginning."
+          ],
+          "list": [
+            "Preparation: verify outage and pole location, find project number and pole ID on enclosure door label",
+            "Check fusing: fuses in touch-safe holders — lit indicator on fuse door = blown fuse",
+            "Check driver LEDs: note color (green/red) and whether solid or blinking — relay to Musco technician",
+            "Check line-side voltage: turn disconnect OFF, wait 30-45s for driver to drain, unplug input harness (blue/white + black + green), meter set to AC 600V, red to black, black to blue, turn disconnect ON, record reading",
+            "Check driver output voltage: turn OFF, unplug output harness from controller, meter set to 1000V DC, red to red, black to black, turn ON — middle LED should be solid green. Positive reading expected; negative = polarity issue",
+            "Finalize: plug harnesses back in, confirm dimming harness (green/yellow/black/red) is fully seated"
+          ],
+          "remember": "Power down completely (30-45s wait) before unplugging any harness. Document all readings for the technician."
+        },
+        {
+          "title": "Megger Testing — Harness & Insulation",
+          "body": [
+            "Testing harness circuits with a 1000V DC megger validates the circuit before replacing parts. Always call Musco tech support at 877-347-3319 before proceeding."
+          ],
+          "list": [
+            "Equipment: 1000V DC megger, meter (600V AC / 1000V DC), Musco test harnesses (5-pin or 3-pin as needed)",
+            "Step 1 — Baseline: test a known-good driver first. Turn disconnect OFF (45s wait). Set megger to insulation test at 1000V. Connect red-to-red, black-to-black. Hold test for 45s, recording both resistance and voltage",
+            "Step 2 — Outage test: repeat on suspected faulty circuit. Then reverse leads (red-to-black, black-to-red). A good fixture glows on normal polarity but NOT on reverse. If it glows on reverse = reversed polarity",
+            "Step 3 — Insulation leakage to ground: move black probe to ground lug in bottom of enclosure. Test red wire to ground, then black wire to ground. Hold each for 45s",
+            "Acceptable results: 100 MΩ or higher. Below 100 MΩ indicates an insulation issue with the fixture circuit"
+          ],
+          "remember": "Always establish a baseline on a known-good driver first. 100 MΩ minimum to ground. Reversed polarity causes fixture glow on reverse lead test."
+        },
+        {
+          "title": "PLC System Identification",
+          "body": [
+            "Musco's Powerline Communication (PLC) system sends control signals over the high-voltage lighting bus. Understanding these components is critical for diagnosing remote control issues."
+          ],
+          "list": [
+            "Control Module: communication signal originates here and travels to the PLC Master Board",
+            "PLC Master Board: converts signal to PLC signal, places it on the high-voltage lighting bus via a 3-position fuse holder connected to line side of contactors A, B, C",
+            "Remote PLC Board: one per pole/rack — splits signal from power to control dimming and switching",
+            "Transformer: powers the remote PLC board from the lighting circuit",
+            "Lighting Controllers: in each driver enclosure — receive converted signal to manage driver output"
+          ],
+          "image": {
+            "src": "assets/LSS-TLC-5EP_updated.jpg",
+            "alt": "Light-Structure System diagram showing 5 Easy Pieces components",
+            "caption": "Musco Light-Structure System — TLC for LED with all system components (tap to zoom)"
+          },
+          "remember": "PLC problems = remote control fails but lights work manually. Check the 3-position fuse holder and the transformer powering the remote PLC board."
+        },
+        {
+          "title": "CMC Radio Replacement Procedure",
+          "body": [
+            "Step-by-step guide for replacing a communication radio in a Musco Control and Monitoring Cabinet (CMC). Have an OOA (Off-Off-Auto) switch key on hand."
+          ],
+          "list": [
+            "Preparation: locate project number on door label. Shut off power via main breaker OR 120V control breaker OR disengage F3 fuse holder. Confirm ALL LEDs are off",
+            "Remove old radio: unscrew 2 Phillips/Torx T25 screws, disconnect Cat5 Ethernet cable, 6-pin Phoenix power connector, and antenna cable",
+            "New radio wiring: uses 10-pin power connector — move white wire (+) to position 2 or 12, black wire (-) to position 1 or 11 on new connector",
+            "Antenna replacement (if needed): ensure blue O-ring stays seated as weather seal — do not over-tighten connections",
+            "Reconnect all cables: Cat5 Ethernet, antenna to port labeled primary. Secure radio to back panel",
+            "Activation: restore power, call Control-Link at 877-347-3319, provide project number and 10-digit serial number from new radio sticker. Technician remotely programs and tests lights on/off"
+          ],
+          "remember": "Blue O-ring on antenna is the weather seal — do not damage it. Provide the 10-digit serial number for activation. 877-347-3319."
         }
       ]
     }

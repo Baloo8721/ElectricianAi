@@ -1126,3 +1126,17 @@
   color: var(--muted, #5c5c5c);
   font-weight: 600;
 }
+
+.schedule-install-visual {
+  background: var(--surface, #fff);
+  border-radius: var(--radius, 12px);
+  box-shadow: var(--shadow, 0 2px 12px rgba(0,0,0,0.08));
+  overflow: hidden;
+  line-height: 0;
+}
+
+.schedule-install-visual svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}

@@ -1,3 +1,5 @@
+import { renderInstallGuideSVG } from "./install-guide.js";
+
 let schedules = { weeks: [] };
 
 let scheduleDataLoaded = false;
@@ -54,6 +56,14 @@ function renderWeek(w, wi) {
       ${d.details?.length ? `<ul class="schedule-day-details">${d.details.map((x) => `<li>${escapeHtml(x)}</li>`).join("")}</ul>` : ""}
     </div>
   `).join("");
+
+  const installGuideHtml = wi === 0 ? `
+    <div class="schedule-block">
+      <h4 class="schedule-block-title">5-Step Pole Installation</h4>
+      <p class="schedule-subtitle" style="margin-bottom:0.75rem">Sequence for Musco sports lighting systems</p>
+      <div class="schedule-install-visual">${renderInstallGuideSVG()}</div>
+    </div>
+  ` : "";
 
   const studyHtml = (w.study || []).map((s) => `
     <div class="schedule-block">
@@ -117,6 +127,7 @@ function renderWeek(w, wi) {
       ${crewMeta}
       ${locMeta}
       ${daysHtml}
+      ${installGuideHtml}
       ${studyHtml}
       ${toolsHtml}
       ${safetyHtml}

@@ -38,7 +38,8 @@
         {
           "topic": "Pole Assembly (for Monday)",
           "items": [
-            "Review the 5 Easy Pieces — base, pole sections, ECE, harness, luminaire",
+            "6 pieces: foundation, pole sections, ECE, contactor cabinet (separate), harness, luminaire",
+            "Contactor cabinet is a separate enclosure at the pole base — NOT inside the ECE",
             "Weld marks must align when slip-fitting pole sections",
             "Come-along straps seat the sections — you'll handle rigging on the ground",
             "Handhole at the base — where conduit enters and supply wiring comes in"
@@ -93,6 +94,7 @@
         { "term": "Field Aiming Diagram", "meaning": "Map showing where each pole and fixture goes" },
         { "term": "Driver", "meaning": "LED power supply (replaces ballast)" },
         { "term": "Pole ID", "meaning": "Label like A1, B2 — matches all components" },
+        { "term": "Contactor Cabinet", "meaning": "Separate enclosure at pole base housing the main contactor, control transformer, and incoming power feed" },
         { "term": "Control-Link", "meaning": "Musco's remote control/monitoring system" },
         { "term": "Cadweld", "meaning": "Exothermic weld for grounding connections (Arlye's work)" }
       ]

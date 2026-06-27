@@ -59,8 +59,8 @@ function renderWeek(w, wi) {
 
   const installGuideHtml = wi === 0 ? `
     <div class="schedule-block">
-      <h4 class="schedule-block-title">5-Step Pole Installation</h4>
-      <p class="schedule-subtitle" style="margin-bottom:0.75rem">Sequence for Musco sports lighting systems</p>
+      <h4 class="schedule-block-title">6-Step Pole Installation</h4>
+      <p class="schedule-subtitle" style="margin-bottom:0.75rem">Complete Musco system — including separate contactor cabinet</p>
       <div class="schedule-install-visual">${renderInstallGuideSVG()}</div>
     </div>
   ` : "";

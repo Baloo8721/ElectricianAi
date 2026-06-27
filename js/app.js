@@ -554,7 +554,7 @@ function openSchedule() {
 }
 
 function openInstallGame() {
-  els.title.textContent = "Install Game";
+  els.title.textContent = "Pole Assembly";
   showView("installGame");
   initInstallGame();
 }

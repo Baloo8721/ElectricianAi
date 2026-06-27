@@ -52,8 +52,8 @@ function renderSceneSelector() {
   const completedCount = SCENES.filter((s) => saved[s.id]).length;
 
   els.sceneSelect.innerHTML = `
-    <h2 class="sim-section-title">Install Game</h2>
-    <p class="sim-subtitle">Click through 8 FPS-style scenes to assemble a Musco sports lighting pole. Tap the correct hotspot in each scene to advance.</p>
+    <h2 class="sim-section-title">Pole Assembly Game</h2>
+    <p class="sim-subtitle">Click through 8 scenes to assemble a Musco sports lighting pole. Tap the correct spot in each scene to advance.</p>
     <div class="game-stats"><span>Scenes: ${completedCount} / ${totalScenes}</span></div>
     <div class="game-scene-grid">
       ${SCENES.map((s, i) => {
@@ -99,12 +99,14 @@ function renderStep() {
   els.gameStepProg.textContent = `Scene ${gameState.sceneIndex + 1} of ${SCENES.length}`;
   els.gameHint.hidden = true;
 
-  renderSVG(step.svg ? step.svg() : defaultSVG(scene.id));
+  const body = step.svg ? step.svg() : defaultSVG(scene.id);
+  renderSVG(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">${body}</svg>`);
 
   if (els.completion) els.completion.hidden = true;
 }
 
 function renderSVG(svgString) {
+  if (!els.visualCanvas) return;
   els.visualCanvas.innerHTML = svgString;
   const svgEl = els.visualCanvas.querySelector("svg");
   if (!svgEl) return;

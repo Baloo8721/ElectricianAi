@@ -38,8 +38,9 @@
         {
           "topic": "Pole Assembly (for Monday)",
           "items": [
-            "6 pieces: foundation, pole sections, ECE, contactor cabinet (separate), harness, luminaire",
-            "Contactor cabinet is a separate enclosure at the pole base — NOT inside the ECE",
+            "Musco's \"5 Easy Pieces\" are: foundation, pole, ECE, structural/harness, luminaire — the contactor cabinet is NOT one of the 5, it's a separate add-on",
+            "Full install is 6 steps: foundation → pole sections → ECE → contactor cabinet (separate enclosure at base) → harness → luminaire",
+            "Contactor cabinet is a separate enclosure at the pole base — NOT inside the ECE. It houses the main contactor, control transformer, and incoming power feed",
             "Weld marks must align when slip-fitting pole sections",
             "Come-along straps seat the sections — you'll handle rigging on the ground",
             "Handhole at the base — where conduit enters and supply wiring comes in"
@@ -63,7 +64,11 @@
         "Multimeter",
         "Fish tape — likely needed on retrofit wiring runs",
         "Duct seal — sealing conduit entries",
-        "Sharpie — labeling everything"
+        "Sharpie — labeling everything",
+        "1000V megger/megohmmeter — required for harness insulation testing (Musco procedure)",
+        "OOA (Off-Off-Auto) switch key — for CMC radio replacement",
+        "Torx T25 screwdriver — for radio bracket screws in CMC",
+        "Channel locks or pliers — for antenna replacement on CMC"
       ],
       "safety": [
         "LOTO (Lockout/Tagout) — know the procedure, ask the journeyman before touching any energized equipment",
@@ -88,14 +93,21 @@
         "Keeping the work area clean and organized — especially at the base of the pole"
       ],
       "cheatSheet": [
-        { "term": "ECE", "meaning": "Electrical Components Enclosure — the box on the pole" },
+        { "term": "ECE", "meaning": "Electrical Components Enclosure — the box on the pole (fuses, drivers, disconnect, ground bar)" },
+        { "term": "Disconnect Switch", "meaning": "Located bottom-right of ECE. Rotate 90° CCW = OFF, 90° CW = ON. Top = line side, bottom = load side" },
+        { "term": "Distribution Block", "meaning": "Splits power from disconnect to fuses. Can be A/B/C (3-phase), A/B (phase-to-phase), or A/B/N (phase-to-neutral)" },
         { "term": "Retrofit", "meaning": "Swapping HID fixtures for LED on existing poles" },
         { "term": "Harness", "meaning": "Factory wiring from ECE to fixtures at top" },
+        { "term": "Primary Harness", "meaning": "Driver power in — black, green, blue/white stripe wires" },
+        { "term": "Secondary Harness", "meaning": "Driver power out — red and black wires" },
+        { "term": "Dimming Harness", "meaning": "Plugs into driver face — green, yellow, black, red wires. If unplugged, driver may not be controllable" },
         { "term": "Field Aiming Diagram", "meaning": "Map showing where each pole and fixture goes" },
-        { "term": "Driver", "meaning": "LED power supply (replaces ballast)" },
+        { "term": "Driver", "meaning": "LED power supply (replaces ballast). Has 3 LED status lights on its face" },
         { "term": "Pole ID", "meaning": "Label like A1, B2 — matches all components" },
-        { "term": "Contactor Cabinet", "meaning": "Separate enclosure at pole base housing the main contactor, control transformer, and incoming power feed" },
-        { "term": "Control-Link", "meaning": "Musco's remote control/monitoring system" },
+        { "term": "Contactor Cabinet", "meaning": "Separate enclosure at pole base housing main contactor(s), control transformer, and incoming power feed — NOT inside the ECE" },
+        { "term": "PLC", "meaning": "Powerline Communication — system that sends control signals over the high-voltage lighting bus. Master PLC in the cabinet, remote PLC at each pole" },
+        { "term": "CMC", "meaning": "Control & Monitoring Cabinet — central control cabinet with communication radio, control modules, and monitoring equipment" },
+        { "term": "Control-Link", "meaning": "Musco's remote control/monitoring system — call 877-347-3319 for tech support" },
         { "term": "Cadweld", "meaning": "Exothermic weld for grounding connections (Arlye's work)" }
       ]
     }

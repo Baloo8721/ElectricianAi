@@ -2,6 +2,7 @@ import { initNecViewer } from "./nec-viewer.js";
 import { initSimulator } from "./panel-simulator.js";
 import { initSportsSim } from "./sports-lighting-sim.js";
 import { initScheduleView } from "./schedule-view.js";
+import { initInstallGame } from "./install-game.js";
 
 let lessons = { topics: [], suggestedPath: [] };
 let searchIndex = [];
@@ -16,6 +17,7 @@ const views = {
   simulator: document.getElementById("view-simulator"),
   sportsSim: document.getElementById("view-sports-sim"),
   schedule: document.getElementById("view-schedule"),
+  installGame: document.getElementById("view-install-game"),
   search: document.getElementById("view-search"),
 };
 
@@ -50,6 +52,7 @@ const els = {
   btnNecViewer: document.getElementById("btn-nec-viewer"),
   btnPanelSim: document.getElementById("btn-panel-sim"),
   btnSportsSim: document.getElementById("btn-sports-sim"),
+  btnInstallGame: document.getElementById("btn-install-game"),
   btnSchedule: document.getElementById("btn-schedule"),
   btnNfpaLink: document.getElementById("btn-nfpa-link"),
   btnTapeMeasure: document.getElementById("btn-tape-measure"),
@@ -171,6 +174,7 @@ function showView(name) {
   views.simulator.hidden = name !== "simulator";
   views.sportsSim.hidden = name !== "sportsSim";
   views.schedule.hidden = name !== "schedule";
+  views.installGame.hidden = name !== "installGame";
   views.search.hidden = name !== "search";
   els.back.hidden = name === "home";
   if (name === "home") els.title.textContent = "ElectricianAi";
@@ -485,7 +489,7 @@ function finishQuiz() {
 }
 
 els.back.addEventListener("click", () => {
-  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator" || currentView === "sportsSim" || currentView === "schedule") {
+  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator" || currentView === "sportsSim" || currentView === "schedule" || currentView === "installGame") {
     showView("home");
     els.title.textContent = "ElectricianAi";
     quizState = null;
@@ -549,9 +553,16 @@ function openSchedule() {
   initScheduleView();
 }
 
+function openInstallGame() {
+  els.title.textContent = "Install Game";
+  showView("installGame");
+  initInstallGame();
+}
+
 els.btnNecViewer?.addEventListener("click", openNecViewer);
 els.btnPanelSim?.addEventListener("click", openSimulator);
 els.btnSportsSim?.addEventListener("click", openSportsSim);
+els.btnInstallGame?.addEventListener("click", openInstallGame);
 els.btnSchedule?.addEventListener("click", openSchedule);
 els.btnNfpaLink?.addEventListener("click", () => {
   window.open("https://link.nfpa.org/free-access/publications/70/2026", "_blank");

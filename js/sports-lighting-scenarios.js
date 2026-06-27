@@ -344,14 +344,14 @@ const sportsScenarios = [
       {
         id: "coil-resistance",
         instruction: "You have proper voltage at the coil but it still won't pull in. What next?",
-        info: "The coil itself can fail open.",
+        info: "The coil itself can fail shorted or open. A shorted coil trips the control circuit breaker.",
         options: [
-          "Check coil resistance with an ohmmeter (should show continuity)",
+          "Check coil resistance with an ohmmeter — good coil ~32.8\u2126, shorted coil ~0.4\u2126",
           "Hit the contactor with a hammer",
           "Replace the control transformer"
         ],
         correct: 0,
-        explanation: "Test the coil resistance. An open coil (infinite resistance) means the contactor is faulty and needs replacement. A shorted coil (very low resistance) will also fail to engage properly.",
+        explanation: "Test coil resistance across the coil terminals. A known-good contactor reads ~32.8 ohms. A shorted coil reads ~0.4 ohms and will trip the control circuit when the switch is activated. An open coil reads infinite resistance. Any of these faults require contactor replacement.",
         visual: { highlight: "contactor", faultLabel: "TEST COIL RESISTANCE" }
       },
       {
@@ -378,6 +378,92 @@ const sportsScenarios = [
         ],
         correct: 0,
         explanation: "Cycle power, verify the contactor pulls in cleanly and holds, check all fixtures operate normally. Listen for chattering or buzzing which indicates control voltage issues.",
+        visual: { lit: true, done: true }
+      }
+    ]
+  },
+  {
+    id: "repair-megger-test",
+    title: "Repair — Megger Harness Test",
+    description: "Test harness circuits with a 1000V megger to find insulation faults before replacing parts",
+    mode: "repair",
+    steps: [
+      {
+        id: "prep",
+        instruction: "You suspect a harness fault. What's the first step before any megger testing?",
+        info: "Megger testing requires preparation and a baseline.",
+        options: [
+          "Call Musco Control-Link (877-347-3319) and establish a baseline on a known-good driver",
+          "Connect the megger directly to the suspect fixture and test immediately",
+          "Remove all fuses from the ECE first"
+        ],
+        correct: 0,
+        explanation: "Always call Musco tech support first and establish a baseline reading on a known-good driver. This gives you a reference for what good readings look like on your specific meter.",
+        visual: { highlight: "ece", faultLabel: "MEGGER TEST" }
+      },
+      {
+        id: "baseline",
+        instruction: "For the baseline test, how do you set up the megger?",
+        info: "The megger uses insulation test mode at a specific voltage.",
+        options: [
+          "Set megger to insulation test at 1000V DC, red-to-red, black-to-black, hold 45 seconds",
+          "Set megger to continuity test at low voltage",
+          "Set megger to 600V AC and test phase-to-phase"
+        ],
+        correct: 0,
+        explanation: "Set the megger to insulation test mode at 1000V DC. Connect red probe to red wire, black to black wire. Press and hold the test button for 45 seconds while recording both resistance and voltage readings.",
+        visual: { highlight: "ece", faultLabel: "SET BASELINE" }
+      },
+      {
+        id: "outage-test",
+        instruction: "Baseline is set. How do you test the suspected faulty fixture circuit?",
+        info: "Testing the outage circuit requires both normal and reversed polarity checks.",
+        options: [
+          "Test red-to-red and black-to-black (normal polarity), then reverse: red-to-black and black-to-red",
+          "Test only red-to-red, black-to-black",
+          "Test each wire to ground only"
+        ],
+        correct: 0,
+        explanation: "First test normal polarity (red-to-red, black-to-black) — a good fixture will glow. Then reverse the leads (red-to-black, black-to-red) — a good fixture should NOT glow. If it glows on reverse, the polarity is reversed.",
+        visual: { highlight: "ece", fault: "fuse", faultLabel: "TEST FIXTURE" }
+      },
+      {
+        id: "insulation-test",
+        instruction: "The fixture passes polarity. The next test is insulation leakage to ground. Where do you place the black probe?",
+        info: "Testing for insulation breakdown to ground is essential.",
+        options: [
+          "Black probe on the grounding lug in the bottom of the ECE enclosure",
+          "Black probe on the pole itself",
+          "Black probe on the concrete base"
+        ],
+        correct: 0,
+        explanation: "Move the black probe to the grounding lug in the bottom compartment of the ECE. Test the red wire to ground, then the black wire to ground. Each test for 45 seconds. Readings should be 100 M\u03A9 (megaohms) or higher.",
+        visual: { highlight: "ece", faultLabel: "TEST INSULATION" }
+      },
+      {
+        id: "interpret",
+        instruction: "You get a reading of 45 M\u03A9 on the red wire to ground. What does this indicate?",
+        info: "The threshold for acceptable insulation resistance is specific.",
+        options: [
+          "Below 100 M\u03A9 — indicates an insulation issue with the fixture circuit",
+          "Normal — anything above 10 M\u03A9 is acceptable",
+          "The megger is faulty"
+        ],
+        correct: 0,
+        explanation: "Readings below 100 M\u03A9 indicate an insulation issue with the fixture circuit. The harness or fixture has degraded insulation that could cause intermittent faults or failure. The Musco technical specialist will advise on next steps.",
+        visual: { highlight: "ece", fault: "driver", faultLabel: "INSULATION FAIL" }
+      },
+      {
+        id: "finalize",
+        instruction: "All tests are documented. What's the final step?",
+        info: "Proper documentation is critical for the technician.",
+        options: [
+          "Document all readings for the Musco technician — resistance and voltage for each test",
+          "Replace the harness immediately based on your readings",
+          "Close everything up and move to the next pole"
+        ],
+        correct: 0,
+        explanation: "Document every reading (resistance and voltage) for each test — baseline, normal polarity, reversed polarity, red-to-ground, and black-to-ground. The Musco technician needs these to determine the correct repair path.",
         visual: { lit: true, done: true }
       }
     ]

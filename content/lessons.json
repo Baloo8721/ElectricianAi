@@ -5610,23 +5610,25 @@
           "remember": "Musco has been the dominant sports lighting manufacturer since 1976. Know the product lines by name."
         },
         {
-          "title": "Pole System — The 5 Components",
+          "title": "Pole System — The 5 Easy Pieces + Contactor Cabinet",
           "body": [
-            "Every Musco pole installation uses five matched factory-built components. All five pieces are labeled and matched per pole ID (A1, A2, B1, etc.) at the factory — never mix components between poles."
+            "Every Musco pole installation uses five matched factory-built components known as the \"5 Easy Pieces\". All five pieces are labeled per pole ID (A1, B2, etc.) at the factory — never mix components between poles.",
+            "The contactor cabinet is a separate enclosure (NOT one of the 5 pieces) that mounts at the pole base. It contains the main contactor, control transformer, surge protection, and incoming power feed."
           ],
           "list": [
             "Precast Concrete Base — slip-fit underground foundation with integrated lightning ground",
-            "Galvanized Steel Pole — multi-section, heights 40-120+ ft",
-            "Electrical Components Enclosure (ECE) — mounted ~10 ft AFF, contains drivers/ballasts",
-            "Wire Harness — factory-built connection from ECE to poletop",
-            "Poletop Luminaire Assembly — factory-aimed fixture cluster"
+            "Galvanized Steel Pole — multi-section, heights 40-120+ ft, weld marks must align on slip-fit",
+            "Electrical Components Enclosure (ECE) — mounted ~10 ft AFF, contains disconnect, distribution blocks, fuses, drivers, ground bar",
+            "Wire Harness — factory-built connection from ECE to poletop (primary, secondary, and dimming harnesses at the driver)",
+            "Poletop Luminaire Assembly — factory-aimed fixture cluster on crossarm",
+            "Contactor Cabinet (separate) — at grade near pole base with main contactor, control transformer, SPD, terminal blocks"
           ],
           "image": {
             "src": "assets/sports-lighting-pole.svg",
             "alt": "Musco pole system cross-section showing 5 components: luminaire, harness, ECE, steel pole, concrete base",
-            "caption": "The 5 matched components of a Musco pole system (tap to zoom)"
+            "caption": "The 5 matched components of a Musco pole system (tap to zoom). Contactor cabinet is a separate enclosure at the base."
           },
-          "remember": "Never mix components between poles without engineering authorization. All 5 pieces are factory-matched per pole ID."
+          "remember": "Never mix components between poles. The contactor cabinet is a separate enclosure at the pole base — NOT one of the 5 Easy Pieces."
         },
         {
           "title": "Foundation & Base",
@@ -5886,14 +5888,16 @@
         {
           "title": "Power Flow Through the ECE",
           "body": [
-            "AC power enters through the disconnect switch in the bottom right of the enclosure. Top = line side, bottom = load side. Rotate 90° CCW to turn off, 90° CW to turn on."
+            "AC power enters through the disconnect switch in the bottom right of the enclosure. Top = line side, bottom = load side. Rotate 90° CCW to turn off, 90° CW to turn on. The disconnect must be fully rotated to ON — a middle/partial position will not pass power.",
+            "Always verify voltage and phase from the ECE door label before working. The Control System Summary is your reference for full load amps and circuit configuration."
           ],
           "list": [
-            "Disconnect → distribution blocks (A, B, C for 3-phase; A, B for phase-to-phase; + N for phase-to-neutral)",
-            "Distribution blocks → fuse holders (line side = left, load side = right)",
-            "Fuse holders → driver via primary harness (black, green, blue/white-stripe wires)",
-            "Driver → controller board (if present) → pole harness to luminaires",
-            "Without controller: driver output connects directly to pole harness"
+            "Disconnect → distribution blocks (A/B/C for 3-phase; A/B for phase-to-phase; add N for phase-to-neutral)",
+            "Distribution blocks → fuse holders (power enters left/line side, exits right/load side)",
+            "Fuse holders → driver via primary harness (black = L1, green = ground, blue/white stripe = L2)",
+            "Driver → controller board (if present) → pole harness to luminaire fixtures",
+            "Without controller: driver output connects directly to pole harness with secondary harness (red = +, black = -)",
+            "Dimming harness (green/yellow/black/red) plugs into driver face — must be fully seated for control"
           ],
           "image": {
             "src": "assets/systemtechnology.jpg",
@@ -5909,11 +5913,12 @@
           ],
           "list": [
             "Preparation: verify outage and pole location, find project number and pole ID on enclosure door label",
-            "Check fusing: fuses in touch-safe holders — lit indicator on fuse door = blown fuse",
-            "Check driver LEDs: note color (green/red) and whether solid or blinking — relay to Musco technician",
-            "Check line-side voltage: turn disconnect OFF, wait 30-45s for driver to drain, unplug input harness (blue/white + black + green), meter set to AC 600V, red to black, black to blue, turn disconnect ON, record reading",
-            "Check driver output voltage: turn OFF, unplug output harness from controller, meter set to 1000V DC, red to red, black to black, turn ON — middle LED should be solid green. Positive reading expected; negative = polarity issue",
-            "Finalize: plug harnesses back in, confirm dimming harness (green/yellow/black/red) is fully seated"
+            "Check fusing: fuses in touch-safe holders — lit indicator on fuse door = blown fuse (with power ON)",
+            "Check driver LEDs: 3 LEDs on driver face — note color (green/red) and whether solid or blinking — relay to Musco technician",
+            "Check line-side voltage: turn disconnect OFF, wait 30-45s for driver to fully drain (until main voltage error LED stops blinking), unplug input harness (blue/white + black + green), meter set to AC 600V, red probe to black wire, black probe to blue/white wire, turn disconnect ON, record reading",
+            "Check driver output voltage: turn OFF, allow full power-down, unplug output harness (red + black) from controller or from pole harness if no controller, meter set to 1000V DC, red probe to red wire, black probe to black wire, turn ON — middle LED should be solid green. Reading must be positive (negative = reversed polarity)",
+            "Contactor coil test: if contactor won't pull in, test coil resistance with ohmmeter — good coil reads ~32.8 ohms, shorted coil reads ~0.4 ohms (trips control circuit)",
+            "Finalize: plug all harnesses back in, confirm dimming harness (green/yellow/black/red) is fully seated — if unplugged, driver may not respond to controls"
           ],
           "remember": "Power down completely (30-45s wait) before unplugging any harness. Document all readings for the technician."
         },

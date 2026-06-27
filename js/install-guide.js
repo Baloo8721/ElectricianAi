@@ -51,6 +51,10 @@ function renderInstallGuideSVG() {
     return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${fc || "none"}" stroke="${sc || "none"}" stroke-width="1.5"/>`;
   }
 
+  function svgLine(x1, y1, x2, y2, c, w) {
+    return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${c || "#333"}" stroke-width="${w || 2}"/>`;
+  }
+
   function arrow(x1, y1, x2, y2) {
     return `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="#d97706" stroke-width="2" marker-end="url(#arrow)"/>`;
   }
@@ -119,7 +123,7 @@ function renderInstallGuideSVG() {
       const topY = visY + 4;
       const botY = visY + visH - 8;
       parts.push(rect(lx - 3, botY - 24, 6, 24, "#ddd", "#999", 2));
-      parts.push(line(lx, botY - 24, lx, topY, "#d97706", 2));
+      parts.push(svgLine(lx, botY - 24, lx, topY, "#d97706", 2));
       parts.push(rect(lx - 5, topY, 10, 10, "#b0b0b0", "#888", 2));
       parts.push(text(visX + visW / 2, visY + visH - 4, "CONDUIT", 6, "#888", "middle"));
     } else if (s.num === 5) {

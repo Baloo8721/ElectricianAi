@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Electrician apprentice training — safety, power flow, tools, and code basics.">
+  <title>ElectricianAi</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/interactive.css">
+</head>
+<body>
+  <div id="pin-screen" class="screen" hidden>
+    <header class="pin-header">
+      <h1>ElectricianAi</h1>
+      <p class="subtitle">Enter your 6-digit code</p>
+    </header>
+    <div class="pin-dots" id="pin-dots" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <p id="pin-error" class="pin-error" role="alert" hidden>Try again</p>
+    <div class="pin-pad" id="pin-pad"></div>
+  </div>
+
+  <div id="app-screen" class="screen" hidden>
+    <header class="app-header">
+      <button type="button" id="btn-back" class="btn-icon" aria-label="Back" hidden>&larr;</button>
+      <h1 id="app-title">ElectricianAi</h1>
+      <button type="button" id="btn-search" class="btn-icon" aria-label="Search">&#128269;</button>
+    </header>
+
+    <main id="main" class="main">
+      <section id="view-home" class="view">
+        <p class="lead">Learn electrical work step by step. Pick any topic — everything is open.</p>
+        <details class="suggested-path">
+          <summary>Suggested study path (23 topics)</summary>
+          <ol id="suggested-path-list"></ol>
+        </details>
+        <div class="home-tools">
+          <button type="button" class="home-tool-btn" id="btn-nec-viewer">
+            <span class="tool-icon">&#128214;</span>
+            <span class="tool-label">Code Book</span>
+            <span class="tool-desc">NEC PDF reference</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-panel-sim">
+            <span class="tool-icon">&#9889;</span>
+            <span class="tool-label">Panel Simulator</span>
+            <span class="tool-desc">Wiring step-by-step</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-sports-sim">
+            <span class="tool-icon">&#127754;</span>
+            <span class="tool-label">Sports Sim</span>
+            <span class="tool-desc">Lighting pole & repair</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-install-game">
+            <span class="tool-icon">&#127918;</span>
+            <span class="tool-label">Pole Game</span>
+            <span class="tool-desc">Build a pole step-by-step</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-schedule">
+            <span class="tool-icon">&#128197;</span>
+            <span class="tool-label">My Weeks</span>
+            <span class="tool-desc">Work schedules & tips</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-nfpa-link">
+            <span class="tool-icon">&#128218;</span>
+            <span class="tool-label">NFPA Free Access</span>
+            <span class="tool-desc">NEC 2026 online (new tab)</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-tape-measure">
+            <span class="tool-icon">&#128207;</span>
+            <span class="tool-label">Tape Measure</span>
+            <span class="tool-desc">Reading practice (new tab)</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-trade-calc">
+            <span class="tool-icon">&#9900;</span>
+            <span class="tool-label">Trades Calc</span>
+            <span class="tool-desc">Ohm's / Watt's Law (new tab)</span>
+          </button>
+          <button type="button" class="home-tool-btn" id="btn-meter-sim">
+            <span class="tool-icon">&#128268;</span>
+            <span class="tool-label">Multimeter Sim</span>
+            <span class="tool-desc">Interactive simulator (new tab)</span>
+          </button>
+        </div>
+        <div class="progress-bar-wrap">
+          <div id="progress-bar" class="progress-bar"><span id="progress-text">0 / 23 topics</span></div>
+        </div>
+        <div id="topic-grid" class="topic-grid"></div>
+      </section>
+
+      <section id="view-topic" class="view" hidden>
+        <div class="topic-toolbar">
+          <p id="topic-intro" class="topic-intro"></p>
+          <div class="study-modes">
+            <button type="button" id="btn-study-read" class="btn-mode btn-mode-active" aria-label="Read mode">Read</button>
+            <button type="button" id="btn-study-flash" class="btn-mode" aria-label="Flashcard mode">Flash</button>
+            <button type="button" id="btn-study-quiz" class="btn-mode" aria-label="Quiz mode">Quiz</button>
+            <button type="button" id="btn-study-sim" class="btn-mode" data-mode="simulate" aria-label="Simulation mode">Simulate</button>
+          </div>
+        </div>
+        <div id="topic-cards" class="cards"></div>
+        <div id="quiz-area" class="quiz-area" hidden>
+          <div id="quiz-question" class="quiz-question"></div>
+          <div id="quiz-options" class="quiz-options"></div>
+          <div id="quiz-feedback" class="quiz-feedback" hidden></div>
+          <div class="quiz-nav">
+            <span id="quiz-progress" class="quiz-progress">0 / 0</span>
+            <button type="button" id="btn-quiz-next" class="btn-primary" hidden>Next</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-nec" class="view" hidden>
+        <div class="nec-tabs">
+          <button type="button" class="nec-tab nec-tab-active" data-view="pdf">PDF</button>
+          <button type="button" class="nec-tab" data-view="text">Text</button>
+        </div>
+        <div id="nec-pdf-view">
+          <div id="nec-main">
+            <div id="nec-sidebar">
+              <h3>NEC Bookmark</h3>
+              <div id="nec-bookmarks"></div>
+            </div>
+            <div id="nec-viewer-area">
+              <div id="nec-toolbar">
+                <button type="button" id="nec-sidebar-toggle">&#9776;</button>
+                <button type="button" id="nec-prev" disabled>&larr; Prev</button>
+                <span id="nec-page-info">Page <span id="nec-page-num">-</span> / <span id="nec-total-pages">-</span></span>
+                <button type="button" id="nec-next" disabled>Next &rarr;</button>
+                <input type="number" id="nec-page-input" min="1" max="999" value="1" aria-label="Go to page">
+                <button type="button" id="nec-page-go">Go</button>
+                <button type="button" id="nec-zoom-out">A-</button>
+                <button type="button" id="nec-zoom-in">A+</button>
+                <div id="nec-search-wrap">
+                  <input type="search" id="nec-search-input" placeholder="Search..." aria-label="Search NEC">
+                  <button type="button" id="nec-search-btn">Search</button>
+                </div>
+              </div>
+              <div id="nec-canvas-wrap">
+                <div id="nec-load-status" hidden></div>
+                <canvas id="nec-canvas"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="nec-text-view" class="nec-panel-hidden">
+          <div id="nec-text-search-bar">
+            <input type="search" id="nec-text-search" placeholder="Search NEC articles..." aria-label="Search NEC articles">
+            <button type="button" id="nec-text-search-btn">Search</button>
+          </div>
+          <div id="nec-text-notfound" class="nec-text-notfound" hidden>
+            <p>No NEC text content loaded.</p>
+            <p class="nec-hint">Generate it with the scraper:</p>
+            <pre class="nec-code"><code>npm install --save-dev playwright
+npx playwright install chromium
+node scripts/nec-scraper.mjs</code></pre>
+            <p class="nec-hint">Or open the NFPA site in a new tab from the home screen.</p>
+          </div>
+          <div id="nec-text-panels">
+            <div id="nec-text-results"></div>
+            <div id="nec-text-article"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-simulator" class="view" hidden>
+        <div id="sim-main">
+          <div id="sim-top-bar" hidden>
+            <div id="sim-progress"></div>
+            <span id="sim-score">0 / 0 correct</span>
+            <button type="button" id="sim-reset-btn">Reset</button>
+          </div>
+          <div id="sim-scenario-select"></div>
+          <div id="sim-scenario-desc" hidden></div>
+          <div id="sim-panel-canvas"></div>
+          <div id="sim-step-area" hidden>
+            <div id="sim-step-header">
+              <span id="sim-step-num"></span>
+              <span id="sim-step-info"></span>
+            </div>
+            <p id="sim-step-instruction"></p>
+            <div id="sim-step-options"></div>
+            <div id="sim-step-feedback" class="sim-step-feedback" hidden></div>
+            <div id="sim-step-explanation" hidden></div>
+            <div id="sim-step-actions">
+              <button type="button" id="sim-next-btn" hidden>Next Step</button>
+            </div>
+          </div>
+          <div id="sim-completion" hidden>
+            <h2>Scenario Complete</h2>
+            <p id="sim-completion-score"></p>
+            <p id="sim-completion-detail"></p>
+            <div class="sim-completion-actions">
+              <button type="button" id="sim-btn-scenarios">All Scenarios</button>
+              <button type="button" id="sim-btn-reset">Try Again</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-sports-sim" class="view" hidden>
+        <div id="sports-sim-main">
+          <div id="sports-sim-top-bar" hidden>
+            <div id="sports-progress"></div>
+            <span id="sports-score">0 / 0 correct</span>
+            <button type="button" id="sports-reset-btn">Reset</button>
+          </div>
+          <div id="sports-scenario-select"></div>
+          <div id="sports-scenario-desc" hidden></div>
+          <div id="sports-visual-canvas"></div>
+          <div id="sports-step-area" hidden>
+            <div id="sports-step-header">
+              <span id="sports-step-num"></span>
+              <span id="sports-step-info"></span>
+            </div>
+            <p id="sports-step-instruction"></p>
+            <div id="sports-step-options"></div>
+            <div id="sports-step-feedback" class="sim-step-feedback" hidden></div>
+            <div id="sports-step-explanation" hidden></div>
+            <div id="sports-step-actions">
+              <button type="button" id="sports-next-btn" hidden>Next Step</button>
+            </div>
+          </div>
+          <div id="sports-completion" hidden>
+            <h2>Scenario Complete</h2>
+            <p id="sports-completion-score"></p>
+            <p id="sports-completion-detail"></p>
+            <div class="sim-completion-actions">
+              <button type="button" id="sports-btn-scenarios">All Scenarios</button>
+              <button type="button" id="sports-btn-reset">Try Again</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-schedule" class="view" hidden>
+        <div id="schedule-main">
+          <p class="lead">Weekly work schedules, study topics, tools, safety, and tips.</p>
+          <div id="schedule-week-list"></div>
+        </div>
+      </section>
+
+      <section id="view-install-game" class="view" hidden>
+        <div id="game-main">
+          <div id="game-scene-select"></div>
+          <div id="game-area" hidden>
+            <div id="game-top-bar">
+              <span id="game-title"></span>
+              <span id="game-step-progress"></span>
+              <button type="button" id="game-back-btn">Back</button>
+            </div>
+            <div id="game-visual-canvas"></div>
+            <div id="game-step-area">
+              <p id="game-instruction" class="game-instruction"></p>
+              <div id="game-hint" class="game-hint" hidden></div>
+            </div>
+          </div>
+          <div id="game-completion" hidden>
+            <h2 id="game-completion-title"></h2>
+            <p id="game-completion-msg"></p>
+            <button type="button" id="game-reset-btn" class="btn-primary">Back to Scenes</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="view-search" class="view" hidden>
+        <label class="search-label" for="search-input">Search lessons</label>
+        <input type="search" id="search-input" class="search-input" placeholder="e.g. grounding, multimeter, BRB" autocomplete="off">
+        <ul id="search-results" class="search-results"></ul>
+      </section>
+    </main>
+  </div>
+
+  <div id="image-modal" class="image-modal" hidden>
+    <button type="button" class="image-modal-close" aria-label="Close">&times;</button>
+    <img id="image-modal-img" src="" alt="">
+  </div>
+
+  <div id="quiz-results-modal" class="image-modal" hidden>
+    <div class="quiz-results-panel">
+      <h2 id="quiz-results-title">Quiz Complete</h2>
+      <p id="quiz-results-score" class="quiz-results-score"></p>
+      <p id="quiz-results-detail" class="quiz-results-detail"></p>
+      <button type="button" class="btn-primary" id="btn-quiz-close-results">Close</button>
+    </div>
+  </div>
+
+  <!-- PIN_CONFIG_START -->
+  <script>window.APP_CONFIG={"pinHash":"368ac69dba0b1328ef6d30fe3b4686f0ba0fc2d0bc28e173c4351b4ca115d927","salt":"2df9f96d901836d4fe633ad6dcff21f7"};</script>
+  <!-- PIN_CONFIG_END -->
+  <script src="js/auth.js" type="module"></script>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

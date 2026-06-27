@@ -1,0 +1,101 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "dates": "",
+      "crew": "Scott/Gerald and Zane (Mon); Scott/Gerald, Ben/Zane, rotating (Tue–Thu)",
+      "location": "Downey Park (Mon); Retrofit sites (Tue–Thu)",
+      "days": [
+        {
+          "day": "Monday",
+          "crew": "Scott/Gerald and Zane",
+          "location": "Downey Park",
+          "work": "Install last 2 poles, move equipment back",
+          "type": "Pole Installation",
+          "details": [
+            "Install last 2 poles at the park",
+            "Move equipment back after install"
+          ]
+        },
+        {
+          "day": "Tuesday–Thursday",
+          "crew": "Scott/Gerald, Ben/Zane, rotating crew",
+          "location": "Field sites",
+          "work": "Retrofit / LED upgrade work",
+          "type": "Retrofit",
+          "details": [
+            "Replace old HID fixtures (metal halide/HPS) on existing poles with new LED luminaires",
+            "Remove old luminaire and ballast wiring",
+            "Install new LED luminaire in same mounting position",
+            "Run new harness or adapt existing wiring",
+            "Connect new LED driver in ECE",
+            "Verify aim matches Field Aiming Diagram",
+            "Test and commission"
+          ]
+        }
+      ],
+      "study": [
+        {
+          "topic": "Pole Assembly (for Monday)",
+          "items": [
+            "Review the 5 Easy Pieces — base, pole sections, ECE, harness, luminaire",
+            "Weld marks must align when slip-fitting pole sections",
+            "Come-along straps seat the sections — you'll handle rigging on the ground",
+            "Handhole at the base — where conduit enters and supply wiring comes in"
+          ]
+        },
+        {
+          "topic": "Retrofit Basics",
+          "items": [
+            "HID components: ballast, capacitor, ignitor vs LED components: driver, fuse",
+            "ECE layout — where drivers live, where fuses are, where the ground bar is",
+            "Wire harness connects ECE to poletop — on retrofits this often gets replaced",
+            "Field Aiming Diagram concept — every luminaire has a labeled position"
+          ]
+        }
+      ],
+      "tools": [
+        "9/16\" wrench — luminaire mounting",
+        "5/32\" hex key — harness connectors",
+        "Electrician's tape",
+        "Non-contact voltage tester — always verify everything",
+        "Multimeter",
+        "Fish tape — likely needed on retrofit wiring runs",
+        "Duct seal — sealing conduit entries",
+        "Sharpie — labeling everything"
+      ],
+      "safety": [
+        "LOTO (Lockout/Tagout) — know the procedure, ask the journeyman before touching any energized equipment",
+        "Bucket truck awareness — stay clear of swing radius, never walk under a raised bucket",
+        "Arc flash — ECE enclosures can be energized, treat everything as live until proven otherwise",
+        "3-point contact on any ladder or climbing"
+      ],
+      "dayOneTips": [
+        "Show up 15 minutes early",
+        "Gear ready: hardhat, safety glasses, sunscreen applied, gaiter, water jug full",
+        "Boots laced, nothing loose",
+        "Watch what the journeyman does before touching anything — every crew has their flow",
+        "Ask \"what do you need next?\" constantly — a good helper anticipates the next tool or material",
+        "Never walk away without telling someone — on a pole job people need to know where you are",
+        "When in doubt ask — \"should I seal this conduit now?\" shows you know what needs to happen"
+      ],
+      "impressTheCrew": [
+        "Already knowing what a Field Aiming Diagram is",
+        "Knowing the difference between a driver and a ballast",
+        "Handing the right wrench (9/16\") before being asked",
+        "Having duct seal ready when the conduit goes in",
+        "Keeping the work area clean and organized — especially at the base of the pole"
+      ],
+      "cheatSheet": [
+        { "term": "ECE", "meaning": "Electrical Components Enclosure — the box on the pole" },
+        { "term": "Retrofit", "meaning": "Swapping HID fixtures for LED on existing poles" },
+        { "term": "Harness", "meaning": "Factory wiring from ECE to fixtures at top" },
+        { "term": "Field Aiming Diagram", "meaning": "Map showing where each pole and fixture goes" },
+        { "term": "Driver", "meaning": "LED power supply (replaces ballast)" },
+        { "term": "Pole ID", "meaning": "Label like A1, B2 — matches all components" },
+        { "term": "Control-Link", "meaning": "Musco's remote control/monitoring system" },
+        { "term": "Cadweld", "meaning": "Exothermic weld for grounding connections (Arlye's work)" }
+      ]
+    }
+  ]
+}

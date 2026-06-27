@@ -1,6 +1,7 @@
 import { initNecViewer } from "./nec-viewer.js";
 import { initSimulator } from "./panel-simulator.js";
 import { initSportsSim } from "./sports-lighting-sim.js";
+import { initScheduleView } from "./schedule-view.js";
 
 let lessons = { topics: [], suggestedPath: [] };
 let searchIndex = [];
@@ -14,6 +15,7 @@ const views = {
   nec: document.getElementById("view-nec"),
   simulator: document.getElementById("view-simulator"),
   sportsSim: document.getElementById("view-sports-sim"),
+  schedule: document.getElementById("view-schedule"),
   search: document.getElementById("view-search"),
 };
 
@@ -48,6 +50,7 @@ const els = {
   btnNecViewer: document.getElementById("btn-nec-viewer"),
   btnPanelSim: document.getElementById("btn-panel-sim"),
   btnSportsSim: document.getElementById("btn-sports-sim"),
+  btnSchedule: document.getElementById("btn-schedule"),
   btnNfpaLink: document.getElementById("btn-nfpa-link"),
   btnTapeMeasure: document.getElementById("btn-tape-measure"),
   btnTradeCalc: document.getElementById("btn-trade-calc"),
@@ -167,6 +170,7 @@ function showView(name) {
   views.nec.hidden = name !== "nec";
   views.simulator.hidden = name !== "simulator";
   views.sportsSim.hidden = name !== "sportsSim";
+  views.schedule.hidden = name !== "schedule";
   views.search.hidden = name !== "search";
   els.back.hidden = name === "home";
   if (name === "home") els.title.textContent = "ElectricianAi";
@@ -481,7 +485,7 @@ function finishQuiz() {
 }
 
 els.back.addEventListener("click", () => {
-  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator" || currentView === "sportsSim") {
+  if (currentView === "search" || currentView === "topic" || currentView === "nec" || currentView === "simulator" || currentView === "sportsSim" || currentView === "schedule") {
     showView("home");
     els.title.textContent = "ElectricianAi";
     quizState = null;
@@ -539,9 +543,16 @@ function openSportsSim() {
   initSportsSim();
 }
 
+function openSchedule() {
+  els.title.textContent = "My Weeks";
+  showView("schedule");
+  initScheduleView();
+}
+
 els.btnNecViewer?.addEventListener("click", openNecViewer);
 els.btnPanelSim?.addEventListener("click", openSimulator);
 els.btnSportsSim?.addEventListener("click", openSportsSim);
+els.btnSchedule?.addEventListener("click", openSchedule);
 els.btnNfpaLink?.addEventListener("click", () => {
   window.open("https://link.nfpa.org/free-access/publications/70/2026", "_blank");
 });

@@ -52,6 +52,11 @@
             <span class="tool-label">Sports Sim</span>
             <span class="tool-desc">Lighting pole & repair</span>
           </button>
+          <button type="button" class="home-tool-btn" id="btn-schedule">
+            <span class="tool-icon">&#128197;</span>
+            <span class="tool-label">My Weeks</span>
+            <span class="tool-desc">Work schedules & tips</span>
+          </button>
           <button type="button" class="home-tool-btn" id="btn-nfpa-link">
             <span class="tool-icon">&#128218;</span>
             <span class="tool-label">NFPA Free Access</span>
@@ -221,6 +226,13 @@ node scripts/nec-scraper.mjs</code></pre>
               <button type="button" id="sports-btn-reset">Try Again</button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section id="view-schedule" class="view" hidden>
+        <div id="schedule-main">
+          <p class="lead">Weekly work schedules, study topics, tools, safety, and tips.</p>
+          <div id="schedule-week-list"></div>
         </div>
       </section>
 

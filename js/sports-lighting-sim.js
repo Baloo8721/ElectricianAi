@@ -62,6 +62,7 @@ function renderScenarioSelector() {
   els.scenarioSelect.innerHTML = `
     <h2 class="sim-section-title">Sports Lighting Simulator</h2>
     <p class="sim-subtitle">Build a sports lighting pole system step-by-step, or diagnose and repair faults.</p>
+    <p class="sim-pdf-link"><a href="assets/Musco_LSG-HID_1500W-eng.pdf" target="_blank" class="pdf-ref-link">&#128196; View Musco LSG-HID 1500W Reference PDF</a></p>
     <div class="sim-scenario-grid">
       ${sportsScenarios.map((s) => `
         <button type="button" class="sim-scenario-btn" data-scenario-id="${s.id}">

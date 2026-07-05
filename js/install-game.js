@@ -54,6 +54,7 @@ function renderSceneSelector() {
   els.sceneSelect.innerHTML = `
     <h2 class="sim-section-title">Pole Assembly Game</h2>
     <p class="sim-subtitle">Click through ${totalScenes} scenes to assemble a Musco sports lighting pole. Tap the correct spot in each scene to advance.</p>
+    <p class="sim-pdf-link"><a href="assets/Musco_LSG-HID_1500W-eng.pdf" target="_blank" class="pdf-ref-link">&#128196; View Musco LSG-HID 1500W Reference PDF</a></p>
     <div class="game-stats"><span>Scenes: ${completedCount} / ${totalScenes}</span></div>
     <div class="game-scene-grid">
       ${SCENES.map((s, i) => {

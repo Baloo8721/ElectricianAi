@@ -234,6 +234,25 @@
   font-size: 0.95rem;
 }
 
+.sim-pdf-link {
+  margin: -0.5rem 0 1.25rem;
+  font-size: 0.9rem;
+}
+
+.pdf-ref-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--accent, #d97706);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.15s;
+}
+
+.pdf-ref-link:hover {
+  color: var(--accent-dark, #b45309);
+}
+
 /* Scenario selector grid */
 .sim-scenario-grid {
   display: grid;

@@ -5801,7 +5801,8 @@
             "Control System Summary — voltage, phase, full load amps per circuit, contactor specs",
             "Installation Instructions — specific to the product model (ECE 5/7, etc.)",
             "Assembly Drawing — foundation/structural details if baseplate poles",
-            "As-builts — request from general contractor or owner"
+            "As-builts — request from general contractor or owner",
+            "Musco LSG-HID 1500W Reference PDF — lamp specs, ballast data, safety warnings, parts breakdown (\u2192 <a href=\"assets/Musco_LSG-HID_1500W-eng.pdf\" target=\"_blank\" class=\"pdf-ref-link\">open PDF</a>)"
           ],
           "remember": "Musco labels all equipment at factory. If docs are missing on a service call, call Musco with the pole ID — they have records."
         },

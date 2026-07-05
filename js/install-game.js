@@ -53,7 +53,7 @@ function renderSceneSelector() {
 
   els.sceneSelect.innerHTML = `
     <h2 class="sim-section-title">Pole Assembly Game</h2>
-    <p class="sim-subtitle">Click through 8 scenes to assemble a Musco sports lighting pole. Tap the correct spot in each scene to advance.</p>
+    <p class="sim-subtitle">Click through ${totalScenes} scenes to assemble a Musco sports lighting pole. Tap the correct spot in each scene to advance.</p>
     <div class="game-stats"><span>Scenes: ${completedCount} / ${totalScenes}</span></div>
     <div class="game-scene-grid">
       ${SCENES.map((s, i) => {

@@ -78,6 +78,67 @@ const SCENES = [
     ]
   },
   {
+    id: "concrete-base",
+    title: "Concrete Base & Lightning Ground",
+    desc: "Verify the precast concrete base is properly installed with integrated lightning ground",
+    steps: [
+      {
+        instruction: "Tap the grounding electrode connection to verify the integrated lightning ground system",
+        hotspots: [
+          { id: "ground-lug", x: 100, y: 240, w: 80, h: 50, correct: true, msg: "Ground verified! UL Listed Class II lightning protection per NFPA 780." },
+          { id: "base-side", x: 170, y: 280, w: 100, h: 60, correct: false, msg: "That's the concrete base surface. Check the grounding connection at the electrode/conductor." },
+          { id: "handhole", x: 240, y: 300, w: 80, h: 40, correct: false, msg: "That's the wire access handhole. Check the grounding electrode conductor connection." }
+        ],
+        svg: function () {
+          return `
+            <rect x="0" y="0" width="400" height="400" fill="#c8b89a"/>
+            <rect x="0" y="240" width="400" height="160" fill="#8b9a6b"/>
+            <ellipse cx="200" cy="280" rx="150" ry="80" fill="#d0d0d0" stroke="#999" stroke-width="3"/>
+            <ellipse cx="200" cy="280" rx="130" ry="68" fill="#e0e0e0" stroke="none"/>
+            <rect x="180" y="200" width="40" height="80" fill="#c0c0c0" stroke="#888" stroke-width="2" rx="2"/>
+            <text x="200" y="195" font-size="10" fill="#555" text-anchor="middle">SLIP-FIT</text>
+            <rect x="250" y="290" width="50" height="40" fill="#444" stroke="#d97706" stroke-width="2" rx="3"/>
+            <text x="275" y="308" font-size="7" fill="#d97706" text-anchor="middle" font-weight="bold">GROUND</text>
+            <text x="275" y="318" font-size="6" fill="#d97706" text-anchor="middle">CONNECTOR</text>
+            <line x1="275" y1="330" x2="275" y2="350" stroke="#d97706" stroke-width="3"/>
+            <circle cx="275" cy="355" r="6" fill="#d97706"/>
+            <text x="275" y="360" font-size="6" fill="#fff" text-anchor="middle">E</text>
+            <line x1="100" y1="290" x2="140" y2="290" stroke="#aaa" stroke-width="2"/>
+            <text x="120" y="285" font-size="7" fill="#888" text-anchor="middle">GEC</text>
+            <text x="100" y="320" font-size="7" fill="#888" text-anchor="middle">2/0 AWG</text>
+            <text x="200" y="220" font-size="10" fill="#555" text-anchor="middle">PRECAST CONCRETE BASE</text>
+            <text x="200" y="380" font-size="8" fill="#556b2f" text-anchor="middle">UL Class II Lightning Ground — 100 kA rated</text>
+            <text x="200" y="390" font-size="7" fill="#888" text-anchor="middle">NFPA 780 / UL 96A / EN 62305</text>
+          `;
+        }
+      },
+      {
+        instruction: "Tap the base lift hole to prepare for pole setting",
+        hotspots: [
+          { id: "lift-hole", x: 140, y: 260, w: 40, h: 30, correct: true, msg: "Lift hole ready! Insert the load-rated steel rod for crane attachment." },
+          { id: "handhole-2", x: 260, y: 300, w: 60, h: 30, correct: false, msg: "That's the wire access handhole for conduit entry. Use the lifting hole at top of base." },
+          { id: "base-side-2", x: 60, y: 280, w: 60, h: 50, correct: false, msg: "The lift hole is in the center of the base top, near the tapered slip-fit section." }
+        ],
+        svg: function () {
+          return `
+            <rect x="0" y="0" width="400" height="400" fill="#c8b89a"/>
+            <rect x="0" y="240" width="400" height="160" fill="#8b9a6b"/>
+            <ellipse cx="200" cy="280" rx="150" ry="70" fill="#d0d0d0" stroke="#999" stroke-width="3"/>
+            <ellipse cx="200" cy="280" rx="130" ry="58" fill="#e0e0e0" stroke="none"/>
+            <rect x="175" y="210" width="50" height="70" fill="#c0c0c0" stroke="#888" stroke-width="2" rx="2"/>
+            <circle cx="200" cy="240" r="12" fill="#555" stroke="#333" stroke-width="2"/>
+            <text x="200" y="244" font-size="9" fill="#fff" text-anchor="middle">LIFT</text>
+            <text x="200" y="215" font-size="9" fill="#555" text-anchor="middle">\u2191 TAPERED SECTION</text>
+            <rect x="250" y="300" width="50" height="30" fill="#444" stroke="#888" stroke-width="2" rx="2"/>
+            <text x="275" y="318" font-size="7" fill="#aaa" text-anchor="middle">HANDHOLE</text>
+            <line x1="275" y1="300" x2="275" y2="268" stroke="#888" stroke-width="1" stroke-dasharray="3,3"/>
+            <text x="200" y="380" font-size="8" fill="#556b2f" text-anchor="middle">Set pole in 24 hours — epoxy coated ends prevent water intrusion</text>
+          `;
+        }
+      }
+    ]
+  },
+  {
     id: "set-pole",
     title: "Set Pole Section",
     desc: "Seat the lower pole section on anchor bolts, level and plumb",
@@ -289,6 +350,68 @@ const SCENES = [
             <text x="200" y="170" font-size="10" fill="#d97706" text-anchor="middle">INSTALL FIXTURES</text>
             <text x="200" y="380" font-size="9" fill="#556b2f" text-anchor="middle">3 fixtures per crossarm</text>
             <text x="200" y="45" font-size="11" fill="#444" text-anchor="middle">Step 5 \u2014 Mount Luminaires (3/3)</text>
+          `;
+        }
+      }
+    ]
+  },
+  {
+    id: "poletop-assembly",
+    title: "Poletop Assembly",
+    desc: "Install pole cap and quick-connect the wire support grip at the poletop",
+    steps: [
+      {
+        instruction: "Tap the pole cap to secure it on top of the pole",
+        hotspots: [
+          { id: "pole-cap", x: 170, y: 30, w: 60, h: 40, correct: true, msg: "Pole cap secured! The safety cable prevents it from falling during maintenance." },
+          { id: "crossarm", x: 100, y: 80, w: 200, h: 30, correct: false, msg: "The crossarm is already installed. Secure the pole cap on top of the pole." },
+          { id: "quick-connect", x: 260, y: 120, w: 40, h: 30, correct: false, msg: "Those are the quick-connect plug-ins for the luminaires. Install the pole cap first." }
+        ],
+        svg: function () {
+          return `
+            <rect x="0" y="0" width="400" height="400" fill="#b8d4e8"/>
+            <rect x="0" y="200" width="400" height="200" fill="#8b9a6b"/>
+            <rect x="185" y="40" width="30" height="180" fill="#c0c0c0" stroke="#888" stroke-width="2" rx="2"/>
+            <rect x="170" y="20" width="60" height="25" fill="#888" stroke="#666" stroke-width="2" rx="4"/>
+            <rect x="183" y="18" width="14" height="6" fill="#666" rx="1"/>
+            <text x="200" y="37" font-size="8" fill="#fff" text-anchor="middle">POLE CAP</text>
+            <line x1="200" y1="45" x2="200" y2="55" stroke="#888" stroke-width="1.5" stroke-dasharray="2,2"/>
+            <circle cx="200" cy="55" r="3" fill="#666"/>
+            <text x="200" y="64" font-size="6" fill="#888" text-anchor="middle">SAFETY CABLE</text>
+            <rect x="60" y="75" width="280" height="14" fill="#b0b0b0" stroke="#888" stroke-width="2" rx="3"/>
+            <text x="200" y="86" font-size="8" fill="#555" text-anchor="middle">CROSSARM</text>
+            <rect x="95" y="89" width="50" height="36" fill="#d0d0d0" stroke="#999" stroke-width="2" rx="3"/>
+            <rect x="175" y="89" width="50" height="36" fill="#d0d0d0" stroke="#999" stroke-width="2" rx="3"/>
+            <rect x="255" y="89" width="50" height="36" fill="#d0d0d0" stroke="#999" stroke-width="2" rx="3"/>
+            <text x="200" y="145" font-size="9" fill="#555" text-anchor="middle">QUICK-CONNECT PLUG-INS</text>
+            <text x="200" y="380" font-size="8" fill="#556b2f" text-anchor="middle">Pole cap secured with bolt + safety cable</text>
+          `;
+        }
+      },
+      {
+        instruction: "Tap the wire support grip to secure the harness at mid-pole",
+        hotspots: [
+          { id: "support-grip", x: 220, y: 180, w: 50, h: 30, correct: true, msg: "Harness secured! The support grip prevents strain on the quick-connect plug-in connectors." },
+          { id: "harness-line", x: 120, y: 150, w: 60, h: 20, correct: false, msg: "That's the harness conduit. The wire support grip has a snap hook that attaches near the poletop." },
+          { id: "ece-area", x: 30, y: 230, w: 80, h: 60, correct: false, msg: "That's the ECE area. The wire support grip goes near the poletop to support the harness weight." }
+        ],
+        svg: function () {
+          return `
+            <rect x="0" y="0" width="400" height="400" fill="#b8d4e8"/>
+            <rect x="0" y="200" width="400" height="200" fill="#8b9a6b"/>
+            <rect x="185" y="40" width="30" height="180" fill="#c0c0c0" stroke="#888" stroke-width="2" rx="2"/>
+            <rect x="170" y="20" width="60" height="25" fill="#888" stroke="#666" stroke-width="2" rx="4"/>
+            <rect x="60" y="75" width="280" height="14" fill="#b0b0b0" stroke="#888" stroke-width="2" rx="3"/>
+            <rect x="130" y="130" width="80" height="14" fill="#ddd" stroke="#d97706" stroke-width="2" rx="2"/>
+            <text x="170" y="140" font-size="7" fill="#d97706" text-anchor="middle">WIRE SUPPORT</text>
+            <text x="170" y="148" font-size="6" fill="#d97706" text-anchor="middle">GRIP w/ SNAP HOOK</text>
+            <line x1="185" y1="137" x2="185" y2="100" stroke="#d97706" stroke-width="1" stroke-dasharray="3,3"/>
+            <rect x="40" y="160" width="65" height="60" fill="#e8e8e8" stroke="#888" stroke-width="2" rx="4"/>
+            <rect x="44" y="164" width="57" height="10" fill="#555" rx="2"/>
+            <text x="72" y="172" font-size="6" fill="#eee" text-anchor="middle">ECE</text>
+            <rect x="120" y="110" width="16" height="60" fill="#ddd" stroke="#999" stroke-width="1"/>
+            <text x="128" y="108" font-size="6" fill="#888" text-anchor="middle">CONDUIT</text>
+            <text x="200" y="380" font-size="8" fill="#556b2f" text-anchor="middle">Wire support grip prevents strain on connectors</text>
           `;
         }
       }

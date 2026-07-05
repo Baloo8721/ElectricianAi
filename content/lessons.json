@@ -5840,6 +5840,208 @@
           "remember": "Harness connectors at the poletop are the most common failure on aging systems."
         },
         {
+          "title": "HID Lamp — 1500W Metal Halide Specs",
+          "body": [
+            "The Musco LSG-HID system uses 1500W Metal Halide (MH) lamps in a CWA (Constant Wattage Autotransformer) ballast configuration. These are ANSI Code M48 lamps with specific physical, photometric, and electrical characteristics."
+          ],
+          "table": {
+            "headers": ["Parameter", "Specification"],
+            "rows": [
+              ["Bulb Size", "BT-56"],
+              ["Bulb Finish", "Clear"],
+              ["Base Type", "Mogul Screw Position Oriented"],
+              ["MOL (Max Overall Length)", "15\u215c in (391 mm)"],
+              ["LCL (Light Center Length)", "9\u215b in (232 mm)"],
+              ["Arc Tube Lighted Length", "3\u215c in (84 mm)"],
+              ["Arc Tube Material", "Fused Silica"],
+              ["Max Bulb Temp", "400\u00b0C (752\u00b0F)"],
+              ["Max Base Temp", "210\u00b0C (410\u00b0F)"],
+              ["Rated Lumens (constant over life)", "134,000"],
+              ["Operating Position", "Arc Tube Horizontal"],
+              ["Lamp Replacement Interval", "5,000 hours"],
+              ["CCT (Correlated Color Temp)", "4200K"],
+              ["CRI (Color Rendering Index)", "65-70"],
+              ["Avg Lamp Wattage Over Life", "1,450W"],
+              ["Warmup to 80% Output", "3-5 minutes"],
+              ["Re-strike Time (hot lamp)", "10-15 minutes"],
+              ["Lamp Operating Current (max RMS)", "6.0A"],
+              ["Ballast Type", "ANSI M48 CWA"],
+              ["Min Starting Temp", "-30\u00b0C"]
+            ]
+          },
+          "list": [
+            "Lamp starts at reduced wattage and increases over life to offset lumen loss",
+            "Average lamp life before failure substantially exceeds 5,000 hrs per IESNA LM-47-01",
+            "Five hours per start operating cycle to reflect sports lighting field use",
+            "Lumen measurements per IESNA LM-51-00; color data per IESNA LM-58-94"
+          ],
+          "remember": "ANSI M48 ballast. 1500W MH, 134K lumens, 4200K, 5,000 hr replacement. Warmup 3-5 min, restrike 10-15 min."
+        },
+        {
+          "title": "HID Lamp — Safety Warnings & Operating Instructions",
+          "body": [
+            "Metal halide lamps operate at high pressure and temperature (arc tube up to 1000\u00b0C). They contain mercury and produce short-wave UV radiation. These 12 operating instructions must be followed to reduce risk of personal injury, property damage, burns, and fire."
+          ],
+          "list": [
+            "Turn off lamps at least once a week for 15 min minimum in 24/7 systems — failure to do so increases arc-tube rupture risk",
+            "Relamp fixtures AT OR BEFORE end of rated life (5,000 hrs) — do not allow lamps to burn until failure",
+            "Before lamp installation/replacement: shut power off and allow lamp and fixture to cool completely",
+            "Use only auxiliary equipment meeting Philips and/or ANSI standards; stay within voltage limits",
+            "Operate lamp only within specified limits of operation",
+            "Periodically inspect the outer envelope — replace any lamps with scratches, cracks, or damage",
+            "If a lamp bulb support is used, insulate it electrically to avoid decomposition of bulb glass",
+            "Protect lamp base, socket, and wiring against moisture, corrosive atmospheres, and excessive heat",
+            "Allow new lamps to stabilize in color — may require several hours of operation over multiple starts",
+            "Lamps may require 10-20 minutes to re-light after a power interruption",
+            "Handle and dispose of lamps carefully — if arc tube breaks, avoid skin contact with contents or fragments",
+            "Do NOT use this lamp in a fixture with a Pulse Start metal halide ballast"
+          ],
+          "body": [
+            "UV Warning: These lamps can cause serious skin burn and eye inflammation from short-wave UV if the outer envelope is broken or punctured. Do not use where people remain for more than a few minutes unless adequate shielding is used. If the outer bulb breaks, turn off immediately and replace.",
+            "Arc Tube Rupture Warning: The arc tube operates at up to 1000\u00b0C and can unexpectedly rupture due to ballast failure or misapplication. If rupture occurs, the outer bulb may break and extremely hot glass fragments may be discharged. Use ONLY in an enclosed fixture capable of withstanding glass particles at up to 1000\u00b0C.",
+            "Mercury Notice: Hg — Lamp contains mercury. Manage in accord with disposal laws. See www.lamprecycle.org or call 1-800-825-6020."
+          ],
+          "remember": "Turn off 24/7 lamps for 15 min weekly. Relamp at 5,000 hrs. Let cool before handling. Enclosed fixture only. Contains mercury — recycle properly."
+        },
+        {
+          "title": "HID Ballast & Capacitor — CWA Technical Data",
+          "body": [
+            "The 1500W MH lamp uses a Constant Wattage Autotransformer (CWA) ballast. Understanding ballast specs is critical for troubleshooting and replacement on HID systems."
+          ],
+          "table": {
+            "headers": ["Parameter", "Value"],
+            "rows": [
+              ["Type", "CWA Autotransformer, 60 Hz"],
+              ["ANSI Code", "M48"],
+              ["Voltage Range", "120-480V"],
+              ["Power Factor (min)", "0.9"],
+              ["Line Current Operating (min/max)", "11.7/15.0A"],
+              ["Starting Current (max)", "13.1A (at 120V)"],
+              ["Insulation Class", "H (180\u00b0C)"],
+              ["Coil Temp Code", "1029"],
+              ["Nominal Open Circuit Voltage", "450V"],
+              ["Input Voltage at Lamp Dropout", "145V (208V unit) / 163V (277V unit)"],
+              ["Input Watts (nominal)", "1,564W"],
+              ["Fuse Rating", "20A (120/208V) / 15A (277/480V)"],
+              ["Ballast Weight", "31 lbs (14 kg)"],
+              ["Capacitor Min Withstand Voltage", "525V"]
+            ]
+          },
+          "list": [
+            "High Pot Test: 2,000V for 1 minute; 2,500V for 2 seconds",
+            "Open Circuit Voltage Test: 400-500V",
+            "Short-Circuit Current Test (secondary): 7.2-9.0A",
+            "Catalog Numbers: SC-278, SC-271, SC-302, SC-306, SC-315",
+            "Capacitor diameter: 2.75 in (70 mm) typical; minimum withstand 525V",
+            "Min ambient starting temperature: -20\u00b0F (-30\u00b0C)"
+          ],
+          "remember": "CWA ballast, 450V OCV, 1,564W input. Fuse: 20A (120/208V) or 15A (277/480V). Ballast weighs 31 lbs."
+        },
+        {
+          "title": "HID System — ECE Internal Components",
+          "body": [
+            "The Electrical Components Enclosure (ECE) on HID systems contains different internals than LED systems. The diagram shows the specific arrangement for the Light-Structure HID system with ballast and capacitor configuration."
+          ],
+          "list": [
+            "Pole mounting bracket — heavy-duty stainless steel with bolt-through pole attachment",
+            "Ballast (CWA autotransformer) — mounted on vibration-isolating attachment brackets inside lower section",
+            "Capacitors (power factor correction) — cylindrical, mounted near ballast",
+            "Smart Lamp Control module — regulates lamp wattage over life to maintain constant lumens",
+            "Fuses — touch-safe fuse holders per luminaire circuit",
+            "Terminal block — landing point for incoming power conductors",
+            "Landing lugs — main bonding/grounding point",
+            "Hour meter — tracks actual lamp operating hours for maintenance scheduling",
+            "Disconnect switch — rotary type, bottom section, ON/OFF with padlock capability",
+            "Ballast wire access hub — captive stainless steel screws, sealed conduit entry"
+          ],
+          "remember": "HID ECE has ballast + capacitors instead of LED drivers. Smart Lamp module regulates wattage over lamp life. Hour meter tracks run time."
+        },
+        {
+          "title": "Luminaire Assembly — Parts Breakdown",
+          "body": [
+            "The Light-Structure luminaire assembly is an engineered optical system. Every part serves a specific function for light control, weather sealing, and aiming precision."
+          ],
+          "list": [
+            "Spill and glare control visor — die-cast aluminum, reduces off-field light trespass",
+            "Tempered glass lens — high-strength, with silicone edge seal gasket and silicone O-ring rim seal",
+            "Aluminum lens rim — retained by stainless steel latch bail with over-center latch handle",
+            "Die-cast aluminum knuckle — provides horizontal and vertical aiming adjustment (factory-set, geared adjustment mechanism)",
+            "Die-cast aluminum lamp cone — holds the Mogul screw-base socket with Teflon centering/sealing ring",
+            "Die-cast aluminum reflector housing — precision optical chamber with 2.5 in activated carbon filter",
+            "Lamp leveling gear drive — maintains arc tube horizontal orientation for proper operation and lamp life",
+            "Knuckle positioning bolt with Viton O-ring seal — locks vertical angle",
+            "Repositioning stop — factory-set, prevents over-rotation",
+            "Stainless steel safety chain — prevents luminaire drop during maintenance",
+            "Luminaire wireway — 2 x 4 in nominal, 1/8 in thick high-strength steel tubing",
+            "Total luminaire weight: 13.9 kg (30.6 lbs)"
+          ],
+          "remember": "Luminaire assembly has 12+ engineered components. All factory-aimed with geared adjustments. Never change aiming without Musco documentation."
+        },
+        {
+          "title": "Precast Concrete Base — Technical Specifications",
+          "body": [
+            "The precast concrete base is the foundation of every Light-Structure Green pole system. It includes an integrated lightning ground system compliant with NFPA 780, UL 96A, and EN 62305 standards."
+          ],
+          "table": {
+            "headers": ["Specification", "Value"],
+            "rows": [
+              ["Design Method", "Set directly in ground, backfilled with concrete"],
+              ["Pole Set Time", "24 hours after base installation"],
+              ["Upper Section", "Tapered for steel pole slip-fit attachment"],
+              ["Construction", "Spun concrete, prestressed vertical strands + steel coil spiral reinforcement"],
+              ["Min Design Strength", "9,500 psi (65.5 MPa) at 28 days"],
+              ["Lightning Protection", "UL Listed Class II, file E337467"],
+              ["Lightning Test Rating", "Tested up to 100 kA by independent lab"],
+              ["GEC (Grounding Electrode Conductor)", "2/0 AWG (67.4 mm\u00b2)"],
+              ["Grounding Electrode", "Concrete-encased, 20 ft (6.1 m) total, \u00bd in (12.7 mm) diameter"],
+              ["Compliance Standards", "NFPA 780, UL 96A, EN 62305"]
+            ]
+          },
+          "list": [
+            "Integrated grounding electrode interfaces with steel pole via pole grounding connector",
+            "Epoxy-coated ends prevent water intrusion into the base",
+            "Lifting hole accepts load-rated steel rod provided by Musco",
+            "Wire access holes for conduit entry and internal wiring",
+            "Conduit adapter plate at entry point with knockouts",
+            "Quality assurance tests: 28-day compressive strength, bending moment capacity, grounding system continuity"
+          ],
+          "remember": "Precast base: 9,500 psi minimum, 24 hr set time, integrated UL Class II lightning ground. NFPA 780 compliant."
+        },
+        {
+          "title": "Wire Harness — HID System Assembly",
+          "body": [
+            "The wire harness on HID systems uses spiral-wound 14 AWG copper cable with a flexible protective sleeve and quick-connect plug-in connectors at both ends."
+          ],
+          "list": [
+            "Top plug-in connector — connects at the poletop crossarm to luminaire wiring",
+            "Lower plug-in connector — connects at the ECE to the ballast/output circuit",
+            "Wire support grip with snap hook — supports harness weight at mid-point on the pole",
+            "Wire ties (quick-connect type) — secure harness to pole at intervals",
+            "Spiral wound cable — 14 AWG copper conductors, flexible for installation",
+            "Flexible protective sleeve — weather/UV protection over the cable bundle",
+            "Wiring to luminaires — splits at poletop to individual fixture connections",
+            "Wiring to ECE — connects to ballast output/terminal block in the enclosure"
+          ],
+          "remember": "14 AWG spiral-wound cable with quick-connect plug-in ends. Wire support grip at mid-pole prevents strain on connectors."
+        },
+        {
+          "title": "Poletop Assembly — Cap, Crossarm & Fixture Mounting",
+          "body": [
+            "The poletop assembly includes the pole cap, crossarm, quick-connect system and fixture mounting hardware."
+          ],
+          "list": [
+            "Pole cap — seals the top of the pole; secured with cap bolt and retained by safety cable",
+            "Pole cap safety cable — prevents cap from falling during removal/reinstallation",
+            "Quick connect plug-in — factory-wired matching connectors on crossarm and luminaire mounting plate",
+            "Enclosed quick connect matching plug-ins — weatherproof connection between crossarm and luminaire assembly",
+            "Crossarm — factory-assembled with mounting brackets for each luminaire position",
+            "Snap hook for wire support grip — attachment point for mid-harness support",
+            "Jacking ears — on pole sections for alignment during assembly with come-along tools",
+            "Set screw — secures knuckle assembly position after aiming"
+          ],
+          "remember": "Poletop has quick-connect plug-in for easy luminaire installation. Pole cap secured by bolt + safety cable."
+        },
+        {
           "title": "HID Legacy Systems",
           "body": [
             "Older Musco installations use HID lamps with ballasts and capacitors. These have specific failure modes."

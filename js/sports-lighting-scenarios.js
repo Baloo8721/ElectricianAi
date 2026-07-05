@@ -383,6 +383,144 @@ const sportsScenarios = [
     ]
   },
   {
+    id: "repair-hid-lamp",
+    title: "Repair — HID Lamp Replacement",
+    description: "Replace a failed 1500W metal halide lamp following safety procedures and manufacturer specs",
+    mode: "repair",
+    steps: [
+      {
+        id: "safety-first",
+        instruction: "You need to replace a failed 1500W MH lamp on a Musco HID system. What's the FIRST thing you do?",
+        info: "MH lamps operate at high pressure and temperature.",
+        options: [
+          "Shut power off and allow lamp and fixture to cool completely",
+          "Remove the lamp immediately to inspect it",
+          "Check voltage at the lamp socket"
+        ],
+        correct: 0,
+        explanation: "Always shut power off and allow the lamp and fixture to cool before handling. The arc tube operates at up to 1000\u00b0C and the bulb at 400\u00b0C. Severe burns can result from touching a hot lamp.",
+        visual: { highlight: "ece", faultLabel: "BURNS HAZARD 400\u00b0C" }
+      },
+      {
+        id: "lamp-specs",
+        instruction: "You're replacing a failed 1500W metal halide lamp. Which lamp specifications must match?",
+        info: "The lamp must match the system design exactly.",
+        options: [
+          "ANSI code M48, 1500W MH, Mogul Screw Position Oriented base, BT-56 bulb, clear finish",
+          "Any 1500W lamp with a mogul base",
+          "A pulse-start metal halide lamp that's close in wattage"
+        ],
+        correct: 0,
+        explanation: "The lamp must match exactly: ANSI M48, 1500W MH clear, BT-56 bulb, Mogul Screw Position Oriented base. Never substitute with pulse-start lamps or different ANSI codes. Using the wrong lamp can cause arc tube rupture or ballast damage.",
+        visual: { faultLabel: "M48 1500W MH ONLY" }
+      },
+      {
+        id: "uv-warning",
+        instruction: "Before reinstalling the fixture lens, you notice the outer bulb has a small scratch. What should you do?",
+        info: "The outer envelope of the MH lamp protects from UV radiation.",
+        options: [
+          "Replace the lamp — any scratch or crack in the outer bulb requires immediate replacement",
+          "It's fine, install as-is",
+          "Cover the scratch with electrical tape"
+        ],
+        correct: 0,
+        explanation: "Periodically inspect the outer envelope and replace any lamps that show scratches, cracks, or damage. If the outer bulb is broken or punctured, hazardous short-wave UV radiation can escape, causing serious skin burn and eye inflammation. The lamp must be used only in an enclosed fixture rated for 1000\u00b0C glass fragments.",
+        visual: { highlight: "ece", faultLabel: "UV HAZARD" }
+      },
+      {
+        id: "socket-check",
+        instruction: "You're installing the new lamp. What type of socket is used for this lamp?",
+        info: "The lamp base type is specified in the technical data.",
+        options: [
+          "Mogul Screw Position Oriented base with Teflon centering ring",
+          "Standard medium screw base",
+          "Pin base with twist-lock"
+        ],
+        correct: 0,
+        explanation: "The 1500W MH lamp uses a Mogul Screw Position Oriented base. The die-cast aluminum lamp cone holds the socket in position with a Teflon centering/sealing ring. The arc tube must be horizontal for proper operation and rated life.",
+        visual: { highlight: "harness", faultLabel: "MOGUL SCREW BASE" }
+      },
+      {
+        id: "ballast-check",
+        instruction: "The new lamp fires but is very dim. You check the ballast label and see it's ANSI M48 CWA. What should you check next?",
+        info: "The ballast and lamp must be a matched system.",
+        options: [
+          "Verify supply voltage to the ballast and check the capacitor condition",
+          "Replace the ballast immediately",
+          "The lamp is old stock, try another new lamp"
+        ],
+        correct: 0,
+        explanation: "First verify proper voltage is reaching the ballast. A failed capacitor is a common cause of dim lamps on HID systems. Look for brown residue or burnt smell from the capacitor. Test the capacitor with a multimeter. The CWA ballast requires a good capacitor for proper lamp regulation.",
+        visual: { highlight: "ece", fault: "fuse", faultLabel: "CHECK CAPACITOR" }
+      },
+      {
+        id: "capacitor-test",
+        instruction: "You find the capacitor has brown residue at the base and the lamp is slow to start. What does this indicate?",
+        info: "Capacitor failure has specific visual and performance symptoms.",
+        options: [
+          "Failed capacitor — replace with same rating, min 525V withstand voltage",
+          "The capacitor just needs cleaning",
+          "The capacitor is fine, the ballast is the problem"
+        ],
+        correct: 0,
+        explanation: "Brown residue at the capacitor base indicates the capacitor has failed (electrolyte leakage). Replace with the same rating. The capacitor must have a minimum withstand voltage of 525V. A failed capacitor causes slow starting, dim output, and can damage the ballast over time.",
+        visual: { highlight: "ece", faultLabel: "REPLACE CAPACITOR" }
+      },
+      {
+        id: "warmup-check",
+        instruction: "The new lamp is installed and powered on. How long should it take to reach 80% output?",
+        info: "HID lamps have a warmup period.",
+        options: [
+          "3-5 minutes — normal warmup to 80% output",
+          "30 seconds — it should be instant",
+          "The lamp should start at full brightness"
+        ],
+        correct: 0,
+        explanation: "The 1500W MH lamp requires 3-5 minutes warmup time to reach 80% output. Full stabilization may take longer. If a power interruption occurs, the lamp requires 10-15 minutes restrike time (hot restart) before it will re-light.",
+        visual: { highlight: "harness", faultLabel: "WARMUP 3-5 MIN" }
+      },
+      {
+        id: "relamp-interval",
+        instruction: "You're scheduled to relamp a bank of poles. At what interval should MH lamps be replaced?",
+        info: "Lamps should be replaced before they fail.",
+        options: [
+          "Every 5,000 hours — at or before rated life, do not run until failure",
+          "Only when they burn out",
+          "Every 10,000 hours"
+        ],
+        correct: 0,
+        explanation: "Relamp fixtures at or before the end of rated life (5,000 hours). Allowing lamps to operate until they fail is not advised and may increase the possibility of inner arc tube rupture. The Smart Lamp system maintains constant lumens over life but the replacement interval is still 5,000 hours.",
+        visual: { lit: true, done: true, faultLabel: "RELAMP @ 5,000 HRS" }
+      },
+      {
+        id: "mercury-disposal",
+        instruction: "You remove the old failed MH lamp. How should it be disposed of?",
+        info: "MH lamps contain hazardous materials.",
+        options: [
+          "Recycle per lamp disposal laws — contains mercury (Hg). Use www.lamprecycle.org or call 1-800-825-6020",
+          "Throw it in the regular trash",
+          "Break it and put pieces in the trash"
+        ],
+        correct: 0,
+        explanation: "HID lamps contain mercury (Hg). They must be managed in accordance with disposal laws. Use www.lamprecycle.org or call 1-800-825-6020 for recycling options. If an arc tube breaks, avoid skin contact with any contents or fragments.",
+        visual: { lit: true, done: true, faultLabel: "RECYCLE — Hg" }
+      },
+      {
+        id: "final-test",
+        instruction: "System is back together. What should you verify before leaving?",
+        info: "Complete system verification after lamp replacement.",
+        options: [
+          "Cycle power, verify lamp reaches full brightness, check for unusual sounds/arcing, confirm all enclosure covers are secure",
+          "Just turn it on and leave",
+          "Only verify the replaced fixture works"
+        ],
+        correct: 0,
+        explanation: "Cycle the system, verify the lamp reaches full brightness and stabilizes. Listen for buzzing from the ballast, check for arcing at connections. Confirm the lens gasket is seated and all latches are secure. The system should be turned off at least once a week for 15 min in continuous operation to reduce arc tube rupture risk.",
+        visual: { lit: true, done: true }
+      }
+    ]
+  },
+  {
     id: "repair-megger-test",
     title: "Repair — Megger Harness Test",
     description: "Test harness circuits with a 1000V megger to find insulation faults before replacing parts",

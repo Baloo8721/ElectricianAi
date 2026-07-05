@@ -1,39 +1,39 @@
 const STEPS = [
   {
     num: 1,
-    title: "Foundation",
-    desc: "Pour and cure concrete foundation with anchor bolts. The foundation must meet manufacturer specs for depth and diameter before any above-ground work begins.",
-    detail: "Anchor bolts must be precisely positioned and leveled before concrete sets. Allow full cure time per spec. The base plate mounts directly to these bolts."
+    title: "Foundation — Precast Concrete Base",
+    desc: "Install the precast concrete base with integrated lightning ground. Set directly in ground, backfill with concrete, and allow 24 hr cure before pole set.",
+    detail: "The precast base includes a tapered upper section for slip-fit steel pole attachment, an integrated grounding electrode (2/0 AWG, 20 ft, UL Listed Class II per NFPA 780/UL 96A), a lifting hole for the Musco load-rated steel rod, wire access handhole, and conduit adapter plate with knockouts. The base is spun concrete with prestressed vertical strands and steel coil spiral reinforcement, min design strength 9,500 psi (65.5 MPa) at 28 days."
   },
   {
     num: 2,
-    title: "Pole Sections",
-    desc: "Mount lower pole section on anchor bolts (level and plumb). Install base cover. Slip-fit upper section aligning weld marks. Torque all joint bolts to spec.",
-    detail: "Weld marks on pole sections must align for proper fit. A come-along strap seats the sections together. The base cover conceals anchor bolts for a finished look."
+    title: "Pole Sections — Galvanized Steel",
+    desc: "Mount lower pole section using jacking ears and a 1.5-ton come-along for slip-fit assembly. Align weld marks between sections. Install base cover trim.",
+    detail: "Steel pole has jacking ears for come-along attachment. The ECE attachment brackets and hub with stainless steel screw threads are pre-installed. A grounding lug is inside the pole at the base. A wire access handhole at grade allows underground feed entry. The base cover conceals the joint for a finished look. On multi-section poles, weld marks must align for proper structural fit."
   },
   {
     num: 3,
-    title: "ECE Enclosure",
-    desc: "Mount the Electrical Components Enclosure on the pole at the designated height. The ECE houses fuses, LED drivers, disconnect switch, and ground bar.",
-    detail: "ECE mounting height is specified by the manufacturer. It must be level and securely bolted to the pole. All conduit entries sealed with duct seal."
+    title: "ECE Enclosure — Ballast/Capacitor or LED",
+    desc: "Mount the Electrical Components Enclosure on the pole brackets at the designated height. ECE houses the ballasts (HID) or LED drivers, capacitors, fuses, Smart Lamp control, terminal block, hour meter, and rotary disconnect switch.",
+    detail: "ECE mounting height is specified by the manufacturer. Bolt-through stainless steel pole mounting bracket with clear thermoset polymer coating. For HID systems: CWA ballast on vibration-isolating brackets, power factor correction capacitors, Smart Lamp Control module for constant lumen regulation, hour meter for lamp run time tracking. For LED systems: drivers, distribution blocks, fuse holders, and Control-Link board. The rotary disconnect switch is in the bottom section with padlock capability. All conduit entries sealed with duct seal."
   },
   {
     num: 4,
     title: "Contactor Cabinet",
-    desc: "Mount the contactor cabinet at the base of the pole. It contains the main contactor, control transformer, and terminal block for the incoming power feed.",
-    detail: "The contactor cabinet is a separate enclosure — NOT inside the ECE. It receives power from a breaker in the main distribution panel and feeds the ECE."
+    desc: "Mount the contactor cabinet at the base of the pole. Contains main contactor (multi-pole per circuit), control transformer, surge protection device (SPD), terminal blocks, and Control-Link communication board.",
+    detail: "The contactor cabinet is a separate enclosure — NOT inside the ECE. It receives power from a dedicated breaker in the main distribution panel. The SPD must use the provided flexible conduit — never splice SPD conductors. Control power transformer energizes the coil and Control-Link system. Confirm control system power is always on — use a breaker lock-on device."
   },
   {
     num: 5,
-    title: "Wire Harness",
-    desc: "Route the wire harness inside conduit from the ECE up the pole to the crossarm. The harness carries power from the drivers to the luminaire fixtures.",
-    detail: "The harness is factory-built for the specific pole configuration. On retrofit jobs, the old harness is often replaced. Protect all conductors from weather and UV."
+    title: "Wire Harness — Quick-Connect Assembly",
+    desc: "Route the factory-built wire harness from the ECE up the pole to the poletop crossarm. HID harness uses spiral-wound 14 AWG copper with flexible protective sleeve and quick-connect plug-in connectors at both ends.",
+    detail: "Top plug-in connector mates at the crossarm with matching enclosed quick-connect plug-ins. Lower plug-in connects at the ECE. A wire support grip with snap hook supports the harness at mid-pole to prevent connector strain. Wire ties secure the harness to the pole at intervals. The harness is factory-built per pole ID — never mix harnesses between poles. If luminaire polarity ID labels get trimmed, apply new ones immediately. Do not splice additional length onto conductors."
   },
   {
     num: 6,
-    title: "Luminaire & Crossarm",
-    desc: "Mount the crossarm with fixture brackets. Install LED luminaires, wire to the harness, and aim per the Field Aiming Diagram. Cycle and test the system.",
-    detail: "Each luminaire has a labeled position on the Aiming Diagram. Verify pole ID matches documentation. Cycle power and test all fixtures before commissioning."
+    title: "Poletop Assembly & Luminaires",
+    desc: "Install the pole cap (secured with bolt + safety cable), mount the crossarm with factory-aimed luminaire assemblies via quick-connect plug-ins. Wire to harness, verify aiming per Field Aiming Diagram. Cycle and test the system.",
+    detail: "Each luminaire assembly includes: spill/glare control visor, tempered glass lens with silicone edge seal gasket and O-ring rim seal, aluminum lens rim with stainless steel latch bail and over-center latch handle, die-cast aluminum knuckle with geared tilt adjustment, lamp cone with Teflon centering ring, reflector housing with 2.5 in activated carbon filter, and lamp leveling gear drive. Total luminaire weight: 13.9 kg (30.6 lbs). Verify pole ID matches documentation. Cycle power and test all fixtures before commissioning."
   }
 ];
 

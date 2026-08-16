@@ -58,6 +58,7 @@ const els = {
   btnTapeMeasure: document.getElementById("btn-tape-measure"),
   btnTradeCalc: document.getElementById("btn-trade-calc"),
   btnMeterSim: document.getElementById("btn-meter-sim"),
+  btnCdl: document.getElementById("btn-cdl"),
 };
 
 let currentView = "home";
@@ -575,6 +576,9 @@ els.btnTradeCalc?.addEventListener("click", () => {
 });
 els.btnMeterSim?.addEventListener("click", () => {
   window.open("https://baloo8721.github.io/TradeMath-Ruler-Multimeter/Multi-Meter.html", "_blank");
+});
+els.btnCdl?.addEventListener("click", () => {
+  window.location.href = "cdl.html";
 });
 
 async function loadLessons() {

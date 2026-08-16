@@ -1,0 +1,3268 @@
+[
+ {
+  "id": "sec1",
+  "number": 1,
+  "short": "Intro & Licensing",
+  "title": "Introduction & Licensing",
+  "group": "core",
+  "classAManual": true,
+  "minutes": 9,
+  "summary": "CDL classes, endorsements, restrictions, medical self-certification, and the disqualification rules examiners love to test.",
+  "topics": [
+   {
+    "heading": "The three CDL classes",
+    "bullets": [
+     "Class A: any combination with a GCWR of 26,001+ lbs, as long as the towed unit's GVWR is over 10,000 lbs. Think tractor-trailers.",
+     "Class B: any single vehicle with a GVWR of 26,001+ lbs, or one towing something 10,000 lbs or less. Think straight trucks and large buses.",
+     "Class C: doesn't meet A or B, but is either built for 16+ passengers (including the driver) or carries placarded hazardous materials.",
+     "Licenses stack downward: a Class A license also covers B and C vehicles; a Class B license also covers C."
+    ]
+   },
+   {
+    "heading": "Endorsements (extra letters on your CDL)",
+    "bullets": [
+     "H – Hazardous materials. Requires a written test plus a TSA fingerprint background check.",
+     "N – Tank vehicle. Needed for tanks rated over 119 gallons individually and 1,000+ gallons combined, mounted permanently or temporarily.",
+     "P – Passenger. Needed to drive any vehicle built to carry 16+ people including the driver.",
+     "S – School bus.",
+     "T – Doubles/Triples.",
+     "X – Combination of tank + hazmat (hauling hazardous materials in a tank).",
+     "Only P, S, and N can ever appear on a Commercial Learner's Permit (CLP). A CLP with P or S automatically carries a 'no passengers' restriction; a CLP with N carries a 'no cargo in tank' restriction."
+    ]
+   },
+   {
+    "heading": "Common restriction codes",
+    "bullets": [
+     "E – no manual transmission (you tested in an automatic).",
+     "K – intrastate only.",
+     "L – no air brakes.",
+     "Z – no full air brakes (air-over-hydraulic only).",
+     "O – no fifth-wheel tractor-trailer combos (you tested with a pintle hook connection instead).",
+     "M / N (restriction) – limits which class of passenger vehicle you can drive.",
+     "V – a medical variance is on file."
+    ]
+   },
+   {
+    "heading": "The testing path",
+    "bullets": [
+     "Knowledge tests: general knowledge (everyone), plus air brakes, combination vehicles, passenger, school bus, tank, doubles/triples, or hazmat as needed for your endorsements.",
+     "Skills test has three parts, taken in this exact order, and you must pass each before moving on: vehicle inspection, basic vehicle control, then on-road driving.",
+     "You must test in the same class and configuration of vehicle you want licensed for."
+    ]
+   },
+   {
+    "heading": "Medical self-certification",
+    "bullets": [
+     "You must declare interstate vs. intrastate commerce, and excepted vs. non-excepted status, when applying, renewing, upgrading, or transferring a CDL.",
+     "Most CDL holders driving in interstate commerce are 'non-excepted interstate' and must submit a current DOT medical examiner's certificate.",
+     "Failing to keep a required medical certificate current makes you 'not-certified' and you can lose your CDL."
+    ]
+   },
+   {
+    "heading": "Disqualification numbers worth memorizing",
+    "bullets": [
+     "BAC of 0.04% or higher, refusing an alcohol test, or driving a CMV under the influence of alcohol/drugs: lose your CDL for at least 1 year on a first offense (3 years if hauling placarded hazmat).",
+     "A second major offense (DUI, felony with a CMV, leaving the scene, causing a fatality through negligent operation) = disqualified for life.",
+     "Out-of-service order violation: 90 days minimum for a first offense, 1 year for a second within 10 years, 3 years for a third+.",
+     "Railroad-crossing violation: 60 days for a first offense, 120 days for a second within 3 years, 1 year for a third within 3 years.",
+     "Two serious traffic violations in a CMV within 3 years: at least 60 days disqualified. Three or more: at least 120 days.",
+     "Serious violations include going 15+ mph over the limit, reckless driving, improper lane changes, following too closely, and driving without the right class/endorsement.",
+     "Two or more convictions for using a hand-held phone or texting while driving a CMV: 60 days disqualified for the second offense, 120 for a third+, with fines up to $2,750 for the driver and $11,000 for the carrier."
+    ]
+   },
+   {
+    "heading": "Other rules that show up on the test",
+    "bullets": [
+     "You may hold only one driver's license, period.",
+     "Notify your employer within 30 days of any traffic conviction (except parking), no matter what vehicle you were driving.",
+     "Notify your employer within 2 business days if your license is suspended, revoked, canceled, or you're disqualified.",
+     "Give a new employer your driving-job history for the past 10 years.",
+     "In Florida: minimum age is 18 for intrastate driving, 21 for interstate or hazmat; you must already hold a Florida Class E license."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "A single straight truck needs a Class B CDL once its GVWR reaches what weight?",
+    "options": [
+     "10,000 lbs or more",
+     "16,001 lbs or more",
+     "26,001 lbs or more",
+     "33,000 lbs or more"
+    ],
+    "correct": 2,
+    "explain": "26,001 lbs or more GVWR on a single vehicle puts it in Class B."
+   },
+   {
+    "q": "A combination vehicle needs a Class A CDL when the GCWR is 26,001+ lbs and the towed unit's GVWR is over how many pounds?",
+    "options": [
+     "5,000",
+     "10,000",
+     "16,000",
+     "26,000"
+    ],
+    "correct": 1,
+    "explain": "The towed unit must be rated over 10,000 lbs GVWR for the combo to require Class A."
+   },
+   {
+    "q": "Which endorsement lets you drive a bus built to carry 16 or more people, including the driver?",
+    "options": [
+     "N",
+     "P",
+     "S",
+     "T"
+    ],
+    "correct": 1,
+    "explain": "P is the Passenger endorsement."
+   },
+   {
+    "q": "Which of these endorsements can legally appear on a Commercial Learner's Permit (CLP)?",
+    "options": [
+     "Hazardous materials (H)",
+     "Doubles/Triples (T)",
+     "School bus (S)",
+     "Tank + Hazmat combo (X)"
+    ],
+    "correct": 2,
+    "explain": "Only P, S, and N may ever be added to a CLP."
+   },
+   {
+    "q": "Restriction code 'E' on a CDL means:",
+    "options": [
+     "No air brakes",
+     "No manual transmission",
+     "Intrastate only",
+     "No fifth-wheel combination"
+    ],
+    "correct": 1,
+    "explain": "E = restricted from operating a vehicle with a manual transmission."
+   },
+   {
+    "q": "What is the correct order of the three CDL skills test segments?",
+    "options": [
+     "On-road driving, vehicle inspection, basic control",
+     "Basic control, on-road driving, vehicle inspection",
+     "Vehicle inspection, basic control skills, on-road driving",
+     "Vehicle inspection, on-road driving, basic control"
+    ],
+    "correct": 2,
+    "explain": "You must pass each segment in that order before moving to the next."
+   },
+   {
+    "q": "What blood alcohol concentration (BAC) makes it illegal to operate a CMV?",
+    "options": [
+     "0.02%",
+     "0.04%",
+     "0.06%",
+     "0.08%"
+    ],
+    "correct": 1,
+    "explain": "0.04% or higher is the illegal threshold for CMV drivers, well below the 0.08% car-driver limit."
+   },
+   {
+    "q": "A first BAC/DUI disqualification while hauling placarded hazardous materials costs you your CDL for at least:",
+    "options": [
+     "6 months",
+     "1 year",
+     "3 years",
+     "5 years"
+    ],
+    "correct": 2,
+    "explain": "The hazmat load raises the minimum penalty to 3 years."
+   },
+   {
+    "q": "How many serious traffic violations within 3 years trigger a minimum 60-day CDL disqualification?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correct": 1,
+    "explain": "Two serious violations in 3 years = at least 60 days; three or more = at least 120 days."
+   },
+   {
+    "q": "A first violation of a railroad-crossing safety rule disqualifies a CDL holder for at least:",
+    "options": [
+     "30 days",
+     "60 days",
+     "90 days",
+     "1 year"
+    ],
+    "correct": 1,
+    "explain": "60 days for a first offense, escalating to 120 days and then 1 year for repeats within 3 years."
+   },
+   {
+    "q": "True or False: You may hold a CDL in one state and a regular license in another state at the same time.",
+    "options": [
+     "True",
+     "False"
+    ],
+    "correct": 1,
+    "explain": "You may hold only one driver's license of any kind, ever."
+   },
+   {
+    "q": "Within how many days must you notify your employer after a traffic conviction (other than parking)?",
+    "options": [
+     "10 days",
+     "15 days",
+     "30 days",
+     "60 days"
+    ],
+    "correct": 2,
+    "explain": "30 days, regardless of which vehicle you were driving when convicted."
+   },
+   {
+    "q": "In Florida, what is the minimum age to hold a CDL for interstate driving or a hazmat endorsement?",
+    "options": [
+     "18",
+     "19",
+     "21",
+     "25"
+    ],
+    "correct": 2,
+    "explain": "18 covers intrastate-only driving; interstate and hazmat both require 21."
+   }
+  ]
+ },
+ {
+  "id": "sec2",
+  "number": 2,
+  "short": "Driving Safely",
+  "title": "Driving Safely",
+  "group": "core",
+  "classAManual": true,
+  "minutes": 22,
+  "summary": "The biggest section on the general knowledge test: inspection, control, space, speed, hazards, night/weather driving, emergencies, ABS, skids, fires, and alcohol.",
+  "topics": [
+   {
+    "heading": "Vehicle inspection basics",
+    "bullets": [
+     "The seven-step method: approach & look underneath, check the engine compartment, start the engine & check the cab, kill the engine & check lights, walk around the vehicle, check signal lights, do the final brake checks.",
+     "Air pressure should build from 50 to 90 psi within 3 minutes on older single systems; the governor cuts out around 120-140 psi.",
+     "Minimum tread depth: 4/32 inch on steering (front) tires, 2/32 inch on all other tires.",
+     "More than 10 degrees of steering wheel play (about 2 inches of movement at the rim) is a problem.",
+     "Required emergency gear: fire extinguisher, spare electrical fuses (unless you have circuit breakers), and 3 reflective triangles (or 6 fusees or 3 liquid-burning flares).",
+     "Hydraulic brake check: pump the pedal 3 times, then hold firm pressure for 5 seconds — the pedal should not move.",
+     "Cargo securement must be re-checked within the first 50 miles, then every 150 miles or 3 hours, whichever comes first."
+    ]
+   },
+   {
+    "heading": "Basic control & shifting",
+    "bullets": [
+     "When backing, always try to back toward the driver's side so you can see; use a helper and agree on a stop signal beforehand.",
+     "Downshift before you start down a hill or enter a curve — never after your speed has already built up.",
+     "Most heavy vehicles with unsynchronized manual transmissions require double-clutching; synchronized transmissions don't.",
+     "Turn retarders OFF whenever the road is wet, icy, or snow-covered — they can make the drive wheels skid."
+    ]
+   },
+   {
+    "heading": "Seeing & communicating",
+    "bullets": [
+     "Look 12-15 seconds ahead — about one block in the city, a quarter mile on the highway.",
+     "Check mirrors regularly, and always before, during, and after a lane change, turn, or merge.",
+     "Signal early, hold the signal through the maneuver, and cancel it right after.",
+     "If you must stop on the road, place warning triangles within 10 minutes: on a two-lane road, one within 10 feet of the vehicle and one each 100 feet ahead and behind; on a divided or one-way road, at 10, 100, and 200 feet toward oncoming traffic. If a hill or curve blocks your visibility, move the back triangle to keep at least 500 feet of advance warning."
+    ]
+   },
+   {
+    "heading": "Speed & stopping distance",
+    "bullets": [
+     "Total stopping distance = perception distance + reaction distance + braking distance.",
+     "At 55 mph in ideal conditions, total stopping distance is roughly 419 feet — nearly a football field and a half.",
+     "Doubling your speed roughly quadruples your stopping distance and impact force; tripling your speed multiplies both by about 9.",
+     "Cut speed by about a third on a wet road, by half or more on packed snow, and down to a crawl on ice.",
+     "Hydroplaning can happen at speeds as low as 30 mph if there's enough standing water."
+    ]
+   },
+   {
+    "heading": "Managing space",
+    "bullets": [
+     "Following distance rule: 1 second for every 10 feet of your vehicle's length at speeds under 40 mph, plus 1 extra second if you're over 40 mph.",
+     "A loaded vehicle sits lower than an empty one of the same type — clearing a bridge loaded doesn't guarantee you'll clear it empty.",
+     "On right turns, keep the rear of your vehicle close to the curb rather than swinging wide left first — swinging left invites someone to pass you on the right."
+    ]
+   },
+   {
+    "heading": "Distracted, drowsy & impaired driving",
+    "bullets": [
+     "Hand-held phone use and texting are both banned while driving a CMV. A second conviction means 60 days disqualified; a third means 120 days, plus fines up to $2,750 for the driver and $11,000 for the carrier.",
+     "Getting 6 hours of sleep or less roughly triples your crash risk.",
+     "Plan breaks about every 100 miles or 2 hours on long trips — the only real cure for drowsiness is sleep, not caffeine or fresh air."
+    ]
+   },
+   {
+    "heading": "Night, fog & winter driving",
+    "bullets": [
+     "Low beams show the road about 250 feet ahead; high beams about 350-500 feet. Never outdrive your headlights.",
+     "Dim your high beams within 500 feet of an oncoming vehicle or one you're following.",
+     "The best advice for fog is simply: don't drive in it. If you must, use low beams and fog lights, not high beams.",
+     "Winter tread minimums are the same as always — 4/32 inch front, 2/32 inch other — but more is safer."
+    ]
+   },
+   {
+    "heading": "Railroad crossings",
+    "bullets": [
+     "The round, black-on-yellow sign is the advance warning sign — it means slow down and be ready to stop.",
+     "If there's no stop line, stop between 15 and 50 feet from the nearest rail at a cross-buck sign.",
+     "A typical tractor-trailer needs about 14 seconds to clear a single track, and 15+ seconds to clear a double track — never get trapped stopping on the tracks.",
+     "Never shift gears while crossing the tracks."
+    ]
+   },
+   {
+    "heading": "Mountain driving & brake fade",
+    "bullets": [
+     "Select your safe speed and downshift to the right gear BEFORE starting down a grade, not after you're already rolling.",
+     "Use engine braking as your main speed control; apply the brakes firmly enough for a real slowdown, then release — repeated hard, continuous braking causes brake fade.",
+     "Escape ramps use soft material (and often an upgrade) to safely stop a runaway vehicle — use one if your brakes fail."
+    ]
+   },
+   {
+    "heading": "Emergency maneuvers, ABS & skids",
+    "bullets": [
+     "Steering around an obstacle is often faster and safer than trying to stop in time.",
+     "Controlled braking: brake as hard as possible without locking the wheels. Stab braking: brake fully, release the instant wheels lock, then reapply.",
+     "If a tire blows out, hold the wheel firmly and stay off the brake until you've slowed down — braking hard can cause loss of control.",
+     "ABS does not necessarily shorten stopping distance — it helps you keep steering control. Brake the same way you always would; don't pump the brakes.",
+     "To recover from a drive-wheel skid: stop braking to let the wheels roll again, and counter-steer. Never use the trailer hand valve to try to straighten a skidding trailer."
+    ]
+   },
+   {
+    "heading": "Accidents, fires & alcohol",
+    "bullets": [
+     "Three steps at any accident: protect the area, notify authorities, care for the injured.",
+     "Fire extinguisher classes: A = wood/paper/ordinary combustibles, B = flammable liquids, C = electrical, D = combustible metals. Never use water on an electrical or gasoline fire.",
+     "A standard drink is about 12 oz of beer, 5 oz of wine, or 1.5 oz of 80-proof liquor — they all contain roughly the same amount of alcohol.",
+     "The liver only processes about one drink per hour; only time sobers you up, not coffee or a cold shower."
+    ]
+   },
+   {
+    "heading": "Hazardous materials — what every driver should know",
+    "bullets": [
+     "There are 9 hazard classes. A placarded vehicle needs 4 identical placards: front, rear, and both sides.",
+     "You need a hazmat endorsement to legally drive a vehicle that requires placards.",
+     "Identification numbers on shipping papers are preceded by the letters 'UN' or 'NA'."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "Double-clutching, step by step",
+    "body": "Since you're testing in a manual, examiners expect clean, silent shifts — no clashing gears. The sequence is the same for every shift: clutch in → shift to neutral → clutch OUT (briefly, in neutral) → clutch in again → shift into the next gear → clutch out. The 'blip' in neutral is what lets the gears sync without grinding."
+   },
+   {
+    "heading": "Match your RPM, not just your gear",
+    "body": "Upshifting: let engine RPM drop toward your target before engaging the next gear. Downshifting: give the engine a quick throttle blip while in neutral to bring RPM UP to match the lower gear's speed before engaging it. Rushing this step is the #1 cause of grinding on the road test."
+   },
+   {
+    "heading": "Shift by sound and feel, not the speedometer",
+    "body": "Watching the speedometer to decide when to shift means you're not watching the road. Learn your truck's engine sound at each shift point — most drivers shift by ear within a week of practice."
+   },
+   {
+    "heading": "Never coast in neutral",
+    "body": "Besides being an automatic 'unsafe coasting' fault on the road test, coasting means you have no engine braking and (on some trucks) no power for your air compressor or steering assist. Stay in gear."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "During the vehicle inspection, minimum tread depth on steering axle tires is:",
+    "options": [
+     "2/32 inch",
+     "3/32 inch",
+     "4/32 inch",
+     "6/32 inch"
+    ],
+    "correct": 2,
+    "explain": "4/32 inch on the front (steering) tires; 2/32 inch is the minimum for all other tires."
+   },
+   {
+    "q": "How much steering wheel play is too much?",
+    "options": [
+     "More than 2 degrees",
+     "More than 5 degrees",
+     "More than 10 degrees",
+     "More than 20 degrees"
+    ],
+    "correct": 2,
+    "explain": "More than 10 degrees (about 2 inches of movement at the rim of a 20-inch wheel) makes steering unsafe."
+   },
+   {
+    "q": "To check hydraulic brakes for leaks, you should:",
+    "options": [
+     "Pump the pedal 3 times, then hold firm pressure for 5 seconds and watch for movement",
+     "Press the pedal once and release immediately",
+     "Rev the engine while pressing the pedal",
+     "Check only the brake fluid color"
+    ],
+    "correct": 0,
+    "explain": "If the pedal moves after 5 seconds of held pressure, there's a leak or other problem."
+   },
+   {
+    "q": "After starting a trip, you must re-inspect cargo securement within the first:",
+    "options": [
+     "10 miles",
+     "50 miles",
+     "100 miles",
+     "250 miles"
+    ],
+    "correct": 1,
+    "explain": "Then re-check every 150 miles or 3 hours after that, whichever comes first."
+   },
+   {
+    "q": "When backing a vehicle, you should generally back toward:",
+    "options": [
+     "The passenger side, because it's wider",
+     "The driver's side, so you can see better",
+     "Whichever side has less traffic",
+     "It doesn't matter"
+    ],
+    "correct": 1,
+    "explain": "Backing toward the driver's side lets you watch the rear by looking out your own window."
+   },
+   {
+    "q": "You should downshift to a lower gear:",
+    "options": [
+     "After your vehicle has already picked up speed going downhill",
+     "Before starting down a grade or entering a curve",
+     "Only when the brakes start to fail",
+     "Only on manual transmissions with retarders"
+    ],
+    "correct": 1,
+    "explain": "Downshift ahead of time — trying to shift down after speed builds can fail and cost you engine braking."
+   },
+   {
+    "q": "Retarders should be turned OFF when the road is:",
+    "options": [
+     "Dry and warm",
+     "Wet, icy, or snow-covered",
+     "Uphill",
+     "Under construction"
+    ],
+    "correct": 1,
+    "explain": "On slippery roads, retarders can cause the drive wheels to skid."
+   },
+   {
+    "q": "Most good drivers look how far ahead while driving?",
+    "options": [
+     "2-4 seconds",
+     "6-8 seconds",
+     "12-15 seconds",
+     "20-25 seconds"
+    ],
+    "correct": 2,
+    "explain": "12-15 seconds ahead — roughly a city block at low speed, a quarter mile at highway speed."
+   },
+   {
+    "q": "On a two-lane road (traffic both directions), where should you place your three warning triangles if you must stop?",
+    "options": [
+     "All three directly behind the vehicle",
+     "Within 10 feet of the vehicle, and 100 feet ahead and 100 feet behind",
+     "200 feet behind only",
+     "50 feet on each side"
+    ],
+    "correct": 1,
+    "explain": "One near the vehicle, one 100 feet ahead, one 100 feet behind, to warn traffic from both directions."
+   },
+   {
+    "q": "Total stopping distance is the sum of:",
+    "options": [
+     "Reaction distance and braking distance only",
+     "Perception distance, reaction distance, and braking distance",
+     "Braking distance and following distance",
+     "Perception distance and following distance"
+    ],
+    "correct": 1,
+    "explain": "All three stack together to make up total stopping distance."
+   },
+   {
+    "q": "At 55 mph in good conditions, roughly how far does it take a heavy vehicle to stop completely?",
+    "options": [
+     "About 150 feet",
+     "About 280 feet",
+     "About 419 feet",
+     "About 700 feet"
+    ],
+    "correct": 2,
+    "explain": "About 419 feet — nearly a football field and a half."
+   },
+   {
+    "q": "If you double your speed from 20 to 40 mph, your braking distance becomes roughly:",
+    "options": [
+     "2 times longer",
+     "4 times longer",
+     "6 times longer",
+     "9 times longer"
+    ],
+    "correct": 1,
+    "explain": "Doubling speed roughly quadruples both impact force and braking distance."
+   },
+   {
+    "q": "On a wet road, you should generally reduce your speed by about:",
+    "options": [
+     "A tenth",
+     "A third",
+     "Two-thirds",
+     "Ninety percent"
+    ],
+    "correct": 1,
+    "explain": "Cut speed by about a third on wet pavement; more on snow, and to a crawl on ice."
+   },
+   {
+    "q": "Hydroplaning can start at speeds as low as:",
+    "options": [
+     "10 mph",
+     "30 mph",
+     "55 mph",
+     "It never happens under 60 mph"
+    ],
+    "correct": 1,
+    "explain": "With enough standing water, hydroplaning can occur at just 30 mph."
+   },
+   {
+    "q": "The following-distance rule of thumb is 1 second per 10 feet of vehicle length under 40 mph, plus:",
+    "options": [
+     "Nothing extra, ever",
+     "1 extra second if you're driving over 40 mph",
+     "Double the count in rain only",
+     "3 extra seconds at any speed"
+    ],
+    "correct": 1,
+    "explain": "Add 1 second if your speed is over 40 mph."
+   },
+   {
+    "q": "How many convictions for texting while driving a CMV trigger your first disqualification period?",
+    "options": [
+     "1st conviction",
+     "2 or more convictions",
+     "4 or more convictions",
+     "Texting isn't a disqualifying offense"
+    ],
+    "correct": 1,
+    "explain": "The second conviction brings a 60-day disqualification; a third or more brings 120 days."
+   },
+   {
+    "q": "Getting 6 hours of sleep or less before driving roughly:",
+    "options": [
+     "Has no measurable effect",
+     "Doubles your crash risk",
+     "Triples your crash risk",
+     "Only matters for night driving"
+    ],
+    "correct": 2,
+    "explain": "Sleep-deprived driving (6 hours or less) roughly triples crash risk according to the manual."
+   },
+   {
+    "q": "With low-beam headlights, you can typically see about how far ahead?",
+    "options": [
+     "100 feet",
+     "250 feet",
+     "500 feet",
+     "800 feet"
+    ],
+    "correct": 1,
+    "explain": "Low beams show about 250 feet; high beams show about 350-500 feet."
+   },
+   {
+    "q": "You should dim your high beams when within how many feet of an oncoming or followed vehicle?",
+    "options": [
+     "100 feet",
+     "250 feet",
+     "500 feet",
+     "1,000 feet"
+    ],
+    "correct": 2,
+    "explain": "Dim within 500 feet to avoid blinding other drivers."
+   },
+   {
+    "q": "The best advice given for driving in fog is:",
+    "options": [
+     "Use your high beams for maximum visibility",
+     "Speed up to get through it faster",
+     "Don't drive in it — pull off and wait if you can",
+     "Follow another vehicle's taillights closely"
+    ],
+    "correct": 2,
+    "explain": "If you must drive, use low beams and fog lights, and slow down well before entering the fog."
+   },
+   {
+    "q": "At a railroad crossing with no painted stop line, how far from the nearest rail should you stop?",
+    "options": [
+     "Anywhere within 100 feet",
+     "Between 15 and 50 feet",
+     "Exactly 10 feet",
+     "Right up against the cross-buck sign"
+    ],
+    "correct": 1,
+    "explain": "Stop no closer than 15 feet and no farther than 50 feet from the nearest rail."
+   },
+   {
+    "q": "About how long does it take a typical tractor-trailer to clear a single railroad track?",
+    "options": [
+     "3 seconds",
+     "14 seconds",
+     "30 seconds",
+     "1 minute"
+    ],
+    "correct": 1,
+    "explain": "About 14 seconds for one track, 15+ seconds for a double track."
+   },
+   {
+    "q": "When descending a long grade, your main method of controlling speed should be:",
+    "options": [
+     "Riding the brakes continuously",
+     "The braking effect of the engine, in a low gear",
+     "The parking brake",
+     "Coasting in neutral"
+    ],
+    "correct": 1,
+    "explain": "Use engine braking as the principal control; use the brakes only in short, firm applications."
+   },
+   {
+    "q": "If a tire blows out while driving, you should:",
+    "options": [
+     "Brake hard immediately to stop as fast as possible",
+     "Hold the wheel firmly and stay off the brake until you've slowed down",
+     "Turn sharply toward the shoulder right away",
+     "Accelerate to maintain control"
+    ],
+    "correct": 1,
+    "explain": "Braking hard right after a blowout can cause you to lose control; slow down gradually first."
+   },
+   {
+    "q": "Does ABS necessarily shorten your stopping distance?",
+    "options": [
+     "Yes, always by half",
+     "No — it mainly helps you keep steering control during hard braking",
+     "Yes, but only on ice",
+     "ABS has no effect on braking at all"
+    ],
+    "correct": 1,
+    "explain": "ABS keeps wheels from locking so you can steer; it doesn't guarantee a shorter stop."
+   },
+   {
+    "q": "To recover from a rear-wheel (drive-wheel) skid, you should:",
+    "options": [
+     "Apply the trailer hand brake to straighten the rig",
+     "Brake harder to regain traction",
+     "Stop braking and counter-steer",
+     "Accelerate hard"
+    ],
+    "correct": 2,
+    "explain": "Release the brakes to let the wheels roll again, then counter-steer — never use the trailer hand valve to fix a skid."
+   },
+   {
+    "q": "Which fire extinguisher rule is correct?",
+    "options": [
+     "Water works fine on electrical fires",
+     "Never use water on an electrical fire or a gasoline fire",
+     "Class D extinguishers are for wood and paper",
+     "Class A fires require carbon dioxide only"
+    ],
+    "correct": 1,
+    "explain": "Water can cause shock on electrical fires and spread gasoline fires."
+   },
+   {
+    "q": "A standard alcoholic drink (12 oz beer, 5 oz wine, or 1.5 oz of 80-proof liquor) all contain roughly:",
+    "options": [
+     "Very different amounts of alcohol",
+     "The same amount of alcohol",
+     "Twice as much alcohol in wine as beer",
+     "No comparable amount — it depends on brand only"
+    ],
+    "correct": 1,
+    "explain": "All three are considered equivalent standard drinks."
+   },
+   {
+    "q": "A placarded hazardous materials vehicle must display placards on:",
+    "options": [
+     "The rear only",
+     "Front and rear only",
+     "All four sides — front, rear, and both sides",
+     "Only the side facing traffic"
+    ],
+    "correct": 2,
+    "explain": "Four identical placards: front, rear, and both sides."
+   },
+   {
+    "q": "Bonus (manual transmission): the correct double-clutch sequence for shifting is:",
+    "options": [
+     "Clutch in, shift, clutch out — done in one motion",
+     "Clutch in, shift to neutral, clutch out, clutch in again, shift to next gear, clutch out",
+     "Hold the clutch down through the whole shift",
+     "Never use the clutch after the vehicle is moving"
+    ],
+    "correct": 1,
+    "explain": "The brief release in neutral is what lets engine and gear speed sync without grinding."
+   },
+   {
+    "q": "Bonus (manual transmission): when downshifting with the double-clutch method, you should:",
+    "options": [
+     "Let RPM drop as low as possible before engaging the lower gear",
+     "Blip the throttle in neutral to bring RPM UP to match the lower gear",
+     "Skip the clutch entirely on downshifts",
+     "Brake hard before every downshift"
+    ],
+    "correct": 1,
+    "explain": "A lower gear spins faster at the same road speed, so you rev-match upward before engaging it."
+   },
+   {
+    "q": "Bonus (manual transmission): grinding gears on the skills test is most often caused by:",
+    "options": [
+     "Shifting too early",
+     "Rushing the neutral pause and skipping the RPM-match step",
+     "Using too much clutch pedal travel",
+     "Shifting in a straight line instead of on a curve"
+    ],
+    "correct": 1,
+    "explain": "Take the extra half-second in neutral to match engine speed to the next gear."
+   },
+   {
+    "q": "Bonus (manual transmission): the safest way to know when to shift is to:",
+    "options": [
+     "Watch the speedometer continuously",
+     "Learn to shift by the engine's sound and feel, keeping your eyes on the road",
+     "Shift at a fixed time interval regardless of speed",
+     "Always shift at redline"
+    ],
+    "correct": 1,
+    "explain": "Experienced drivers shift by ear so their eyes stay on traffic, not the gauges."
+   },
+   {
+    "q": "Bonus (manual transmission): coasting in neutral is discouraged because:",
+    "options": [
+     "It saves too much fuel",
+     "It's scored as unsafe coasting and you lose engine braking and other systems that rely on the engine running under load",
+     "It makes the transmission shift faster",
+     "It's actually required on downgrades"
+    ],
+    "correct": 1,
+    "explain": "Stay in gear — coasting removes your engine braking and can starve systems like air brakes or power steering on some trucks."
+   },
+   {
+    "q": "You're driving a 40-foot truck at 35 mph. What's the minimum following distance you should leave?",
+    "options": [
+     "2 seconds",
+     "3 seconds",
+     "4 seconds",
+     "6 seconds"
+    ],
+    "correct": 2,
+    "explain": "1 second per 10 feet under 40 mph = 4 seconds for a 40-foot rig. Over 40 mph, add 1 more second."
+   },
+   {
+    "q": "To measure your following distance, you should:",
+    "options": [
+     "Watch the speedometer for 5 seconds",
+     "Count seconds between when the vehicle ahead passes a fixed landmark and when you do",
+     "Count one Mississippi per car length",
+     "Use your mirrors only"
+    ],
+    "correct": 1,
+    "explain": "Wait until the vehicle ahead passes a shadow, marking, or landmark, then count 'one-thousand-and-one…' until you reach it."
+   },
+   {
+    "q": "You're driving a 30-foot vehicle at 55 mph. How many seconds of following distance should you allow?",
+    "options": [
+     "3 seconds",
+     "4 seconds",
+     "5 seconds",
+     "7 seconds"
+    ],
+    "correct": 1,
+    "explain": "30 ft = 3 seconds under 40 mph, plus 1 extra second because you're over 40 mph = 4 seconds."
+   },
+   {
+    "q": "If a vehicle is following you too closely, you should:",
+    "options": [
+     "Slow down and increase your following distance ahead",
+     "Speed up to get away",
+     "Brake to warn the tailgater",
+     "Move left and stay there"
+    ],
+    "correct": 0,
+    "explain": "Opening up space ahead gives you room to stop gradually if the tailgater forces a sudden slowdown."
+   }
+  ]
+ },
+ {
+  "id": "sec3",
+  "number": 3,
+  "short": "Cargo",
+  "title": "Transporting Cargo Safely",
+  "group": "core",
+  "classAManual": true,
+  "minutes": 7,
+  "summary": "Weight limits, balance, tie-downs, and special cargo that needs extra care.",
+  "topics": [
+   {
+    "heading": "Your responsibilities as the driver",
+    "bullets": [
+     "Inspect your cargo, recognize overloads or poor weight balance, confirm it's properly secured, and make sure it doesn't block your view or your access to emergency equipment.",
+     "Re-inspect cargo and tie-downs within the first 50 miles of a trip, and then every 150 miles or 3 hours after that, whichever comes first."
+    ]
+   },
+   {
+    "heading": "Weight definitions",
+    "bullets": [
+     "GVWR (Gross Vehicle Weight Rating): manufacturer's max loaded weight for one vehicle.",
+     "GCWR (Gross Combination Weight Rating): manufacturer's max loaded weight for a power unit plus everything it's towing.",
+     "Axle weight: weight transmitted to the ground by one axle or set of axles.",
+     "A bridge formula sets lower maximum axle weights for axles that sit closer together, to protect bridges and roads."
+    ]
+   },
+   {
+    "heading": "Keep it low and balanced",
+    "bullets": [
+     "A high center of gravity (cargo piled high, or heavy cargo on top) makes rollover far more likely, especially in curves.",
+     "Too much weight on the steering axle makes steering hard; too little makes it dangerously light and hard to control.",
+     "Too little weight on the drive axles causes poor traction and wheel spin, especially in bad weather."
+    ]
+   },
+   {
+    "heading": "Securing cargo",
+    "bullets": [
+     "Blocking and bracing keep cargo from sliding forward, back, or side to side.",
+     "Rule of thumb: at least one tie-down for every 10 feet of cargo, with a minimum of two tie-downs no matter how small the load.",
+     "Header boards ('headache racks') protect the cab from cargo sliding forward in a crash or hard stop.",
+     "Cover cargo both to protect people from spills and to protect the cargo from weather."
+    ]
+   },
+   {
+    "heading": "Cargo that needs extra caution",
+    "bullets": [
+     "Dry bulk tanks: high center of gravity — go slow and easy through curves and turns.",
+     "Hanging meat: very unstable with a high center of gravity — slow way down on ramps and curves.",
+     "Livestock: can shift their weight, especially leaning into curves — use false bulkheads with a partial load.",
+     "Oversized loads: require special permits, signage, and sometimes escorts."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How soon after starting a trip must you re-check cargo securement?",
+    "options": [
+     "Within the first 10 miles",
+     "Within the first 50 miles",
+     "Within the first 100 miles",
+     "Only at the destination"
+    ],
+    "correct": 1,
+    "explain": "Within the first 50 miles, then every 150 miles or 3 hours after that."
+   },
+   {
+    "q": "After that first check, how often should you re-check cargo on a long trip?",
+    "options": [
+     "Every 25 miles or 30 minutes",
+     "Every 150 miles or 3 hours",
+     "Every 500 miles",
+     "Only once per day"
+    ],
+    "correct": 1,
+    "explain": "Every 150 miles or 3 hours, whichever happens first."
+   },
+   {
+    "q": "GCWR stands for and refers to:",
+    "options": [
+     "Gross Cargo Weight Rating — the max weight of freight alone",
+     "Gross Combination Weight Rating — max weight of the power unit plus everything towed",
+     "General Commercial Weight Requirement",
+     "Ground Clearance Weight Ratio"
+    ],
+    "correct": 1,
+    "explain": "It's the manufacturer's maximum rating for the whole combination."
+   },
+   {
+    "q": "A high center of gravity from cargo piled up high mainly increases the risk of:",
+    "options": [
+     "Better fuel economy",
+     "Rollover, especially in curves",
+     "Faster acceleration",
+     "Improved traction"
+    ],
+    "correct": 1,
+    "explain": "High, top-heavy loads are far more likely to roll over."
+   },
+   {
+    "q": "The general tie-down rule of thumb is:",
+    "options": [
+     "One tie-down for the whole load, regardless of size",
+     "At least one tie-down per 10 feet of cargo, minimum two",
+     "Exactly four tie-downs on every load",
+     "Tie-downs are optional if the cargo is under 500 lbs"
+    ],
+    "correct": 1,
+    "explain": "At least one per 10 feet of cargo, and never fewer than two, even on tiny loads."
+   },
+   {
+    "q": "What is the main purpose of a header board (headache rack)?",
+    "options": [
+     "To improve fuel economy",
+     "To protect the cab if cargo shifts forward in a crash or hard stop",
+     "To hold license plates",
+     "To increase legal weight limits"
+    ],
+    "correct": 1,
+    "explain": "It blocks cargo from sliding into the cab."
+   },
+   {
+    "q": "Too little weight on the drive axles mainly causes:",
+    "options": [
+     "Overheating brakes",
+     "Poor traction and wheel spin",
+     "Excessive steering play",
+     "Higher fuel economy"
+    ],
+    "correct": 1,
+    "explain": "Underloaded drive axles struggle for traction, especially in rain or snow."
+   },
+   {
+    "q": "Why is dry bulk cargo (like a dry bulk tank) tricky to haul?",
+    "options": [
+     "It's always overweight",
+     "It has a high center of gravity and the load can shift",
+     "It requires no tie-downs at all",
+     "It cannot be inspected"
+    ],
+    "correct": 1,
+    "explain": "Go slow and careful on curves and sharp turns."
+   },
+   {
+    "q": "When hauling livestock, why is a partial load more dangerous than a full one?",
+    "options": [
+     "Animals cost more to insure",
+     "Animals can shift and lean into curves, moving the center of gravity",
+     "Partial loads are always overweight",
+     "It isn't more dangerous"
+    ],
+    "correct": 1,
+    "explain": "Use false bulkheads to bunch animals together and reduce shifting."
+   },
+   {
+    "q": "What are the two basic reasons for covering cargo on an open bed?",
+    "options": [
+     "To improve mileage and reduce noise",
+     "To protect people from spilled cargo and to protect the cargo from weather",
+     "To hide the cargo from view and reduce weight",
+     "It's required only for hazardous materials"
+    ],
+    "correct": 1,
+    "explain": "Spill protection and weather protection are the two core reasons."
+   },
+   {
+    "q": "A bridge formula sets lower maximum axle weights for axles that are:",
+    "options": [
+     "Painted a different color",
+     "Closer together",
+     "Farther apart",
+     "On the trailer only"
+    ],
+    "correct": 1,
+    "explain": "Axles closer together get a lower max weight to avoid overloading bridges and roads."
+   },
+   {
+    "q": "Overloading a truck primarily hurts:",
+    "options": [
+     "Fuel gauge accuracy only",
+     "Steering, braking, and speed control",
+     "Windshield wiper performance",
+     "Radio reception"
+    ],
+    "correct": 1,
+    "explain": "Overloaded trucks climb slowly, gain too much speed downhill, and take longer to stop."
+   }
+  ]
+ },
+ {
+  "id": "sec4",
+  "number": 4,
+  "short": "Passengers",
+  "title": "Transporting Passengers Safely",
+  "group": "endorsement",
+  "endorsement": "P — Passenger",
+  "minutes": 8,
+  "summary": "Bus-specific inspection points, loading rules, hazmat limits on a bus, and the prohibited practices list.",
+  "topics": [
+   {
+    "heading": "Getting the P endorsement",
+    "bullets": [
+     "Requires a knowledge test covering Sections 2 and 4 of the manual, plus Section 5 (air brakes) if your bus has them, and the passenger skills tests."
+    ]
+   },
+   {
+    "heading": "Extra inspection points for buses",
+    "bullets": [
+     "Check handholds, railings, floor covering, emergency exit handles, and any restroom emergency buzzer.",
+     "Never drive with an open emergency exit door or window, and the 'Emergency Exit' sign must be clearly visible."
+    ]
+   },
+   {
+    "heading": "Hazardous materials on a bus",
+    "bullets": [
+     "Buses may carry small-arms ammunition (ORM-D labeled), emergency hospital supplies, and drugs.",
+     "Buses can never carry: poison gas, more than 100 lbs of solid Class 6 poisons, explosives in a space occupied by people (except small-arms ammo), or labeled radioactive materials in a space occupied by people.",
+     "The overall limit for permitted hazardous materials on a bus is 500 lbs total, no more than 100 lbs of any single class."
+    ]
+   },
+   {
+    "heading": "The standee line",
+    "bullets": [
+     "On buses designed to allow standing, a 2-inch line marks how far forward riders may stand. No one may stand ahead of the rear of the driver's seat."
+    ]
+   },
+   {
+    "heading": "Railroad crossings & drawbridges",
+    "bullets": [
+     "Stop your bus between 15 and 50 feet before a railroad crossing, listen and look both ways, and open the forward door if it helps you see or hear.",
+     "Stop at least 50 feet before an unguarded drawbridge and make sure the draw is fully closed before crossing."
+    ]
+   },
+   {
+    "heading": "Prohibited practices",
+    "bullets": [
+     "Don't refuel with riders aboard unless absolutely necessary, and never refuel inside a closed building with riders on board.",
+     "Don't talk with riders or do anything distracting while driving.",
+     "Don't tow or push a disabled bus with riders aboard unless getting off would be more dangerous."
+    ]
+   },
+   {
+    "heading": "Brake-door interlock",
+    "bullets": [
+     "On some transit buses, opening the rear door automatically applies the brake and holds the throttle at idle. This is a safety feature — never use it as a substitute for the parking brake."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "The standee line on a bus marks:",
+    "options": [
+     "Where wheelchairs must park",
+     "How far forward standing riders may go",
+     "The driver's seatbelt zone",
+     "Where luggage must be stored"
+    ],
+    "correct": 1,
+    "explain": "No rider may stand forward of the rear of the driver's seat."
+   },
+   {
+    "q": "What is the total weight limit for hazardous materials permitted aboard a bus?",
+    "options": [
+     "100 lbs total",
+     "500 lbs total, no more than 100 lbs of any one class",
+     "1,000 lbs total",
+     "There is no limit if properly labeled"
+    ],
+    "correct": 1,
+    "explain": "500 lbs total, capped at 100 lbs per class."
+   },
+   {
+    "q": "Which of these can a bus legally carry?",
+    "options": [
+     "Labeled radioactive material in the passenger space",
+     "Poison gas",
+     "Small-arms ammunition labeled ORM-D",
+     "Explosives in the passenger compartment"
+    ],
+    "correct": 2,
+    "explain": "ORM-D small-arms ammo, emergency hospital supplies, and drugs are allowed in small amounts."
+   },
+   {
+    "q": "How far before a railroad crossing must a bus stop?",
+    "options": [
+     "Between 5 and 10 feet",
+     "Between 15 and 50 feet",
+     "Exactly 100 feet",
+     "Buses don't need to stop"
+    ],
+    "correct": 1,
+    "explain": "Stop between 15 and 50 feet from the nearest rail."
+   },
+   {
+    "q": "At an unguarded drawbridge with no signal or attendant, how far before the draw must you stop?",
+    "options": [
+     "10 feet",
+     "25 feet",
+     "50 feet",
+     "100 feet"
+    ],
+    "correct": 2,
+    "explain": "Stop at least 50 feet before the draw and confirm it's fully closed."
+   },
+   {
+    "q": "Refueling a bus with riders aboard is:",
+    "options": [
+     "Always fine",
+     "Allowed only if absolutely necessary, and never inside a closed building",
+     "Never allowed under any circumstance",
+     "Only allowed at night"
+    ],
+    "correct": 1,
+    "explain": "Avoid it when possible; never do it inside a closed building with riders on board."
+   },
+   {
+    "q": "A brake-door interlock on a transit bus:",
+    "options": [
+     "Replaces the need for a parking brake",
+     "Applies the brake and holds idle when the rear door opens, but is not a substitute for the parking brake",
+     "Only works when the bus is empty",
+     "Locks the doors permanently"
+    ],
+    "correct": 1,
+    "explain": "It's a safety feature, not a parking brake replacement."
+   },
+   {
+    "q": "Should you tow or push a disabled bus with riders aboard?",
+    "options": [
+     "Always, to save time",
+     "Never under any circumstances",
+     "Only to the nearest safe spot to let riders off, and only if getting off would be unsafe",
+     "Only on highways"
+    ],
+    "correct": 2,
+    "explain": "Only move to the nearest safe unloading spot, and only if it's unsafe for riders to exit first."
+   },
+   {
+    "q": "What should you never drive with, on a bus?",
+    "options": [
+     "An open emergency exit door or window",
+     "A clean windshield",
+     "A full fuel tank",
+     "Working mirrors"
+    ],
+    "correct": 0,
+    "explain": "All emergency exits must be closed while driving, and the exit sign must be visible."
+   },
+   {
+    "q": "Before crossing a drawbridge, you must:",
+    "options": [
+     "Honk the horn three times",
+     "Confirm the draw is fully closed",
+     "Turn off the engine",
+     "Open all bus doors"
+    ],
+    "correct": 1,
+    "explain": "Look to make sure the draw is completely closed before proceeding."
+   },
+   {
+    "q": "Which items must you check on a bus's interior before driving?",
+    "options": [
+     "Only the driver's seatbelt",
+     "Handholds, railings, floor covering, and emergency exit handles",
+     "Only the fuel gauge",
+     "Nothing — bus interiors aren't inspected"
+    ],
+    "correct": 1,
+    "explain": "All of these safety-related interior items must be checked."
+   },
+   {
+    "q": "To get a Passenger (P) endorsement, your knowledge test covers which manual sections (plus air brakes if applicable)?",
+    "options": [
+     "Sections 2 and 4",
+     "Sections 6 and 7",
+     "Section 9 only",
+     "Section 1 only"
+    ],
+    "correct": 0,
+    "explain": "Sections 2 (Driving Safely) and 4 (Transporting Passengers), plus Section 5 if your bus has air brakes."
+   }
+  ]
+ },
+ {
+  "id": "sec5",
+  "number": 5,
+  "short": "Air Brakes",
+  "title": "Air Brakes",
+  "group": "endorsement",
+  "classAManual": true,
+  "endorsement": "Required for any air-braked vehicle",
+  "minutes": 10,
+  "summary": "Every pressure number, timing, and warning threshold the air brake test is built around.",
+  "topics": [
+   {
+    "heading": "Three systems in one",
+    "bullets": [
+     "Service brakes: the normal brakes you use with the pedal.",
+     "Parking brakes: hold the vehicle when parked, using spring pressure.",
+     "Emergency brakes: use parts of the other two systems to stop you if the air brake system fails."
+    ]
+   },
+   {
+    "heading": "The pressure numbers to memorize",
+    "bullets": [
+     "Governor cuts out (stops the compressor) around 125 psi and cuts back in around 100 psi.",
+     "The safety relief valve is usually set to open at 150 psi — if it ever releases air, something's wrong.",
+     "Low air pressure warning must activate before air pressure drops below 55 psi.",
+     "Spring brakes activate fully somewhere in the 20-45 psi range (commonly 20-30 psi) — don't wait for them; stop safely the moment the low air warning comes on.",
+     "Dual air systems should build from 85 to 100 psi within 45 seconds with the engine running; older single air systems build 50 to 90 psi within 3 minutes at idle."
+    ]
+   },
+   {
+    "heading": "Leak-rate limits (the exact numbers examiners ask about)",
+    "bullets": [
+     "With the engine off and brakes released, air loss should be less than 2 psi/minute for a single vehicle, less than 3 psi/minute for a combination vehicle.",
+     "With the foot brake held down for 1 minute, loss should be no more than 3 psi/minute (single vehicle) or 4 psi/minute (combination vehicle)."
+    ]
+   },
+   {
+    "heading": "Slack adjusters & brake fade",
+    "bullets": [
+     "If a slack adjuster moves more than about 1 inch when pulled by hand, it likely needs adjustment.",
+     "Vehicles built since 1994 have automatic slack adjusters, but you should still check them — don't rely on manual adjustment as a real fix.",
+     "Brake fade happens from overheating; brakes out of adjustment fail first, overloading the rest and accelerating fade."
+    ]
+   },
+   {
+    "heading": "Stopping distance with air brakes",
+    "bullets": [
+     "Air brakes add 'brake lag' — about half a second, or roughly 32 feet at 55 mph — on top of the usual perception + reaction + braking distance."
+    ]
+   },
+   {
+    "heading": "Using air brakes correctly",
+    "bullets": [
+     "Never push the brake pedal down while the spring (parking) brakes are set — it can damage them.",
+     "Never use the parking brake if the brakes are extremely hot or extremely wet in freezing weather.",
+     "Drain air tanks daily unless you have automatic drains."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "The number ladder — memorize it in order, low to high",
+    "body": "Spring brakes fully apply: ~20-45 psi  →  Low-air warning must trigger: below 55 psi  →  Governor cuts IN (starts building air again): ~100 psi  →  Governor cuts OUT: ~125 psi  →  Safety relief valve: ~150 psi. Say this ladder out loud a few times — it's the backbone of both the written test and the vehicle inspection test."
+   },
+   {
+    "heading": "The '2-3-3-4' leak-rate trick",
+    "body": "Engine off, brakes released: 2 psi/min single, 3 psi/min combo. Foot brake held: 3 psi/min single, 4 psi/min combo. Notice combination vehicles always get the bigger number in both tests — more air lines, more allowed leakage."
+   },
+   {
+    "heading": "Practice the 3-part air brake check out loud",
+    "body": "The examiner wants to hear you narrate: (1) hold the foot brake 1 minute and watch the gauge, (2) fan the brakes and watch for the warning light/buzzer before 55 psi, (3) keep fanning until the rig's parking brakes pop on by themselves. Rehearse the script, not just the actions."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Around what pressure does the governor typically cut out (stop the compressor)?",
+    "options": [
+     "75 psi",
+     "100 psi",
+     "125 psi",
+     "150 psi"
+    ],
+    "correct": 2,
+    "explain": "Around 125 psi cut-out, with cut-in around 100 psi."
+   },
+   {
+    "q": "The safety relief valve is usually set to open at approximately:",
+    "options": [
+     "100 psi",
+     "125 psi",
+     "150 psi",
+     "200 psi"
+    ],
+    "correct": 2,
+    "explain": "150 psi — if it releases air, get it checked."
+   },
+   {
+    "q": "The low air pressure warning signal must activate before pressure drops below:",
+    "options": [
+     "35 psi",
+     "45 psi",
+     "55 psi",
+     "65 psi"
+    ],
+    "correct": 2,
+    "explain": "It must warn you before pressure falls below 55 psi."
+   },
+   {
+    "q": "Spring brakes typically apply fully somewhere in what pressure range?",
+    "options": [
+     "5-10 psi",
+     "20-45 psi",
+     "60-80 psi",
+     "100-120 psi"
+    ],
+    "correct": 1,
+    "explain": "Commonly 20-30 psi within the broader 20-45 psi range — don't wait for this to happen automatically."
+   },
+   {
+    "q": "A dual air system should build from 85 to 100 psi within how many seconds, with the engine running?",
+    "options": [
+     "15 seconds",
+     "45 seconds",
+     "90 seconds",
+     "3 minutes"
+    ],
+    "correct": 1,
+    "explain": "45 seconds is the benchmark for dual systems; older single systems get 3 minutes for a bigger 50-90 psi build."
+   },
+   {
+    "q": "With the engine off and brakes released, an acceptable air leak rate for a single vehicle is:",
+    "options": [
+     "Less than 2 psi per minute",
+     "Less than 10 psi per minute",
+     "Exactly 5 psi per minute",
+     "Leak rate doesn't matter if the warning light works"
+    ],
+    "correct": 0,
+    "explain": "Under 2 psi/min for a single vehicle; under 3 psi/min for a combination vehicle."
+   },
+   {
+    "q": "Holding the foot brake down for 1 minute, the maximum acceptable leak rate for a combination vehicle is:",
+    "options": [
+     "1 psi",
+     "2 psi",
+     "3 psi",
+     "4 psi"
+    ],
+    "correct": 3,
+    "explain": "4 psi/minute max for combination vehicles (3 psi/minute for a single vehicle)."
+   },
+   {
+    "q": "If a slack adjuster moves more than about how far when pulled by hand, it likely needs adjustment?",
+    "options": [
+     "1/4 inch",
+     "1 inch",
+     "3 inches",
+     "6 inches"
+    ],
+    "correct": 1,
+    "explain": "About 1 inch of movement at the push rod is the rule of thumb."
+   },
+   {
+    "q": "Air brakes add extra stopping distance compared to hydraulic brakes because of:",
+    "options": [
+     "Tire drag",
+     "Brake lag — the time for air to travel through the lines",
+     "Engine braking",
+     "Increased vehicle weight"
+    ],
+    "correct": 1,
+    "explain": "Roughly a half-second, or about 32 feet at 55 mph."
+   },
+   {
+    "q": "You should never push the brake pedal down when:",
+    "options": [
+     "The engine is cold",
+     "The spring (parking) brakes are set",
+     "The trailer is empty",
+     "You're going uphill"
+    ],
+    "correct": 1,
+    "explain": "Doing so can combine spring force and air pressure and damage the brakes."
+   },
+   {
+    "q": "How often should you drain air tanks manually, if they lack automatic drains?",
+    "options": [
+     "Once a week",
+     "At the end of each day of driving",
+     "Only when the low-air light comes on",
+     "Never — it's not necessary"
+    ],
+    "correct": 1,
+    "explain": "Daily draining removes water and oil that can freeze or damage the system."
+   },
+   {
+    "q": "Vehicles built since what year are required to have automatic slack adjusters?",
+    "options": [
+     "1985",
+     "1990",
+     "1994",
+     "2000"
+    ],
+    "correct": 2,
+    "explain": "1994 and later — but you should still check them during inspection."
+   },
+   {
+    "q": "Using the parking brake is unsafe when:",
+    "options": [
+     "The vehicle is on level ground",
+     "The brakes are extremely hot, or extremely wet in freezing weather",
+     "The engine is off",
+     "You're parked for less than 10 minutes"
+    ],
+    "correct": 1,
+    "explain": "Extreme heat can damage hot brakes; freezing temps can freeze wet brakes so the vehicle can't move."
+   },
+   {
+    "q": "On an older vehicle whose governor cuts out at 120 psi, the low-air warning signal must come on no later than:",
+    "options": [
+     "45 psi",
+     "55 psi",
+     "60 psi",
+     "One-half the governor cut-out pressure (60 psi)"
+    ],
+    "correct": 3,
+    "explain": "The manual allows one-half the compressor governor cut-out pressure on older vehicles instead of the standard 55 psi."
+   }
+  ]
+ },
+ {
+  "id": "sec6",
+  "number": 6,
+  "short": "Combination Vehicles",
+  "title": "Combination Vehicles",
+  "group": "endorsement",
+  "classAManual": true,
+  "endorsement": "Class A / Combination vehicles",
+  "minutes": 11,
+  "summary": "Rollover and crack-the-whip risk, trailer air brake parts, and the coupling/uncoupling sequence.",
+  "topics": [
+   {
+    "heading": "Rollover risk",
+    "bullets": [
+     "Fully loaded rigs are about 10 times more likely to roll over in a crash than empty ones.",
+     "Keep cargo low and centered, and slow way down before curves, ramps, and turns — most rollovers happen because of too much speed in a turn, not bad luck."
+    ]
+   },
+   {
+    "heading": "Crack-the-whip (rearward amplification)",
+    "bullets": [
+     "A quick lane change can whip the rear trailer sideways hard enough to roll it over.",
+     "Triples have a rearward amplification of about 3.5 — the last trailer is about 3.5 times as likely to roll as the tractor.",
+     "Steer gently and smoothly, especially when pulling multiple trailers."
+    ]
+   },
+   {
+    "heading": "Empty vs. loaded braking",
+    "bullets": [
+     "Lightly loaded rigs actually have poorer traction and lock up more easily, and 'bobtail' tractors (no trailer) are notoriously hard to stop smoothly — they can take longer to stop than a fully loaded rig."
+    ]
+   },
+   {
+    "heading": "Off-tracking & backing",
+    "bullets": [
+     "The rear wheels follow a tighter path than the front wheels in a turn (off-tracking) — steer wide enough that the rear doesn't run over curbs or pedestrians, but keep the rear close to the curb to block others from passing on the right.",
+     "When backing a trailer, turn the steering wheel the OPPOSITE direction from a normal vehicle — and once the trailer starts turning, reverse your input to follow it."
+    ]
+   },
+   {
+    "heading": "Trailer air brake components",
+    "bullets": [
+     "Trailer hand valve (trolley valve / Johnson bar): use ONLY to test trailer brakes, never while actually driving or for parking.",
+     "Tractor protection valve: closes automatically if air pressure drops into the 20-45 psi range, protecting the tractor's own air supply.",
+     "Trailer air supply control: a red, 8-sided knob — push in to supply air, pull out to shut off air and apply the trailer's emergency brakes.",
+     "Two air lines run to the trailer: the service line (also called the control/signal line) and the emergency line (also called the supply line). Losing pressure in the emergency line sets the trailer's emergency brakes.",
+     "Glad hand colors: blue = service line, red = emergency (supply) line."
+    ]
+   },
+   {
+    "heading": "Shut-off valves",
+    "bullets": [
+     "Shut-off valves (cut-out cocks) at the back of trailers must be OPEN — except at the very back of the last trailer in a combination, which must be CLOSED."
+    ]
+   },
+   {
+    "heading": "Coupling checks that matter",
+    "bullets": [
+     "After coupling, there should be NO visible gap between the upper and lower fifth wheel — a gap means something is wrong.",
+     "Pull gently forward with the trailer brakes locked to confirm the kingpin is actually locked in.",
+     "Raise the landing gear fully before driving — never drive with it only partway up."
+    ]
+   },
+   {
+    "heading": "ABS on trailers",
+    "bullets": [
+     "Trailers and converter dollies built on or after March 1, 1998 are required to have ABS, shown by a yellow malfunction lamp on the left side of the trailer."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "Pick your gear BEFORE you start backing or turning tight",
+    "body": "Get the trailer aimed and moving in first gear (or the gear your specific rig idles well in) before you start heavy steering input. Trying to shift mid-maneuver during the skills test, while also cranking the wheel, is when most manual-transmission drivers grind a gear."
+   },
+   {
+    "heading": "Idle-speed control, not throttle control, for tight maneuvers",
+    "body": "For backing, alley dock, and offset exercises, cover the brake and feather the clutch instead of using the gas pedal. Let the engine idle do the work — it gives you far more precise, creep-speed control than trying to modulate the accelerator."
+   },
+   {
+    "heading": "Rehearse the coupling walk-through out loud",
+    "body": "Before you back under the trailer: low-air/low-gear check, confirm trailer height, back in slowly, stop, check the gap (should be none), pull gently against the locked trailer brakes to test the kingpin, then hook air/electric lines and raise the landing gear fully. Examiners want to hear this sequence, not just see it."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Fully loaded combination rigs are how many times more likely to roll over in a crash than empty ones?",
+    "options": [
+     "2 times",
+     "5 times",
+     "10 times",
+     "20 times"
+    ],
+    "correct": 2,
+    "explain": "About 10 times more likely — keep cargo low and centered."
+   },
+   {
+    "q": "In a set of triples, the rearward amplification of about 3.5 means:",
+    "options": [
+     "The last trailer is 3.5 times as likely to roll over as the tractor",
+     "The tractor is 3.5 times heavier",
+     "You need 3.5 seconds to stop",
+     "Triples are 3.5 times slower to accelerate"
+    ],
+    "correct": 0,
+    "explain": "The crack-the-whip effect is strongest on the very last trailer."
+   },
+   {
+    "q": "Compared to a fully loaded rig, a lightly loaded or bobtail tractor is:",
+    "options": [
+     "Easier to stop smoothly",
+     "Actually harder to stop smoothly, with poorer traction",
+     "Impossible to skid",
+     "Not affected by traction at all"
+    ],
+    "correct": 1,
+    "explain": "Stiff, lightly loaded suspension gives poor traction and can lock wheels easily."
+   },
+   {
+    "q": "When backing a trailer, you should turn the steering wheel:",
+    "options": [
+     "The same direction you want the trailer to go, just like a car",
+     "The opposite direction from normal, then reverse once the trailer starts turning",
+     "Not at all until fully stopped",
+     "Only in small increments regardless of direction"
+    ],
+    "correct": 1,
+    "explain": "Trailer steering is reversed from normal car backing."
+   },
+   {
+    "q": "The trailer hand valve (trolley valve) should be used:",
+    "options": [
+     "As your main brake while driving downhill",
+     "Only to test the trailer brakes, never while actually driving",
+     "Only for parking overnight",
+     "Whenever the trailer starts to skid, to straighten it"
+    ],
+    "correct": 1,
+    "explain": "Using it while driving or to correct a skid can cause the trailer to skid worse."
+   },
+   {
+    "q": "The tractor protection valve closes automatically when air pressure drops into what range?",
+    "options": [
+     "5-10 psi",
+     "20-45 psi",
+     "60-80 psi",
+     "100-125 psi"
+    ],
+    "correct": 1,
+    "explain": "This protects the tractor's own air supply if the trailer develops a major leak."
+   },
+   {
+    "q": "What color is the trailer's emergency (supply) line glad hand typically coded?",
+    "options": [
+     "Blue",
+     "Red",
+     "Yellow",
+     "Green"
+    ],
+    "correct": 1,
+    "explain": "Red for emergency/supply; blue for the service line."
+   },
+   {
+    "q": "At the back of the LAST trailer in a combination, the shut-off valves should be:",
+    "options": [
+     "Open",
+     "Closed",
+     "Removed entirely",
+     "Left half-open"
+    ],
+    "correct": 1,
+    "explain": "Closed at the very last trailer's rear; open everywhere else so air reaches every trailer."
+   },
+   {
+    "q": "After coupling a tractor to a trailer, what should you see between the upper and lower fifth wheel?",
+    "options": [
+     "A one-inch gap",
+     "No visible gap at all",
+     "A gap no bigger than your hand",
+     "It doesn't matter"
+    ],
+    "correct": 1,
+    "explain": "Any visible gap means the kingpin may not be properly locked."
+   },
+   {
+    "q": "Before driving, the trailer landing gear should be:",
+    "options": [
+     "Fully raised",
+     "Left partway up for a faster start",
+     "Fully lowered",
+     "Removed"
+    ],
+    "correct": 0,
+    "explain": "Never drive with the landing gear only partway up — it can catch on obstacles like railroad tracks."
+   },
+   {
+    "q": "Trailers and converter dollies built on or after what date are required to have ABS?",
+    "options": [
+     "March 1, 1995",
+     "March 1, 1998",
+     "January 1, 2000",
+     "March 1, 2005"
+    ],
+    "correct": 1,
+    "explain": "March 1, 1998 for trailers and converter dollies."
+   },
+   {
+    "q": "The crack-the-whip effect is most dangerous during:",
+    "options": [
+     "Slow, gradual lane changes",
+     "Sudden, quick lane changes or steering movements",
+     "Straight-line highway cruising",
+     "Backing into a dock"
+    ],
+    "correct": 1,
+    "explain": "Steer gently and smoothly, especially with multiple trailers."
+   },
+   {
+    "q": "In a right turn, if a driver swings wide to the left first before turning right, what danger does this create?",
+    "options": [
+     "It saves fuel",
+     "A following driver may try to pass on the right, causing a crash",
+     "It reduces off-tracking",
+     "It's the recommended technique"
+    ],
+    "correct": 1,
+    "explain": "Turn wide as you complete the turn, but don't swing left before starting it."
+   },
+   {
+    "q": "What does the trailer air supply control (the red, 8-sided knob) do when pulled OUT?",
+    "options": [
+     "Supplies air to the trailer",
+     "Shuts off air to the trailer and applies its emergency brakes",
+     "Releases the tractor's parking brake",
+     "Nothing — it's decorative"
+    ],
+    "correct": 1,
+    "explain": "Push in to supply air; pull out to cut it off and set the trailer's emergency brakes."
+   },
+   {
+    "q": "If your trailer begins to swing out (jackknife), you should:",
+    "options": [
+     "Brake harder to stop the swing",
+     "Let up on the brakes until you regain control",
+     "Use the trailer hand valve to straighten it",
+     "Shift to a lower gear quickly"
+    ],
+    "correct": 1,
+    "explain": "Let up on the brakes (if safe) to let the wheels roll and regain control — never use the hand valve to fix a skid."
+   },
+   {
+    "q": "If the trailer is too high when you back under it to couple, what can happen?",
+    "options": [
+     "It couples faster",
+     "It may not couple correctly",
+     "The landing gear raises itself",
+     "Nothing — height doesn't matter"
+    ],
+    "correct": 1,
+    "explain": "The trailer should sit low enough that the tractor raises it slightly during backing. Too high = no correct coupling; too low = damage to the trailer nose."
+   }
+  ]
+ },
+ {
+  "id": "sec7",
+  "number": 7,
+  "short": "Doubles/Triples",
+  "title": "Doubles and Triples",
+  "group": "endorsement",
+  "endorsement": "T — Doubles/Triples",
+  "minutes": 8,
+  "summary": "Trailer order, converter dolly basics, and the shut-off valve pattern for multiple trailers.",
+  "topics": [
+   {
+    "heading": "Loading order",
+    "bullets": [
+     "For the safest handling, put the heavier semitrailer in the FIRST position (right behind the tractor) and the lighter trailer in the rear.",
+     "Doubles and triples need more following distance and bigger gaps to enter or cross traffic — they're longer and cannot stop or turn as quickly."
+    ]
+   },
+   {
+    "heading": "Converter dollies",
+    "bullets": [
+     "A converter dolly is one or two axles with a fifth wheel, used to couple an additional semitrailer behind the first one.",
+     "Converter dollies built on or after March 1, 1998 must have ABS, shown by a yellow lamp on the left side of the dolly."
+    ]
+   },
+   {
+    "heading": "Shut-off valve pattern (multiple trailers)",
+    "bullets": [
+     "Open at the rear of every trailer EXCEPT the very last one in the combination, which must be closed.",
+     "When checking, you should hear air escaping at each open point when the system is charged — confirming air reaches every trailer."
+    ]
+   },
+   {
+    "heading": "Coupling/uncoupling extra care",
+    "bullets": [
+     "Never unlock the pintle hook while the converter dolly is still positioned under the rear trailer — the tow bar can fly up and cause injury.",
+     "Check trailer height carefully before backing a dolly under a trailer; it should sit slightly below the trailer's fifth wheel level so the trailer lifts as it's pushed under."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "For the safest handling with doubles, which trailer should generally go in the first position behind the tractor?",
+    "options": [
+     "The lighter trailer",
+     "The heavier trailer",
+     "It never matters",
+     "Whichever was loaded first"
+    ],
+    "correct": 1,
+    "explain": "The heavier trailer up front, lighter trailer behind it."
+   },
+   {
+    "q": "A converter dolly is best described as:",
+    "options": [
+     "A spare tire rack",
+     "One or two axles with a fifth wheel used to couple an extra semitrailer",
+     "A type of parking brake",
+     "A backup fuel tank"
+    ],
+    "correct": 1,
+    "explain": "It lets you attach a second (or third) trailer behind the first."
+   },
+   {
+    "q": "Converter dollies built on or after what date must have ABS?",
+    "options": [
+     "January 1, 1990",
+     "March 1, 1998",
+     "March 1, 2000",
+     "January 1, 2010"
+    ],
+    "correct": 1,
+    "explain": "Same requirement date as trailers: March 1, 1998."
+   },
+   {
+    "q": "In a set of triples, which shut-off valve position should be CLOSED?",
+    "options": [
+     "The rear of the first trailer",
+     "The rear of the middle trailer",
+     "The rear of the very last trailer",
+     "None should ever be closed"
+    ],
+    "correct": 2,
+    "explain": "Only the rear of the last trailer in the combination is closed; everywhere else stays open."
+   },
+   {
+    "q": "Why should you never unlock the pintle hook while the dolly is still under the rear trailer?",
+    "options": [
+     "It voids the warranty",
+     "The tow bar can fly up and cause injury",
+     "It will trigger the alarm system",
+     "It has no real danger, just inconvenience"
+    ],
+    "correct": 1,
+    "explain": "Pull the dolly out first, then unlock it once clear."
+   },
+   {
+    "q": "Doubles and triples require more following distance mainly because:",
+    "options": [
+     "They're lighter than single trailers",
+     "They're longer and can't stop or turn as quickly",
+     "State law requires extra distance only for triples",
+     "They have better brakes"
+    ],
+    "correct": 1,
+    "explain": "More length means more space is needed to react safely."
+   },
+   {
+    "q": "When checking that air flows to all trailers in a set of doubles, what should you hear at an open shut-off valve?",
+    "options": [
+     "Silence",
+     "Air escaping",
+     "A clicking sound only",
+     "Nothing is checked audibly"
+    ],
+    "correct": 1,
+    "explain": "Hearing air escape confirms the system is charged all the way to the back."
+   },
+   {
+    "q": "Before backing a converter dolly under a rear trailer, the trailer height should be:",
+    "options": [
+     "Much higher than the dolly's fifth wheel",
+     "Slightly lower than the dolly's fifth wheel, so it lifts as the dolly goes under",
+     "Exactly level with the ground",
+     "It doesn't matter"
+    ],
+    "correct": 1,
+    "explain": "The trailer should be slightly lower so the dolly raises it slightly during coupling."
+   },
+   {
+    "q": "The crack-the-whip effect in a set of triples is strongest on:",
+    "options": [
+     "The tractor",
+     "The first trailer",
+     "The very last trailer",
+     "It's equal on all trailers"
+    ],
+    "correct": 2,
+    "explain": "Rearward amplification is greatest on the last trailer — about 3.5 times the tractor's movement."
+   },
+   {
+    "q": "A safe speed on a curve for a single-trailer combination:",
+    "options": [
+     "Is always safe for doubles and triples too",
+     "May be too fast for doubles or triples",
+     "Only applies to empty trailers",
+     "Doesn't apply to CDL rules"
+    ],
+    "correct": 1,
+    "explain": "Doubles and triples need slower speeds through curves due to their added length and rollover risk."
+   }
+  ]
+ },
+ {
+  "id": "sec8",
+  "number": 8,
+  "short": "Tank Vehicles",
+  "title": "Tank Vehicles",
+  "group": "endorsement",
+  "endorsement": "N — Tank Vehicle",
+  "minutes": 7,
+  "summary": "High center of gravity, liquid surge, baffles, and outage — the physics of hauling bulk liquid.",
+  "topics": [
+   {
+    "heading": "High center of gravity",
+    "bullets": [
+     "Liquid tankers are especially easy to roll over — tests have shown they can tip even at the posted speed limit for a curve.",
+     "Take highway curves and on/off ramps well BELOW the posted speed."
+    ]
+   },
+   {
+    "heading": "Liquid surge",
+    "bullets": [
+     "Liquid surge (the wave of liquid moving in a partially full tank) can push a stopped truck forward, even shoving it into an intersection on a slippery surface.",
+     "Baffled tanks have internal bulkheads with holes that reduce forward-and-back surge, but not side-to-side surge.",
+     "Unbaffled ('smooth bore') tanks — often used for food-grade liquids because sanitation rules forbid baffles — have the strongest surge of all. Be extra cautious starting and stopping."
+    ]
+   },
+   {
+    "heading": "Outage",
+    "bullets": [
+     "Outage is the deliberate empty space left in a tank so the liquid has room to expand as it warms.",
+     "How much to load depends on three things: how much the liquid will expand, its weight, and legal weight limits."
+    ]
+   },
+   {
+    "heading": "Driving technique",
+    "bullets": [
+     "Start, slow down, stop, turn, and change lanes smoothly — abrupt inputs plus surge is a bad combination.",
+     "Brake early, keep steady pressure, and increase your following distance.",
+     "Empty tank vehicles can actually take longer to stop than full ones."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Liquid tankers can roll over:",
+    "options": [
+     "Only if going far over the speed limit",
+     "Even at the posted speed limit for a curve",
+     "Only when completely full",
+     "Never, due to their design"
+    ],
+    "correct": 1,
+    "explain": "High center of gravity makes them prone to rollover even at legal curve speeds."
+   },
+   {
+    "q": "What is 'liquid surge'?",
+    "options": [
+     "A type of tank material",
+     "The forward-and-back or side-to-side movement of liquid in a partially full tank",
+     "A type of brake fade specific to tankers",
+     "A required tank inspection"
+    ],
+    "correct": 1,
+    "explain": "Surge can push the vehicle in the direction the wave moves, even into an intersection on ice."
+   },
+   {
+    "q": "Baffled tanks help control:",
+    "options": [
+     "Side-to-side surge only",
+     "Forward-and-back surge, but not side-to-side",
+     "Both types of surge equally",
+     "Neither type of surge"
+    ],
+    "correct": 1,
+    "explain": "Baffles have holes that slow forward/back surge; side-to-side surge can still occur."
+   },
+   {
+    "q": "Why do many food-grade liquid tankers use unbaffled ('smooth bore') tanks?",
+    "options": [
+     "They're cheaper to manufacture",
+     "Sanitation rules make baffles too hard to clean",
+     "They're required by DOT for all tankers",
+     "Unbaffled tanks have less surge"
+    ],
+    "correct": 1,
+    "explain": "Baffles are difficult to fully sanitize, so food-grade tanks often skip them — and have the strongest surge as a result."
+   },
+   {
+    "q": "Outage refers to:",
+    "options": [
+     "A tank inspection failure",
+     "Deliberately leaving room in the tank for liquid to expand",
+     "The maximum legal weight of a tanker",
+     "A type of fifth-wheel connection"
+    ],
+    "correct": 1,
+    "explain": "Never load a tank totally full — liquids expand as they warm."
+   },
+   {
+    "q": "How much liquid you can load into a tank depends on:",
+    "options": [
+     "Only the tank's total volume",
+     "Expansion amount, liquid weight, and legal weight limits",
+     "Only the color of the placard",
+     "Nothing — always fill to capacity"
+    ],
+    "correct": 1,
+    "explain": "All three factors combine to set the safe/legal fill amount."
+   },
+   {
+    "q": "Compared to full tankers, empty tank vehicles:",
+    "options": [
+     "Always stop faster",
+     "Can actually take longer to stop",
+     "Have identical stopping distances",
+     "Are exempt from stopping distance rules"
+    ],
+    "correct": 1,
+    "explain": "Empty tankers can take longer to stop, similar to other empty heavy vehicles."
+   },
+   {
+    "q": "The recommended way to take curves and ramps in a tank vehicle is to:",
+    "options": [
+     "Match the posted speed exactly",
+     "Go slightly above the posted speed for momentum",
+     "Go well below the posted speed",
+     "Speed depends only on tank color"
+    ],
+    "correct": 2,
+    "explain": "Posted speeds may be too fast for a top-heavy, surging load."
+   },
+   {
+    "q": "Which driving habit is most important with a partially loaded tanker?",
+    "options": [
+     "Braking and turning smoothly, and starting/stopping gradually",
+     "Accelerating hard to reduce trip time",
+     "Following as closely as possible",
+     "Ignoring surge since it's minor"
+    ],
+    "correct": 0,
+    "explain": "Smooth inputs reduce the danger from liquid surge."
+   }
+  ]
+ },
+ {
+  "id": "sec9",
+  "number": 9,
+  "short": "Hazardous Materials",
+  "title": "Hazardous Materials",
+  "group": "endorsement",
+  "endorsement": "H — Hazardous Materials",
+  "minutes": 16,
+  "summary": "Hazard classes, shipping papers, placarding tables, and the driving/parking rules for hauling hazmat.",
+  "topics": [
+   {
+    "heading": "Why the rules exist",
+    "bullets": [
+     "Contain the material (packaging rules for shippers, loading/unloading rules for drivers).",
+     "Communicate the risk (shipping papers, labels, placards).",
+     "Ensure safe drivers and equipment (endorsement, training, background checks)."
+    ]
+   },
+   {
+    "heading": "The 9 hazard classes",
+    "bullets": [
+     "1 — Explosives (dynamite, fireworks)",
+     "2 — Gases (propane, oxygen, helium)",
+     "3 — Flammable liquids (gasoline)",
+     "4 — Flammable solids (matches)",
+     "5 — Oxidizers (ammonium nitrate, hydrogen peroxide)",
+     "6 — Poisons/toxic materials (pesticides, arsenic)",
+     "7 — Radioactive materials (uranium, plutonium)",
+     "8 — Corrosives (battery fluid, hydrochloric acid)",
+     "9 — Miscellaneous hazardous materials (asbestos, formaldehyde)",
+     "Plus ORM-D (other regulated material, like hairspray) and combustible liquids, which aren't numbered classes."
+    ]
+   },
+   {
+    "heading": "Shipping papers",
+    "bullets": [
+     "Hazardous entries must be identified: entered first, highlighted, or marked with an X (or RQ for a reportable quantity) in the hazmat column.",
+     "Identification numbers are 4 digits, preceded by 'UN' or 'NA'.",
+     "Keep shipping papers within reach with your seat belt fastened, in a driver's-door pouch, or on the driver's seat when you're out of the vehicle."
+    ]
+   },
+   {
+    "heading": "Placarding basics",
+    "bullets": [
+     "Placards must be at least 9.84 inches (250mm) square, diamond-shaped, and appear on all 4 sides: front, rear, both sides — 4 identical placards minimum.",
+     "Table 1 materials need placards for ANY amount you're carrying.",
+     "Table 2 materials only need placards once you're carrying 1,001 lbs or more total (across all shipping papers for that hazard class).",
+     "A 'DANGEROUS' placard can substitute for individual Table 2 placards when you have 1,001+ lbs total from two or more Table 2 classes, but no single class reaches 2,205 lbs (in which case you must use that class's specific placard)."
+    ]
+   },
+   {
+    "heading": "Loading rules",
+    "bullets": [
+     "Never smoke, or let anyone smoke, around Classes 1, 2.1, 3, 4, or 5 while loading or unloading.",
+     "Secure every hazardous materials package against movement.",
+     "Never transfer hazardous materials between packages while in transit (you may empty a cargo tank, but not other packages)."
+    ]
+   },
+   {
+    "heading": "Driving & parking rules",
+    "bullets": [
+     "A placarded vehicle must stop between 15 and 50 feet before a railroad crossing — same as passenger buses.",
+     "Never park a placarded vehicle within 300 feet of an open fire.",
+     "A person attending a parked placarded vehicle must be in the vehicle (awake, not in the sleeper) or within 100 feet with the vehicle in clear view.",
+     "Placarded power units must carry a fire extinguisher rated at least 10 B:C.",
+     "A 'safe haven' is an approved location where you may leave an explosives-laden vehicle unattended.",
+     "Never use burning flares or fuses near a flammable-liquid/gas tank or an explosives-laden vehicle — use reflective triangles or electric lights instead."
+    ]
+   },
+   {
+    "heading": "In an emergency",
+    "bullets": [
+     "The Emergency Response Guidebook (ERG) is indexed by shipping name and identification number — first responders rely on it, so accurate paperwork saves lives.",
+     "At a hazmat scene: keep people away and upwind, warn others, call for help, and hand over your shipping papers to responders."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How many major hazard classes are there under the hazardous materials regulations?",
+    "options": [
+     "5",
+     "7",
+     "9",
+     "12"
+    ],
+    "correct": 2,
+    "explain": "Nine numbered classes, plus ORM-D and combustible liquids as additional categories."
+   },
+   {
+    "q": "Hazardous materials identification numbers are preceded by which letters?",
+    "options": [
+     "HM or HZ",
+     "UN or NA",
+     "DOT or FMC",
+     "CDL or CMV"
+    ],
+    "correct": 1,
+    "explain": "A 4-digit ID number preceded by 'UN' or 'NA'."
+   },
+   {
+    "q": "Where may you legally keep hazmat shipping papers while driving?",
+    "options": [
+     "In the glovebox only",
+     "In a pouch on the driver's door, or within reach with your seatbelt fastened",
+     "In the sleeper berth",
+     "Anywhere in the cab"
+    ],
+    "correct": 1,
+    "explain": "Door pouch, within reach while belted, or on the driver's seat when you're out of the vehicle."
+   },
+   {
+    "q": "The minimum size for a placard is:",
+    "options": [
+     "4 inches square",
+     "6 inches square",
+     "9.84 inches square",
+     "12 inches square"
+    ],
+    "correct": 2,
+    "explain": "At least 9.84 inches (250mm) square, diamond-shaped."
+   },
+   {
+    "q": "How many identical placards must a placarded vehicle display at minimum?",
+    "options": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "correct": 2,
+    "explain": "Four: front, rear, and both sides."
+   },
+   {
+    "q": "Table 1 hazardous materials require placards:",
+    "options": [
+     "Only over 1,001 lbs",
+     "For any amount you're carrying",
+     "Only for interstate trips",
+     "Only when the vehicle is a tanker"
+    ],
+    "correct": 1,
+    "explain": "Table 1 materials must be placarded regardless of quantity."
+   },
+   {
+    "q": "Table 2 hazardous materials require placards once the total reaches:",
+    "options": [
+     "100 lbs",
+     "500 lbs",
+     "1,001 lbs or more",
+     "5,000 lbs"
+    ],
+    "correct": 2,
+    "explain": "1,001 lbs or more, combined across all shipping papers for that class."
+   },
+   {
+    "q": "You must never smoke while loading or unloading which hazard classes?",
+    "options": [
+     "6, 7, and 8 only",
+     "1, 2.1, 3, 4, and 5",
+     "Only Class 9",
+     "Smoking is never restricted"
+    ],
+    "correct": 1,
+    "explain": "Explosives, flammable gas, flammable liquids, flammable solids, and oxidizers — no smoking nearby."
+   },
+   {
+    "q": "How far before a railroad crossing must a placarded vehicle stop?",
+    "options": [
+     "5-10 feet",
+     "15-50 feet",
+     "100-150 feet",
+     "It doesn't need to stop"
+    ],
+    "correct": 1,
+    "explain": "Same rule as buses: stop between 15 and 50 feet from the nearest rail."
+   },
+   {
+    "q": "A placarded (non-explosive) vehicle may never be parked within how many feet of an open fire?",
+    "options": [
+     "50 feet",
+     "100 feet",
+     "300 feet",
+     "1,000 feet"
+    ],
+    "correct": 2,
+    "explain": "300 feet minimum distance from an open fire."
+   },
+   {
+    "q": "A person attending a parked placarded vehicle must be:",
+    "options": [
+     "Asleep in the sleeper berth",
+     "In the vehicle awake (not in the sleeper) or within 100 feet with a clear view",
+     "At least a quarter mile away",
+     "Not required at all"
+    ],
+    "correct": 1,
+    "explain": "Must be awake, aware of the hazard, and able to move the vehicle if needed."
+   },
+   {
+    "q": "What's the minimum fire extinguisher rating required on a placarded power unit?",
+    "options": [
+     "2 A:B",
+     "5 B:C",
+     "10 B:C",
+     "20 A:B:C"
+    ],
+    "correct": 2,
+    "explain": "10 B:C or higher."
+   },
+   {
+    "q": "Around a stopped vehicle carrying flammable liquids or gas, you should use as warning devices:",
+    "options": [
+     "Burning flares or fuses",
+     "Reflective triangles or electric lights, never open flame",
+     "A campfire",
+     "Nothing is needed"
+    ],
+    "correct": 1,
+    "explain": "Never use burning signals near flammable tanks or explosives."
+   },
+   {
+    "q": "What is a 'safe haven' in hazmat terms?",
+    "options": [
+     "A rest stop with free coffee",
+     "An approved location to leave an explosives-laden vehicle unattended",
+     "Any well-lit parking lot",
+     "A place you may never park hazmat loads"
+    ],
+    "correct": 1,
+    "explain": "Safe havens are designated by local authorities for parking explosives loads."
+   },
+   {
+    "q": "The Emergency Response Guidebook (ERG) is indexed by:",
+    "options": [
+     "Driver's name and CDL number",
+     "Proper shipping name and identification number",
+     "Truck license plate",
+     "Company logo"
+    ],
+    "correct": 1,
+    "explain": "First responders look up the shipping name or ID number to find handling guidance."
+   },
+   {
+    "q": "Which hazard class covers gasoline?",
+    "options": [
+     "Class 1 — Explosives",
+     "Class 3 — Flammable liquids",
+     "Class 6 — Poisons",
+     "Class 8 — Corrosives"
+    ],
+    "correct": 1,
+    "explain": "Gasoline is the classic example of a Class 3 flammable liquid."
+   }
+  ]
+ },
+ {
+  "id": "sec10",
+  "number": 10,
+  "short": "School Bus",
+  "title": "School Buses",
+  "group": "endorsement",
+  "endorsement": "S — School Bus",
+  "minutes": 12,
+  "summary": "Danger zones, mirror systems, loading/unloading timing, railroad crossings, and evacuation rules.",
+  "topics": [
+   {
+    "heading": "The danger zone",
+    "bullets": [
+     "Extends up to 30 feet from the front bumper (the first 10 feet is the most dangerous), 10 feet from each side, and 10 feet behind the rear bumper.",
+     "The left side of the bus is always considered dangerous because of passing traffic."
+    ]
+   },
+   {
+    "heading": "Four mirror systems",
+    "bullets": [
+     "Flat mirrors (left/right front corners): should show about 200 feet (4 bus lengths) behind the bus, the sides, and the rear tires touching the ground.",
+     "Convex mirrors (below the flats): wide-angle view of the sides, but distort size and distance.",
+     "Crossover mirrors (front corners): show the danger zone directly in front of and beside the bus that you can't see directly.",
+     "Overhead inside mirror: monitors student activity inside the bus."
+    ]
+   },
+   {
+    "heading": "Loading timing",
+    "bullets": [
+     "Activate alternating flashing amber lights about 200 feet (roughly 5-10 seconds) before the stop.",
+     "Turn on the right turn signal about 100-300 feet (roughly 3-5 seconds) before pulling over.",
+     "Stop with the front bumper at least 10 feet from the students — this forces them to walk into your view.",
+     "Put the transmission in park (or neutral) and set the parking brake at every stop."
+    ]
+   },
+   {
+    "heading": "Unloading & road-crossing",
+    "bullets": [
+     "Have students exit and walk at least 10 feet away from the side of the bus to a point where you can plainly see them.",
+     "Students crossing in front of the bus should stop at the front-right corner, check for your signal, and cross only when you signal it's safe.",
+     "Never back a school bus with students outside of it."
+    ]
+   },
+   {
+    "heading": "Railroad crossings",
+    "bullets": [
+     "Stop no closer than 15 feet and no farther than 50 feet from the nearest rail.",
+     "Turn off radios and silence passengers, open the service door and driver's window, and look/listen for a train.",
+     "Cross in a low gear and never change gears while crossing.",
+     "If your bus stalls or gets trapped on the tracks, evacuate everyone immediately — move away from the tracks AND toward the direction the train would come from."
+    ]
+   },
+   {
+    "heading": "When you must evacuate",
+    "bullets": [
+     "The bus is on fire or there's a threat of fire.",
+     "The bus is stalled on or next to a railroad crossing.",
+     "There's an imminent danger of collision, or a need to evacuate quickly because of a hazmat spill."
+    ]
+   },
+   {
+    "heading": "Other numbers to know",
+    "bullets": [
+     "A school bus can have up to 3 feet of tail swing — check your mirrors during turns.",
+     "Backing is strongly discouraged; if unavoidable, post a lookout, signal for quiet, and back slowly."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How far can the danger zone extend from the front bumper of a school bus?",
+    "options": [
+     "10 feet",
+     "20 feet",
+     "30 feet",
+     "50 feet"
+    ],
+    "correct": 2,
+    "explain": "Up to 30 feet in front, with the first 10 feet being the most dangerous; 10 feet on each side and behind."
+   },
+   {
+    "q": "Which side of a school bus is always considered dangerous, due to passing traffic?",
+    "options": [
+     "The right side",
+     "The left side",
+     "Neither side",
+     "Only the rear"
+    ],
+    "correct": 1,
+    "explain": "The left side is always dangerous because of passing vehicles."
+   },
+   {
+    "q": "Properly adjusted flat mirrors should let you see about how far behind the bus?",
+    "options": [
+     "50 feet",
+     "100 feet",
+     "200 feet (about 4 bus lengths)",
+     "500 feet"
+    ],
+    "correct": 2,
+    "explain": "About 200 feet, or roughly 4 bus lengths."
+   },
+   {
+    "q": "When approaching a stop, you should activate alternating amber warning lights about how far (or how many seconds) before stopping?",
+    "options": [
+     "50 feet / 1-2 seconds",
+     "200 feet / 5-10 seconds",
+     "500 feet / 20 seconds",
+     "Right as you stop"
+    ],
+    "correct": 1,
+    "explain": "About 200 feet, or 5-10 seconds, before the stop."
+   },
+   {
+    "q": "You should stop the school bus with the front bumper how far from waiting students?",
+    "options": [
+     "At least 5 feet",
+     "At least 10 feet",
+     "At least 25 feet",
+     "Right next to them"
+    ],
+    "correct": 1,
+    "explain": "At least 10 feet, so students must walk into your clear view."
+   },
+   {
+    "q": "After unloading, students crossing in front of the bus should walk to a point how far away, in your view?",
+    "options": [
+     "2 feet",
+     "5 feet",
+     "10 feet",
+     "20 feet"
+    ],
+    "correct": 2,
+    "explain": "At least 10 feet away from the side of the bus, where you can plainly see them."
+   },
+   {
+    "q": "How far from the nearest rail should a school bus stop at a railroad crossing?",
+    "options": [
+     "5-10 feet",
+     "15-50 feet",
+     "75-100 feet",
+     "It should not stop at all"
+    ],
+    "correct": 1,
+    "explain": "Same as buses generally: 15 to 50 feet from the nearest rail."
+   },
+   {
+    "q": "If your school bus stalls on railroad tracks, you should:",
+    "options": [
+     "Try repeatedly to restart it before evacuating",
+     "Evacuate everyone immediately, moving away from the tracks and toward the train's direction",
+     "Wait for a lookout before acting",
+     "Stay inside with hazard lights on"
+    ],
+    "correct": 1,
+    "explain": "Get everyone off and clear immediately — moving at an angle away from the tracks and toward the oncoming train direction."
+   },
+   {
+    "q": "Which of these requires a mandatory bus evacuation?",
+    "options": [
+     "A flat tire on level ground",
+     "The bus is stalled on or adjacent to a railroad crossing",
+     "Light rain",
+     "A minor traffic delay"
+    ],
+    "correct": 1,
+    "explain": "Fire/threat of fire, stalling on tracks, imminent collision, and hazmat spills all require evacuation."
+   },
+   {
+    "q": "How much tail swing can a school bus have during a turn?",
+    "options": [
+     "Up to 1 foot",
+     "Up to 3 feet",
+     "Up to 6 feet",
+     "None at all"
+    ],
+    "correct": 1,
+    "explain": "Up to 3 feet — check mirrors before and during turns."
+   },
+   {
+    "q": "Backing a school bus with students outside of it is:",
+    "options": [
+     "Fine as long as you use a lookout",
+     "Never allowed",
+     "Only allowed at low speed",
+     "Required at every stop"
+    ],
+    "correct": 1,
+    "explain": "Never back a school bus while students are outside it."
+   },
+   {
+    "q": "Crossover mirrors are used to see:",
+    "options": [
+     "Only the interior of the bus",
+     "The danger zone directly in front of and beside the bus, invisible to direct vision",
+     "Only the rear of the bus",
+     "Traffic behind you at highway speed"
+    ],
+    "correct": 1,
+    "explain": "They cover blind areas right in front and to the sides that direct vision can't reach."
+   },
+   {
+    "q": "While crossing railroad tracks in a bus, you should:",
+    "options": [
+     "Shift gears smoothly as needed",
+     "Never change gears",
+     "Accelerate hard",
+     "Brake firmly"
+    ],
+    "correct": 1,
+    "explain": "Cross in a low gear and never shift while crossing."
+   },
+   {
+    "q": "The right turn signal should be activated roughly how far before pulling over to load students?",
+    "options": [
+     "10-20 feet",
+     "100-300 feet",
+     "1,000 feet",
+     "Right as you stop"
+    ],
+    "correct": 1,
+    "explain": "About 100-300 feet, or roughly 3-5 seconds, before pulling over."
+   }
+  ]
+ },
+ {
+  "id": "sec11",
+  "number": 11,
+  "short": "Vehicle Inspection Test",
+  "title": "Vehicle Inspection Test",
+  "group": "skills",
+  "classAManual": true,
+  "endorsement": "Skills test — Part 1 of 3",
+  "minutes": 10,
+  "summary": "What the examiner watches for during the hands-on pre-trip inspection, including the exact numbers for the brake checks.",
+  "topics": [
+   {
+    "heading": "How the test works",
+    "bullets": [
+     "You must point to or touch each item, name it, and explain to the examiner what you're checking and why.",
+     "A vehicle with components that are labeled or marked cannot be used for this test.",
+     "This test must be passed before you can move on to the basic control skills test."
+    ]
+   },
+   {
+    "heading": "Engine compartment & cab checks",
+    "bullets": [
+     "Check for leaks, belt condition (1/2 to 3/4 inch play), oil level, coolant level, and power steering fluid — all with the engine off.",
+     "After starting: oil pressure should rise to normal quickly, air pressure should build toward governor cut-out (about 120-140 psi), and warning lights/buzzers should go out."
+    ]
+   },
+   {
+    "heading": "The hydraulic brake check (if applicable)",
+    "bullets": [
+     "Pump the brake pedal 3 times, then hold it down for 5 seconds — the pedal must not move. Skipping either step is an automatic failure of this part of the test."
+    ]
+   },
+   {
+    "heading": "The air brake check (3 parts, if applicable)",
+    "bullets": [
+     "1) With air built to governor cutoff, release parking brake and hold the foot brake for 1 minute — leak must be under 3 psi/minute (single vehicle) or 4 psi/minute (combination).",
+     "2) Fan the brakes on and off — the low air warning must activate before pressure drops below 55 psi.",
+     "3) Keep fanning — the tractor protection valve/parking brake valve must pop out (close) somewhere in the 20-45 psi range.",
+     "Skipping any of these three steps is an automatic failure of this part of the test."
+    ]
+   },
+   {
+    "heading": "External walk-around highlights",
+    "bullets": [
+     "Tread depth: 4/32 inch minimum on steering tires, 2/32 inch on all others.",
+     "Check every axle's suspension, brakes, and wheels the same way — springs, mounts, shock absorbers, slack adjusters, and brake drums/linings.",
+     "On combination vehicles: inspect the fifth wheel for grease, a closed gap, properly seated locking jaws, and secure air/electric lines."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "Build a repeatable script, front to back",
+    "body": "Examiners score consistency as much as accuracy. Walk the same route every single practice run — engine compartment, cab, front axle, driver-side, rear, passenger-side, coupling, trailer — so the words come out automatically on test day instead of you trying to remember what's left."
+   },
+   {
+    "heading": "Say the WHY, not just the WHAT",
+    "body": "Don't just say 'checking the slack adjuster.' Say 'checking the slack adjuster — if it moves more than about an inch by hand, the brakes are out of adjustment and unsafe.' Explaining the reason is worth more points than naming the part."
+   },
+   {
+    "heading": "Practice the air brake check until it's muscle memory",
+    "body": "This is the section most manual-transmission Class A candidates lose points on simply from rushing. Time yourself doing the full 1-minute static leak check for real in practice — don't shortcut it, since the actual test won't let you either."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "During the vehicle inspection test, you must:",
+    "options": [
+     "Silently walk around the vehicle",
+     "Point to or touch each item, name it, and explain what you're checking and why",
+     "Only inspect items the examiner points out",
+     "Only inspect the engine compartment"
+    ],
+    "correct": 1,
+    "explain": "Full verbal explanation of each item is required."
+   },
+   {
+    "q": "A vehicle cannot be used for the inspection test if:",
+    "options": [
+     "It's a manual transmission",
+     "Its components are labeled or marked",
+     "It has more than 4 tires",
+     "It was manufactured before 2010"
+    ],
+    "correct": 1,
+    "explain": "Labeled/marked components would give away answers, so such vehicles are disqualified from testing."
+   },
+   {
+    "q": "During the hydraulic brake check, you must pump the pedal 3 times, then hold it for how long?",
+    "options": [
+     "2 seconds",
+     "5 seconds",
+     "15 seconds",
+     "1 minute"
+    ],
+    "correct": 1,
+    "explain": "Hold for 5 seconds — the pedal should not move at all."
+   },
+   {
+    "q": "Skipping either step of the hydraulic brake check results in:",
+    "options": [
+     "A minor point deduction",
+     "An automatic failure of the vehicle inspection test",
+     "No penalty if the brakes work fine",
+     "A retest opportunity only"
+    ],
+    "correct": 1,
+    "explain": "Both components (pump 3x, hold 5 sec) must be performed correctly."
+   },
+   {
+    "q": "In the 3-part air brake check, holding the foot brake for 1 minute, the leak rate must stay under how much for a combination vehicle?",
+    "options": [
+     "1 psi/minute",
+     "4 psi/minute",
+     "10 psi/minute",
+     "It's unlimited"
+    ],
+    "correct": 1,
+    "explain": "Under 4 psi/minute for combination vehicles (3 psi/minute for a single vehicle)."
+   },
+   {
+    "q": "In part 2 of the air brake check (fanning the brakes), the low air warning must trigger before pressure drops below:",
+    "options": [
+     "35 psi",
+     "55 psi",
+     "75 psi",
+     "100 psi"
+    ],
+    "correct": 1,
+    "explain": "Before 55 psi, matching the general low-air-warning rule."
+   },
+   {
+    "q": "In part 3 of the air brake check, the tractor protection valve should pop out (close) in what pressure range?",
+    "options": [
+     "5-10 psi",
+     "20-45 psi",
+     "60-80 psi",
+     "100-120 psi"
+    ],
+    "correct": 1,
+    "explain": "Somewhere in the 20-45 psi range, per manufacturer spec."
+   },
+   {
+    "q": "Minimum tread depth required on steering axle tires during inspection is:",
+    "options": [
+     "2/32 inch",
+     "4/32 inch",
+     "6/32 inch",
+     "8/32 inch"
+    ],
+    "correct": 1,
+    "explain": "4/32 inch on steer tires; 2/32 inch on all other tires."
+   },
+   {
+    "q": "During inspection, air pressure should build toward a governor cut-out of approximately:",
+    "options": [
+     "60-80 psi",
+     "90-100 psi",
+     "120-140 psi",
+     "160-180 psi"
+    ],
+    "correct": 2,
+    "explain": "Roughly 120-140 psi, or per manufacturer specification."
+   },
+   {
+    "q": "On a combination vehicle's fifth wheel, what should you check for after coupling?",
+    "options": [
+     "A visible gap between upper and lower fifth wheel",
+     "No visible gap, greased plate, and locking jaws properly seated",
+     "Only that it's painted correctly",
+     "Nothing — fifth wheels are self-checking"
+    ],
+    "correct": 1,
+    "explain": "A gap, missing grease, or unseated jaws all indicate a coupling problem."
+   },
+   {
+    "q": "The FLHSMV seven-step inspection method is used for:",
+    "options": [
+     "Only the air brake check",
+     "The entire pre-trip vehicle inspection",
+     "Only engine compartment checks",
+     "Cargo securement only"
+    ],
+    "correct": 1,
+    "explain": "Florida's official pre-trip framework: approach, engine compartment, cab, lights, walk-around, signal/brake checks, then the air brake test."
+   }
+  ]
+ },
+ {
+  "id": "sec12",
+  "number": 12,
+  "short": "Basic Control Skills Test",
+  "title": "Basic Vehicle Control Skills Test",
+  "group": "skills",
+  "classAManual": true,
+  "endorsement": "Skills test — Part 2 of 3",
+  "minutes": 6,
+  "summary": "The maneuvering exercises and how they're scored — encroachments, pull-ups, and 'looks.'",
+  "topics": [
+   {
+    "heading": "Possible exercises",
+    "bullets": [
+     "Straight line backing.",
+     "Offset back to the right, and offset back to the left.",
+     "Parallel park (driver's side, and conventional).",
+     "Alley dock."
+    ]
+   },
+   {
+    "heading": "How scoring works",
+    "bullets": [
+     "Encroachments: touching or crossing a boundary line or cone — each one counts as an error.",
+     "Pull-ups: stopping and pulling forward to reposition. Initial pull-ups aren't penalized, but too many count against you.",
+     "Outside vehicle observations ('looks'): you may exit to check your position, but must place the vehicle in neutral, set the parking brake, and exit safely (three points of contact). You get a maximum of 2 looks — except straight line backing, which allows only 1.",
+     "Final position: you must end each exercise exactly as instructed, or you'll be penalized and could fail."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "Feather the clutch, don't ride the gas",
+    "body": "For every exercise here, creep-speed control comes from partially engaging the clutch (feathering) while the engine idles — not from tapping the accelerator. It's smoother, quieter, and far easier to stop precisely at the boundary line."
+   },
+   {
+    "heading": "Cover the brake with your right foot between corrections",
+    "body": "During backing exercises, keep your right foot hovering the brake rather than resting on the floor. Manual-transmission candidates often lose a fraction of a second reaching for the brake pedal, which is exactly when an encroachment happens."
+   },
+   {
+    "heading": "Set the parking brake fully before every 'look'",
+    "body": "If you exit to check your position, a rolling vehicle in neutral is an automatic problem. Set the parking brake completely, confirm it holds, then exit with three points of contact — every single time."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "Bonus (manual transmission): the recommended way to creep forward or backward with precision during these exercises is to:",
+    "options": [
+     "Use the accelerator pedal for fine speed control",
+     "Feather the clutch while the engine idles",
+     "Bump the vehicle in and out of gear repeatedly",
+     "Ride the brake and gas at the same time"
+    ],
+    "correct": 1,
+    "explain": "Clutch feathering at idle gives much finer control than trying to modulate the throttle."
+   },
+   {
+    "q": "Bonus (manual transmission): where should your right foot generally stay during a backing exercise?",
+    "options": [
+     "Resting on the floor, away from the pedals",
+     "Hovering over the brake, ready for a quick correction",
+     "Fully on the accelerator",
+     "It doesn't matter"
+    ],
+    "correct": 1,
+    "explain": "Covering the brake shaves reaction time off corrections and helps avoid encroachments."
+   },
+   {
+    "q": "Which exercise allows only ONE outside vehicle observation ('look'), instead of the usual two?",
+    "options": [
+     "Alley dock",
+     "Parallel park (conventional)",
+     "Straight line backing",
+     "Offset back/left"
+    ],
+    "correct": 2,
+    "explain": "Straight line backing allows just 1 look; other exercises allow up to 2."
+   },
+   {
+    "q": "What counts as an 'encroachment' during the basic control skills test?",
+    "options": [
+     "Taking too long to complete the exercise",
+     "Touching or crossing a boundary line or cone",
+     "Using your mirrors",
+     "Pulling forward to reposition"
+    ],
+    "correct": 1,
+    "explain": "Each touch or crossing of a boundary/cone is scored as an error."
+   },
+   {
+    "q": "Before exiting the vehicle to take a 'look,' you must:",
+    "options": [
+     "Turn off the engine completely",
+     "Place it in neutral and set the parking brake",
+     "Honk the horn",
+     "Nothing special is required"
+    ],
+    "correct": 1,
+    "explain": "Neutral, parking brake set, then exit safely with three points of contact."
+   },
+   {
+    "q": "How many points of contact should you maintain when exiting the vehicle to check your position?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Four"
+    ],
+    "correct": 2,
+    "explain": "Three points of contact while facing the vehicle during exit."
+   },
+   {
+    "q": "Are initial pull-ups penalized on the basic control skills test?",
+    "options": [
+     "Yes, every pull-up counts as an error",
+     "No, but an excessive number of pull-ups will count against you",
+     "Only during parallel parking",
+     "Only during the alley dock exercise"
+    ],
+    "correct": 1,
+    "explain": "Some pull-ups are expected; too many becomes a scoring issue."
+   },
+   {
+    "q": "If you don't end an exercise in the exact final position the examiner described, you:",
+    "options": [
+     "Automatically pass anyway",
+     "Will be penalized and could fail the test",
+     "Get one free retry",
+     "Only lose points on the alley dock"
+    ],
+    "correct": 1,
+    "explain": "Final position matters — finish exactly where instructed."
+   },
+   {
+    "q": "Which of these is NOT one of the basic control skills test exercises listed in the manual?",
+    "options": [
+     "Straight line backing",
+     "Alley dock",
+     "Highway merging",
+     "Parallel park"
+    ],
+    "correct": 2,
+    "explain": "Highway merging is part of the on-road test, not the basic control skills test."
+   },
+   {
+    "q": "What is the maximum number of 'looks' generally allowed during most basic control exercises (excluding straight line backing)?",
+    "options": [
+     "Zero",
+     "1",
+     "2",
+     "Unlimited"
+    ],
+    "correct": 2,
+    "explain": "Up to 2 looks for most exercises; only 1 for straight line backing."
+   }
+  ]
+ },
+ {
+  "id": "sec13",
+  "number": 13,
+  "short": "On-Road Driving Test",
+  "title": "On-Road Driving Test",
+  "group": "skills",
+  "classAManual": true,
+  "endorsement": "Skills test — Part 3 of 3",
+  "minutes": 9,
+  "summary": "What examiners watch for on the road: turns, intersections, railroad crossings, and the general driving behaviors that get scored throughout.",
+  "topics": [
+   {
+    "heading": "The basics",
+    "bullets": [
+     "Wear your seatbelt, obey every traffic law, and complete the route with zero accidents and zero moving violations.",
+     "If your route lacks a certain situation (like a railroad crossing), you may be asked to simulate it by explaining what you would do."
+    ]
+   },
+   {
+    "heading": "Turns & intersections",
+    "bullets": [
+     "Check traffic in all directions, signal early, and don't coast unsafely (out of gear for longer than your vehicle's length).",
+     "Complete a right turn in the right-most (curb) lane; complete a left turn in the lane directly right of the center line on a multi-lane road."
+    ]
+   },
+   {
+    "heading": "Stop/start & roadside stop procedure",
+    "bullets": [
+     "Signal, decelerate, and stop fully out of the traffic flow. Then: cancel the turn signal, activate 4-way flashers, set the parking brake, shift to neutral/park, and remove your feet from the pedals.",
+     "To resume: check traffic and mirrors, turn off flashers, signal left, release the parking brake, and pull out only once it's safe — don't turn the wheel before the vehicle starts moving."
+    ]
+   },
+   {
+    "heading": "Railroad crossings on the road test",
+    "bullets": [
+     "Buses, school buses, and placarded vehicles must activate 4-way flashers approaching the crossing, stop between 15 and 50 feet from the nearest rail, and look/listen both ways.",
+     "Never stop, shift gears, or change lanes while any part of your vehicle is on the crossing."
+    ]
+   },
+   {
+    "heading": "General driving behaviors scored the whole route",
+    "bullets": [
+     "Clutch usage (manual transmission): always use the clutch to shift, double-clutch on unsynchronized transmissions, never ride the clutch or 'pop' it.",
+     "Gear usage: no grinding or clashing gears, and don't shift while turning or in an intersection.",
+     "Brake usage: smooth, steady pressure — no riding or pumping the brake.",
+     "Lane usage: stay off curbs and lane markings, stop behind stop lines, and move to the right-most lane when it's clear.",
+     "Steering: both hands on the wheel except while shifting.",
+     "Regular traffic checks: mirrors and traffic checked constantly, especially at and through intersections.",
+     "Turn signals: used at the right time, held through the maneuver, and canceled afterward."
+    ]
+   }
+  ],
+  "tips": [
+   {
+    "heading": "Pre-select your gear before every intersection",
+    "body": "Slow, downshift, and settle into the gear you'll need to pull away in BEFORE you reach the stop line — not while you're already stopped and traffic is waiting. Arriving in the right gear is one of the biggest visible differences between a nervous and a confident manual-transmission driver."
+   },
+   {
+    "heading": "One thing at a time through curves and turns",
+    "body": "Finish your downshifting and braking before you start turning the wheel, then steer, then get back on the throttle. Trying to shift, brake, and steer all at once is where new manual drivers stack up small mistakes."
+   },
+   {
+    "heading": "If you grind a gear, don't chase it",
+    "body": "A single grind isn't an automatic fail — recover calmly, get the shift completed smoothly, and move on. Fumbling to fix it while distracted from traffic checks causes far more scoring damage than the grind itself."
+   }
+  ],
+  "quiz": [
+   {
+    "q": "To pass the on-road driving test, you must complete the route with:",
+    "options": [
+     "No more than one minor accident",
+     "Zero accidents and zero moving violations",
+     "A perfect parking score only",
+     "No requirement beyond finishing the route"
+    ],
+    "correct": 1,
+    "explain": "Any accident or moving violation fails the on-road test."
+   },
+   {
+    "q": "'Unsafe coasting' during the on-road test means being out of gear for longer than:",
+    "options": [
+     "1 second",
+     "The length of your vehicle",
+     "A full city block",
+     "It's never considered unsafe"
+    ],
+    "correct": 1,
+    "explain": "Coasting (clutch depressed or in neutral) longer than your vehicle's length counts as unsafe coasting."
+   },
+   {
+    "q": "A right turn should be completed in which lane?",
+    "options": [
+     "Any open lane",
+     "The right-most (curb) lane",
+     "The center lane",
+     "The left lane"
+    ],
+    "correct": 1,
+    "explain": "Finish right turns in the right-most lane."
+   },
+   {
+    "q": "During the roadside stop/start maneuver, after coming to a full stop you should:",
+    "options": [
+     "Leave the vehicle in drive with your foot on the brake",
+     "Cancel the turn signal, activate 4-way flashers, set the parking brake, and shift to neutral/park",
+     "Immediately exit the vehicle",
+     "Rev the engine to signal your intent"
+    ],
+    "correct": 1,
+    "explain": "This sequence secures the vehicle properly at a roadside stop."
+   },
+   {
+    "q": "When resuming from a roadside stop, you should turn the steering wheel:",
+    "options": [
+     "Before the vehicle starts moving, to save time",
+     "Only after the vehicle has started moving",
+     "It doesn't matter when",
+     "Never turn the wheel during this maneuver"
+    ],
+    "correct": 1,
+    "explain": "Don't turn the wheel before your vehicle moves — steer once you're rolling."
+   },
+   {
+    "q": "While crossing railroad tracks during the road test, you must never:",
+    "options": [
+     "Keep both hands on the wheel",
+     "Stop, shift gears, or change lanes while on the crossing",
+     "Check your mirrors afterward",
+     "Deactivate flashers after crossing"
+    ],
+    "correct": 1,
+    "explain": "No stopping, shifting, or lane changes while any part of the vehicle is on the tracks."
+   },
+   {
+    "q": "On a manual transmission vehicle with an unsynchronized gearbox, you are required to:",
+    "options": [
+     "Never use the clutch except to start",
+     "Double-clutch when shifting",
+     "Shift only while turning",
+     "Ride the clutch continuously"
+    ],
+    "correct": 1,
+    "explain": "Double-clutching is required on unsynchronized manual transmissions."
+   },
+   {
+    "q": "'Riding' or 'pumping' the brake pedal during the on-road test is considered:",
+    "options": [
+     "Good defensive driving",
+     "A scored driving-behavior error",
+     "Required at every stop",
+     "Only a problem on hills"
+    ],
+    "correct": 1,
+    "explain": "Smooth, steady brake pressure is expected — no riding or pumping."
+   },
+   {
+    "q": "Your hands should be on the steering wheel at all times, except:",
+    "options": [
+     "While shifting gears",
+     "While checking mirrors",
+     "While signaling",
+     "There's no exception"
+    ],
+    "correct": 0,
+    "explain": "Return both hands to the wheel immediately after completing a shift."
+   },
+   {
+    "q": "If your test route doesn't include a railroad crossing, the examiner may:",
+    "options": [
+     "Skip that scoring category entirely with no discussion",
+     "Ask you to simulate the situation by explaining what you would do",
+     "Fail you automatically",
+     "End the test early"
+    ],
+    "correct": 1,
+    "explain": "You may need to describe/demonstrate the proper procedure verbally at a simulated location."
+   },
+   {
+    "q": "Bonus (manual transmission): before every intersection or turn on the road test, you should:",
+    "options": [
+     "Shift to neutral and coast in",
+     "Downshift and settle into the gear you'll need BEFORE you arrive",
+     "Wait until you're stopped, then hunt for a gear",
+     "Keep the clutch pedal fully depressed the whole time"
+    ],
+    "correct": 1,
+    "explain": "Pre-selecting your gear before the stop line is the biggest visible difference between a smooth and a nervous manual driver."
+   },
+   {
+    "q": "During the on-road test, repeated grinding or clashing of gears is:",
+    "options": [
+     "Not scored",
+     "A scored gear-usage fault that can fail you if repeated",
+     "Only scored on hills",
+     "Automatically forgiven if you finish the route"
+    ],
+    "correct": 1,
+    "explain": "Each occurrence is scored; repeated grinding or a grind that creates an unsafe moment will fail the road test."
+   }
+  ]
+ },
+ {
+  "id": "sec14",
+  "number": 14,
+  "short": "Test Day & 1-Week Plan",
+  "title": "Test Day, Licensing & the One-Week Plan",
+  "group": "testday",
+  "classAManual": true,
+  "endorsement": "Everyone — study this last",
+  "minutes": 12,
+  "summary": "Exact test structure and passing scores, the manual-vs-automatic E restriction, CLP/ELDT rules, Florida test-day procedures, and a day-by-day plan to pass the written tests in one week.",
+  "topics": [
+   {
+    "heading": "The three written tests you'll take (Class A)",
+    "bullets": [
+     "General Knowledge: 50 questions, need 40 right (80%). Taken by every CDL applicant.",
+     "Combination Vehicles: 20 questions, need 16 right (80%). Required for Class A.",
+     "Air Brakes: 25 questions, need 20 right (80%). Required if your truck has air brakes — a standard Class A tractor almost always does.",
+     "Endorsements add more tests: Hazmat 30 questions (need 24), Passenger / Tank / Doubles-Triples 20 questions each (need 16).",
+     "You get 2 attempts per test per day in Florida, and after a failed attempt you can review the exact questions you missed before retaking.",
+     "All knowledge tests are computerized and taken in person at a FLHSMV office or tax collector — there is no online testing."
+    ]
+   },
+   {
+    "heading": "Manual vs. Automatic — the E restriction",
+    "bullets": [
+     "Test in an automatic (including an automated-manual / AMT like an Eaton UltraShift): you get the 'E' restriction — no manual transmission, ever.",
+     "Test in a manual: NO restriction — you can legally drive both automatic and manual trucks. This is the #1 reason to test in a manual if you can.",
+     "AMTs, semi-automatics, and any transmission that doesn't operate fully on the gear-shift-and-clutch principle count as 'automatic' for the restriction.",
+     "If you do get the E restriction, you can remove it later with a modified skills test in a manual truck — no ELDT required, and you don't redo the whole license.",
+     "Florida follows the federal rule: passing the skills test in an automatic-equipped vehicle must add the E restriction."
+    ]
+   },
+   {
+    "heading": "CLP, ELDT & the 14-day rule",
+    "bullets": [
+     "Your CLP (Commercial Learner's Permit) is valid about 12 months, and you must hold it 14 days before taking the skills test.",
+     "Since February 7, 2022, first-time CDL applicants MUST complete Entry-Level Driver Training (ELDT) — theory, range, and road — from an FMCSA-registered provider before the skills test.",
+     "ELDT is verified electronically by FLHSMV, so you can't skip it or fake it. Get your CLP and start ELDT right away — it runs in parallel with your written-test study.",
+     "The knowledge tests are the fast part: a focused week of drilling practice tests is plenty to pass all three.",
+     "Your written-test passing scores stay valid for 1 year — that's your window to finish ELDT and pass the skills test."
+    ]
+   },
+   {
+    "heading": "The skills test (third-party, three parts)",
+    "bullets": [
+     "Part 1 Pre-trip inspection: point to or touch, name, and explain every item. Florida uses the 7-step method.",
+     "Part 2 Basic control: Florida's exercises are Forward Stop, Straight-Line Backing, Forward Offset Tracking, and Reverse Offset Backing.",
+     "Part 3 On-road driving: turns, intersections, rail crossings, grades, and lane discipline.",
+     "Fail the pre-trip and you redo ALL THREE parts — FLHSMV asked FMCSA for an exemption and was denied in 2024. Pre-trip is the highest-stakes segment.",
+     "Florida uses state-contracted third-party test sites; Class A skills tests typically run $300–$500 and are paid directly to the tester.",
+     "The test vehicle must be a truck-tractor/semi-trailer combo with GCWR 26,001+ lbs and trailer GVWR over 10,000 lbs, with no labeled or marked components."
+    ]
+   },
+   {
+    "heading": "Florida test-day rules",
+    "bullets": [
+     "Bring: valid Florida Class E license, Social Security number, proof of residency, DOT medical card, and your self-certification (interstate vs intrastate).",
+     "Under 21? You get the K restriction — intrastate only. Interstate driving and hazmat both require 21.",
+     "Knowledge tests are offered in multiple languages and can be taken orally in English or Spanish — but the Hazmat test is English-only.",
+     "Skills tests are English-only, and interpreters are prohibited for all tests.",
+     "Retest fees: $10 written, $20 skills. Initial CDL $75 plus $7 per endorsement, with a $6.25 service fee at tax collector offices.",
+     "There is no traffic-school point avoidance for CDL holders in Florida — convictions go straight on your record."
+    ]
+   },
+   {
+    "heading": "The one-week written-test plan",
+    "bullets": [
+     "Day 1: Skim handbook Sections 1–3 + 11, take 2 General Knowledge practice tests, and log every miss by topic.",
+     "Day 2: Drill 4–6 General Knowledge tests until you hit 100% twice on two different sites; flashcard your misses.",
+     "Day 3: Air Brakes day — write the pressure ladder 20 times (125 cut-out / 100 cut-in / 55 warning / 20–45 spring brakes; 2-3-3-4 leak rates).",
+     "Day 4: Combination Vehicles — coupling/uncoupling steps, red vs blue lines, hand valve, fifth wheel, off-tracking.",
+     "Day 5: Full simulation — all three tests back-to-back, timed; book your FLHSMV appointment and start ELDT paperwork.",
+     "Day 6: Pre-trip script day — memorize the 7-step walk-around and say it out loud; re-take Air Brakes + Combination tests.",
+     "Day 7 (test day): One final pass of each practice test in the morning, arrive early, and use your 2 attempts if needed.",
+     "The night before: sleep. The morning of: caffeine, breakfast, and review your saved mistake list — not new material."
+    ]
+   },
+   {
+    "heading": "The trick numbers to drill (most-missed)",
+    "bullets": [
+     "Air brakes: 125 psi governor cut-out, 100 psi cut-in, 55 psi low-air warning (or one-half governor cut-out on older vehicles), 20–45 psi spring brakes.",
+     "Leak rates: 2 psi/min single / 3 psi/min combo with brakes released; 3 psi/min single / 4 psi/min combo with the foot brake held.",
+     "Tread: 4/32 inch on steering tires, 2/32 inch on all others.",
+     "Following distance: 1 second per 10 feet of vehicle length under 40 mph, +1 second over 40 mph. A 40-ft truck needs 4 seconds; at 55 mph it's 5 seconds.",
+     "Stopping: 419 feet total at 55 mph; doubling your speed quadruples stopping distance.",
+     "Rail crossings: stop 15–50 feet from the nearest rail; a tractor-trailer needs about 14 seconds to clear a single track.",
+     "Red glad hand = emergency/supply line; blue = service line.",
+     "Cargo: re-check within the first 50 miles, then every 150 miles or 3 hours."
+    ]
+   }
+  ],
+  "quiz": [
+   {
+    "q": "How many questions are on the Florida General Knowledge CDL test?",
+    "options": [
+     "30",
+     "40",
+     "50",
+     "60"
+    ],
+    "correct": 2,
+    "explain": "50 questions — you need 40 correct (80%) to pass."
+   },
+   {
+    "q": "How many correct answers do you need to pass the 50-question General Knowledge test?",
+    "options": [
+     "35",
+     "38",
+     "40",
+     "45"
+    ],
+    "correct": 2,
+    "explain": "80% of 50 = 40 correct."
+   },
+   {
+    "q": "A Class A applicant must pass which three knowledge tests?",
+    "options": [
+     "General Knowledge, Passenger, Hazmat",
+     "General Knowledge, Combination Vehicles, Air Brakes",
+     "General Knowledge, Tank, Doubles/Triples",
+     "Combination, Air Brakes, School Bus"
+    ],
+    "correct": 1,
+    "explain": "General Knowledge (50 Q), Combination Vehicles (20 Q), and Air Brakes (25 Q) are the standard Class A set."
+   },
+   {
+    "q": "How many questions are on the Combination Vehicles test, and how many do you need correct?",
+    "options": [
+     "20 questions, 16 correct",
+     "25 questions, 20 correct",
+     "30 questions, 24 correct",
+     "20 questions, 18 correct"
+    ],
+    "correct": 0,
+    "explain": "20 questions with an 80% pass mark = 16 correct."
+   },
+   {
+    "q": "If you skip or fail the Air Brakes knowledge test, what restriction goes on your CDL?",
+    "options": [
+     "E",
+     "K",
+     "L",
+     "Z"
+    ],
+    "correct": 2,
+    "explain": "L = no air-brake-equipped CMV. If your truck has air brakes you must take and pass this test."
+   },
+   {
+    "q": "What happens if you take the skills test in an automatic transmission truck?",
+    "options": [
+     "Nothing — no restriction is added",
+     "You get the E restriction (no manual transmission)",
+     "You automatically fail",
+     "You must retake the written test"
+    ],
+    "correct": 1,
+    "explain": "Testing in an automatic (including AMTs) adds the E restriction. Test in a manual and you can drive both."
+   },
+   {
+    "q": "For the E restriction, an automated manual transmission (AMT) like an Eaton UltraShift counts as:",
+    "options": [
+     "A manual transmission",
+     "An automatic transmission",
+     "Neither — it's exempt",
+     "A manual only if you double-clutch"
+    ],
+    "correct": 1,
+    "explain": "Any transmission that doesn't operate fully on the gear-shift-and-clutch principle counts as automatic."
+   },
+   {
+    "q": "You already have a CDL with the E restriction. To remove it you must:",
+    "options": [
+     "Retake all knowledge tests and ELDT",
+     "Pass a modified skills test in a manual truck",
+     "Wait 3 years with a clean record",
+     "Take a written manual-transmission test only"
+    ],
+    "correct": 1,
+    "explain": "Restriction removal uses a modified skills test — no ELDT and no full retest required."
+   },
+   {
+    "q": "How long must you hold your Florida CLP before taking the skills test?",
+    "options": [
+     "7 days",
+     "14 days",
+     "30 days",
+     "90 days"
+    ],
+    "correct": 1,
+    "explain": "The CLP must be held 14 days before the skills test (federal rule)."
+   },
+   {
+    "q": "What is ELDT and when is it required?",
+    "options": [
+     "A written test you take online",
+     "Entry-Level Driver Training from an FMCSA-registered provider, required before your first skills test",
+     "An extra fee, not training",
+     "Only required for hazmat endorsements"
+    ],
+    "correct": 1,
+    "explain": "Since Feb 7, 2022, first-time CDL applicants must complete ELDT (theory, range, road) before the skills test."
+   },
+   {
+    "q": "How many attempts per test do you get in a single day in Florida?",
+    "options": [
+     "1",
+     "2",
+     "3",
+     "Unlimited"
+    ],
+    "correct": 1,
+    "explain": "2 attempts per test per day — and you can review your missed questions between attempts."
+   },
+   {
+    "q": "You fail the pre-trip inspection portion of the skills test. What happens?",
+    "options": [
+     "You redo only the pre-trip",
+     "You redo all three skills segments",
+     "You redo the road test only",
+     "You're done for the year"
+    ],
+    "correct": 1,
+    "explain": "Fail the pre-trip and all three segments restart — FMCSA denied Florida's waiver request. This is why pre-trip practice matters most."
+   },
+   {
+    "q": "Which exercise is part of Florida's basic control skills test?",
+    "options": [
+     "Alley dock",
+     "Reverse Offset Backing",
+     "Parallel parking",
+     "Highway merging"
+    ],
+    "correct": 1,
+    "explain": "Florida uses Forward Stop, Straight-Line Backing, Forward Offset Tracking, and Reverse Offset Backing."
+   },
+   {
+    "q": "A driver self-certifies as intrastate-only. What restriction applies?",
+    "options": [
+     "E",
+     "K",
+     "L",
+     "O"
+    ],
+    "correct": 1,
+    "explain": "K = intrastate only. Under-21 drivers get it automatically; older drivers get it if they self-certify intrastate."
+   },
+   {
+    "q": "How many correct answers do you need on the 25-question Air Brakes test?",
+    "options": [
+     "18",
+     "19",
+     "20",
+     "22"
+    ],
+    "correct": 2,
+    "explain": "80% of 25 = 20 correct."
+   },
+   {
+    "q": "What's the most important reason to take your Class A skills test in a manual transmission truck?",
+    "options": [
+     "It's required by Florida law",
+     "You avoid the E restriction and can legally drive both manual and automatic trucks",
+     "It makes the pre-trip easier",
+     "Manual trucks are cheaper to rent"
+    ],
+    "correct": 1,
+    "explain": "Passing in a manual = no E restriction = you can drive both types. That's the entire reason to prefer manual."
+   }
+  ],
+  "tips": [
+   {
+    "heading": "The 7-day sprint, day by day",
+    "body": "Days 1–2: General Knowledge only. Take 2 practice tests, log every miss, drill until you hit 100% twice on two different sites. Day 3: Air Brakes — write the pressure ladder 20 times. Day 4: Combination Vehicles — coupling steps + air lines. Day 5: all three tests back-to-back, timed; book your FLHSMV appointment. Day 6: pre-trip script out loud + retake Air Brakes/Combination. Day 7: one calm pass of each test in the morning, then go take the real thing."
+   },
+   {
+    "heading": "Don't chase the handbook — chase practice tests",
+    "body": "The #1 tip from r/Truckers: drill practice tests, not reading. Real questions come from a pool of roughly 100–200, and 25% swap between versions, so use 2–3 different sites. When you miss one, write down the topic and re-read only that subsection in the handbook."
+   },
+   {
+    "heading": "The pre-trip is where Florida fails people",
+    "body": "Examiners score what they HEAR. Say every item out loud: 'not cracked, bent, broken, or illegally welded; properly mounted, no leaks, no missing or damaged parts.' Walk the same clockwise pattern every time, and do the 3-part air brake check verbatim — skipping a step fails the whole inspection."
+   }
+  ]
+ }
+]

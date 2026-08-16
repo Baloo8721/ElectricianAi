@@ -47,5 +47,9 @@ if (!indexOut.includes("pinHash")) {
 writeFileSync(join(dist, "index.html"), indexOut);
 writeFileSync(join(dist, ".nojekyll"), "");
 
+if (existsSync(join(root, "cdl.html"))) {
+  cpSync(join(root, "cdl.html"), join(dist, "cdl.html"));
+}
+
 console.log("Wrote dist/ (deploy this folder)");
 console.log("Build complete.");

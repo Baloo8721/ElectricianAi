@@ -409,20 +409,29 @@ h1,h2,h3,h4, .display{
   flex:1;
   min-width: 140px;
   background: rgba(0,0,0,0.22);
-  border: 1px solid rgba(255,255,255,0.25);
-  color: var(--paper);
-  padding: 10px 10px;
-  border-radius: 10px;
-  font-family:'Oswald',sans-serif;
-  font-weight:600;
-  font-size:13px;
-  text-align:center;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: 12px;
+  padding: 14px 12px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
   cursor:pointer;
-  touch-action: manipulation;
+  transition: background 0.15s, transform 0.1s;
+  text-align:center;
   -webkit-user-select: none;
   user-select: none;
 }
+.exam-btn.exam-btn-primary{
+  background: var(--lane);
+  border-color: var(--lane);
+  color: var(--asphalt);
+}
+.exam-btn.exam-btn-primary b{
+  color: var(--asphalt-2);
+}
 .exam-btn:active{ background: rgba(0,0,0,0.34); }
+.exam-btn.exam-btn-primary:active{ background: var(--lane-dim); }
 .exam-btn b{ display:block; color: var(--lane); font-size:11px; margin-top:2px; font-weight:700;}
 .exam-last{
   margin: 12px 0 0 !important;
@@ -432,6 +441,89 @@ h1,h2,h3,h4, .display{
   color: rgba(247,244,236,0.9) !important;
 }
 .exam-last b{ color: var(--lane); }
+
+/* Section breakdown for Class A exam results */
+.section-breakdown{
+  background: rgba(0,0,0,0.15);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+}
+.section-breakdown h4{
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: var(--lane);
+}
+.section-row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: rgba(0,0,0,0.2);
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+.section-row.passed{
+  border-left: 3px solid var(--go-green);
+}
+.section-row.failed{
+  border-left: 3px solid var(--danger-red);
+}
+.section-name{
+  font-weight: 600;
+  font-size: 13px;
+}
+.section-score{
+  font-size: 13px;
+  color: var(--muted);
+}
+.section-status{
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+.section-row.passed .section-status{
+  background: rgba(46,158,91,0.2);
+  color: var(--go-green);
+}
+.section-row.failed .section-status{
+  background: rgba(200,16,46,0.2);
+  color: var(--danger-red);
+}
+.section-note{
+  margin: 12px 0 0;
+  font-size: 12px;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Section badge in quiz view */
+.section-badge{
+  display: inline-block;
+  background: var(--lane);
+  color: var(--asphalt);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+
+/* Section tag in review list */
+.section-tag{
+  display: inline-block;
+  background: rgba(244,196,48,0.15);
+  color: var(--lane);
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  text-transform: uppercase;
+}
 
 /* Practice resources card */
 .resources-card{

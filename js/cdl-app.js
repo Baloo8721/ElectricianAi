@@ -127,8 +127,9 @@ function renderHomeView(){
   const last = state.lastResult;
   examCard.innerHTML = `
     <h3>🏁 Ready to test yourself?</h3>
-    <p>Simulate the real thing. The General Knowledge exam pulls only from Sections 1–3 (what every applicant is tested on); Full Mixed Review draws from all ${MODULES.length} modules.</p>
+    <p>Simulate the real Florida Class A CLP exam: 95 questions across 3 sections (GK: 50 Q, Air Brakes: 25 Q, Combo: 20 Q). Each section requires 80% to pass.</p>
     <div class="exam-buttons">
+      <div class="exam-btn exam-btn-primary" id="btn-exam-classa"><span>🚛 Florida Class A CLP Practice Exam</span><b>95 Q · GK + Air Brakes + Combo</b></div>
       <div class="exam-btn" id="btn-exam-general"><span>General Knowledge Practice Exam</span><b>50 Q · Sections 1–3</b></div>
       <div class="exam-btn" id="btn-exam-full"><span>Full Mixed Review</span><b>${Math.min(50, MODULES.reduce((n,m)=>n+m.quiz.length,0))} Q · All modules</b></div>
     </div>
@@ -161,6 +162,7 @@ function renderHomeView(){
   wrap.appendChild(route);
 
   setTimeout(()=>{
+    $('#btn-exam-classa')?.addEventListener('click', ()=> startClassAExam());
     $('#btn-exam-general')?.addEventListener('click', ()=> startExam('general'));
     $('#btn-exam-full')?.addEventListener('click', ()=> startExam('full'));
   },0);
@@ -323,6 +325,50 @@ function startExam(mode){
   render();
 }
 
+function startClassAExam(){
+  // Florida Class A CLP Exam: GK (50 Q), Air Brakes (25 Q), Combo (20 Q)
+  state.quizMode = 'classa';
+  state.currentModuleId = null;
+  state.quizQueue = [];
+  
+  // General Knowledge: Sections 1, 2, 3
+  const gkModules = ['sec1', 'sec2', 'sec3'];
+  gkModules.forEach(id => {
+    const m = moduleById(id);
+    if(m) {
+      m.quiz.forEach(q => state.quizQueue.push({moduleShort: m.short, q, section: 'GK'}));
+    }
+  });
+  
+  // Air Brakes: Section 5
+  const abModule = moduleById('sec5');
+  if(abModule) {
+    abModule.quiz.forEach(q => state.quizQueue.push({moduleShort: abModule.short, q, section: 'Air Brakes'}));
+  }
+  
+  // Combination Vehicles: Section 6
+  const comboModule = moduleById('sec6');
+  if(comboModule) {
+    comboModule.quiz.forEach(q => state.quizQueue.push({moduleShort: comboModule.short, q, section: 'Combo'}));
+  }
+  
+  // Shuffle within each section to maintain section order
+  const gkQuestions = state.quizQueue.filter(q => q.section === 'GK');
+  const abQuestions = state.quizQueue.filter(q => q.section === 'Air Brakes');
+  const comboQuestions = state.quizQueue.filter(q => q.section === 'Combo');
+  
+  // Take exactly the required number of questions
+  const finalGK = shuffle(gkQuestions).slice(0, 50);
+  const finalAB = shuffle(abQuestions).slice(0, 25);
+  const finalCombo = shuffle(comboQuestions).slice(0, 20);
+  
+  state.quizQueue = [...finalGK, ...finalAB, ...finalCombo];
+  state.quizIndex = 0;
+  state.quizAnswers = [];
+  state.view = 'quiz';
+  render();
+}
+
 /* ---------------- RENDER: QUIZ ---------------- */
 function renderQuizView(){
   const wrap = el('div','view');
@@ -332,8 +378,12 @@ function renderQuizView(){
 
   const backRow = el('div','back-row');
   const label = state.quizMode === 'module' ? moduleById(state.currentModuleId).short :
-                (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 'Full Mixed Review');
+                (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 
+                 (state.quizMode === 'classa' ? 'Florida Class A CLP Practice Exam' : 'Full Mixed Review'));
   backRow.innerHTML = `<div class="back-btn">✕</div><div class="crumb">${label}</div>`;
+  if(state.quizMode === 'classa' && item.section) {
+    backRow.querySelector('.crumb').innerHTML += ` <span class="section-badge">${item.section}</span>`;
+  }
   backRow.querySelector('.back-btn').addEventListener('click', ()=>{
     if(confirm('Quit this quiz? Your progress on it will be lost.')) goHome();
   });
@@ -427,12 +477,45 @@ function finishQuiz(){
       attempts: (prev ? prev.attempts : 0) + 1
     };
   }
-  const label = state.quizMode === 'module'
+  
+  let label = state.quizMode === 'module'
     ? moduleById(state.currentModuleId).short
-    : (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 'Full Mixed Review');
+    : (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 
+       (state.quizMode === 'classa' ? 'Florida Class A CLP Practice Exam' : 'Full Mixed Review'));
+  
+  // Calculate section results for Class A exam
+  let sectionResults = null;
+  if(state.quizMode === 'classa') {
+    sectionResults = {
+      GK: { correct: 0, total: 0, passed: false },
+      'Air Brakes': { correct: 0, total: 0, passed: false },
+      Combo: { correct: 0, total: 0, passed: false }
+    };
+    
+    state.quizQueue.forEach((item, idx) => {
+      const answer = state.quizAnswers[idx];
+      if(answer && answer.correct) {
+        if(item.section && sectionResults[item.section]) {
+          sectionResults[item.section].correct++;
+        }
+      }
+      if(item.section && sectionResults[item.section]) {
+        sectionResults[item.section].total++;
+      }
+    });
+    
+    // Calculate pass/fail for each section (80% required)
+    Object.keys(sectionResults).forEach(section => {
+      const s = sectionResults[section];
+      s.pct = Math.round((s.correct / s.total) * 100);
+      s.passed = s.pct >= 80;
+    });
+  }
+  
   state.lastResult = {
     correct, total, pct, label,
-    date: new Date().toLocaleDateString(undefined, {month:'short', day:'numeric'})
+    date: new Date().toLocaleDateString(undefined, {month:'short', day:'numeric'}),
+    sectionResults
   };
   saveProgress();
   state.view = 'results';
@@ -442,25 +525,56 @@ function finishQuiz(){
 /* ---------------- RENDER: RESULTS ---------------- */
 function renderResultsView(){
   const wrap = el('div','view');
-  const {correct, total, pct} = state.lastResult;
+  const {correct, total, pct, sectionResults} = state.lastResult;
   const passed = pct >= 80;
 
   const resultWrap = el('div','result-wrap');
+  
+  let resultMsg = '';
+  if(state.quizMode === 'classa' && sectionResults) {
+    const allPassed = Object.values(sectionResults).every(s => s.passed);
+    resultMsg = allPassed
+      ? '🎉 You passed all three sections! Florida requires 80% on each section (GK: 40/50, Air Brakes: 20/25, Combo: 16/20).'
+      : 'Florida requires 80% on each section. Review the section breakdown below.';
+  } else {
+    resultMsg = passed
+      ? 'Florida requires 80% to pass the knowledge test — you cleared that bar. Review any misses below, then try another module.'
+      : 'Florida requires 80% (' + Math.ceil(total*0.8) + '/' + total + ') to pass. Review what you missed below, restudy that module, and try again.';
+  }
+  
   resultWrap.innerHTML = `
     <div class="result-badge">
       <div class="pct">${pct}%</div>
       <div class="of">${correct}/${total}</div>
     </div>
     <h2 class="result-title">${passed ? "🎉 You'd pass!" : "Keep studying"}</h2>
-    <p class="result-msg">${passed
-      ? 'Florida requires 80% to pass the knowledge test — you cleared that bar. Review any misses below, then try another module.'
-      : 'Florida requires 80% (' + Math.ceil(total*0.8) + '/' + total + ') to pass. Review what you missed below, restudy that module, and try again.'}</p>
+    <p class="result-msg">${resultMsg}</p>
     <div class="result-actions">
       <button class="mini-btn primary" id="btn-retry" style="padding:12px;">Retake this quiz</button>
       <button class="mini-btn" id="btn-home" style="padding:12px;">Back to all modules</button>
     </div>
   `;
   wrap.appendChild(resultWrap);
+
+  // Show section breakdown for Class A exam
+  if(state.quizMode === 'classa' && sectionResults) {
+    const sectionBreakdown = el('div','section-breakdown');
+    sectionBreakdown.appendChild(el('h4', null, 'Section Breakdown (80% required each)'));
+    
+    Object.entries(sectionResults).forEach(([section, s]) => {
+      const row = el('div', 'section-row' + (s.passed ? ' passed' : ' failed'));
+      row.innerHTML = `
+        <div class="section-name">${section}</div>
+        <div class="section-score">${s.correct}/${s.total} (${s.pct}%)</div>
+        <div class="section-status">${s.passed ? '✓ PASS' : '✗ FAIL'}</div>
+      `;
+      sectionBreakdown.appendChild(row);
+    });
+    
+    const note = el('p', 'section-note', 'Note: At the DMV, you can take all three exams on the same day or separately. Failing one section doesn\'t wipe your progress on the others.');
+    sectionBreakdown.appendChild(note);
+    wrap.appendChild(sectionBreakdown);
+  }
 
   const misses = state.quizAnswers.map((a,i)=> ({a, i})).filter(x=>x.a && !x.a.correct);
   if(misses.length){
@@ -469,7 +583,8 @@ function renderResultsView(){
     misses.forEach(({a})=>{
       const item = el('div','review-item miss');
       const correctText = a.item.q.options[a.item.q.correct];
-      item.innerHTML = `<div class="rq">${a.item.q.q}</div><div class="ra">Correct answer: <b>${correctText}</b></div>`;
+      const sectionTag = state.quizMode === 'classa' && a.item.section ? `<span class="section-tag">${a.item.section}</span>` : '';
+      item.innerHTML = `<div class="rq">${sectionTag}${a.item.q.q}</div><div class="ra">Correct answer: <b>${correctText}</b></div>`;
       list.appendChild(item);
     });
     wrap.appendChild(list);
@@ -478,6 +593,7 @@ function renderResultsView(){
   setTimeout(()=>{
     $('#btn-retry').addEventListener('click', ()=>{
       if(state.quizMode === 'module') startModuleQuiz(state.currentModuleId);
+      else if(state.quizMode === 'classa') startClassAExam();
       else startExam(state.quizMode);
     });
     $('#btn-home').addEventListener('click', goHome);

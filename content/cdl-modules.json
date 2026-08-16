@@ -58,7 +58,40 @@
     "bullets": [
      "You must declare interstate vs. intrastate commerce, and excepted vs. non-excepted status, when applying, renewing, upgrading, or transferring a CDL.",
      "Most CDL holders driving in interstate commerce are 'non-excepted interstate' and must submit a current DOT medical examiner's certificate.",
-     "Failing to keep a required medical certificate current makes you 'not-certified' and you can lose your CDL."
+     "Failing to keep a required medical certificate current makes you 'not-certified' and you can lose your CDL.",
+     "As of December 11, 2025, medical examiner certificates are submitted electronically by the medical provider to FMCSA — Tax Collector's Offices no longer accept paper certificates."
+    ]
+   },
+   {
+    "heading": "Drug & Alcohol Clearinghouse (2024 update)",
+    "bullets": [
+     "Beginning November 18, 2024, FLHSMV must obtain your driving record from the Commercial Driver's License Drug and Alcohol Clearinghouse when applying, renewing, transferring, or changing a CDL/CLP.",
+     "If the Clearinghouse shows you are prohibited from operating a CMV, FLHSMV cannot issue, renew, transfer, or change your CDL/CLP.",
+     "FLHSMV must downgrade your CDL/CLP within 60 days of receiving prohibition notification from the Clearinghouse.",
+     "You will be notified immediately if prohibited, and you have 20 days to request an informal hearing."
+    ]
+   },
+   {
+    "heading": "Entry-Level Driver Training (ELDT)",
+    "bullets": [
+     "Since February 7, 2022, entry-level drivers must complete ELDT before taking certain CDL skills or knowledge tests.",
+     "ELDT required for: first-time Class A or Class B CDL applicants, upgrading Class B to Class A, and first-time school bus (S), passenger (P), or hazardous materials (H) endorsements.",
+     "Training must be from an FMCSA-registered training provider."
+    ]
+   },
+   {
+    "heading": "Language requirements (2026 update)",
+    "bullets": [
+     "As of February 6, 2026, all driver license knowledge and skills examinations are administered exclusively in English.",
+     "This change applies to all driver license classifications, including exams administered orally.",
+     "Interpreters may not be used during the administration of any CDL tests."
+    ]
+   },
+   {
+    "heading": "Residency requirements (2024 update)",
+    "bullets": [
+     "Effective October 7, 2024, all CLP/CDL applicants or those updating an address must provide proof of Florida residency.",
+     "You must be a Florida resident to obtain a Florida CDL."
     ]
    },
    {
@@ -328,6 +361,94 @@
     ],
     "correct": 3,
     "explain": "A second major offense = disqualified for life."
+   },
+   {
+    "q": "Beginning November 18, 2024, FLHSMV must obtain your driving record from which system when applying for a CDL?",
+    "options": [
+     "The National Driver Register",
+     "The Commercial Driver's License Drug and Alcohol Clearinghouse",
+     "The FMCSA safety database",
+     "The Florida criminal history system"
+    ],
+    "correct": 1,
+    "explain": "FLHSMV must check the Drug and Alcohol Clearinghouse for CDL applications, renewals, transfers, and changes."
+   },
+   {
+    "q": "If the Drug and Alcohol Clearinghouse shows you are prohibited from operating a CMV, FLHSMV must downgrade your CDL within how many days?",
+    "options": [
+     "30 days",
+     "45 days",
+     "60 days",
+     "90 days"
+    ],
+    "correct": 2,
+    "explain": "FLHSMV must downgrade your CDL/CLP within 60 days of receiving prohibition notification."
+   },
+   {
+    "q": "As of December 11, 2025, how are medical examiner certificates submitted?",
+    "options": [
+     "Paper certificates only",
+     "Both paper and electronic",
+     "Electronically by the medical provider to FMCSA",
+     "No longer required"
+    ],
+    "correct": 2,
+    "explain": "Medical providers now submit certificates electronically to FMCSA; Tax Collector's Offices no longer accept paper certificates."
+   },
+   {
+    "q": "Since February 7, 2022, entry-level drivers must complete ELDT before taking CDL tests for:",
+    "options": [
+     "All CDL endorsements",
+     "Only hazmat endorsement",
+     "First-time Class A/B, upgrades to Class A, and first-time S/P/H endorsements",
+     "Only school bus endorsement"
+    ],
+    "correct": 2,
+    "explain": "ELDT required for first-time Class A/B, Class B to Class A upgrades, and first-time S/P/H endorsements."
+   },
+   {
+    "q": "As of February 6, 2026, all driver license knowledge and skills examinations are administered in:",
+    "options": [
+     "English and Spanish",
+     "English only",
+     "Any language with an interpreter",
+     "The applicant's preferred language"
+    ],
+    "correct": 1,
+    "explain": "All examinations are administered exclusively in English as of February 6, 2026."
+   },
+   {
+    "q": "Effective October 7, 2024, all CLP/CDL applicants must provide proof of:",
+    "options": [
+     "US citizenship",
+     "Florida residency",
+     "Employment history",
+     "Vehicle insurance"
+    ],
+    "correct": 1,
+    "explain": "Proof of Florida residency is required for all CLP/CDL applicants and address updates."
+   },
+   {
+    "q": "If you receive a prohibition notification from the Drug and Alcohol Clearinghouse, how many days do you have to request an informal hearing?",
+    "options": [
+     "10 days",
+     "20 days",
+     "30 days",
+     "60 days"
+    ],
+    "correct": 1,
+    "explain": "You have 20 days to request an informal hearing after receiving a prohibition notification."
+   },
+   {
+    "q": "ELDT training must be completed from:",
+    "options": [
+     "Any truck driving school",
+     "An FMCSA-registered training provider",
+     "A community college",
+     "Self-study only"
+    ],
+    "correct": 1,
+    "explain": "Training must be from an FMCSA-registered training provider to meet ELDT requirements."
    }
   ]
  },

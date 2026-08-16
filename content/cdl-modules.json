@@ -14,33 +14,34 @@
    {
     "heading": "The three CDL classes",
     "bullets": [
-     "Class A: any combination with a GCWR of 26,001+ lbs, as long as the towed unit's GVWR is over 10,000 lbs. Think tractor-trailers.",
-     "Class B: any single vehicle with a GVWR of 26,001+ lbs, or one towing something 10,000 lbs or less. Think straight trucks and large buses.",
-     "Class C: doesn't meet A or B, but is either built for 16+ passengers (including the driver) or carries placarded hazardous materials.",
+     "Class A: any combination with a GCWR of 26,001+ lbs, as long as the towed unit's GVWR is over 10,000 lbs. Think tractor-trailers. Driving a Class A vehicle requires considerably more skill and knowledge than Classes B and C.",
+     "Class B: any single vehicle with a GVWR of 26,001+ lbs, or one towing something 10,000 lbs or less. Think straight trucks and large buses. Safely driving these requires more knowledge and skill than Class C vehicles.",
+     "Class C: doesn't meet A or B, but is either built for 16+ passengers (including the driver) or carries placarded hazardous materials. Some large Class C vehicles may require more skill than smaller ones, but licensing is based principally on the type of cargo carried.",
      "Licenses stack downward: a Class A license also covers B and C vehicles; a Class B license also covers C."
     ]
    },
    {
     "heading": "Endorsements (extra letters on your CDL)",
     "bullets": [
-     "H – Hazardous materials. Requires a written test plus a TSA fingerprint background check.",
-     "N – Tank vehicle. Needed for tanks rated over 119 gallons individually and 1,000+ gallons combined, mounted permanently or temporarily.",
-     "P – Passenger. Needed to drive any vehicle built to carry 16+ people including the driver.",
-     "S – School bus.",
-     "T – Doubles/Triples.",
-     "X – Combination of tank + hazmat (hauling hazardous materials in a tank).",
+     "H – Hazardous materials. Requires a written test plus a TSA fingerprint background check. TSA and DOT require background checks on commercial drivers certified to transport hazardous materials.",
+     "N – Tank vehicle. Needed for tanks rated over 119 gallons individually and 1,000+ gallons combined, mounted permanently or temporarily. Liquids in bulk cause driving control problems because cargo is heavy, prone to shifting, and has a high center of gravity.",
+     "P – Passenger. Needed to drive any vehicle built to carry 16+ people including the driver. Must pass a special knowledge examination on safety considerations when transporting passengers and must pass skills tests in a passenger vehicle.",
+     "S – School bus. Must pass a special knowledge examination on safety considerations when transporting passengers in a school bus and must pass skills tests in a school bus.",
+     "T – Doubles/Triples. Considerable additional knowledge and skill is necessary to safely pull double and triple trailers in various traffic conditions.",
+     "X – Combination of tank + hazmat (hauling hazardous materials in a tank). Shows you have passed special knowledge examinations for both tank vehicles and hazardous materials.",
      "Only P, S, and N can ever appear on a Commercial Learner's Permit (CLP). A CLP with P or S automatically carries a 'no passengers' restriction; a CLP with N carries a 'no cargo in tank' restriction."
     ]
    },
    {
     "heading": "Common restriction codes",
     "bullets": [
-     "E – no manual transmission (you tested in an automatic).",
-     "K – intrastate only.",
-     "L – no air brakes.",
+     "E – no manual transmission (you tested in an automatic). For the skills test and restriction, an automatic transmission includes any transmission not operating fully on the gear shift and clutch principle.",
+     "K – intrastate only. If you certify as Non-Excepted Intrastate or Excepted Intrastate, you're restricted from operating a CMV in interstate commerce.",
+     "L – no air brakes. If you don't take or fail the air brake component of the knowledge test, or perform the skills test in a vehicle not equipped with air brakes. Air brakes include any braking system operating fully or partially on the air brake principle.",
      "Z – no full air brakes (air-over-hydraulic only).",
      "O – no fifth-wheel tractor-trailer combos (you tested with a pintle hook connection instead).",
-     "M / N (restriction) – limits which class of passenger vehicle you can drive.",
+     "M – no Class A passenger vehicle (tested in a Class B passenger vehicle).",
+     "N – no Class A and B passenger vehicle (tested in a Class C passenger vehicle).",
      "V – a medical variance is on file."
     ]
    },
@@ -69,7 +70,8 @@
      "Railroad-crossing violation: 60 days for a first offense, 120 days for a second within 3 years, 1 year for a third within 3 years.",
      "Two serious traffic violations in a CMV within 3 years: at least 60 days disqualified. Three or more: at least 120 days.",
      "Serious violations include going 15+ mph over the limit, reckless driving, improper lane changes, following too closely, and driving without the right class/endorsement.",
-     "Two or more convictions for using a hand-held phone or texting while driving a CMV: 60 days disqualified for the second offense, 120 for a third+, with fines up to $2,750 for the driver and $11,000 for the carrier."
+     "Two or more convictions for using a hand-held phone or texting while driving a CMV: 60 days disqualified for the second offense, 120 for a third+, with fines up to $2,750 for the driver and $11,000 for the carrier.",
+     "Using a false name, making a false statement, or concealing a material fact in a CDL application: up to 5 years in prison, $5,000 fine, and suspension of driving privilege for at least 1 year."
     ]
    },
    {
@@ -79,7 +81,8 @@
      "Notify your employer within 30 days of any traffic conviction (except parking), no matter what vehicle you were driving.",
      "Notify your employer within 2 business days if your license is suspended, revoked, canceled, or you're disqualified.",
      "Give a new employer your driving-job history for the past 10 years.",
-     "In Florida: minimum age is 18 for intrastate driving, 21 for interstate or hazmat; you must already hold a Florida Class E license."
+     "In Florida: minimum age is 18 for intrastate driving, 21 for interstate or hazmat; you must already hold a Florida Class E license.",
+     "It is illegal to permit or authorize an unlicensed person to drive a motor vehicle — can result in 60-day jail sentence and $500 fine for the person who authorizes it."
     ]
    }
   ],
@@ -181,49 +184,150 @@
      "4"
     ],
     "correct": 1,
-    "explain": "Two serious violations in 3 years = at least 60 days; three or more = at least 120 days."
+    "explain": "Two serious violations within 3 years = at least 60 days disqualified."
    },
    {
-    "q": "A first violation of a railroad-crossing safety rule disqualifies a CDL holder for at least:",
+    "q": "Which of the following is considered a 'serious traffic violation' for CDL holders?",
+    "options": [
+     "Driving 5 mph over the speed limit",
+     "Driving 15 mph or more over the speed limit",
+     "Using a turn signal",
+     "Driving during daylight hours"
+    ],
+    "correct": 1,
+    "explain": "Going 15+ mph over the limit is a serious violation."
+   },
+   {
+    "q": "What is the minimum disqualification period for a first railroad-crossing violation?",
+    "options": [
+     "30 days",
+     "60 days",
+     "90 days",
+     "120 days"
+    ],
+    "correct": 1,
+    "explain": "60 days for first offense, 120 days for second within 3 years, 1 year for third within 3 years."
+   },
+   {
+    "q": "You must notify your employer of any traffic conviction (except parking) within how many days?",
+    "options": [
+     "2 business days",
+     "10 days",
+     "30 days",
+     "60 days"
+    ],
+    "correct": 2,
+    "explain": "Within 30 days of any traffic conviction."
+   },
+   {
+    "q": "You must notify your employer within 2 business days if your license is:",
+    "options": [
+     "Expired",
+     "Suspended, revoked, canceled, or you're disqualified",
+     "Renewed",
+     "Upgraded"
+    ],
+    "correct": 1,
+    "explain": "Within 2 business days for suspension, revocation, cancellation, or disqualification."
+   },
+   {
+    "q": "What is the minimum age for intrastate CDL driving in Florida?",
+    "options": [
+     "16",
+     "18",
+     "21",
+     "25"
+    ],
+    "correct": 1,
+    "explain": "18 for intrastate, 21 for interstate or hazmat."
+   },
+   {
+    "q": "What is the minimum age for interstate CDL driving in Florida?",
+    "options": [
+     "16",
+     "18",
+     "21",
+     "25"
+    ],
+    "correct": 2,
+    "explain": "21 for interstate or hazmat."
+   },
+   {
+    "q": "A tank vehicle endorsement (N) is required for tanks with an individual rated capacity of more than:",
+    "options": [
+     "50 gallons",
+     "100 gallons",
+     "119 gallons",
+     "200 gallons"
+    ],
+    "correct": 2,
+    "explain": "More than 119 gallons individually and 1,000+ gallons combined."
+   },
+   {
+    "q": "What does restriction code 'L' indicate?",
+    "options": [
+     "No manual transmission",
+     "No air brakes",
+     "Intrastate only",
+     "No fifth-wheel combination"
+    ],
+    "correct": 1,
+    "explain": "L = no air brake equipped CMV."
+   },
+   {
+    "q": "Using a false name or making a false statement in a CDL application can result in:",
+    "options": [
+     "A warning only",
+     "Up to 5 years in prison, $5,000 fine, and license suspension for at least 1 year",
+     "A $100 fine",
+     "License renewal only"
+    ],
+    "correct": 1,
+    "explain": "Up to 5 years in prison, $5,000 fine, and suspension of driving privilege for at least 1 year."
+   },
+   {
+    "q": "How many driver's licenses may you hold?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "As many as you want"
+    ],
+    "correct": 0,
+    "explain": "You may hold only one driver's license, period."
+   },
+   {
+    "q": "What is the minimum disqualification for a first out-of-service order violation?",
     "options": [
      "30 days",
      "60 days",
      "90 days",
      "1 year"
     ],
-    "correct": 1,
-    "explain": "60 days for a first offense, escalating to 120 days and then 1 year for repeats within 3 years."
-   },
-   {
-    "q": "True or False: You may hold a CDL in one state and a regular license in another state at the same time.",
-    "options": [
-     "True",
-     "False"
-    ],
-    "correct": 1,
-    "explain": "You may hold only one driver's license of any kind, ever."
-   },
-   {
-    "q": "Within how many days must you notify your employer after a traffic conviction (other than parking)?",
-    "options": [
-     "10 days",
-     "15 days",
-     "30 days",
-     "60 days"
-    ],
     "correct": 2,
-    "explain": "30 days, regardless of which vehicle you were driving when convicted."
+    "explain": "90 days minimum for first offense, 1 year for second within 10 years, 3 years for third+."
    },
    {
-    "q": "In Florida, what is the minimum age to hold a CDL for interstate driving or a hazmat endorsement?",
+    "q": "Which endorsement requires a TSA fingerprint background check?",
     "options": [
-     "18",
-     "19",
-     "21",
-     "25"
+     "Passenger (P)",
+     "Tank (N)",
+     "School bus (S)",
+     "Hazardous materials (H)"
     ],
-    "correct": 2,
-    "explain": "18 covers intrastate-only driving; interstate and hazmat both require 21."
+    "correct": 3,
+    "explain": "Hazardous materials requires TSA fingerprint background check."
+   },
+   {
+    "q": "A second major offense (DUI, felony with a CMV, leaving the scene) results in:",
+    "options": [
+     "1 year disqualification",
+     "3 year disqualification",
+     "5 year disqualification",
+     "Lifetime disqualification"
+    ],
+    "correct": 3,
+    "explain": "A second major offense = disqualified for life."
    }
   ]
  },
@@ -1190,9 +1294,9 @@
    {
     "heading": "Three systems in one",
     "bullets": [
-     "Service brakes: the normal brakes you use with the pedal.",
-     "Parking brakes: hold the vehicle when parked, using spring pressure.",
-     "Emergency brakes: use parts of the other two systems to stop you if the air brake system fails."
+     "Service brakes: the normal brakes you use with the pedal during driving.",
+     "Parking brakes: hold the vehicle when parked, using spring pressure held back by air pressure.",
+     "Emergency brakes: use parts of the service and parking brake systems to stop the vehicle if the air brake system fails."
     ]
    },
    {
@@ -1200,8 +1304,9 @@
     "bullets": [
      "Governor cuts out (stops the compressor) around 125 psi and cuts back in around 100 psi.",
      "The safety relief valve is usually set to open at 150 psi — if it ever releases air, something's wrong.",
-     "Low air pressure warning must activate before air pressure drops below 55 psi.",
-     "Spring brakes activate fully somewhere in the 20-45 psi range (commonly 20-30 psi) — don't wait for them; stop safely the moment the low air warning comes on.",
+     "Low air pressure warning must activate before air pressure drops below 55 psi (or one-half the governor cut-out pressure on older vehicles).",
+     "Spring brakes activate fully somewhere in the 20-45 psi range (typically 20-30 psi) — don't wait for them; stop safely the moment the low air warning comes on.",
+     "On large buses, low pressure warning devices often signal at 80-85 psi.",
      "Dual air systems should build from 85 to 100 psi within 45 seconds with the engine running; older single air systems build 50 to 90 psi within 3 minutes at idle."
     ]
    },
@@ -1213,11 +1318,22 @@
     ]
    },
    {
-    "heading": "Slack adjusters & brake fade",
+    "heading": "Slack adjusters & brake types",
     "bullets": [
      "If a slack adjuster moves more than about 1 inch when pulled by hand, it likely needs adjustment.",
      "Vehicles built since 1994 have automatic slack adjusters, but you should still check them — don't rely on manual adjustment as a real fix.",
-     "Brake fade happens from overheating; brakes out of adjustment fail first, overloading the rest and accelerating fade."
+     "S-cam drum brakes are the most common type — air pressure pushes the rod out, moving the slack adjuster and twisting the brake camshaft.",
+     "Wedge brakes: the brake chamber push rod pushes a wedge directly between the ends of two brake shoes.",
+     "Disc brakes: air pressure acts on a brake chamber and slack adjuster, but a 'power screw' clamps the disc between brake lining pads like a large c-clamp.",
+     "Wedge brakes and disc brakes are less common than s-cam brakes."
+    ]
+   },
+   {
+    "heading": "Brake fade & overheating",
+    "bullets": [
+     "Brake fade happens from overheating; brakes out of adjustment fail first, overloading the rest and accelerating fade.",
+     "If the application pressure gauge shows you need to increase pressure to hold the same speed, your brakes are fading — slow down and use a lower gear.",
+     "Increased application pressure can also be caused by brakes out of adjustment, air leaks, or mechanical problems."
     ]
    },
    {
@@ -1229,9 +1345,33 @@
    {
     "heading": "Using air brakes correctly",
     "bullets": [
-     "Never push the brake pedal down while the spring (parking) brakes are set — it can damage them.",
+     "Never push the brake pedal down while the spring (parking) brakes are set — it can damage them from combined spring and air pressure forces.",
      "Never use the parking brake if the brakes are extremely hot or extremely wet in freezing weather.",
-     "Drain air tanks daily unless you have automatic drains."
+     "Drain air tanks daily unless you have automatic drains — water can freeze in cold weather and cause brake failure.",
+     "Compressed air contains water and compressor oil which collect at the bottom of tanks and must be drained.",
+     "Some systems have an alcohol evaporator to reduce ice risk in cold weather — check the alcohol container daily during cold weather.",
+     "Pressing and releasing the pedal unnecessarily lets air out faster than the compressor can replace it — if pressure gets too low, brakes won't work."
+    ]
+   },
+   {
+    "heading": "Front brake limiting valves (older vehicles)",
+    "bullets": [
+     "Some vehicles built before 1975 have a front brake limiting valve with 'normal' and 'slippery' positions.",
+     "The 'slippery' position cuts normal air pressure to front brakes by half to reduce skid risk.",
+     "However, limiting valves actually reduce stopping power — front wheel braking is good under all conditions.",
+     "Tests show front wheel skids from braking are not likely even on ice — keep the control in 'normal' position.",
+     "Many newer vehicles have automatic front wheel limiting valves that reduce air to front brakes except during hard braking (55+ psi application)."
+    ]
+   },
+   {
+    "heading": "ABS requirements",
+    "bullets": [
+     "Truck tractors with air brakes built on or after March 1, 1997 must have ABS.",
+     "Other air brake vehicles (trucks, buses, trailers, converter dollies) built on or after March 1, 1998 must have ABS.",
+     "Vehicles with ABS have yellow malfunction lamps — tractors/trucks/buses on the instrument panel, trailers on the left side front or rear corner.",
+     "On newer vehicles, the ABS lamp comes on at start-up for bulb check then goes out quickly; on older systems it may stay on until driving over 5 mph.",
+     "If the ABS lamp stays on after bulb check or comes on while driving, you may have lost ABS control at one or more wheels.",
+     "ABS is an addition to normal brakes — it doesn't decrease or increase normal braking capability and only activates when wheels are about to lock up."
     ]
    }
   ],
@@ -1347,7 +1487,150 @@
      "Increased vehicle weight"
     ],
     "correct": 1,
-    "explain": "Roughly a half-second, or about 32 feet at 55 mph."
+    "explain": "Brake lag adds about half a second (32 feet at 55 mph) to stopping distance."
+   },
+   {
+    "q": "What is the purpose of the air compressor governor?",
+    "options": [
+     "To drain water from the air tanks",
+     "To control when the compressor pumps air into the storage tanks",
+     "To apply the parking brakes",
+     "To activate the ABS system"
+    ],
+    "correct": 1,
+    "explain": "The governor stops the compressor at cut-out (~125 psi) and restarts it at cut-in (~100 psi)."
+   },
+   {
+    "q": "Why must air tanks be drained regularly?",
+    "options": [
+     "To reduce air pressure",
+     "To remove water and compressor oil that can freeze and cause brake failure",
+     "To test the safety valve",
+     "To increase compressor efficiency"
+    ],
+    "correct": 1,
+    "explain": "Water and oil collect at the bottom of tanks and can freeze in cold weather, causing brake failure."
+   },
+   {
+    "q": "What is a supply pressure gauge used for?",
+    "options": [
+     "To measure brake application pressure",
+     "To tell you how much pressure is in the air tanks",
+     "To measure engine oil pressure",
+     "To check tire pressure"
+    ],
+    "correct": 1,
+    "explain": "Supply pressure gauges show air tank pressure; dual systems have one gauge for each half or a single gauge with two needles."
+   },
+   {
+    "q": "What does the application pressure gauge show?",
+    "options": [
+     "How much air is in the tanks",
+     "How much air pressure you are applying to the brakes",
+     "Engine temperature",
+     "Fuel level"
+    ],
+    "correct": 1,
+    "explain": "It shows brake application pressure. If you need to increase pressure to hold the same speed, brakes are fading."
+   },
+   {
+    "q": "What is the 'wig wag' device?",
+    "options": [
+     "A type of brake",
+     "A mechanical arm that drops into your view when air pressure drops below 55 psi",
+     "A slack adjuster",
+     "An ABS sensor"
+    ],
+    "correct": 1,
+    "explain": "The wig wag is a low air pressure warning device — automatic types rise back out of view when pressure is above 55 psi."
+   },
+   {
+    "q": "What are spring brakes?",
+    "options": [
+     "Brakes that use only air pressure",
+     "Brakes held on by powerful springs when air pressure is removed",
+     "Brakes that only work on the front wheels",
+     "A type of hydraulic brake"
+    ],
+    "correct": 1,
+    "explain": "Spring brakes are held back by air pressure during driving; if air is lost, the springs apply the brakes."
+   },
+   {
+    "q": "When should you stop driving if the low air pressure warning comes on?",
+    "options": [
+     "When the spring brakes come on automatically",
+     "Immediately when the warning light and buzzer first come on",
+     "When pressure reaches 20 psi",
+     "When you reach a truck stop"
+    ],
+    "correct": 1,
+    "explain": "Stop right away when the warning first activates — don't wait for spring brakes to come on automatically."
+   },
+   {
+    "q": "What is the most common type of foundation brake?",
+    "options": [
+     "Disc brake",
+     "Wedge brake",
+     "S-cam drum brake",
+     "Hydraulic brake"
+    ],
+    "correct": 2,
+    "explain": "S-cam drum brakes are the most common type — air pressure pushes the rod, moving the slack adjuster and twisting the camshaft."
+   },
+   {
+    "q": "Truck tractors with air brakes built on or after what date must be equipped with ABS?",
+    "options": [
+     "March 1, 1995",
+     "March 1, 1997",
+     "March 1, 1998",
+     "March 1, 2000"
+    ],
+    "correct": 1,
+    "explain": "March 1, 1997 for truck tractors; March 1, 1998 for other air brake vehicles."
+   },
+   {
+    "q": "If the ABS malfunction lamp stays on after the bulb check, what does it mean?",
+    "options": [
+     "The system is working normally",
+     "You may have lost ABS control at one or more wheels",
+     "The brakes have failed completely",
+     "The air compressor is broken"
+    ],
+    "correct": 1,
+    "explain": "A steady ABS lamp indicates loss of ABS control at one or more wheels — have it checked."
+   },
+   {
+    "q": "What is the purpose of an alcohol evaporator in an air brake system?",
+    "options": [
+     "To increase air pressure",
+     "To reduce the risk of ice in air brake valves during cold weather",
+     "To clean the brake drums",
+     "To lubricate the compressor"
+    ],
+    "correct": 1,
+    "explain": "Alcohol evaporators put alcohol into the system to prevent ice formation in cold weather."
+   },
+   {
+    "q": "What is a dual air brake system?",
+    "options": [
+     "Two separate brake pedals",
+     "Two separate air systems — if one fails, the other still operates",
+     "Brakes on both front and rear wheels",
+     "A system with two compressors"
+    ],
+    "correct": 1,
+    "explain": "Dual systems have two separate air halves — if one fails, the other can still operate the brakes."
+   },
+   {
+    "q": "What is the proper way to use parking brakes on a vehicle with a modulating control valve?",
+    "options": [
+     "Push the valve halfway",
+     "Move the lever as far as it will go and hold it in place with the locking device",
+     "Don't use the parking brake",
+     "Use only the foot brake"
+    ],
+    "correct": 1,
+    "explain": "When parking with a modulating valve, move the lever fully and lock it in place."
    },
    {
     "q": "You should never push the brake pedal down when:",
@@ -1422,22 +1705,31 @@
    {
     "heading": "Rollover risk",
     "bullets": [
+     "More than half of truck driver deaths in crashes are the result of truck rollovers.",
      "Fully loaded rigs are about 10 times more likely to roll over in a crash than empty ones.",
-     "Keep cargo low and centered, and slow way down before curves, ramps, and turns — most rollovers happen because of too much speed in a turn, not bad luck."
+     "Keep cargo low and centered, and slow way down before curves, ramps, and turns — most rollovers happen because of too much speed in a turn, not bad luck.",
+     "Keeping cargo low is even more important in combination vehicles than in straight trucks.",
+     "If the load is to one side so it makes a trailer lean, a rollover is more likely — make sure cargo is centered and spread out as much as possible."
     ]
    },
    {
     "heading": "Crack-the-whip (rearward amplification)",
     "bullets": [
-     "A quick lane change can whip the rear trailer sideways hard enough to roll it over.",
-     "Triples have a rearward amplification of about 3.5 — the last trailer is about 3.5 times as likely to roll as the tractor.",
-     "Steer gently and smoothly, especially when pulling multiple trailers."
+     "A quick lane change can whip the rear trailer sideways hard enough to roll it over — many accidents involve only the trailer overturning.",
+     "Rearward amplification of 2.0 means the rear trailer is twice as likely to turn over as the tractor.",
+     "Triples have a rearward amplification of 3.5 — the last trailer is about 3.5 times as likely to roll as a five-axle tractor.",
+     "Steer gently and smoothly when pulling trailers — sudden steering movements can tip the trailer over.",
+     "Follow far enough behind other vehicles: at least 1 second for each 10 feet of vehicle length, plus another second if going over 40 mph."
     ]
    },
    {
     "heading": "Empty vs. loaded braking",
     "bullets": [
-     "Lightly loaded rigs actually have poorer traction and lock up more easily, and 'bobtail' tractors (no trailer) are notoriously hard to stop smoothly — they can take longer to stop than a fully loaded rig."
+     "Large combination vehicles take longer to stop when they are empty than when they are fully loaded.",
+     "When lightly loaded, very stiff suspension springs and strong brakes give poor traction and make it very easy to lock up the wheels.",
+     "Your trailer can swing out and strike other vehicles when lightly loaded.",
+     "Your tractor can jackknife very quickly when lightly loaded.",
+     "Bobtail tractors (tractors without semitrailers) are very hard to stop smoothly — tests show they take longer to stop than a tractor-semitrailer loaded to maximum gross weight."
     ]
    },
    {
@@ -1455,6 +1747,15 @@
      "Trailer air supply control: a red, 8-sided knob — push in to supply air, pull out to shut off air and apply the trailer's emergency brakes.",
      "Two air lines run to the trailer: the service line (also called the control/signal line) and the emergency line (also called the supply line). Losing pressure in the emergency line sets the trailer's emergency brakes.",
      "Glad hand colors: blue = service line, red = emergency (supply) line."
+    ]
+   },
+   {
+    "heading": "Railroad-highway crossings with trailers",
+    "bullets": [
+     "Trailers with low underneath clearance can get stuck on raised railroad crossings.",
+     "Low slung units at risk: lowboy, car carrier, moving van, possum-belly livestock trailer.",
+     "Single-axle tractor pulling a long trailer with landing gear set for a tandem-axle tractor can also get stuck.",
+     "If you get stuck, you may not have enough clearance to cross — check crossing height before attempting."
     ]
    },
    {
@@ -1553,14 +1854,14 @@
     "options": [
      "5-10 psi",
      "20-45 psi",
-     "60-80 psi",
-     "100-125 psi"
+     "55-60 psi",
+     "80-85 psi"
     ],
     "correct": 1,
-    "explain": "This protects the tractor's own air supply if the trailer develops a major leak."
+    "explain": "It closes at 20-45 psi to protect the tractor's air supply."
    },
    {
-    "q": "What color is the trailer's emergency (supply) line glad hand typically coded?",
+    "q": "What color is the trailer air supply control knob?",
     "options": [
      "Blue",
      "Red",
@@ -1568,106 +1869,95 @@
      "Green"
     ],
     "correct": 1,
-    "explain": "Red for emergency/supply; blue for the service line."
+    "explain": "It's a red, 8-sided knob — push in to supply air, pull out to shut off air."
    },
    {
-    "q": "At the back of the LAST trailer in a combination, the shut-off valves should be:",
+    "q": "Which glad hand color indicates the service (control) line?",
     "options": [
-     "Open",
-     "Closed",
-     "Removed entirely",
-     "Left half-open"
+     "Red",
+     "Blue",
+     "Yellow",
+     "Green"
     ],
     "correct": 1,
-    "explain": "Closed at the very last trailer's rear; open everywhere else so air reaches every trailer."
+    "explain": "Blue = service line, red = emergency (supply) line."
    },
    {
-    "q": "After coupling a tractor to a trailer, what should you see between the upper and lower fifth wheel?",
+    "q": "More than half of truck driver deaths in crashes are the result of:",
     "options": [
-     "A one-inch gap",
-     "No visible gap at all",
-     "A gap no bigger than your hand",
-     "It doesn't matter"
+     "Head-on collisions",
+     "Truck rollovers",
+     "Rear-end collisions",
+     "Jackknifing"
     ],
     "correct": 1,
-    "explain": "Any visible gap means the kingpin may not be properly locked."
+    "explain": "More than half of truck driver deaths are from rollovers."
    },
    {
-    "q": "Before driving, the trailer landing gear should be:",
+    "q": "What is the minimum following distance for combination vehicles?",
     "options": [
-     "Fully raised",
-     "Left partway up for a faster start",
-     "Fully lowered",
-     "Removed"
+     "2 seconds",
+     "At least 1 second for each 10 feet of vehicle length",
+     "4 seconds",
+     "6 seconds"
+    ],
+    "correct": 1,
+    "explain": "At least 1 second for each 10 feet of vehicle length, plus another second if going over 40 mph."
+   },
+   {
+    "q": "Which type of trailer is most likely to get stuck on railroad crossings?",
+    "options": [
+     "Standard dry van",
+     "Refrigerated trailer",
+     "Low slung units like lowboys and car carriers",
+     "Tanker trailer"
+    ],
+    "correct": 2,
+    "explain": "Low slung units (lowboy, car carrier, moving van, possum-belly livestock) have low underneath clearance."
+   },
+   {
+    "q": "Shut-off valves at the back of trailers must be:",
+    "options": [
+     "Closed on all trailers",
+     "Open on all trailers",
+     "Open except at the very back of the last trailer, which must be closed",
+     "Only closed when parked"
+    ],
+    "correct": 2,
+    "explain": "All shut-off valves must be OPEN except the one at the very back of the last trailer."
+   },
+   {
+    "q": "After coupling, there should be:",
+    "options": [
+     "A small gap between upper and lower fifth wheel",
+     "No visible gap between upper and lower fifth wheel",
+     "A 1-inch gap",
+     "No gap visible from outside the cab"
+    ],
+    "correct": 1,
+    "explain": "No visible gap means proper coupling — a gap indicates something is wrong."
+   },
+   {
+    "q": "What should you do after coupling to confirm the kingpin is locked?",
+    "options": [
+     "Drive forward quickly",
+     "Pull gently forward with the trailer brakes locked",
+     "Check only the glad hand connections",
+     "Raise the landing gear immediately"
+    ],
+    "correct": 1,
+    "explain": "Pull gently forward against locked trailer brakes to confirm the kingpin is actually locked in."
+   },
+   {
+    "q": "Rearward amplification of 2.0 means:",
+    "options": [
+     "The rear trailer is twice as likely to turn over as the tractor",
+     "The vehicle is twice as long",
+     "Stopping distance is doubled",
+     "The trailer carries twice the weight"
     ],
     "correct": 0,
-    "explain": "Never drive with the landing gear only partway up — it can catch on obstacles like railroad tracks."
-   },
-   {
-    "q": "Trailers and converter dollies built on or after what date are required to have ABS?",
-    "options": [
-     "March 1, 1995",
-     "March 1, 1998",
-     "January 1, 2000",
-     "March 1, 2005"
-    ],
-    "correct": 1,
-    "explain": "March 1, 1998 for trailers and converter dollies."
-   },
-   {
-    "q": "The crack-the-whip effect is most dangerous during:",
-    "options": [
-     "Slow, gradual lane changes",
-     "Sudden, quick lane changes or steering movements",
-     "Straight-line highway cruising",
-     "Backing into a dock"
-    ],
-    "correct": 1,
-    "explain": "Steer gently and smoothly, especially with multiple trailers."
-   },
-   {
-    "q": "In a right turn, if a driver swings wide to the left first before turning right, what danger does this create?",
-    "options": [
-     "It saves fuel",
-     "A following driver may try to pass on the right, causing a crash",
-     "It reduces off-tracking",
-     "It's the recommended technique"
-    ],
-    "correct": 1,
-    "explain": "Turn wide as you complete the turn, but don't swing left before starting it."
-   },
-   {
-    "q": "What does the trailer air supply control (the red, 8-sided knob) do when pulled OUT?",
-    "options": [
-     "Supplies air to the trailer",
-     "Shuts off air to the trailer and applies its emergency brakes",
-     "Releases the tractor's parking brake",
-     "Nothing — it's decorative"
-    ],
-    "correct": 1,
-    "explain": "Push in to supply air; pull out to cut it off and set the trailer's emergency brakes."
-   },
-   {
-    "q": "If your trailer begins to swing out (jackknife), you should:",
-    "options": [
-     "Brake harder to stop the swing",
-     "Let up on the brakes until you regain control",
-     "Use the trailer hand valve to straighten it",
-     "Shift to a lower gear quickly"
-    ],
-    "correct": 1,
-    "explain": "Let up on the brakes (if safe) to let the wheels roll and regain control — never use the hand valve to fix a skid."
-   },
-   {
-    "q": "If the trailer is too high when you back under it to couple, what can happen?",
-    "options": [
-     "It couples faster",
-     "It may not couple correctly",
-     "The landing gear raises itself",
-     "Nothing — height doesn't matter"
-    ],
-    "correct": 1,
-    "explain": "The trailer should sit low enough that the tractor raises it slightly during backing. Too high = no correct coupling; too low = damage to the trailer nose."
+    "explain": "A rearward amplification of 2.0 means the rear trailer is twice as likely to roll over as the tractor."
    }
   ]
  },

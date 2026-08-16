@@ -116,7 +116,7 @@ function renderHomeView(){
   const intro = el('div','route-intro');
   intro.innerHTML = `
     <p><span class="accent">How to use this:</span> Work through the modules in order, or jump straight to whatever endorsement you need. Each stop has a short study card followed by a mini quiz pulled straight from the handbook's own "test your knowledge" style questions.</p>
-    <p>Everyone taking the Florida CDL general knowledge test studies <span class="accent">Sections 1–3</span>. The rest apply only if you need that specific endorsement or vehicle type — check the tag on each stop.</p>
+    <p><span class="accent">Class A focus:</span> You only need <b>Sections 1, 2, 3, 5, 6</b> for the three written tests (General Knowledge, Air Brakes, Combination Vehicles). Sections 11–13 are for the skills test (practice after you get your permit). Sections 4, 7, 8, 9, 10 are optional endorsements for other vehicle types.</p>
   `;
   wrap.appendChild(intro);
 
@@ -138,7 +138,7 @@ function renderHomeView(){
 
   // filter pills
   const picker = el('div','section-picker');
-  const filters = [['path','🚛 My Path'],['all','All'],['core','Core'],['endorsement','Endorsements'],['skills','Skills Tests'],['testday','Test Day']];
+  const filters = [['path','🚛 Required for Class A'],['all','All'],['core','Core'],['endorsement','Endorsements'],['skills','Skills Tests'],['testday','Test Day']];
   filters.forEach(([key,label])=>{
     const p = el('div','pill-toggle'+(state.filter===key?' active':''), label);
     p.addEventListener('click', ()=>{ state.filter = key; render(); });
@@ -153,7 +153,7 @@ function renderHomeView(){
   const route = el('div','route');
   let list;
   if(state.filter === 'all') list = MODULES;
-  else if(state.filter === 'path') list = MODULES.filter(m => m.classAManual);
+  else if(state.filter === 'path') list = MODULES.filter(m => !m.optional);
   else list = MODULES.filter(m => m.group === state.filter);
   list.forEach(m=>{
     route.appendChild(renderStopCard(m));
@@ -169,16 +169,16 @@ function renderHomeView(){
 }
 
 function renderPathBanner(){
-  const priorityModules = MODULES.filter(m => m.classAManual);
+  const priorityModules = MODULES.filter(m => !m.optional);
   const banner = el('div','path-banner');
   banner.innerHTML = `
     <div class="path-banner-head">
       <div class="path-banner-icon">🚛</div>
-      <h3>Your Path — CDL Class A, Manual or Automatic</h3>
+      <h3>Required for Class A — 3 Written Tests + Skills</h3>
     </div>
-    <p><b>Manual:</b> test in a stick and your CDL gets no restriction — you can drive both manual and automatic trucks. <b>Automatic:</b> easier to pass, but you get the <b>E restriction</b> (no manual transmission) for life unless you later retest in a manual. The tagged stops below add extra "Pro Tips" for double-clutching, clutch control, and gear timing.</p>
-    <p>Focus on: <b>${priorityModules.map(m=>m.number).join(', ')}</b> — Sections 1–3 (general knowledge), 5 (air brakes, if your truck has them), 6 (combination vehicles), the three skills tests, and Stop 14 (test day + one-week plan). Look for the <span class="priority-star">★</span> star below.</p>
-    <div class="path-cta" id="btn-path-filter">Show just my path (${priorityModules.length} stops) →</div>
+    <p><b>Written tests:</b> General Knowledge (Sections 1–3), Air Brakes (Section 5), Combination Vehicles (Section 6). <b>Skills tests:</b> Pre-trip inspection, backing, road test (Sections 11–13, practice after permit). <b>Manual vs Automatic:</b> Test in a manual = no E restriction (can drive both). Test in automatic = E restriction for life (no manual transmission).</p>
+    <p>Focus on: <b>${priorityModules.map(m=>m.number).join(', ')}</b> — 9 required modules. Optional sections (4, 7, 8, 9, 10) are for bus drivers, tankers, hazmat, etc. Look for the <span class="priority-star">★</span> star on required Class A content.</p>
+    <div class="path-cta" id="btn-path-filter">Show only required (${priorityModules.length} stops) →</div>
   `;
   setTimeout(()=>{
     $('#btn-path-filter')?.addEventListener('click', ()=>{ state.filter = 'path'; render(); });
@@ -203,17 +203,17 @@ function renderResources(){
 
 function renderStopCard(m){
   const prog = state.progress[m.id];
-  const stop = el('div','stop');
+  const stop = el('div','stop'+(m.optional ? ' optional':''));
   const marker = el('div','stop-marker'+(prog && prog.bestPct>=80 ? ' done':''), prog && prog.bestPct>=80 ? '✓' : String(m.number));
   stop.appendChild(marker);
 
   const card = el('div','stop-card');
   card.innerHTML = `
     <div class="stop-head">
-      <div class="stop-title">${m.classAManual ? '<span class="priority-star" title="Recommended for Class A, manual transmission">★</span>' : ''}${m.title}</div>
+      <div class="stop-title">${m.optional ? '<span class="optional-badge" title="'+m.skipReason+'">⚠️ Optional</span> ' : ''}${m.classAManual ? '<span class="priority-star" title="Recommended for Class A, manual transmission">★</span>' : ''}${m.title}</div>
       <div class="stop-tag ${groupTagClass(m.group)}">${m.endorsement ? m.endorsement.split('—')[0].trim() : groupLabel(m.group)}</div>
     </div>
-    <div class="stop-summary">${m.summary}</div>
+    <div class="stop-summary">${m.summary}${m.optional ? ' <span class="skip-note">(' + m.skipReason + ')</span>' : ''}</div>
     <div class="stop-foot">
       <span>⏱ ~${m.minutes} min · ${m.quiz.length} quiz Qs</span>
       <span class="${prog?'stop-score':''}">${prog ? 'Best: '+prog.bestPct+'%' : ''}</span>

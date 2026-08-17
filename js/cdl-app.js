@@ -7,7 +7,8 @@ const state = {
   quizQueue: [],          // array of {moduleShort, q}
   quizIndex: 0,
   quizAnswers: [],         // per question: {correct:bool, chosenIdx, qRef}
-  quizMode: 'module',     // module | general | full
+  quizMode: 'module',     // module | general | full | classa
+  examVersion: null,      // 1 | 2 | 3 for classa exam buckets
   progress: {},            // moduleId -> {bestPct, attempts}
   lastResult: null,        // {correct, total, pct, label, date}
 };
@@ -125,11 +126,14 @@ function renderHomeView(){
   // Practice exam card
   const examCard = el('div','exam-card');
   const last = state.lastResult;
+  const vSizes = classAVersionSizes();
   examCard.innerHTML = `
     <h3>🏁 Ready to test yourself?</h3>
-    <p>Simulate the real Florida Class A CLP exam: 95 questions across 3 sections (GK: 50 Q, Air Brakes: 25 Q, Combo: 20 Q). Each section requires 80% to pass.</p>
+    <p>Simulate the real Florida Class A CLP exam. Three versions split the full question bank (${classAPools().gk.length} GK + ${classAPools().ab.length} Air Brakes + ${classAPools().combo.length} Combo) so every single question gets covered across versions. Each section requires 80% to pass.</p>
     <div class="exam-buttons">
-      <div class="exam-btn exam-btn-primary" id="btn-exam-classa"><span>🚛 Florida Class A CLP Practice Exam</span><b>95 Q · GK + Air Brakes + Combo</b></div>
+      <div class="exam-btn exam-btn-primary" id="btn-exam-classa1"><span>🚛 Florida Class A CLP Exam · Version 1</span><b>${vSizes[0]} Q · GK + Air Brakes + Combo</b></div>
+      <div class="exam-btn" id="btn-exam-classa2"><span>Florida Class A CLP Exam · Version 2</span><b>${vSizes[1]} Q · GK + Air Brakes + Combo</b></div>
+      <div class="exam-btn" id="btn-exam-classa3"><span>Florida Class A CLP Exam · Version 3</span><b>${vSizes[2]} Q · GK + Air Brakes + Combo</b></div>
       <div class="exam-btn" id="btn-exam-general"><span>General Knowledge Practice Exam</span><b>50 Q · Sections 1–3</b></div>
       <div class="exam-btn" id="btn-exam-full"><span>Full Mixed Review</span><b>${Math.min(50, MODULES.reduce((n,m)=>n+m.quiz.length,0))} Q · All modules</b></div>
     </div>
@@ -162,7 +166,9 @@ function renderHomeView(){
   wrap.appendChild(route);
 
   setTimeout(()=>{
-    $('#btn-exam-classa')?.addEventListener('click', ()=> startClassAExam());
+    $('#btn-exam-classa1')?.addEventListener('click', ()=> startClassAExam(1));
+    $('#btn-exam-classa2')?.addEventListener('click', ()=> startClassAExam(2));
+    $('#btn-exam-classa3')?.addEventListener('click', ()=> startClassAExam(3));
     $('#btn-exam-general')?.addEventListener('click', ()=> startExam('general'));
     $('#btn-exam-full')?.addEventListener('click', ()=> startExam('full'));
   },0);
@@ -325,44 +331,48 @@ function startExam(mode){
   render();
 }
 
-function startClassAExam(){
-  // Florida Class A CLP Exam: GK (50 Q), Air Brakes (25 Q), Combo (20 Q)
-  state.quizMode = 'classa';
-  state.currentModuleId = null;
-  state.quizQueue = [];
-  
-  // General Knowledge: Sections 1, 2, 3
-  const gkModules = ['sec1', 'sec2', 'sec3'];
-  gkModules.forEach(id => {
+function classAPools(){
+  // Florida Class A CLP Exam pools: GK (Sections 1-3), Air Brakes (5), Combo (6)
+  const gk = [];
+  ['sec1','sec2','sec3'].forEach(id=>{
     const m = moduleById(id);
-    if(m) {
-      m.quiz.forEach(q => state.quizQueue.push({moduleShort: m.short, q, section: 'GK'}));
-    }
+    if(m) m.quiz.forEach(q => gk.push({moduleShort:m.short, q, section:'GK'}));
   });
-  
-  // Air Brakes: Section 5
+  const ab = [];
   const abModule = moduleById('sec5');
-  if(abModule) {
-    abModule.quiz.forEach(q => state.quizQueue.push({moduleShort: abModule.short, q, section: 'Air Brakes'}));
-  }
-  
-  // Combination Vehicles: Section 6
+  if(abModule) abModule.quiz.forEach(q => ab.push({moduleShort:abModule.short, q, section:'Air Brakes'}));
+  const combo = [];
   const comboModule = moduleById('sec6');
-  if(comboModule) {
-    comboModule.quiz.forEach(q => state.quizQueue.push({moduleShort: comboModule.short, q, section: 'Combo'}));
-  }
-  
-  // Shuffle within each section to maintain section order
-  const gkQuestions = state.quizQueue.filter(q => q.section === 'GK');
-  const abQuestions = state.quizQueue.filter(q => q.section === 'Air Brakes');
-  const comboQuestions = state.quizQueue.filter(q => q.section === 'Combo');
-  
-  // Take exactly the required number of questions
-  const finalGK = shuffle(gkQuestions).slice(0, 50);
-  const finalAB = shuffle(abQuestions).slice(0, 25);
-  const finalCombo = shuffle(comboQuestions).slice(0, 20);
-  
-  state.quizQueue = [...finalGK, ...finalAB, ...finalCombo];
+  if(comboModule) comboModule.quiz.forEach(q => combo.push({moduleShort:comboModule.short, q, section:'Combo'}));
+  return {gk, ab, combo};
+}
+
+function split3(pool){
+  // deterministic round-robin split so every question lands in exactly one version
+  const buckets = [[], [], []];
+  pool.forEach((item, i) => buckets[i % 3].push(item));
+  return buckets;
+}
+
+function classAVersionSizes(){
+  const {gk, ab, combo} = classAPools();
+  const gkB = split3(gk), abB = split3(ab), combB = split3(combo);
+  return [0,1,2].map(i => gkB[i].length + abB[i].length + combB[i].length);
+}
+
+function startClassAExam(version){
+  // version 1 | 2 | 3 — each draws a different third of the bank so all
+  // questions are covered across the three versions
+  const {gk, ab, combo} = classAPools();
+  const b = (version || 1) - 1;
+  state.quizMode = 'classa';
+  state.examVersion = version || 1;
+  state.currentModuleId = null;
+  state.quizQueue = [
+    ...shuffle(split3(gk)[b]),
+    ...shuffle(split3(ab)[b]),
+    ...shuffle(split3(combo)[b]),
+  ];
   state.quizIndex = 0;
   state.quizAnswers = [];
   state.view = 'quiz';
@@ -379,7 +389,7 @@ function renderQuizView(){
   const backRow = el('div','back-row');
   const label = state.quizMode === 'module' ? moduleById(state.currentModuleId).short :
                 (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 
-                 (state.quizMode === 'classa' ? 'Florida Class A CLP Practice Exam' : 'Full Mixed Review'));
+                 (state.quizMode === 'classa' ? 'Florida Class A CLP Exam · Version ' + (state.examVersion || 1) : 'Full Mixed Review'));
   backRow.innerHTML = `<div class="back-btn">✕</div><div class="crumb">${label}</div>`;
   if(state.quizMode === 'classa' && item.section) {
     backRow.querySelector('.crumb').innerHTML += ` <span class="section-badge">${item.section}</span>`;
@@ -481,7 +491,7 @@ function finishQuiz(){
   let label = state.quizMode === 'module'
     ? moduleById(state.currentModuleId).short
     : (state.quizMode === 'general' ? 'General Knowledge Practice Exam' : 
-       (state.quizMode === 'classa' ? 'Florida Class A CLP Practice Exam' : 'Full Mixed Review'));
+       (state.quizMode === 'classa' ? 'Florida Class A CLP Exam · Version ' + (state.examVersion || 1) : 'Full Mixed Review'));
   
   // Calculate section results for Class A exam
   let sectionResults = null;
@@ -534,7 +544,7 @@ function renderResultsView(){
   if(state.quizMode === 'classa' && sectionResults) {
     const allPassed = Object.values(sectionResults).every(s => s.passed);
     resultMsg = allPassed
-      ? '🎉 You passed all three sections! Florida requires 80% on each section (GK: 40/50, Air Brakes: 20/25, Combo: 16/20).'
+      ? '🎉 You passed all three sections! Florida requires 80% on each section.'
       : 'Florida requires 80% on each section. Review the section breakdown below.';
   } else {
     resultMsg = passed
@@ -593,7 +603,7 @@ function renderResultsView(){
   setTimeout(()=>{
     $('#btn-retry').addEventListener('click', ()=>{
       if(state.quizMode === 'module') startModuleQuiz(state.currentModuleId);
-      else if(state.quizMode === 'classa') startClassAExam();
+      else if(state.quizMode === 'classa') startClassAExam(state.examVersion || 1);
       else startExam(state.quizMode);
     });
     $('#btn-home').addEventListener('click', goHome);

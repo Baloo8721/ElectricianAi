@@ -131,7 +131,7 @@
           "33,000 lbs or more"
         ],
         "correct": 2,
-        "explain": "26,001 lbs or more GVWR on a single vehicle puts it in Class B."
+        "explain": ""
       },
       {
         "q": "A combination vehicle needs a Class A CDL when the GCWR is 26,001+ lbs and the towed unit's GVWR is over how many pounds?",
@@ -142,7 +142,7 @@
           "26,000"
         ],
         "correct": 1,
-        "explain": "The towed unit must be rated over 10,000 lbs GVWR for the combo to require Class A."
+        "explain": ""
       },
       {
         "q": "Which endorsement lets you drive a bus built to carry 16 or more people, including the driver?",
@@ -153,7 +153,7 @@
           "T"
         ],
         "correct": 1,
-        "explain": "P is the Passenger endorsement."
+        "explain": ""
       },
       {
         "q": "Which of these endorsements can legally appear on a Commercial Learner's Permit (CLP)?",
@@ -164,7 +164,7 @@
           "Tank + Hazmat combo (X)"
         ],
         "correct": 2,
-        "explain": "Only P, S, and N may ever be added to a CLP."
+        "explain": ""
       },
       {
         "q": "Restriction code 'E' on a CDL means:",
@@ -175,7 +175,7 @@
           "No fifth-wheel combination"
         ],
         "correct": 1,
-        "explain": "E = restricted from operating a vehicle with a manual transmission."
+        "explain": ""
       },
       {
         "q": "What is the correct order of the three CDL skills test segments?",
@@ -186,7 +186,7 @@
           "Vehicle inspection, on-road driving, basic control"
         ],
         "correct": 2,
-        "explain": "You must pass each segment in that order before moving to the next."
+        "explain": ""
       },
       {
         "q": "What blood alcohol concentration (BAC) makes it illegal to operate a CMV?",
@@ -197,7 +197,7 @@
           "0.08%"
         ],
         "correct": 1,
-        "explain": "0.04% or higher is the illegal threshold for CMV drivers, well below the 0.08% car-driver limit."
+        "explain": ""
       },
       {
         "q": "A first BAC/DUI disqualification while hauling placarded hazardous materials costs you your CDL for at least:",
@@ -208,7 +208,7 @@
           "5 years"
         ],
         "correct": 2,
-        "explain": "The hazmat load raises the minimum penalty to 3 years."
+        "explain": ""
       },
       {
         "q": "How many serious traffic violations within 3 years trigger a minimum 60-day CDL disqualification?",
@@ -219,7 +219,7 @@
           "4"
         ],
         "correct": 1,
-        "explain": "Two serious violations within 3 years = at least 60 days disqualified."
+        "explain": ""
       },
       {
         "q": "Which of the following is considered a 'serious traffic violation' for CDL holders?",
@@ -230,7 +230,7 @@
           "Driving during daylight hours"
         ],
         "correct": 1,
-        "explain": "Going 15+ mph over the limit is a serious violation."
+        "explain": ""
       },
       {
         "q": "What is the minimum disqualification period for a first railroad-crossing violation?",
@@ -241,7 +241,7 @@
           "120 days"
         ],
         "correct": 1,
-        "explain": "60 days for first offense, 120 days for second within 3 years, 1 year for third within 3 years."
+        "explain": ""
       },
       {
         "q": "You must notify your employer of any traffic conviction (except parking) within how many days?",
@@ -252,7 +252,7 @@
           "60 days"
         ],
         "correct": 2,
-        "explain": "Within 30 days of any traffic conviction."
+        "explain": ""
       },
       {
         "q": "You must notify your employer within 2 business days if your license is:",
@@ -263,7 +263,7 @@
           "Upgraded"
         ],
         "correct": 1,
-        "explain": "Within 2 business days for suspension, revocation, cancellation, or disqualification."
+        "explain": ""
       },
       {
         "q": "What is the minimum age for intrastate CDL driving in Florida?",
@@ -274,7 +274,7 @@
           "25"
         ],
         "correct": 1,
-        "explain": "18 for intrastate, 21 for interstate or hazmat."
+        "explain": ""
       },
       {
         "q": "What is the minimum age for interstate CDL driving in Florida?",
@@ -285,7 +285,7 @@
           "25"
         ],
         "correct": 2,
-        "explain": "21 for interstate or hazmat."
+        "explain": ""
       },
       {
         "q": "A tank vehicle endorsement (N) is required for tanks with an individual rated capacity of more than:",
@@ -296,7 +296,7 @@
           "200 gallons"
         ],
         "correct": 2,
-        "explain": "More than 119 gallons individually and 1,000+ gallons combined."
+        "explain": ""
       },
       {
         "q": "What does restriction code 'L' indicate?",
@@ -307,7 +307,7 @@
           "No fifth-wheel combination"
         ],
         "correct": 1,
-        "explain": "L = no air brake equipped CMV."
+        "explain": ""
       },
       {
         "q": "Using a false name or making a false statement in a CDL application can result in:",
@@ -318,7 +318,7 @@
           "License renewal only"
         ],
         "correct": 1,
-        "explain": "Up to 5 years in prison, $5,000 fine, and suspension of driving privilege for at least 1 year."
+        "explain": ""
       },
       {
         "q": "How many driver's licenses may you hold?",
@@ -329,7 +329,7 @@
           "As many as you want"
         ],
         "correct": 0,
-        "explain": "You may hold only one driver's license, period."
+        "explain": ""
       },
       {
         "q": "What is the minimum disqualification for a first out-of-service order violation?",
@@ -340,7 +340,7 @@
           "1 year"
         ],
         "correct": 2,
-        "explain": "90 days minimum for first offense, 1 year for second within 10 years, 3 years for third+."
+        "explain": ""
       },
       {
         "q": "Which endorsement requires a TSA fingerprint background check?",
@@ -351,7 +351,7 @@
           "Hazardous materials (H)"
         ],
         "correct": 3,
-        "explain": "Hazardous materials requires TSA fingerprint background check."
+        "explain": ""
       },
       {
         "q": "A second major offense (DUI, felony with a CMV, leaving the scene) results in:",
@@ -362,7 +362,7 @@
           "Lifetime disqualification"
         ],
         "correct": 3,
-        "explain": "A second major offense = disqualified for life."
+        "explain": ""
       },
       {
         "q": "Beginning November 18, 2024, FLHSMV must obtain your driving record from which system when applying for a CDL?",
@@ -373,7 +373,7 @@
           "The Florida criminal history system"
         ],
         "correct": 1,
-        "explain": "FLHSMV must check the Drug and Alcohol Clearinghouse for CDL applications, renewals, transfers, and changes."
+        "explain": ""
       },
       {
         "q": "If the Drug and Alcohol Clearinghouse shows you are prohibited from operating a CMV, FLHSMV must downgrade your CDL within how many days?",
@@ -384,7 +384,7 @@
           "90 days"
         ],
         "correct": 2,
-        "explain": "FLHSMV must downgrade your CDL/CLP within 60 days of receiving prohibition notification."
+        "explain": ""
       },
       {
         "q": "As of December 11, 2025, how are medical examiner certificates submitted?",
@@ -395,7 +395,7 @@
           "No longer required"
         ],
         "correct": 2,
-        "explain": "Medical providers now submit certificates electronically to FMCSA; Tax Collector's Offices no longer accept paper certificates."
+        "explain": ""
       },
       {
         "q": "Since February 7, 2022, entry-level drivers must complete ELDT before taking CDL tests for:",
@@ -406,7 +406,7 @@
           "Only school bus endorsement"
         ],
         "correct": 2,
-        "explain": "ELDT required for first-time Class A/B, Class B to Class A upgrades, and first-time S/P/H endorsements."
+        "explain": ""
       },
       {
         "q": "As of February 6, 2026, all driver license knowledge and skills examinations are administered in:",
@@ -417,7 +417,7 @@
           "The applicant's preferred language"
         ],
         "correct": 1,
-        "explain": "All examinations are administered exclusively in English as of February 6, 2026."
+        "explain": ""
       },
       {
         "q": "Effective October 7, 2024, all CLP/CDL applicants must provide proof of:",
@@ -428,7 +428,7 @@
           "Vehicle insurance"
         ],
         "correct": 1,
-        "explain": "Proof of Florida residency is required for all CLP/CDL applicants and address updates."
+        "explain": ""
       },
       {
         "q": "If you receive a prohibition notification from the Drug and Alcohol Clearinghouse, how many days do you have to request an informal hearing?",
@@ -439,7 +439,7 @@
           "60 days"
         ],
         "correct": 1,
-        "explain": "You have 20 days to request an informal hearing after receiving a prohibition notification."
+        "explain": ""
       },
       {
         "q": "ELDT training must be completed from:",
@@ -450,735 +450,1008 @@
           "Self-study only"
         ],
         "correct": 1,
-        "explain": "Training must be from an FMCSA-registered training provider to meet ELDT requirements."
+        "explain": ""
       },
       {
         "q": "The minimum tire tread depth for front tires is:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "An anti-lock braking system will:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should inspect wheel bearing seals for:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should place the starter switch key into your pocket while you are performing the pre-trip inspection because:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Total stopping distance is a combination of:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "If brakes get wet, it can cause them to:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "While driving, the two main things a driver should look ahead for are:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "To avoid rollback when you start, you should:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Two causes of tire fires include:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should not use the trailer hand valve while driving because:",
-        "a": "",
-        "b": "",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What factors determine your selection of a starting gear?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why should you be in the proper gear before starting down a hill?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What type of vehicles can get stuck on a railroad crossing?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Describe the proper braking technique when stopping with air brakes.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How long does it take for a typical tractor-trailer to clear a double track?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What are some advantages of going right off the road rather than trying to stop in a hurry?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What are the slack adjusters?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you check slack adjusters?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test the low pressure warning signal?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you check that the spring brakes come on automatically?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What are the maximum leakage rates?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Define the danger zone. How far does the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Having two axles and a gross vehicle weight",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What factors determine your selection of a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Which shut-off valves should be open and",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Is used in combination, when the weight of",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Should a tank vehicle take curves, on",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What are some advantages of going right",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you be able to see if the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is an \"escape ramp?\"",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test the low pressure warning",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you check to make sure trailer height",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "If a tire blows out, you should put the brakes",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "If you are away from your vehicle only a short",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What three things determine how much",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What type of vehicles can get stuck on a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You are unloading students along your",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Front wheel brakes are good under all",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you check that the spring brakes come",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How long does it take for a typical tractor-trailer",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What do you check when making a visual",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your vehicle is",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How should you brake when you drive a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What position should students be in front of",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why should you pull a dolly out from under a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do antilock brakes help you?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check for when inspecting",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What two reasons make special care",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You still have normal brake functions if your",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Should the shut-off valves on the rear of the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is a passive highway-rail crossing?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your converter dolly is",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not apply the brake while you are turning. It's",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not brake harshly. Brake smoothly using steady",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not change lanes while proceeding through the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not grind or clash gears.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not let your vehicle roll.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not move a student you believe may have",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not over or under steer the vehicle.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not put vehicle over curbs, sidewalks, or lane",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not ride clutch to control speed, coast with the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not ride or pump brake.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not shift gears while crossing railroad tracks.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not shift in turns and intersections.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not stop, change gears, or change lanes while",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not stop, change gears, pass another vehicle, or",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not turn any more than needed to clear",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do not turn the wheel before your vehicle moves.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "This is true no matter what type of vehicle you",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Was our free cdl practice test helpful?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is the minimum tire tread depth required for front tires?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why are placards used?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must be properly restrained by a safety belt",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must do this when you apply for a commercial",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must give your employer information on all",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must go slowly enough so your brakes can hold",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must have a commercial driver license (CDL)",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must notify the Department of Highway Safety",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must notify your employer within 30 days of",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must notify your employer within two business",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must notify your motor vehicle licensing",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must pass a test on this information to get a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must pass a written test about the regulations",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You must use the braking effect of the engine as the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should be able to identify each part and tell the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should brake in a way that will keep your",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should know what is right for your vehicle.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should slow down to lessen the effect of the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should use the basic seven-step inspection",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You should walk through the bus and around the",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 1
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "parking). This is true no matter what type of vehicle",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 1
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -1334,7 +1607,7 @@
           "6/32 inch"
         ],
         "correct": 2,
-        "explain": "4/32 inch on the front (steering) tires; 2/32 inch is the minimum for all other tires."
+        "explain": ""
       },
       {
         "q": "How much steering wheel play is too much?",
@@ -1345,7 +1618,7 @@
           "More than 20 degrees"
         ],
         "correct": 2,
-        "explain": "More than 10 degrees (about 2 inches of movement at the rim of a 20-inch wheel) makes steering unsafe."
+        "explain": ""
       },
       {
         "q": "To check hydraulic brakes for leaks, you should:",
@@ -1356,7 +1629,7 @@
           "Check only the brake fluid color"
         ],
         "correct": 0,
-        "explain": "If the pedal moves after 5 seconds of held pressure, there's a leak or other problem."
+        "explain": ""
       },
       {
         "q": "After starting a trip, you must re-inspect cargo securement within the first:",
@@ -1367,7 +1640,7 @@
           "250 miles"
         ],
         "correct": 1,
-        "explain": "Then re-check every 150 miles or 3 hours after that, whichever comes first."
+        "explain": ""
       },
       {
         "q": "When backing a vehicle, you should generally back toward:",
@@ -1378,7 +1651,7 @@
           "It doesn't matter"
         ],
         "correct": 1,
-        "explain": "Backing toward the driver's side lets you watch the rear by looking out your own window."
+        "explain": ""
       },
       {
         "q": "You should downshift to a lower gear:",
@@ -1389,7 +1662,7 @@
           "Only on manual transmissions with retarders"
         ],
         "correct": 1,
-        "explain": "Downshift ahead of time \u2014 trying to shift down after speed builds can fail and cost you engine braking."
+        "explain": ""
       },
       {
         "q": "Retarders should be turned OFF when the road is:",
@@ -1400,7 +1673,7 @@
           "Under construction"
         ],
         "correct": 1,
-        "explain": "On slippery roads, retarders can cause the drive wheels to skid."
+        "explain": ""
       },
       {
         "q": "Most good drivers look how far ahead while driving?",
@@ -1411,7 +1684,7 @@
           "20-25 seconds"
         ],
         "correct": 2,
-        "explain": "12-15 seconds ahead \u2014 roughly a city block at low speed, a quarter mile at highway speed."
+        "explain": ""
       },
       {
         "q": "On a two-lane road (traffic both directions), where should you place your three warning triangles if you must stop?",
@@ -1422,7 +1695,7 @@
           "50 feet on each side"
         ],
         "correct": 1,
-        "explain": "One near the vehicle, one 100 feet ahead, one 100 feet behind, to warn traffic from both directions."
+        "explain": ""
       },
       {
         "q": "Total stopping distance is the sum of:",
@@ -1433,7 +1706,7 @@
           "Perception distance and following distance"
         ],
         "correct": 1,
-        "explain": "All three stack together to make up total stopping distance."
+        "explain": ""
       },
       {
         "q": "At 55 mph in good conditions, roughly how far does it take a heavy vehicle to stop completely?",
@@ -1444,7 +1717,7 @@
           "About 700 feet"
         ],
         "correct": 2,
-        "explain": "About 419 feet \u2014 nearly a football field and a half."
+        "explain": ""
       },
       {
         "q": "If you double your speed from 20 to 40 mph, your braking distance becomes roughly:",
@@ -1455,7 +1728,7 @@
           "9 times longer"
         ],
         "correct": 1,
-        "explain": "Doubling speed roughly quadruples both impact force and braking distance."
+        "explain": ""
       },
       {
         "q": "On a wet road, you should generally reduce your speed by about:",
@@ -1466,7 +1739,7 @@
           "Ninety percent"
         ],
         "correct": 1,
-        "explain": "Cut speed by about a third on wet pavement; more on snow, and to a crawl on ice."
+        "explain": ""
       },
       {
         "q": "Hydroplaning can start at speeds as low as:",
@@ -1477,7 +1750,7 @@
           "It never happens under 60 mph"
         ],
         "correct": 1,
-        "explain": "With enough standing water, hydroplaning can occur at just 30 mph."
+        "explain": ""
       },
       {
         "q": "The following-distance rule of thumb is 1 second per 10 feet of vehicle length under 40 mph, plus:",
@@ -1488,7 +1761,7 @@
           "3 extra seconds at any speed"
         ],
         "correct": 1,
-        "explain": "Add 1 second if your speed is over 40 mph."
+        "explain": ""
       },
       {
         "q": "How many convictions for texting while driving a CMV trigger your first disqualification period?",
@@ -1499,7 +1772,7 @@
           "Texting isn't a disqualifying offense"
         ],
         "correct": 1,
-        "explain": "The second conviction brings a 60-day disqualification; a third or more brings 120 days."
+        "explain": ""
       },
       {
         "q": "Getting 6 hours of sleep or less before driving roughly:",
@@ -1510,7 +1783,7 @@
           "Only matters for night driving"
         ],
         "correct": 2,
-        "explain": "Sleep-deprived driving (6 hours or less) roughly triples crash risk according to the manual."
+        "explain": ""
       },
       {
         "q": "With low-beam headlights, you can typically see about how far ahead?",
@@ -1521,7 +1794,7 @@
           "800 feet"
         ],
         "correct": 1,
-        "explain": "Low beams show about 250 feet; high beams show about 350-500 feet."
+        "explain": ""
       },
       {
         "q": "You should dim your high beams when within how many feet of an oncoming or followed vehicle?",
@@ -1532,7 +1805,7 @@
           "1,000 feet"
         ],
         "correct": 2,
-        "explain": "Dim within 500 feet to avoid blinding other drivers."
+        "explain": ""
       },
       {
         "q": "The best advice given for driving in fog is:",
@@ -1543,7 +1816,7 @@
           "Follow another vehicle's taillights closely"
         ],
         "correct": 2,
-        "explain": "If you must drive, use low beams and fog lights, and slow down well before entering the fog."
+        "explain": ""
       },
       {
         "q": "At a railroad crossing with no painted stop line, how far from the nearest rail should you stop?",
@@ -1554,7 +1827,7 @@
           "Right up against the cross-buck sign"
         ],
         "correct": 1,
-        "explain": "Stop no closer than 15 feet and no farther than 50 feet from the nearest rail."
+        "explain": ""
       },
       {
         "q": "About how long does it take a typical tractor-trailer to clear a single railroad track?",
@@ -1565,7 +1838,7 @@
           "1 minute"
         ],
         "correct": 1,
-        "explain": "About 14 seconds for one track, 15+ seconds for a double track."
+        "explain": ""
       },
       {
         "q": "When descending a long grade, your main method of controlling speed should be:",
@@ -1576,7 +1849,7 @@
           "Coasting in neutral"
         ],
         "correct": 1,
-        "explain": "Use engine braking as the principal control; use the brakes only in short, firm applications."
+        "explain": ""
       },
       {
         "q": "If a tire blows out while driving, you should:",
@@ -1587,7 +1860,7 @@
           "Accelerate to maintain control"
         ],
         "correct": 1,
-        "explain": "Braking hard right after a blowout can cause you to lose control; slow down gradually first."
+        "explain": ""
       },
       {
         "q": "Does ABS necessarily shorten your stopping distance?",
@@ -1598,7 +1871,7 @@
           "ABS has no effect on braking at all"
         ],
         "correct": 1,
-        "explain": "ABS keeps wheels from locking so you can steer; it doesn't guarantee a shorter stop."
+        "explain": ""
       },
       {
         "q": "To recover from a rear-wheel (drive-wheel) skid, you should:",
@@ -1609,7 +1882,7 @@
           "Accelerate hard"
         ],
         "correct": 2,
-        "explain": "Release the brakes to let the wheels roll again, then counter-steer \u2014 never use the trailer hand valve to fix a skid."
+        "explain": ""
       },
       {
         "q": "Which fire extinguisher rule is correct?",
@@ -1620,7 +1893,7 @@
           "Class A fires require carbon dioxide only"
         ],
         "correct": 1,
-        "explain": "Water can cause shock on electrical fires and spread gasoline fires."
+        "explain": ""
       },
       {
         "q": "A standard alcoholic drink (12 oz beer, 5 oz wine, or 1.5 oz of 80-proof liquor) all contain roughly:",
@@ -1631,7 +1904,7 @@
           "No comparable amount \u2014 it depends on brand only"
         ],
         "correct": 1,
-        "explain": "All three are considered equivalent standard drinks."
+        "explain": ""
       },
       {
         "q": "A placarded hazardous materials vehicle must display placards on:",
@@ -1642,7 +1915,7 @@
           "Only the side facing traffic"
         ],
         "correct": 2,
-        "explain": "Four identical placards: front, rear, and both sides."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): the correct double-clutch sequence for shifting is:",
@@ -1653,7 +1926,7 @@
           "Never use the clutch after the vehicle is moving"
         ],
         "correct": 1,
-        "explain": "The brief release in neutral is what lets engine and gear speed sync without grinding."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): when downshifting with the double-clutch method, you should:",
@@ -1664,7 +1937,7 @@
           "Brake hard before every downshift"
         ],
         "correct": 1,
-        "explain": "A lower gear spins faster at the same road speed, so you rev-match upward before engaging it."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): grinding gears on the skills test is most often caused by:",
@@ -1675,7 +1948,7 @@
           "Shifting in a straight line instead of on a curve"
         ],
         "correct": 1,
-        "explain": "Take the extra half-second in neutral to match engine speed to the next gear."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): the safest way to know when to shift is to:",
@@ -1686,7 +1959,7 @@
           "Always shift at redline"
         ],
         "correct": 1,
-        "explain": "Experienced drivers shift by ear so their eyes stay on traffic, not the gauges."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): coasting in neutral is discouraged because:",
@@ -1697,7 +1970,7 @@
           "It's actually required on downgrades"
         ],
         "correct": 1,
-        "explain": "Stay in gear \u2014 coasting removes your engine braking and can starve systems like air brakes or power steering on some trucks."
+        "explain": ""
       },
       {
         "q": "You're driving a 40-foot truck at 35 mph. What's the minimum following distance you should leave?",
@@ -1708,7 +1981,7 @@
           "6 seconds"
         ],
         "correct": 2,
-        "explain": "1 second per 10 feet under 40 mph = 4 seconds for a 40-foot rig. Over 40 mph, add 1 more second."
+        "explain": ""
       },
       {
         "q": "To measure your following distance, you should:",
@@ -1719,7 +1992,7 @@
           "Use your mirrors only"
         ],
         "correct": 1,
-        "explain": "Wait until the vehicle ahead passes a shadow, marking, or landmark, then count 'one-thousand-and-one\u2026' until you reach it."
+        "explain": ""
       },
       {
         "q": "You're driving a 30-foot vehicle at 55 mph. How many seconds of following distance should you allow?",
@@ -1730,7 +2003,7 @@
           "7 seconds"
         ],
         "correct": 1,
-        "explain": "30 ft = 3 seconds under 40 mph, plus 1 extra second because you're over 40 mph = 4 seconds."
+        "explain": ""
       },
       {
         "q": "If a vehicle is following you too closely, you should:",
@@ -1741,7 +2014,7 @@
           "Move left and stay there"
         ],
         "correct": 0,
-        "explain": "Opening up space ahead gives you room to stop gradually if the tailgater forces a sudden slowdown."
+        "explain": ""
       },
       {
         "q": "While driving, where should you be looking ahead of your vehicle?",
@@ -1752,7 +2025,7 @@
           "Both far and near, then back and forth"
         ],
         "correct": 3,
-        "explain": "The safest way to keep an eye on the roadway is to be constantly scanning the entire road, from the section closest to the section farthest, left to right and then back again."
+        "explain": ""
       },
       {
         "q": "What is the greatest amount of play that should be in your steering wheel?",
@@ -1763,7 +2036,7 @@
           "None"
         ],
         "correct": 2,
-        "explain": "There should be no more than 2 inches of play in your steering wheel to avoid problems."
+        "explain": ""
       },
       {
         "q": "Which of the following is not a benefit of making plans when you spot a hazard?",
@@ -1774,7 +2047,7 @@
           "Giving you more time to do something before the situation turns into an emergency"
         ],
         "correct": 2,
-        "explain": "If you are on the phone, eating or drinking, you may actually be a hazard on the roadway as a distracted driver. Instead, you should be watching for hazards, planning ahead for possible situations before they turn into emergencies, so serious accidents can be avoided."
+        "explain": ""
       },
       {
         "q": "How many seconds does it take for a normal tractor-trailer to clear a double track?",
@@ -1785,7 +2058,7 @@
           "More than 15 seconds"
         ],
         "correct": 3,
-        "explain": "Expect it to take more than 15 seconds for a regular tractor-trailer to clear a double track and 14 seconds to be safely over a single track."
+        "explain": ""
       },
       {
         "q": "What is the main difference between aggressive driving and road rage?",
@@ -1796,7 +2069,7 @@
           "All of the above"
         ],
         "correct": 0,
-        "explain": "Aggressive driving constitutes behavior that can be very dangerous and pushy and may lead to accidents or other issues. However, road rage is operating a vehicle with the actual intent to cause harm to someone or physically assault them or their vehicle."
+        "explain": ""
       },
       {
         "q": "What action should you take when your vehicle begins to hydroplane?",
@@ -1807,7 +2080,7 @@
           "Let go of the wheel so it can correct itself again"
         ],
         "correct": 2,
-        "explain": "When you begin to hydroplane, your wheels have lost their traction. You should not try to accelerate or brake. The best plan is to release the accelerator, then press down on your vehicle's clutch so the engine isn't powering your wheels."
+        "explain": ""
       },
       {
         "q": "Which of the following are correct methods for knowing when you should shift up?",
@@ -1818,7 +2091,7 @@
           "Road speed and shift indicator light"
         ],
         "correct": 0,
-        "explain": "Knowing when to shift up is a matter of knowing your vehicle. You should learn what road speed each gear is best suited for, as well as study your vehicle's owner's manual to learn the correct operating RPM range for each gear."
+        "explain": ""
       },
       {
         "q": "The minimum tire tread depth for front tires is...",
@@ -1829,7 +2102,7 @@
           "3/8 inch"
         ],
         "correct": 0,
-        "explain": "The minimum is 4/32-inch depth for tire treads on front tires, while all other tires require at least 2/32-inch tread depth."
+        "explain": ""
       },
       {
         "q": "An anti-lock braking system will...",
@@ -1840,7 +2113,7 @@
           "allow your brakes to lock only when braking hard"
         ],
         "correct": 2,
-        "explain": "An anti-lock braking system will keep your brakes from locking when you brake hard."
+        "explain": ""
       },
       {
         "q": "Which of the following can assist you with staying alert while you are driving?",
@@ -1851,7 +2124,7 @@
           "Keep your cab warm and quiet"
         ],
         "correct": 1,
-        "explain": "The key to being safe is to take breaks before you start to feel drowsy. Stretch your legs often to break up monotony that can lead to drowsiness."
+        "explain": ""
       },
       {
         "q": "In which of the following circumstances should you make use of your vehicle's horn?",
@@ -1862,7 +2135,7 @@
           "When using the horn may help you avoid an accident by calling attention"
         ],
         "correct": 3,
-        "explain": "Your horn may be a wise option to help you avoid an accident by letting others know exactly where you are if they didn't see your truck and are about to move into your space."
+        "explain": ""
       },
       {
         "q": "You should inspect wheel bearing seals for...",
@@ -1873,7 +2146,7 @@
           "Tears"
         ],
         "correct": 0,
-        "explain": "Like most seals on your vehicle, the most likely problem with wheel bearing seals will be leaking. You should look for moisture around the seal and drops or a puddle underneath it."
+        "explain": ""
       },
       {
         "q": "During which of the following situations should you have your emergency four-way flashing lights on?",
@@ -1884,7 +2157,7 @@
           "None of the above"
         ],
         "correct": 1,
-        "explain": "If you are parked by the side of the road during an emergency it is essential that you use your four-way emergency flashers. As individuals who see just your regular taillights especially at night may assume that you are moving normally and crash into the back of your vehicle."
+        "explain": ""
       },
       {
         "q": "What is the method for testing hydraulic brakes for leaks?",
@@ -1895,7 +2168,7 @@
           "Move slowly forward and step on the brake hard"
         ],
         "correct": 1,
-        "explain": "To test hydraulic brakes for leaks, pump the brake pedal three times and apply firm pressure for 5 seconds, the pedal should not move."
+        "explain": ""
       },
       {
         "q": "Which of the following should you do when confronted by an aggressive driver?",
@@ -1906,7 +2179,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "When an aggressive driver is trying to confront you, do not give them the confrontation that they want instead, seek police, peace, and safety."
+        "explain": ""
       },
       {
         "q": "Where should you place your warning devices if you must stop on a one-way or divided highway",
@@ -1917,7 +2190,7 @@
           "50 feet, 100 feet and 150 feet toward approaching traffic"
         ],
         "correct": 0,
-        "explain": "On a one-way or divided highway, you want to stretch your warning devices out, but still have them close enough to the vehicle that it makes it clear you are stopped. Devices at 10, 100, and 200 feet accomplish this goal."
+        "explain": ""
       },
       {
         "q": "What is the best way to figure out how many seconds of following distance you have?",
@@ -1928,7 +2201,7 @@
           "Use the stop watch on your phone to try to determine how long before you reach a mile marker after the car in front of you appeared to reach it"
         ],
         "correct": 1,
-        "explain": "Count how long it takes you to reach the landmark after the car in front of you by counting like such: one-thousand-and-one, one-thousand-and-two, etc. You will have your following distance in seconds. All the other options listed here are dangerous and will not give you a true following distance."
+        "explain": ""
       },
       {
         "q": "You should place the starter switch key into your pocket while you are performing the pre-trip inspection because...",
@@ -1939,7 +2212,7 @@
           "All of the above"
         ],
         "correct": 1,
-        "explain": "When you are performing the pre-trip inspection, you do not want someone, such as a co-driver, to start your vehicle while unaware of your location and accidentally injure you."
+        "explain": ""
       },
       {
         "q": "What constitutes the proper braking technique in a vehicle that has anti-lock brakes?",
@@ -1950,7 +2223,7 @@
           "You should always brake much more lightly than in a vehicle without anti-lock brakes"
         ],
         "correct": 0,
-        "explain": "With ABS, you will use the same braking technique you always have, with the minimum amount of braking necessary in normal situations. The difference is that for emergency stops, you will now be able to fully apply the brakes without the fear of them locking or you losing control of the vehicle."
+        "explain": ""
       },
       {
         "q": "When performing a pre-trip inspection why is it a good idea to do it exactly the same way every time?",
@@ -1961,7 +2234,7 @@
           "The law requires you to do it the same way every time"
         ],
         "correct": 1,
-        "explain": "It is important to maintain the same routine every time you perform a pre-trip inspection because you are least likely to forget something."
+        "explain": ""
       },
       {
         "q": "What is the most important and obvious reason to always conduct a pre-trip inspection of your CMV?",
@@ -1972,7 +2245,7 @@
           "See if your vehicle needs a wash"
         ],
         "correct": 0,
-        "explain": "Safety is the most important thing. Inspections can help you avoid costly and dangerous breakdowns and collisions. Federal and state inspectors will check your vehicle, so you must make sure it's safe before they put you out-of-service for violations."
+        "explain": ""
       },
       {
         "q": "When stopped on a hill, what is the proper procedure to start moving without rolling back?",
@@ -1983,7 +2256,7 @@
           "Leave the trailer brakes on and drag the tires releasing the brake after you are moving forward"
         ],
         "correct": 0,
-        "explain": "When stopped on a hill and you want to start moving without rolling back, partly engage the clutch before you take your right foot off the brake."
+        "explain": ""
       },
       {
         "q": "Total stopping distance is a combination of...",
@@ -1994,7 +2267,7 @@
           "Reaction distance + braking distance"
         ],
         "correct": 1,
-        "explain": "Total stopping distance is a combination of your perception distance (how far the vehicle goes from when you see a hazard until your brain processes it), reaction distance (amount of time from your brain informing your foot to take action until your foot actually does something) and braking distance ( how long it takes to stop once you press the brake."
+        "explain": ""
       },
       {
         "q": "When a driver's blood alcohol concentration (BAC) rises, which of the following happens?",
@@ -2005,7 +2278,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "Once you drink alcohol, it enters your bloodstream and starts affecting all of your bodily processes, such as coordination, self-control and reaction time. The only cure to alcohol's effect on your brain is to wait until it exits your bloodstream."
+        "explain": ""
       },
       {
         "q": "Is it true that as long as the engine is not overheating it is completely safe to remove the radiator cap?",
@@ -2016,7 +2289,7 @@
           "No"
         ],
         "correct": 3,
-        "explain": "It is not enough for the engine to not be overheated. The system should have cooled completely before you even attempt to remove the radiator cap. And even then, you should be very careful, as there may be tremendous pressure and damaging stream and fluids."
+        "explain": ""
       },
       {
         "q": "Why should you limit the use of your horn?",
@@ -2027,7 +2300,7 @@
           "All of the above"
         ],
         "correct": 1,
-        "explain": "While the horn is an important tool, since it can stop others from crashing into you if they haven't seen your vehicle, it can also startle drivers which can be dangerous. Use your horn carefully and only when absolutely necessary."
+        "explain": ""
       },
       {
         "q": "If brakes get wet, it can cause them to...",
@@ -2038,7 +2311,7 @@
           "All of the above"
         ],
         "correct": 0,
-        "explain": "Unless there is something seriously wrong with your brakes, they will not fall off your vehicle. However, getting them wet will cause them to apply unevenly, work weakly, or grab, all of which can be dangerous."
+        "explain": ""
       },
       {
         "q": "While driving, the two main things a driver should look ahead for are...",
@@ -2049,7 +2322,7 @@
           "Other vehicles and traffic signs"
         ],
         "correct": 3,
-        "explain": "The two things that you will constantly be facing on the road are other vehicles which can cause hazards in a variety of ways and traffic signals and signs, which you must look ahead for since they will often require you to slow down, stop, or make other changes."
+        "explain": ""
       },
       {
         "q": "What might happen if you swing wide to the left before you turn right?",
@@ -2060,7 +2333,7 @@
           "All of the above"
         ],
         "correct": 0,
-        "explain": "If you swing wide, a driver may try to pass on your right while you are turning. Instead, make the turn with the rear of your vehicle as close to the curb as possible and turn widely, without allowing them room on the right to pass."
+        "explain": ""
       },
       {
         "q": "To avoid rollback when you start, you should...",
@@ -2071,7 +2344,7 @@
           "A then B"
         ],
         "correct": 0,
-        "explain": "To avoid rollback when you start, you should partly engage the clutch before you take your right foot off the brake."
+        "explain": ""
       },
       {
         "q": "Which of the following is the most important reason for doing a pre-trip inspection?",
@@ -2082,7 +2355,7 @@
           "To make sure the vehicle will make your destination"
         ],
         "correct": 2,
-        "explain": "The most important reason for performing a pre-trip inspection is for the safety of yourself and others on the road."
+        "explain": ""
       },
       {
         "q": "What are some of the important parts in the steering system?",
@@ -2093,7 +2366,7 @@
           "Leaf spring, vehicle frame, torque rod"
         ],
         "correct": 1,
-        "explain": "Some important parts in the steering system are the tie rod, spindle and pitman arm."
+        "explain": ""
       },
       {
         "q": "Which of the following are some suspension system defects?",
@@ -2104,7 +2377,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "Cracked or broken spring hangers, leaking shock absorbers and broken leaves in leaf springs are all suspension system defects."
+        "explain": ""
       },
       {
         "q": "What is a Vehicle Inspection Report?",
@@ -2115,7 +2388,7 @@
           "A report written by the driver that notes the condition of the truck and any items that may need to be repaired"
         ],
         "correct": 3,
-        "explain": "The Vehicle Inspection Report is a daily log that drivers keep. It includes information regarding the vehicle such as problems and inspections."
+        "explain": ""
       },
       {
         "q": "What are the three types of emergency equipment you must have with your vehicle?",
@@ -2126,7 +2399,7 @@
           "First aid kit, fire extinguisher, flares"
         ],
         "correct": 0,
-        "explain": "You must have a fire extinguisher, spare electrical fuses and warning devices for parked vehicles with you at all times."
+        "explain": ""
       },
       {
         "q": "Which of the following is the best way to see the rear and sides of your CMV?",
@@ -2137,7 +2410,7 @@
           "Roll down your passenger side window"
         ],
         "correct": 1,
-        "explain": "Mirrors remain the best way for you to see both the rear and sides of your CMV. While you may benefit from a rear view camera as well, if you desire, it is not a reliable method to see the sides of any vehicle."
+        "explain": ""
       },
       {
         "q": "Two causes of tire fires include...",
@@ -2148,7 +2421,7 @@
           "Duals that touch and road debris"
         ],
         "correct": 0,
-        "explain": "Two causes of tire fires are under inflated tire and duals that touch."
+        "explain": ""
       },
       {
         "q": "In safe driving, what does communicating mean?",
@@ -2159,7 +2432,7 @@
           "None of the above"
         ],
         "correct": 1,
-        "explain": "Let others know you are there by using turn signals, four way flashers and horn."
+        "explain": ""
       },
       {
         "q": "What can you do to avoid the effects that wet brakes can cause?",
@@ -2170,7 +2443,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "All of these options will help avoid the effects that wet brakes may cause."
+        "explain": ""
       },
       {
         "q": "When going down a long, steep downgrade, what factors determine your selection of a safe speed?",
@@ -2181,7 +2454,7 @@
           "Length of the grade and steepness of the grade only"
         ],
         "correct": 0,
-        "explain": "When going down a long, steep downgrade, total weight of the vehicle and cargo, length of the grade, steepness of the grade, road conditions and weather determine your selection of a safe speed."
+        "explain": ""
       },
       {
         "q": "What is the reason to be in the proper gear before starting down a hill?",
@@ -2192,7 +2465,7 @@
           "There is no need to do this"
         ],
         "correct": 1,
-        "explain": "You will want to be in the proper gear before starting down a hill because you will not be able to shift into a lower gear once you are going down the hill."
+        "explain": ""
       },
       {
         "q": "What is a pull-up?",
@@ -2203,7 +2476,7 @@
           "When pulling off the shoulder, you pull until the trailer is straight"
         ],
         "correct": 0,
-        "explain": "This refers to pulling forward while backing a trailer to reposition it."
+        "explain": ""
       },
       {
         "q": "What should you check wheel bearings seals for?",
@@ -2214,7 +2487,7 @@
           "Smoke"
         ],
         "correct": 0,
-        "explain": "You should check your wheel bearing seals for leaks."
+        "explain": ""
       },
       {
         "q": "What is an escape ramp?",
@@ -2225,103 +2498,139 @@
           "None of the above"
         ],
         "correct": 0,
-        "explain": "An escape ramp is a ramp leading to a long bed of loose, soft material to slow a runaway vehicle, sometimes in combination with an upgrade."
+        "explain": ""
       },
       {
         "q": "Stopping is not always the safest thing to do. What are some advantages of going right off the road rather than trying to stop in a hurry?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is an \"escape ramp\"?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "If a tire blows out, you should put the brakes down slowly to avoid what?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your vehicle has antilock brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is the proper braking technique when you have antilock brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do antilock brakes help you stop without skidding?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why must air tanks be drained?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "All vehicles with air brakes must have a low air pressure warning signal. True or False?",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 2
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Front wheel brakes are good under all conditions. True or False?",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 2
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your vehicle is equipped with antilock brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Stopping is not always the safest thing to do",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your vehicle has antilock",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 2
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -2392,7 +2701,7 @@
           "Only at the destination"
         ],
         "correct": 1,
-        "explain": "Within the first 50 miles, then every 150 miles or 3 hours after that."
+        "explain": ""
       },
       {
         "q": "After that first check, how often should you re-check cargo on a long trip?",
@@ -2403,7 +2712,7 @@
           "Only once per day"
         ],
         "correct": 1,
-        "explain": "Every 150 miles or 3 hours, whichever happens first."
+        "explain": ""
       },
       {
         "q": "GCWR stands for and refers to:",
@@ -2414,7 +2723,7 @@
           "Ground Clearance Weight Ratio"
         ],
         "correct": 1,
-        "explain": "It's the manufacturer's maximum rating for the whole combination."
+        "explain": ""
       },
       {
         "q": "A high center of gravity from cargo piled up high mainly increases the risk of:",
@@ -2425,7 +2734,7 @@
           "Improved traction"
         ],
         "correct": 1,
-        "explain": "High, top-heavy loads are far more likely to roll over."
+        "explain": ""
       },
       {
         "q": "The general tie-down rule of thumb is:",
@@ -2436,7 +2745,7 @@
           "Tie-downs are optional if the cargo is under 500 lbs"
         ],
         "correct": 1,
-        "explain": "At least one per 10 feet of cargo, and never fewer than two, even on tiny loads."
+        "explain": ""
       },
       {
         "q": "What is the main purpose of a header board (headache rack)?",
@@ -2447,7 +2756,7 @@
           "To increase legal weight limits"
         ],
         "correct": 1,
-        "explain": "It blocks cargo from sliding into the cab."
+        "explain": ""
       },
       {
         "q": "Too little weight on the drive axles mainly causes:",
@@ -2458,7 +2767,7 @@
           "Higher fuel economy"
         ],
         "correct": 1,
-        "explain": "Underloaded drive axles struggle for traction, especially in rain or snow."
+        "explain": ""
       },
       {
         "q": "Why is dry bulk cargo (like a dry bulk tank) tricky to haul?",
@@ -2469,7 +2778,7 @@
           "It cannot be inspected"
         ],
         "correct": 1,
-        "explain": "Go slow and careful on curves and sharp turns."
+        "explain": ""
       },
       {
         "q": "When hauling livestock, why is a partial load more dangerous than a full one?",
@@ -2480,7 +2789,7 @@
           "It isn't more dangerous"
         ],
         "correct": 1,
-        "explain": "Use false bulkheads to bunch animals together and reduce shifting."
+        "explain": ""
       },
       {
         "q": "What are the two basic reasons for covering cargo on an open bed?",
@@ -2491,7 +2800,7 @@
           "It's required only for hazardous materials"
         ],
         "correct": 1,
-        "explain": "Spill protection and weather protection are the two core reasons."
+        "explain": ""
       },
       {
         "q": "A bridge formula sets lower maximum axle weights for axles that are:",
@@ -2502,7 +2811,7 @@
           "On the trailer only"
         ],
         "correct": 1,
-        "explain": "Axles closer together get a lower max weight to avoid overloading bridges and roads."
+        "explain": ""
       },
       {
         "q": "Overloading a truck primarily hurts:",
@@ -2513,7 +2822,7 @@
           "Radio reception"
         ],
         "correct": 1,
-        "explain": "Overloaded trucks climb slowly, gain too much speed downhill, and take longer to stop."
+        "explain": ""
       },
       {
         "q": "Why is it important to check before you transport a sealed load?",
@@ -2524,7 +2833,7 @@
           "That the seal on the load is secure"
         ],
         "correct": 2,
-        "explain": "With sealed loads, you can't look inside the trailer to inspect it. It is still your responsibility to make sure the load is properly balanced and secured in the vehicle."
+        "explain": ""
       },
       {
         "q": "Which of these are you not responsible for when it comes to your cargo?",
@@ -2535,7 +2844,7 @@
           "Recognizing possible overloads"
         ],
         "correct": 2,
-        "explain": "When dealing with sealed cargo, you are not responsible for the state of the cargo itself and you can't inspect sealed cargo. You are only responsible for the safety of the cargo, ensuring that it is balanced, not overloaded and does not get in the way of emergency equipment."
+        "explain": ""
       },
       {
         "q": "What is the minimum number of tiedowns a flatbed load can have?",
@@ -2546,7 +2855,7 @@
           "There is no minimum"
         ],
         "correct": 1,
-        "explain": "At least one tie-down per 10 feet of cargo, and never fewer than two \u2014 no matter how small the load."
+        "explain": ""
       },
       {
         "q": "Which of the following is true about over-width, over-length or over-weight loads?",
@@ -2557,7 +2866,7 @@
           "All of the above"
         ],
         "correct": 0,
-        "explain": "With an oversized load, you must have a special permit. You may also be restricted as to when you can drive with such a load and a pilot vehicle or police escort may be required but only the special permit is required regardless."
+        "explain": ""
       },
       {
         "q": "What is the reason that placards are used?",
@@ -2568,7 +2877,7 @@
           "So hazmat is not mixed with food"
         ],
         "correct": 1,
-        "explain": "Placards are used to communicate the risk of the product being hauled."
+        "explain": ""
       },
       {
         "q": "What are the three things related to cargo that drivers are responsible for?",
@@ -2579,7 +2888,7 @@
           "All of the above"
         ],
         "correct": 2,
-        "explain": "The three things related to cargo drivers are responsible for include inspecting the cargo, recognizing overloads and properly secured cargo."
+        "explain": ""
       }
     ]
   },
@@ -2654,7 +2963,7 @@
           "Where luggage must be stored"
         ],
         "correct": 1,
-        "explain": "No rider may stand forward of the rear of the driver's seat."
+        "explain": ""
       },
       {
         "q": "What is the total weight limit for hazardous materials permitted aboard a bus?",
@@ -2665,7 +2974,7 @@
           "There is no limit if properly labeled"
         ],
         "correct": 1,
-        "explain": "500 lbs total, capped at 100 lbs per class."
+        "explain": ""
       },
       {
         "q": "Which of these can a bus legally carry?",
@@ -2676,7 +2985,7 @@
           "Explosives in the passenger compartment"
         ],
         "correct": 2,
-        "explain": "ORM-D small-arms ammo, emergency hospital supplies, and drugs are allowed in small amounts."
+        "explain": ""
       },
       {
         "q": "How far before a railroad crossing must a bus stop?",
@@ -2687,7 +2996,7 @@
           "Buses don't need to stop"
         ],
         "correct": 1,
-        "explain": "Stop between 15 and 50 feet from the nearest rail."
+        "explain": ""
       },
       {
         "q": "At an unguarded drawbridge with no signal or attendant, how far before the draw must you stop?",
@@ -2698,7 +3007,7 @@
           "100 feet"
         ],
         "correct": 2,
-        "explain": "Stop at least 50 feet before the draw and confirm it's fully closed."
+        "explain": ""
       },
       {
         "q": "Refueling a bus with riders aboard is:",
@@ -2709,7 +3018,7 @@
           "Only allowed at night"
         ],
         "correct": 1,
-        "explain": "Avoid it when possible; never do it inside a closed building with riders on board."
+        "explain": ""
       },
       {
         "q": "A brake-door interlock on a transit bus:",
@@ -2720,7 +3029,7 @@
           "Locks the doors permanently"
         ],
         "correct": 1,
-        "explain": "It's a safety feature, not a parking brake replacement."
+        "explain": ""
       },
       {
         "q": "Should you tow or push a disabled bus with riders aboard?",
@@ -2731,7 +3040,7 @@
           "Only on highways"
         ],
         "correct": 2,
-        "explain": "Only move to the nearest safe unloading spot, and only if it's unsafe for riders to exit first."
+        "explain": ""
       },
       {
         "q": "What should you never drive with, on a bus?",
@@ -2742,7 +3051,7 @@
           "Working mirrors"
         ],
         "correct": 0,
-        "explain": "All emergency exits must be closed while driving, and the exit sign must be visible."
+        "explain": ""
       },
       {
         "q": "Before crossing a drawbridge, you must:",
@@ -2753,7 +3062,7 @@
           "Open all bus doors"
         ],
         "correct": 1,
-        "explain": "Look to make sure the draw is completely closed before proceeding."
+        "explain": ""
       },
       {
         "q": "Which items must you check on a bus's interior before driving?",
@@ -2764,7 +3073,7 @@
           "Nothing \u2014 bus interiors aren't inspected"
         ],
         "correct": 1,
-        "explain": "All of these safety-related interior items must be checked."
+        "explain": ""
       },
       {
         "q": "To get a Passenger (P) endorsement, your knowledge test covers which manual sections (plus air brakes if applicable)?",
@@ -2775,7 +3084,7 @@
           "Section 1 only"
         ],
         "correct": 0,
-        "explain": "Sections 2 (Driving Safely) and 4 (Transporting Passengers), plus Section 5 if your bus has air brakes."
+        "explain": ""
       }
     ]
   },
@@ -2902,7 +3211,7 @@
           "150 psi"
         ],
         "correct": 2,
-        "explain": "Around 125 psi cut-out, with cut-in around 100 psi."
+        "explain": ""
       },
       {
         "q": "The safety relief valve is usually set to open at approximately:",
@@ -2913,7 +3222,7 @@
           "200 psi"
         ],
         "correct": 2,
-        "explain": "150 psi \u2014 if it releases air, get it checked."
+        "explain": ""
       },
       {
         "q": "The low air pressure warning signal must activate before pressure drops below:",
@@ -2924,7 +3233,7 @@
           "65 psi"
         ],
         "correct": 2,
-        "explain": "It must warn you before pressure falls below 55 psi."
+        "explain": ""
       },
       {
         "q": "Spring brakes typically apply fully somewhere in what pressure range?",
@@ -2935,7 +3244,7 @@
           "100-120 psi"
         ],
         "correct": 1,
-        "explain": "Commonly 20-30 psi within the broader 20-45 psi range \u2014 don't wait for this to happen automatically."
+        "explain": ""
       },
       {
         "q": "A dual air system should build from 85 to 100 psi within how many seconds, with the engine running?",
@@ -2946,7 +3255,7 @@
           "3 minutes"
         ],
         "correct": 1,
-        "explain": "45 seconds is the benchmark for dual systems; older single systems get 3 minutes for a bigger 50-90 psi build."
+        "explain": ""
       },
       {
         "q": "With the engine off and brakes released, an acceptable air leak rate for a single vehicle is:",
@@ -2957,7 +3266,7 @@
           "Leak rate doesn't matter if the warning light works"
         ],
         "correct": 0,
-        "explain": "Under 2 psi/min for a single vehicle; under 3 psi/min for a combination vehicle."
+        "explain": ""
       },
       {
         "q": "Holding the foot brake down for 1 minute, the maximum acceptable leak rate for a combination vehicle is:",
@@ -2968,7 +3277,7 @@
           "4 psi"
         ],
         "correct": 3,
-        "explain": "4 psi/minute max for combination vehicles (3 psi/minute for a single vehicle)."
+        "explain": ""
       },
       {
         "q": "If a slack adjuster moves more than about how far when pulled by hand, it likely needs adjustment?",
@@ -2979,7 +3288,7 @@
           "6 inches"
         ],
         "correct": 1,
-        "explain": "About 1 inch of movement at the push rod is the rule of thumb."
+        "explain": ""
       },
       {
         "q": "Air brakes add extra stopping distance compared to hydraulic brakes because of:",
@@ -2990,7 +3299,7 @@
           "Increased vehicle weight"
         ],
         "correct": 1,
-        "explain": "Brake lag adds about half a second (32 feet at 55 mph) to stopping distance."
+        "explain": ""
       },
       {
         "q": "What is the purpose of the air compressor governor?",
@@ -3001,7 +3310,7 @@
           "To activate the ABS system"
         ],
         "correct": 1,
-        "explain": "The governor stops the compressor at cut-out (~125 psi) and restarts it at cut-in (~100 psi)."
+        "explain": ""
       },
       {
         "q": "Why must air tanks be drained regularly?",
@@ -3012,7 +3321,7 @@
           "To increase compressor efficiency"
         ],
         "correct": 1,
-        "explain": "Water and oil collect at the bottom of tanks and can freeze in cold weather, causing brake failure."
+        "explain": ""
       },
       {
         "q": "What is a supply pressure gauge used for?",
@@ -3023,7 +3332,7 @@
           "To check tire pressure"
         ],
         "correct": 1,
-        "explain": "Supply pressure gauges show air tank pressure; dual systems have one gauge for each half or a single gauge with two needles."
+        "explain": ""
       },
       {
         "q": "What does the application pressure gauge show?",
@@ -3034,7 +3343,7 @@
           "Fuel level"
         ],
         "correct": 1,
-        "explain": "It shows brake application pressure. If you need to increase pressure to hold the same speed, brakes are fading."
+        "explain": ""
       },
       {
         "q": "What is the 'wig wag' device?",
@@ -3045,7 +3354,7 @@
           "An ABS sensor"
         ],
         "correct": 1,
-        "explain": "The wig wag is a low air pressure warning device \u2014 automatic types rise back out of view when pressure is above 55 psi."
+        "explain": ""
       },
       {
         "q": "What are spring brakes?",
@@ -3056,7 +3365,7 @@
           "A type of hydraulic brake"
         ],
         "correct": 1,
-        "explain": "Spring brakes are held back by air pressure during driving; if air is lost, the springs apply the brakes."
+        "explain": ""
       },
       {
         "q": "When should you stop driving if the low air pressure warning comes on?",
@@ -3067,7 +3376,7 @@
           "When you reach a truck stop"
         ],
         "correct": 1,
-        "explain": "Stop right away when the warning first activates \u2014 don't wait for spring brakes to come on automatically."
+        "explain": ""
       },
       {
         "q": "What is the most common type of foundation brake?",
@@ -3078,7 +3387,7 @@
           "Hydraulic brake"
         ],
         "correct": 2,
-        "explain": "S-cam drum brakes are the most common type \u2014 air pressure pushes the rod, moving the slack adjuster and twisting the camshaft."
+        "explain": ""
       },
       {
         "q": "Truck tractors with air brakes built on or after what date must be equipped with ABS?",
@@ -3089,7 +3398,7 @@
           "March 1, 2000"
         ],
         "correct": 1,
-        "explain": "March 1, 1997 for truck tractors; March 1, 1998 for other air brake vehicles."
+        "explain": ""
       },
       {
         "q": "If the ABS malfunction lamp stays on after the bulb check, what does it mean?",
@@ -3100,7 +3409,7 @@
           "The air compressor is broken"
         ],
         "correct": 1,
-        "explain": "A steady ABS lamp indicates loss of ABS control at one or more wheels \u2014 have it checked."
+        "explain": ""
       },
       {
         "q": "What is the purpose of an alcohol evaporator in an air brake system?",
@@ -3111,7 +3420,7 @@
           "To lubricate the compressor"
         ],
         "correct": 1,
-        "explain": "Alcohol evaporators put alcohol into the system to prevent ice formation in cold weather."
+        "explain": ""
       },
       {
         "q": "What is a dual air brake system?",
@@ -3122,7 +3431,7 @@
           "A system with two compressors"
         ],
         "correct": 1,
-        "explain": "Dual systems have two separate air halves \u2014 if one fails, the other can still operate the brakes."
+        "explain": ""
       },
       {
         "q": "What is the proper way to use parking brakes on a vehicle with a modulating control valve?",
@@ -3133,7 +3442,7 @@
           "Use only the foot brake"
         ],
         "correct": 1,
-        "explain": "When parking with a modulating valve, move the lever fully and lock it in place."
+        "explain": ""
       },
       {
         "q": "You should never push the brake pedal down when:",
@@ -3144,7 +3453,7 @@
           "You're going uphill"
         ],
         "correct": 1,
-        "explain": "Doing so can combine spring force and air pressure and damage the brakes."
+        "explain": ""
       },
       {
         "q": "How often should you drain air tanks manually, if they lack automatic drains?",
@@ -3155,7 +3464,7 @@
           "Never \u2014 it's not necessary"
         ],
         "correct": 1,
-        "explain": "Daily draining removes water and oil that can freeze or damage the system."
+        "explain": ""
       },
       {
         "q": "Vehicles built since what year are required to have automatic slack adjusters?",
@@ -3166,7 +3475,7 @@
           "2000"
         ],
         "correct": 2,
-        "explain": "1994 and later \u2014 but you should still check them during inspection."
+        "explain": ""
       },
       {
         "q": "Using the parking brake is unsafe when:",
@@ -3177,7 +3486,7 @@
           "You're parked for less than 10 minutes"
         ],
         "correct": 1,
-        "explain": "Extreme heat can damage hot brakes; freezing temps can freeze wet brakes so the vehicle can't move."
+        "explain": ""
       },
       {
         "q": "On an older vehicle whose governor cuts out at 120 psi, the low-air warning signal must come on no later than:",
@@ -3188,7 +3497,7 @@
           "One-half the governor cut-out pressure (60 psi)"
         ],
         "correct": 3,
-        "explain": "The manual allows one-half the compressor governor cut-out pressure on older vehicles instead of the standard 55 psi."
+        "explain": ""
       },
       {
         "q": "What is the best way to test if your vehicle's spring brakes come on automatically?",
@@ -3199,7 +3508,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "You can test this by continuing the same method you use for testing the low air pressure warning signal, of stepping on and off your brake pedal, this time until you reach an even lower PSI reading and the parking brake valve closes or pops on both tractor trailer vehicles and single vehicles."
+        "explain": ""
       },
       {
         "q": "Which of the following factors can cause brakes to fail or fade?",
@@ -3210,7 +3519,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "Brakes generally fade and fail from incorrect use of the brakes, which causes excess heat. This may be from incorrect brake adjustment, not enough reliance on engine braking, excessive use of the service brakes or another mechanical reason or human error."
+        "explain": ""
       },
       {
         "q": "When should you drain your air tanks?",
@@ -3221,7 +3530,7 @@
           "At the end of a trip"
         ],
         "correct": 2,
-        "explain": "Unless your vehicle automatically drains the air tanks, you should drain them at the end of each working day, so the moisture and oil do not freeze or coagulate and cause your brakes to fail."
+        "explain": ""
       },
       {
         "q": "Which of the following should you do before leaving your vehicle unattended?",
@@ -3232,7 +3541,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "In order to make sure that your truck will be safe when you leave it in one place, you must put on the parking brake and chock the wheels. Removing the key is a simple safety tip for any vehicle."
+        "explain": ""
       },
       {
         "q": "How would you check your truck's slack adjusters?",
@@ -3243,7 +3552,7 @@
           "All of the above"
         ],
         "correct": 1,
-        "explain": "To check the slack adjusters, you should attempt to pull on them manually while warning gloves. If there is an inch or more of 'give' then they should be fixed, as there is an issue."
+        "explain": ""
       },
       {
         "q": "Which of the following is true about your brake function if your ABS fails?",
@@ -3254,7 +3563,7 @@
           "It will slow your truck to a halt and force you to pull over"
         ],
         "correct": 1,
-        "explain": "Losing the ABS function does not change the basic parts of your truck, you will still have the same brakes that you have always had. Simply use them and get the ABS repaired as soon as possible. There is no need to panic, unless your system shows other and more serious warning."
+        "explain": ""
       },
       {
         "q": "Slack adjusters are:",
@@ -3265,7 +3574,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "Slack adjusters are an important part of your air-brake system that allows you to adjust the brakes to ensure that they are safe. It is located in different places, depending upon the type of brakes you have."
+        "explain": ""
       },
       {
         "q": "How do brakes work on a long, steep downgrade?",
@@ -3276,7 +3585,7 @@
           "As a supplement to the braking effect of your engine"
         ],
         "correct": 3,
-        "explain": "When it comes to driving down long, steep downgrades, the braking effect of your engine is what's most important and your brakes are only a supplement to being in the proper low gear."
+        "explain": ""
       },
       {
         "q": "Spring brakes are:",
@@ -3287,7 +3596,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "Spring brakes are powerful springs that put brakes on if they sense that the air pressure has been lost for some reason, such as a leak. They will also come on automatically if the PSI gets too low, though ideally you should take control of your brakes before the situation reaches this point."
+        "explain": ""
       },
       {
         "q": "If the brakes are wet, what can be done to dry them out?",
@@ -3298,7 +3607,7 @@
           "Use the brakes lightly while driving in a low gear"
         ],
         "correct": 3,
-        "explain": "If the brakes are wet one should use them while driving in a low gear. They will heat them up and dry them out."
+        "explain": ""
       },
       {
         "q": "What should you never do when the spring brakes are on?",
@@ -3309,7 +3618,7 @@
           "Push the brake pedal down"
         ],
         "correct": 3,
-        "explain": "If the brake pedal is pushed while the spring brakes are on it can damage the brakes by combining the forces of the springs and the air pressure."
+        "explain": ""
       },
       {
         "q": "Most heavy-duty vehicles have a dual air brake system. What is a dual air brake system?",
@@ -3320,7 +3629,7 @@
           "Two separate air brake systems that use a single set of brake controls"
         ],
         "correct": 3,
-        "explain": "Dual air brake systems are used by most new heavy-duty vehicles to increase safety. They use two separate air brake systems with a single set of brake controls."
+        "explain": ""
       },
       {
         "q": "Before driving a vehicle with a dual air system, the driver must allow what to happen?",
@@ -3331,7 +3640,7 @@
           "The air compressor to build up a minimum of at least 100 PSI in both the primary and secondary systems"
         ],
         "correct": 3,
-        "explain": "Both air brake systems must be fully functional before the driver should use the vehicle. The driver must allow both systems to have at least 100 PSI so that the brake systems work properly."
+        "explain": ""
       },
       {
         "q": "Which of the following is true about a dual air brake system?",
@@ -3342,7 +3651,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explain": "A dual air brake system is a system designed for safety and used on most heavy-duty vehicles. It uses one set of controls, where the 'primary' system typically operates the rear axle regular brakes and a 'secondary' system operates the front axle brakes."
+        "explain": ""
       },
       {
         "q": "What is the correct way to slow a large vehicle down on long downgrades?",
@@ -3353,7 +3662,7 @@
           "Controlled braking"
         ],
         "correct": 0,
-        "explain": "Brakes can heat up excessively when being used on long downgrades. Shifting into a lower gear and driving at a slow enough speed that a small amount of braking will keep you from speeding up is the best way to slow a large vehicle down."
+        "explain": ""
       },
       {
         "q": "Pressing on the brakes as hard as you can, releasing when they lock up, then pressing the brakes fully again when the wheels are rolling is called what?",
@@ -3364,7 +3673,7 @@
           "Controlled braking"
         ],
         "correct": 1,
-        "explain": "When a person presses as hard as he/she can on the brakes, releases the brakes when they lock up, then presses as hard as they can again on the brakes when the wheels have begun rolling, it is called stab braking."
+        "explain": ""
       },
       {
         "q": "In a dual air brake system, which parts of braking does each system typically operate?",
@@ -3375,7 +3684,7 @@
           "One system operates the brakes on the rear axle/axles, the other operates the regular brakes on the front axle (and possibly a rear axle). Both supply air to the trailer"
         ],
         "correct": 3,
-        "explain": "There is a primary and secondary system. The primary system usually operates the regular brakes on the rear axle/axles and the secondary usually operates the regular brakes on the front axle (and possibly a rear axle). Both systems send air to the trailer brakes."
+        "explain": ""
       },
       {
         "q": "With air brakes, there is an added delay when stopping. What causes this?",
@@ -3386,7 +3695,7 @@
           "The time required for the air to flow though the lines to the brakes"
         ],
         "correct": 3,
-        "explain": "With hydraulic brakes, the brakes work instantly, but with air brakes, there is about a 0.5 second delay while the air flows through the lines to the brakes before the brakes begin working."
+        "explain": ""
       },
       {
         "q": "Where is compressed air stored?",
@@ -3397,7 +3706,7 @@
           "Service and emergency air lines"
         ],
         "correct": 2,
-        "explain": "Compressed air is stored in the main reservoirs. The main reservoirs are also known as the air storage tanks and store the compressed air produced by the air compressor."
+        "explain": ""
       },
       {
         "q": "To test the air leakage rate, one must turn off the engine (with a fully charged air system), turn the key to the on position, release the service brake, and do what?",
@@ -3408,7 +3717,7 @@
           "Time the air pressure drop"
         ],
         "correct": 3,
-        "explain": "Time the air pressure drop to determine if the vehicle is losing too much air pressure too quickly. Loss of air pressure can cause loss of brakes while driving."
+        "explain": ""
       },
       {
         "q": "Chemical changes in the brake lining, which reduce friction and cause expansion on the brake drums is known as what?",
@@ -3419,7 +3728,7 @@
           "Brake overheating"
         ],
         "correct": 0,
-        "explain": "Excessive heat causes chemical changes to the brake lining, which reduces friction and it causes expansion of the brake drum. As this happens, the shoes and linings have to move farther to contact the drums causing brake fade."
+        "explain": ""
       },
       {
         "q": "Which of the following is a reason that air tanks must be drained?",
@@ -3430,7 +3739,7 @@
           "Your transmission fluid may drain out"
         ],
         "correct": 2,
-        "explain": "Your air tanks hold a mixture of water and compressor oil. If left in to collect at the bottom, the water may freeze and cause brake failure."
+        "explain": ""
       },
       {
         "q": "Why is it especially important to have your brakes adjusted before going down steep grades?",
@@ -3441,7 +3750,7 @@
           "It will cause more of a strain on the air compressor"
         ],
         "correct": 0,
-        "explain": "When the brakes have not been properly balanced, it will cause some brakes to do more than others. This will heat up these brakes and they will lose their stopping power."
+        "explain": ""
       },
       {
         "q": "In what instances should you not use the parking brakes when parking?",
@@ -3452,7 +3761,7 @@
           "Always use the parking brakes when parking"
         ],
         "correct": 1,
-        "explain": "Parking brakes can be damaged if used while they are very hot. If they are used while wet in freezing conditions, they can freeze, causing you to not be able to move your vehicle."
+        "explain": ""
       },
       {
         "q": "If parking brakes are not being used when the vehicle is parked, what must be done instead?",
@@ -3463,7 +3772,7 @@
           "Leave the vehicle in gear when parked"
         ],
         "correct": 0,
-        "explain": "At times the parking brakes should not be used because they are too hot or wet during freezing temperatures. At this time, wheel chocks should be used instead while the brakes cool or dry out."
+        "explain": ""
       },
       {
         "q": "Which device allows you to remove oil and water from the air brake systems?",
@@ -3474,7 +3783,7 @@
           "Treadle valve"
         ],
         "correct": 0,
-        "explain": "The air tank drains allow you to drain oil and moisture from the air tanks."
+        "explain": ""
       },
       {
         "q": "What does it mean when the safety valve opens and releases air?",
@@ -3485,7 +3794,7 @@
           "The pressure has exceeded 150 PSI and something is wrong, a mechanic needs to check it"
         ],
         "correct": 3,
-        "explain": "The safety relief valve protects the tanks and the air brake system from too much pressure. It is designed to open at 150 PSI. If the valve releases air, a mechanic should check the system."
+        "explain": ""
       },
       {
         "q": "If you press and release the brake pedal rapidly, what will happen?",
@@ -3496,7 +3805,7 @@
           "You can cool your brakes rapidly"
         ],
         "correct": 0,
-        "explain": "Releasing the brakes lets some compressed air out of the air brake system which results in the reduction of air pressure in the tank. Repeatedly pressing and releasing tile brake pedal may reduce the air pressure faster than the compressor can replace it."
+        "explain": ""
       },
       {
         "q": "Which device helps reduce the risk of ice in the air brake systems during cold weather?",
@@ -3507,7 +3816,7 @@
           "Alcohol evaporator"
         ],
         "correct": 3,
-        "explain": "An alcohol evaporator puts alcohol into the air system to help reduce the risk of ice in cold weather."
+        "explain": ""
       },
       {
         "q": "What is modulating control valve?",
@@ -3518,87 +3827,117 @@
           "A lever used to apply the spring brakes gradually"
         ],
         "correct": 3,
-        "explain": "The modulating control valve is found on the dash of some vehicles. It is a lever used to apply the spring brakes gradually."
+        "explain": ""
       },
       {
         "q": "What factors can cause brakes to fade or fail?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "The use of brakes on a long, steep downgrade is only a supplement to the braking effect of the engine. True or False?",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 5
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "If you are away from your vehicle only a short time, you do not need to use the parking brake. True or False?",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 5
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How often should you drain air tanks?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How should you brake when you drive a tractor-trailer combination with ABS?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You still have normal brake functions if your ABS is not working. True or False?",
-        "a": "True",
-        "b": "False",
-        "c": "",
-        "d": "",
-        "module": 5
+        "options": [
+          "True",
+          "False",
+          "",
+          ""
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why should you be in the proper gear before",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Describe the proper braking technique when",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "The use of brakes on a long, steep downgrade",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is the proper braking technique when",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 5
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -3718,7 +4057,7 @@
           "20 times"
         ],
         "correct": 2,
-        "explain": "About 10 times more likely \u2014 keep cargo low and centered."
+        "explain": ""
       },
       {
         "q": "In a set of triples, the rearward amplification of about 3.5 means:",
@@ -3729,7 +4068,7 @@
           "Triples are 3.5 times slower to accelerate"
         ],
         "correct": 0,
-        "explain": "The crack-the-whip effect is strongest on the very last trailer."
+        "explain": ""
       },
       {
         "q": "Compared to a fully loaded rig, a lightly loaded or bobtail tractor is:",
@@ -3740,7 +4079,7 @@
           "Not affected by traction at all"
         ],
         "correct": 1,
-        "explain": "Stiff, lightly loaded suspension gives poor traction and can lock wheels easily."
+        "explain": ""
       },
       {
         "q": "When backing a trailer, you should turn the steering wheel:",
@@ -3751,7 +4090,7 @@
           "Only in small increments regardless of direction"
         ],
         "correct": 1,
-        "explain": "Trailer steering is reversed from normal car backing."
+        "explain": ""
       },
       {
         "q": "The trailer hand valve (trolley valve) should be used:",
@@ -3762,7 +4101,7 @@
           "Whenever the trailer starts to skid, to straighten it"
         ],
         "correct": 1,
-        "explain": "Using it while driving or to correct a skid can cause the trailer to skid worse."
+        "explain": ""
       },
       {
         "q": "The tractor protection valve closes automatically when air pressure drops into what range?",
@@ -3773,7 +4112,7 @@
           "80-85 psi"
         ],
         "correct": 1,
-        "explain": "It closes at 20-45 psi to protect the tractor's air supply."
+        "explain": ""
       },
       {
         "q": "What color is the trailer air supply control knob?",
@@ -3784,7 +4123,7 @@
           "Green"
         ],
         "correct": 1,
-        "explain": "It's a red, 8-sided knob \u2014 push in to supply air, pull out to shut off air."
+        "explain": ""
       },
       {
         "q": "Which glad hand color indicates the service (control) line?",
@@ -3795,7 +4134,7 @@
           "Green"
         ],
         "correct": 1,
-        "explain": "Blue = service line, red = emergency (supply) line."
+        "explain": ""
       },
       {
         "q": "More than half of truck driver deaths in crashes are the result of:",
@@ -3806,7 +4145,7 @@
           "Jackknifing"
         ],
         "correct": 1,
-        "explain": "More than half of truck driver deaths are from rollovers."
+        "explain": ""
       },
       {
         "q": "What is the minimum following distance for combination vehicles?",
@@ -3817,7 +4156,7 @@
           "6 seconds"
         ],
         "correct": 1,
-        "explain": "At least 1 second for each 10 feet of vehicle length, plus another second if going over 40 mph."
+        "explain": ""
       },
       {
         "q": "Which type of trailer is most likely to get stuck on railroad crossings?",
@@ -3828,7 +4167,7 @@
           "Tanker trailer"
         ],
         "correct": 2,
-        "explain": "Low slung units (lowboy, car carrier, moving van, possum-belly livestock) have low underneath clearance."
+        "explain": ""
       },
       {
         "q": "Shut-off valves at the back of trailers must be:",
@@ -3839,7 +4178,7 @@
           "Only closed when parked"
         ],
         "correct": 2,
-        "explain": "All shut-off valves must be OPEN except the one at the very back of the last trailer."
+        "explain": ""
       },
       {
         "q": "After coupling, there should be:",
@@ -3850,7 +4189,7 @@
           "No gap visible from outside the cab"
         ],
         "correct": 1,
-        "explain": "No visible gap means proper coupling \u2014 a gap indicates something is wrong."
+        "explain": ""
       },
       {
         "q": "What should you do after coupling to confirm the kingpin is locked?",
@@ -3861,7 +4200,7 @@
           "Raise the landing gear immediately"
         ],
         "correct": 1,
-        "explain": "Pull gently forward against locked trailer brakes to confirm the kingpin is actually locked in."
+        "explain": ""
       },
       {
         "q": "Rearward amplification of 2.0 means:",
@@ -3872,7 +4211,7 @@
           "The trailer carries twice the weight"
         ],
         "correct": 0,
-        "explain": "A rearward amplification of 2.0 means the rear trailer is twice as likely to roll over as the tractor."
+        "explain": ""
       },
       {
         "q": "When should you use the hand valve to park a combination vehicle?",
@@ -3883,7 +4222,7 @@
           "Every time"
         ],
         "correct": 1,
-        "explain": "Never use the hand valve to park a combination vehicle because the air may leak out unlocking the brakes. Always use the parking brakes when parking."
+        "explain": ""
       },
       {
         "q": "A fully loaded rig is _____ times more likely to roll over in a crash than an empty rig.",
@@ -3894,7 +4233,7 @@
           "20"
         ],
         "correct": 1,
-        "explain": "When a truck has cargo, the center of gravity moves higher which increases the likelihood of rollover by 10 times."
+        "explain": ""
       },
       {
         "q": "Which type of truck-trailer combination has the greatest chance of a 'crack-the-whip' rollover?",
@@ -3905,7 +4244,7 @@
           "They all have the same chance of a 'crack-the-whip' rollover"
         ],
         "correct": 2,
-        "explain": "A tractor pulling three trailers has the greatest chance of a crack-the-whip rollover."
+        "explain": ""
       },
       {
         "q": "After you lock the kingpin into the fifth wheel, you should check the connection by pulling:",
@@ -3916,7 +4255,7 @@
           "backward about 10 feet"
         ],
         "correct": 1,
-        "explain": "After you lock the kingpin into the fifth wheel you should check the connection by pulling the tractor ahead gently with the trailer brakes locked."
+        "explain": ""
       },
       {
         "q": "What is the other name for the shut-off valves?",
@@ -3927,7 +4266,7 @@
           "Cut-out cocks"
         ],
         "correct": 3,
-        "explain": "Shut-off valves are also known as cut-out cocks."
+        "explain": ""
       },
       {
         "q": "What is the first thing you should do to prevent a trailer skid?",
@@ -3938,7 +4277,7 @@
           "Maintain a constant speed to adjust the truck and trailer in a smooth fashion"
         ],
         "correct": 3,
-        "explain": "The best way to prevent a skid is to maintain a constant speed and make smooth adjustments. Slamming on the breaks or swerving may cause you to skid or jackknife."
+        "explain": ""
       },
       {
         "q": "You should not use the trailer hand valve while driving because...",
@@ -3949,7 +4288,7 @@
           "you could lose the trailer"
         ],
         "correct": 2,
-        "explain": "Never use the trailer hand valve while driving because it may cause the trailer to skid."
+        "explain": ""
       },
       {
         "q": "When following behind other vehicles, you should follow:",
@@ -3960,7 +4299,7 @@
           "at least one second for every 10 feet of your vehicle length, plus one second if going over 40 MPH"
         ],
         "correct": 3,
-        "explain": "You should have at least one second for every 10 feet of your vehicle length, plus one second if going over 40 MPH."
+        "explain": ""
       },
       {
         "q": "A trailer jackknife is likely to happen when:",
@@ -3971,7 +4310,7 @@
           "there is too much weight on the steering axles"
         ],
         "correct": 1,
-        "explain": "The wheels of the trailer will lock up. When the wheels of the trailer lock up the trailer may swing around resulting in a trailer jackknife. Trailer jackknifes are more likely to happen when the trailer is empty or lightly loaded."
+        "explain": ""
       },
       {
         "q": "What is the emergency air line?",
@@ -3982,7 +4321,7 @@
           "It is an air line that connects the trailer air tanks to the trailer air brakes"
         ],
         "correct": 2,
-        "explain": "The emergency air line is used for two purposes. It supplies air to trailer air tanks and controls emergency brakes on combination vehicles."
+        "explain": ""
       },
       {
         "q": "What is the fastest and best way to recognize that your trailer has started to skid?",
@@ -3993,7 +4332,7 @@
           "Feeling your vehicle pull to the side"
         ],
         "correct": 2,
-        "explain": "Seeing it in your mirrors is the best and earliest way to determine that your trailer has started to skid. Check your mirrors regularly, especially after applying the brakes hard."
+        "explain": ""
       },
       {
         "q": "If your trailer begins to skid, you should:",
@@ -4004,7 +4343,7 @@
           "Apply to the trailer hand brake to straighten out the trailer"
         ],
         "correct": 1,
-        "explain": "Release your brakes until the trailer wheels grip the road again. If your trailer skids (jackknife) your best course of action is to release the brakes until you get traction back. Don't apply the trailer hand brakes, since the skid was caused by wheel lock up in the first place."
+        "explain": ""
       },
       {
         "q": "Which type of vehicle is harder to control while stopping?",
@@ -4015,7 +4354,7 @@
           "None of these (motorized vehicles all stop at the same rate)"
         ],
         "correct": 0,
-        "explain": "When a truck is empty, the stiff suspension and strong brakes, combined with limited traction can cause the rear wheels of a trailer to lock up. This can cause it to skid or swing out and hit other vehicles."
+        "explain": ""
       },
       {
         "q": "When hoses are not in use, why should the trailer glad hands be locked together or attached to dead end or dummy couplers?",
@@ -4026,7 +4365,7 @@
           "To prevent a loss of air pressure"
         ],
         "correct": 1,
-        "explain": "Coupling the glad hands together or using dummy couplers will prevent water and dirt from getting into the couplers and the air lines, keeping the air supply clean."
+        "explain": ""
       },
       {
         "q": "If the tractor protection valve malfunctions, which of the following may occur?",
@@ -4037,7 +4376,7 @@
           "The glad hands may uncouple"
         ],
         "correct": 0,
-        "explain": "The tractor protection valve's purpose is to keep air in the brake system in case the trailer breaks away or develops a bad leak. If the tractor protection valve malfunctions, then air could be drained away from the brake system."
+        "explain": ""
       },
       {
         "q": "On older trailers, what will happen if the emergency and service air lines are crossed?",
@@ -4048,7 +4387,7 @@
           "You could drive away, but you will not have trailer brakes"
         ],
         "correct": 3,
-        "explain": "You could drive away but you will not have trailer brakes. Older trailers don't have spring brakes so if the air supply in the trailer air tanks has leaked away, there will be no emergency brakes."
+        "explain": ""
       },
       {
         "q": "What causes the crack-whip effect?",
@@ -4059,7 +4398,7 @@
           "Rearward amplification"
         ],
         "correct": 3,
-        "explain": "When a truck has one or more trailers attached to it the crack-the-whip effect occurs due to rearward amplification. The more trailers there are the more likely than the rear trailer is to turn over."
+        "explain": ""
       },
       {
         "q": "You should not back a tractor under a trailer until the whole air system is:",
@@ -4070,7 +4409,7 @@
           "cleaned"
         ],
         "correct": 0,
-        "explain": "Do not back a tractor under a trailer until the whole air system is at normal pressure."
+        "explain": ""
       },
       {
         "q": "What should you do to prevent the crack-the-whip effect?",
@@ -4081,7 +4420,7 @@
           "Steer gently and smoothly when pulling trailers"
         ],
         "correct": 3,
-        "explain": "As the crack-the-whip effect is unique to combination vehicles, you will have better control of the truck and any attached trailers when you steer gently and smoothly. Sudden turns, lane changes, etc. can cause the crack-the-whip effect and cause your trailers to turn over."
+        "explain": ""
       },
       {
         "q": "What is the best way to prevent a rollover?",
@@ -4092,7 +4431,7 @@
           "Put all cargo on one side of the trailer and drive at posted speeds at turns"
         ],
         "correct": 0,
-        "explain": "Keeping the cargo close to the ground and driving slowly is the best way to keep the trailer level and prevent rollover."
+        "explain": ""
       },
       {
         "q": "What is off tracking?",
@@ -4103,7 +4442,7 @@
           "When the rear wheels go a different path than the front wheels"
         ],
         "correct": 3,
-        "explain": "Off tracking is when you drive your truck around a corner and the rear wheels go a different path than the front wheels."
+        "explain": ""
       },
       {
         "q": "On the trailer air lines of a combination vehicle, the service line connects to the _____ on the trailer to control the pressure to the trailer brakes.",
@@ -4114,7 +4453,7 @@
           "Tractor protection valve control"
         ],
         "correct": 2,
-        "explain": "The service line connects to the relay valves on the trailer to apply more or less pressure to the trailer brakes. They connect the trailer air tanks to the trailer air brakes."
+        "explain": ""
       },
       {
         "q": "What does the tractor protection valve do?",
@@ -4125,7 +4464,7 @@
           "It keeps air in the truck/tractor"
         ],
         "correct": 3,
-        "explain": "The tractor protection valve keeps air in the truck/tractor in case there is a bad leak in the trailer."
+        "explain": ""
       },
       {
         "q": "When does the tractor protection valve close automatically?",
@@ -4136,7 +4475,7 @@
           "When the air pressure is low and reaches 30 PSI to 55 PSI"
         ],
         "correct": 2,
-        "explain": "The tractor protection valve closes to stop any air from coming out. When pressure reaches 25 PSI to 40 PSI the valve closes automatically."
+        "explain": ""
       },
       {
         "q": "What are the two trailer air lines that every combination vehicle has?",
@@ -4147,7 +4486,7 @@
           "Tractor air supply and tractor protection valve"
         ],
         "correct": 1,
-        "explain": "The service line and emergency line run between vehicles, for example from the truck to trailer and from dolly to second trailer."
+        "explain": ""
       },
       {
         "q": "What is the purpose of the service line?",
@@ -4158,7 +4497,7 @@
           "The service line controls foot brakes or trailer hand brake"
         ],
         "correct": 2,
-        "explain": "The service line, which is controlled by the foot brake or trailer hand brake, is used to carry air that applies more or less pressure on trailer brakes."
+        "explain": ""
       },
       {
         "q": "What are the other names for the service line?",
@@ -4169,7 +4508,7 @@
           "Air pressure line and signal line"
         ],
         "correct": 1,
-        "explain": "The service line is also known as the control line or signal line."
+        "explain": ""
       },
       {
         "q": "What are glad hands?",
@@ -4180,7 +4519,7 @@
           "Devices that are used to connect the service air line to the relay valves"
         ],
         "correct": 0,
-        "explain": "Glad hands, also known as hose couplers are coupling devices that connect the service and emergency air lines to the trailer from the truck/tractor."
+        "explain": ""
       },
       {
         "q": "What does the trailer hand valve do?",
@@ -4191,7 +4530,7 @@
           "It tests the trailer brakes"
         ],
         "correct": 3,
-        "explain": "The trailer hand valve is used to work the brakes on a trailer. It should not be used while driving as it can cause the trailer to skid."
+        "explain": ""
       },
       {
         "q": "How many times should you drain the air tanks?",
@@ -4202,7 +4541,7 @@
           "Everyday"
         ],
         "correct": 3,
-        "explain": "You should drain the air tanks every day. Air tanks must be drained every day to prevent all the water from building up."
+        "explain": ""
       },
       {
         "q": "What is the first step to coupling tractor semi trailers?",
@@ -4213,7 +4552,7 @@
           "Position the tractor in front of the trailer"
         ],
         "correct": 1,
-        "explain": "The first step to coupling tractor semi trailers is to inspect the fifth wheel to see if it's in the proper position and condition for coupling."
+        "explain": ""
       },
       {
         "q": "Which of the following is the best action you could take when the parking brakes don't release?",
@@ -4224,7 +4563,7 @@
           "Don't use the spring brakes for any reason"
         ],
         "correct": 1,
-        "explain": "Sometimes, the services and emergency air lines can be switched up, so you need to check the air line connections to ensure that the air lines are connected to the right places. If not, then the air used to release the parking brakes will not be available."
+        "explain": ""
       },
       {
         "q": "What are trailer air tanks used for?",
@@ -4235,7 +4574,7 @@
           "To add more air to tires"
         ],
         "correct": 0,
-        "explain": "Trailer air tanks are used to supply air pressure to trailer brakes through relay valves."
+        "explain": ""
       },
       {
         "q": "What consideration should be made when you park a trailer that doesn't have spring brakes?",
@@ -4246,7 +4585,7 @@
           "Use the emergency brakes"
         ],
         "correct": 2,
-        "explain": "When you want to park your trailers and don't have spring brakes you must use wheel chocks."
+        "explain": ""
       },
       {
         "q": "Which shut-off valves should remain closed?",
@@ -4257,7 +4596,7 @@
           "The valves at the back of the last trailer should remain closed"
         ],
         "correct": 3,
-        "explain": "All shut-off valves should be in the open position except the ones at the back of the last trailer."
+        "explain": ""
       },
       {
         "q": "When doing an inspection, which of the following would best describe a working landing gear?",
@@ -4268,7 +4607,7 @@
           "None of these"
         ],
         "correct": 1,
-        "explain": "When doing an inspection, the landing gear needs to be fully raised and not bent."
+        "explain": ""
       },
       {
         "q": "What is the second step to coupling tractor semi trailers?",
@@ -4279,7 +4618,7 @@
           "Supply air to the trailer"
         ],
         "correct": 1,
-        "explain": "The second step to coupling tractor semi trailers is to inspect the area around the vehicle and chock the wheels or ensure the spring brakes are on."
+        "explain": ""
       },
       {
         "q": "What happens if the trailer height is too high?",
@@ -4290,7 +4629,7 @@
           "The trailer may not couple correctly"
         ],
         "correct": 3,
-        "explain": "If the trailer height for coupling tractor semi trailers is too high then the trailer may not couple correctly."
+        "explain": ""
       },
       {
         "q": "What is the third step to coupling tractor semi trailers?",
@@ -4301,143 +4640,194 @@
           "Position the tractor"
         ],
         "correct": 3,
-        "explain": "The third step is to position the tractor."
+        "explain": ""
       },
       {
         "q": "What should you check for on fifth wheel mounting bolts?",
-        "a": "Loose or missing brackets, clamps, bolts, or nuts",
-        "b": "Cracks in the platform",
-        "c": "Loose or missing brackets, clamps, bolts, or nuts",
-        "d": "Gap between kingpin and locking jaws",
-        "module": 6
+        "options": [
+          "Loose or missing brackets, clamps, bolts, or nuts",
+          "Cracks in the platform",
+          "Loose or missing brackets, clamps, bolts, or nuts",
+          "Gap between kingpin and locking jaws"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What must you check on the fifth wheel locking jaws?",
-        "a": "Fully closed around the kingpin",
-        "b": "Gap between fifth wheel and trailer",
-        "c": "Fully closed around the kingpin",
-        "d": "Condition of mounting pins",
-        "module": 6
+        "options": [
+          "Fully closed around the kingpin",
+          "Gap between fifth wheel and trailer",
+          "Fully closed around the kingpin",
+          "Condition of mounting pins"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the fifth wheel skid plate?",
-        "a": "Securely mounted to platform with all bolts and pins secure",
-        "b": "Condition of the kingpin",
-        "c": "Securely mounted to platform with all bolts and pins secure",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Securely mounted to platform with all bolts and pins secure",
+          "Condition of the kingpin",
+          "Securely mounted to platform with all bolts and pins secure",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the fifth wheel platform structure?",
-        "a": "Cracks or breaks in the platform",
-        "b": "Condition of the release arm",
-        "c": "Cracks or breaks in the platform",
-        "d": "Gap between tandems",
-        "module": 6
+        "options": [
+          "Cracks or breaks in the platform",
+          "Condition of the release arm",
+          "Cracks or breaks in the platform",
+          "Gap between tandems"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the fifth wheel release arm (if equipped)?",
-        "a": "Release arm is in engaged position and safety latch is in place",
-        "b": "Condition of the kingpin",
-        "c": "Release arm is in engaged position and safety latch is in place",
-        "d": "Gap between trailers",
-        "module": 6
+        "options": [
+          "Release arm is in engaged position and safety latch is in place",
+          "Condition of the kingpin",
+          "Release arm is in engaged position and safety latch is in place",
+          "Gap between trailers"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check regarding the kingpin and apron?",
-        "a": "Kingpin is not bent or damaged, visible part of apron is not bent/cracked/broken",
-        "b": "Condition of the release arm",
-        "c": "Kingpin is not bent or damaged, visible part of apron is not bent/cracked/broken",
-        "d": "Gap between fifth wheel and trailer",
-        "module": 6
+        "options": [
+          "Kingpin is not bent or damaged, visible part of apron is not bent/cracked/broken",
+          "Condition of the release arm",
+          "Kingpin is not bent or damaged, visible part of apron is not bent/cracked/broken",
+          "Gap between fifth wheel and trailer"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check regarding the fifth wheel gap?",
-        "a": "Trailer is lying flat on the fifth wheel skid plate (no gap)",
-        "b": "Condition of the release arm",
-        "c": "Trailer is lying flat on the fifth wheel skid plate (no gap)",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Trailer is lying flat on the fifth wheel skid plate (no gap)",
+          "Condition of the release arm",
+          "Trailer is lying flat on the fifth wheel skid plate (no gap)",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on fifth wheel locking pins (if equipped)?",
-        "a": "Loose or missing pins in the slide mechanism, fully engaged",
-        "b": "Condition of the kingpin",
-        "c": "Loose or missing pins in the slide mechanism, fully engaged",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Loose or missing pins in the slide mechanism, fully engaged",
+          "Condition of the kingpin",
+          "Loose or missing pins in the slide mechanism, fully engaged",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check if the fifth wheel is air powered?",
-        "a": "Check for leaks in the air system",
-        "b": "Condition of the kingpin",
-        "c": "Check for leaks in the air system",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Check for leaks in the air system",
+          "Condition of the kingpin",
+          "Check for leaks in the air system",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the sliding pintle hook?",
-        "a": "Excessive wear and secure with no loose/nut/bolt missing and cotter pin in place",
-        "b": "Condition of the kingpin",
-        "c": "Excessive wear and secure with no loose/nut/bolt missing and cotter pin in place",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Excessive wear and secure with no loose/nut/bolt missing and cotter pin in place",
+          "Condition of the kingpin",
+          "Excessive wear and secure with no loose/nut/bolt missing and cotter pin in place",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the tongue or draw-bar?",
-        "a": "Not bent or twisted, no broken welds or stress cracks, eye not excessively worn",
-        "b": "Condition of the release arm",
-        "c": "Not bent or twisted, no broken welds or stress cracks, eye not excessively worn",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Not bent or twisted, no broken welds or stress cracks, eye not excessively worn",
+          "Condition of the release arm",
+          "Not bent or twisted, no broken welds or stress cracks, eye not excessively worn",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the tongue or draw-bar eye?",
-        "a": "Not excessively worn",
-        "b": "Condition of the release arm",
-        "c": "Not excessively worn",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Not excessively worn",
+          "Condition of the release arm",
+          "Not excessively worn",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on the tongue storage area?",
-        "a": "Solid and secured to the tongue, cargo in storage area (chains, binders) is secure",
-        "b": "Condition of the release arm",
-        "c": "Solid and secured to the tongue, cargo in storage area (chains, binders) is secure",
-        "d": "Clearance for landing gear",
-        "module": 6
+        "options": [
+          "Solid and secured to the tongue, cargo in storage area (chains, binders) is secure",
+          "Condition of the release arm",
+          "Solid and secured to the tongue, cargo in storage area (chains, binders) is secure",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Which shut-off valves should be open and which closed?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 6
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test the tractor protection valve?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 6
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test the trailer emergency brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 6
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test the trailer service brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 6
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -4492,7 +4882,7 @@
           "Whichever was loaded first"
         ],
         "correct": 1,
-        "explain": "The heavier trailer up front, lighter trailer behind it."
+        "explain": ""
       },
       {
         "q": "A converter dolly is best described as:",
@@ -4503,7 +4893,7 @@
           "A backup fuel tank"
         ],
         "correct": 1,
-        "explain": "It lets you attach a second (or third) trailer behind the first."
+        "explain": ""
       },
       {
         "q": "Converter dollies built on or after what date must have ABS?",
@@ -4514,7 +4904,7 @@
           "January 1, 2010"
         ],
         "correct": 1,
-        "explain": "Same requirement date as trailers: March 1, 1998."
+        "explain": ""
       },
       {
         "q": "In a set of triples, which shut-off valve position should be CLOSED?",
@@ -4525,7 +4915,7 @@
           "None should ever be closed"
         ],
         "correct": 2,
-        "explain": "Only the rear of the last trailer in the combination is closed; everywhere else stays open."
+        "explain": ""
       },
       {
         "q": "Why should you never unlock the pintle hook while the dolly is still under the rear trailer?",
@@ -4536,7 +4926,7 @@
           "It has no real danger, just inconvenience"
         ],
         "correct": 1,
-        "explain": "Pull the dolly out first, then unlock it once clear."
+        "explain": ""
       },
       {
         "q": "Doubles and triples require more following distance mainly because:",
@@ -4547,7 +4937,7 @@
           "They have better brakes"
         ],
         "correct": 1,
-        "explain": "More length means more space is needed to react safely."
+        "explain": ""
       },
       {
         "q": "When checking that air flows to all trailers in a set of doubles, what should you hear at an open shut-off valve?",
@@ -4558,7 +4948,7 @@
           "Nothing is checked audibly"
         ],
         "correct": 1,
-        "explain": "Hearing air escape confirms the system is charged all the way to the back."
+        "explain": ""
       },
       {
         "q": "Before backing a converter dolly under a rear trailer, the trailer height should be:",
@@ -4569,7 +4959,7 @@
           "It doesn't matter"
         ],
         "correct": 1,
-        "explain": "The trailer should be slightly lower so the dolly raises it slightly during coupling."
+        "explain": ""
       },
       {
         "q": "The crack-the-whip effect in a set of triples is strongest on:",
@@ -4580,7 +4970,7 @@
           "It's equal on all trailers"
         ],
         "correct": 2,
-        "explain": "Rearward amplification is greatest on the last trailer \u2014 about 3.5 times the tractor's movement."
+        "explain": ""
       },
       {
         "q": "A safe speed on a curve for a single-trailer combination:",
@@ -4591,135 +4981,183 @@
           "Doesn't apply to CDL rules"
         ],
         "correct": 1,
-        "explain": "Doubles and triples need slower speeds through curves due to their added length and rollover risk."
+        "explain": ""
       },
       {
         "q": "What should you check on fifth wheel slide mounting?",
-        "a": "Loose or missing mounting brackets, clamps, bolts, or nuts; must be solidly attached",
-        "b": "Condition of the kingpin",
-        "c": "Loose or missing mounting brackets, clamps, bolts, or nuts; must be solidly attached",
-        "d": "Clearance for landing gear",
-        "module": 7
+        "options": [
+          "Loose or missing mounting brackets, clamps, bolts, or nuts; must be solidly attached",
+          "Condition of the kingpin",
+          "Loose or missing mounting brackets, clamps, bolts, or nuts; must be solidly attached",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check on fifth wheel slide locking pins (if equipped)?",
-        "a": "Loose or missing pins in the slide mechanism; if air powered, check for leaks; fully engaged",
-        "b": "Condition of the kingpin",
-        "c": "Loose or missing pins in the slide mechanism; if air powered, check for leaks; fully engaged",
-        "d": "Clearance for landing gear",
-        "module": 7
+        "options": [
+          "Loose or missing pins in the slide mechanism; if air powered, check for leaks; fully engaged",
+          "Condition of the kingpin",
+          "Loose or missing pins in the slide mechanism; if air powered, check for leaks; fully engaged",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check for air leaks on an air-powered fifth wheel?",
-        "a": "Check for leaks in the slide mechanism",
-        "b": "Condition of the kingpin",
-        "c": "Check for leaks in the slide mechanism",
-        "d": "Clearance for landing gear",
-        "module": 7
+        "options": [
+          "Check for leaks in the slide mechanism",
+          "Condition of the kingpin",
+          "Check for leaks in the slide mechanism",
+          "Clearance for landing gear"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Which type of truck-trailer combination has the greatest chance of a 'crack-the-whip' rollover?",
-        "a": "Triples (three trailers)",
-        "b": "Single trailer",
-        "c": "Triples (three trailers)",
-        "d": "Tractor only",
-        "module": 7
+        "options": [
+          "Triples (three trailers)",
+          "Single trailer",
+          "Triples (three trailers)",
+          "Tractor only"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "In a set of triples, the rearward amplification of about 3.5 means:",
-        "a": "The rearward trailer is 3.5 times more likely to roll over",
-        "b": "The tractor amplifies 3.5x",
-        "c": "The rearward trailer is 3.5 times more likely to roll over",
-        "d": "All trailers amplify equally",
-        "module": 7
+        "options": [
+          "The rearward trailer is 3.5 times more likely to roll over",
+          "The tractor amplifies 3.5x",
+          "The rearward trailer is 3.5 times more likely to roll over",
+          "All trailers amplify equally"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you test that air flows to all trailers?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is a converter dolly?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Do converter dollies have spring brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What three methods can you use to secure a second trailer before coupling?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you check to make sure trailer height is correct before coupling?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What do you check when making a visual check of coupling?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Why should you pull a dolly out from under a trailer before you disconnect it from the trailer in front?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you check for when inspecting the converter dolly? The pintle hook?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Should the shut-off valves on the rear of the last trailer be open or closed? On the first trailer in a set of doubles? On the middle trailer of a set of triples?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How do you know if your converter dolly is equipped with antilock brakes?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What three methods can you use to secure a",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 7
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -4776,7 +5214,7 @@
           "Never, due to their design"
         ],
         "correct": 1,
-        "explain": "High center of gravity makes them prone to rollover even at legal curve speeds."
+        "explain": ""
       },
       {
         "q": "What is 'liquid surge'?",
@@ -4787,7 +5225,7 @@
           "A required tank inspection"
         ],
         "correct": 1,
-        "explain": "Surge can push the vehicle in the direction the wave moves, even into an intersection on ice."
+        "explain": ""
       },
       {
         "q": "Baffled tanks help control:",
@@ -4798,7 +5236,7 @@
           "Neither type of surge"
         ],
         "correct": 1,
-        "explain": "Baffles have holes that slow forward/back surge; side-to-side surge can still occur."
+        "explain": ""
       },
       {
         "q": "Why do many food-grade liquid tankers use unbaffled ('smooth bore') tanks?",
@@ -4809,7 +5247,7 @@
           "Unbaffled tanks have less surge"
         ],
         "correct": 1,
-        "explain": "Baffles are difficult to fully sanitize, so food-grade tanks often skip them \u2014 and have the strongest surge as a result."
+        "explain": ""
       },
       {
         "q": "Outage refers to:",
@@ -4820,7 +5258,7 @@
           "A type of fifth-wheel connection"
         ],
         "correct": 1,
-        "explain": "Never load a tank totally full \u2014 liquids expand as they warm."
+        "explain": ""
       },
       {
         "q": "How much liquid you can load into a tank depends on:",
@@ -4831,7 +5269,7 @@
           "Nothing \u2014 always fill to capacity"
         ],
         "correct": 1,
-        "explain": "All three factors combine to set the safe/legal fill amount."
+        "explain": ""
       },
       {
         "q": "Compared to full tankers, empty tank vehicles:",
@@ -4842,7 +5280,7 @@
           "Are exempt from stopping distance rules"
         ],
         "correct": 1,
-        "explain": "Empty tankers can take longer to stop, similar to other empty heavy vehicles."
+        "explain": ""
       },
       {
         "q": "The recommended way to take curves and ramps in a tank vehicle is to:",
@@ -4853,7 +5291,7 @@
           "Speed depends only on tank color"
         ],
         "correct": 2,
-        "explain": "Posted speeds may be too fast for a top-heavy, surging load."
+        "explain": ""
       },
       {
         "q": "Which driving habit is most important with a partially loaded tanker?",
@@ -4864,71 +5302,95 @@
           "Ignoring surge since it's minor"
         ],
         "correct": 0,
-        "explain": "Smooth inputs reduce the danger from liquid surge."
+        "explain": ""
       },
       {
         "q": "How are bulkheads different than baffles?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Should a tank vehicle take curves, on ramps, or off ramps at the posted speed limits?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How are smooth bore tankers different to drive than those with baffles?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What three things determine how much liquid you can load?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is outage?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How can you help control surge?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What two reasons make special care necessary when driving tank vehicles?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How are smooth bore tankers different to",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 8
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -5021,7 +5483,7 @@
           "12"
         ],
         "correct": 2,
-        "explain": "Nine numbered classes, plus ORM-D and combustible liquids as additional categories."
+        "explain": ""
       },
       {
         "q": "Hazardous materials identification numbers are preceded by which letters?",
@@ -5032,7 +5494,7 @@
           "CDL or CMV"
         ],
         "correct": 1,
-        "explain": "A 4-digit ID number preceded by 'UN' or 'NA'."
+        "explain": ""
       },
       {
         "q": "Where may you legally keep hazmat shipping papers while driving?",
@@ -5043,7 +5505,7 @@
           "Anywhere in the cab"
         ],
         "correct": 1,
-        "explain": "Door pouch, within reach while belted, or on the driver's seat when you're out of the vehicle."
+        "explain": ""
       },
       {
         "q": "The minimum size for a placard is:",
@@ -5054,7 +5516,7 @@
           "12 inches square"
         ],
         "correct": 2,
-        "explain": "At least 9.84 inches (250mm) square, diamond-shaped."
+        "explain": ""
       },
       {
         "q": "How many identical placards must a placarded vehicle display at minimum?",
@@ -5065,7 +5527,7 @@
           "6"
         ],
         "correct": 2,
-        "explain": "Four: front, rear, and both sides."
+        "explain": ""
       },
       {
         "q": "Table 1 hazardous materials require placards:",
@@ -5076,7 +5538,7 @@
           "Only when the vehicle is a tanker"
         ],
         "correct": 1,
-        "explain": "Table 1 materials must be placarded regardless of quantity."
+        "explain": ""
       },
       {
         "q": "Table 2 hazardous materials require placards once the total reaches:",
@@ -5087,7 +5549,7 @@
           "5,000 lbs"
         ],
         "correct": 2,
-        "explain": "1,001 lbs or more, combined across all shipping papers for that class."
+        "explain": ""
       },
       {
         "q": "You must never smoke while loading or unloading which hazard classes?",
@@ -5098,7 +5560,7 @@
           "Smoking is never restricted"
         ],
         "correct": 1,
-        "explain": "Explosives, flammable gas, flammable liquids, flammable solids, and oxidizers \u2014 no smoking nearby."
+        "explain": ""
       },
       {
         "q": "How far before a railroad crossing must a placarded vehicle stop?",
@@ -5109,7 +5571,7 @@
           "It doesn't need to stop"
         ],
         "correct": 1,
-        "explain": "Same rule as buses: stop between 15 and 50 feet from the nearest rail."
+        "explain": ""
       },
       {
         "q": "A placarded (non-explosive) vehicle may never be parked within how many feet of an open fire?",
@@ -5120,7 +5582,7 @@
           "1,000 feet"
         ],
         "correct": 2,
-        "explain": "300 feet minimum distance from an open fire."
+        "explain": ""
       },
       {
         "q": "A person attending a parked placarded vehicle must be:",
@@ -5131,7 +5593,7 @@
           "Not required at all"
         ],
         "correct": 1,
-        "explain": "Must be awake, aware of the hazard, and able to move the vehicle if needed."
+        "explain": ""
       },
       {
         "q": "What's the minimum fire extinguisher rating required on a placarded power unit?",
@@ -5142,7 +5604,7 @@
           "20 A:B:C"
         ],
         "correct": 2,
-        "explain": "10 B:C or higher."
+        "explain": ""
       },
       {
         "q": "Around a stopped vehicle carrying flammable liquids or gas, you should use as warning devices:",
@@ -5153,7 +5615,7 @@
           "Nothing is needed"
         ],
         "correct": 1,
-        "explain": "Never use burning signals near flammable tanks or explosives."
+        "explain": ""
       },
       {
         "q": "What is a 'safe haven' in hazmat terms?",
@@ -5164,7 +5626,7 @@
           "A place you may never park hazmat loads"
         ],
         "correct": 1,
-        "explain": "Safe havens are designated by local authorities for parking explosives loads."
+        "explain": ""
       },
       {
         "q": "The Emergency Response Guidebook (ERG) is indexed by:",
@@ -5175,7 +5637,7 @@
           "Company logo"
         ],
         "correct": 1,
-        "explain": "First responders look up the shipping name or ID number to find handling guidance."
+        "explain": ""
       },
       {
         "q": "Which hazard class covers gasoline?",
@@ -5186,71 +5648,95 @@
           "Class 8 \u2014 Corrosives"
         ],
         "correct": 1,
-        "explain": "Gasoline is the classic example of a Class 3 flammable liquid."
+        "explain": ""
       },
       {
         "q": "How often should you check the tires on a placarded trailer with dual tires?",
-        "a": "Every 2 hours or every 100 miles",
-        "b": "At the start of each trip and every 3 hours",
-        "c": "Every 2 hours or every 100 miles",
-        "d": "After every fuel stop",
-        "module": 9
+        "options": [
+          "Every 2 hours or every 100 miles",
+          "At the start of each trip and every 3 hours",
+          "Every 2 hours or every 100 miles",
+          "After every fuel stop"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is a safe haven?",
-        "a": "A designated safe place to stop with hazardous materials",
-        "b": "A safe distance from the traveled part of the roadway",
-        "c": "A designated safe place to stop with hazardous materials",
-        "d": "A location where you can park Division 1.1 explosives",
-        "module": 9
+        "options": [
+          "A designated safe place to stop with hazardous materials",
+          "A safe distance from the traveled part of the roadway",
+          "A designated safe place to stop with hazardous materials",
+          "A location where you can park Division 1.1 explosives"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How close can you park with Division 1.2 or 1.3 materials to the traveled part of the roadway?",
-        "a": "Within 5 feet",
-        "b": "Within 100 feet",
-        "c": "Within 5 feet",
-        "d": "You cannot park on the roadway",
-        "module": 9
+        "options": [
+          "Within 5 feet",
+          "Within 100 feet",
+          "Within 5 feet",
+          "You cannot park on the roadway"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How close can you park to a bridge, tunnel, or building with Division 1.2 or 1.3 materials?",
-        "a": "Within 10 feet",
-        "b": "Within 300 feet of a tunnel or bridge",
-        "c": "Within 10 feet",
-        "d": "50 feet",
-        "module": 9
+        "options": [
+          "Within 10 feet",
+          "Within 300 feet of a tunnel or bridge",
+          "Within 10 feet",
+          "50 feet"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What type of fire extinguisher must placarded vehicles carry?",
-        "a": "Class A only",
-        "b": "Class C only",
-        "c": "Class A only",
-        "d": "Any fire extinguisher is acceptable",
-        "module": 9
+        "options": [
+          "Class A only",
+          "Class C only",
+          "Class A only",
+          "Any fire extinguisher is acceptable"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You're hauling 100 pounds of Division 4.3 (dangerous when wet) materials. Do you need to stop before a railroad-highway crossing?",
-        "a": "Yes, must stop before crossing",
-        "b": "Stop only if you smell gas",
-        "c": "Yes, must stop before crossing",
-        "d": "Stop only if visible leak",
-        "module": 9
+        "options": [
+          "Yes, must stop before crossing",
+          "Stop only if you smell gas",
+          "Yes, must stop before crossing",
+          "Stop only if visible leak"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "At a rest area you discover your hazardous materials shipments slowly leaking from the vehicle. There is no phone around. What should you do?",
-        "a": "Continue to the next phone",
-        "b": "Wait for a phone to become available",
-        "c": "Continue to the next phone",
-        "d": "Neutralize the leak yourself",
-        "module": 9
+        "options": [
+          "Continue to the next phone",
+          "Wait for a phone to become available",
+          "Continue to the next phone",
+          "Neutralize the leak yourself"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is the Emergency Response Guide (ERG) indexed by?",
-        "a": "Hazard class and ID number",
-        "b": "Material name only",
-        "c": "Hazard class and ID number",
-        "d": "Radioactive category",
-        "module": 9
+        "options": [
+          "Hazard class and ID number",
+          "Material name only",
+          "Hazard class and ID number",
+          "Radioactive category"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -5334,7 +5820,7 @@
           "50 feet"
         ],
         "correct": 2,
-        "explain": "Up to 30 feet in front, with the first 10 feet being the most dangerous; 10 feet on each side and behind."
+        "explain": ""
       },
       {
         "q": "Which side of a school bus is always considered dangerous, due to passing traffic?",
@@ -5345,7 +5831,7 @@
           "Only the rear"
         ],
         "correct": 1,
-        "explain": "The left side is always dangerous because of passing vehicles."
+        "explain": ""
       },
       {
         "q": "Properly adjusted flat mirrors should let you see about how far behind the bus?",
@@ -5356,7 +5842,7 @@
           "500 feet"
         ],
         "correct": 2,
-        "explain": "About 200 feet, or roughly 4 bus lengths."
+        "explain": ""
       },
       {
         "q": "When approaching a stop, you should activate alternating amber warning lights about how far (or how many seconds) before stopping?",
@@ -5367,7 +5853,7 @@
           "Right as you stop"
         ],
         "correct": 1,
-        "explain": "About 200 feet, or 5-10 seconds, before the stop."
+        "explain": ""
       },
       {
         "q": "You should stop the school bus with the front bumper how far from waiting students?",
@@ -5378,7 +5864,7 @@
           "Right next to them"
         ],
         "correct": 1,
-        "explain": "At least 10 feet, so students must walk into your clear view."
+        "explain": ""
       },
       {
         "q": "After unloading, students crossing in front of the bus should walk to a point how far away, in your view?",
@@ -5389,7 +5875,7 @@
           "20 feet"
         ],
         "correct": 2,
-        "explain": "At least 10 feet away from the side of the bus, where you can plainly see them."
+        "explain": ""
       },
       {
         "q": "How far from the nearest rail should a school bus stop at a railroad crossing?",
@@ -5400,7 +5886,7 @@
           "It should not stop at all"
         ],
         "correct": 1,
-        "explain": "Same as buses generally: 15 to 50 feet from the nearest rail."
+        "explain": ""
       },
       {
         "q": "If your school bus stalls on railroad tracks, you should:",
@@ -5411,7 +5897,7 @@
           "Stay inside with hazard lights on"
         ],
         "correct": 1,
-        "explain": "Get everyone off and clear immediately \u2014 moving at an angle away from the tracks and toward the oncoming train direction."
+        "explain": ""
       },
       {
         "q": "Which of these requires a mandatory bus evacuation?",
@@ -5422,7 +5908,7 @@
           "A minor traffic delay"
         ],
         "correct": 1,
-        "explain": "Fire/threat of fire, stalling on tracks, imminent collision, and hazmat spills all require evacuation."
+        "explain": ""
       },
       {
         "q": "How much tail swing can a school bus have during a turn?",
@@ -5433,7 +5919,7 @@
           "None at all"
         ],
         "correct": 1,
-        "explain": "Up to 3 feet \u2014 check mirrors before and during turns."
+        "explain": ""
       },
       {
         "q": "Backing a school bus with students outside of it is:",
@@ -5444,7 +5930,7 @@
           "Required at every stop"
         ],
         "correct": 1,
-        "explain": "Never back a school bus while students are outside it."
+        "explain": ""
       },
       {
         "q": "Crossover mirrors are used to see:",
@@ -5455,7 +5941,7 @@
           "Traffic behind you at highway speed"
         ],
         "correct": 1,
-        "explain": "They cover blind areas right in front and to the sides that direct vision can't reach."
+        "explain": ""
       },
       {
         "q": "While crossing railroad tracks in a bus, you should:",
@@ -5466,7 +5952,7 @@
           "Brake firmly"
         ],
         "correct": 1,
-        "explain": "Cross in a low gear and never shift while crossing."
+        "explain": ""
       },
       {
         "q": "The right turn signal should be activated roughly how far before pulling over to load students?",
@@ -5477,119 +5963,161 @@
           "Right as you stop"
         ],
         "correct": 1,
-        "explain": "About 100-300 feet, or roughly 3-5 seconds, before pulling over."
+        "explain": ""
       },
       {
         "q": "Define the danger zone. How far does the danger zone extend around the bus?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What should you be able to see if the outside flat mirrors are adjusted properly? The outside convex mirrors? The crossover mirrors?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You are loading students along the route. When should you activate your alternating flashing amber warning lights?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You are unloading students along your route. Where should students walk to after exiting the bus?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "After unloading at school, why should you walk through the bus?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What position should students be in front of the bus before they cross the roadway?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "Under what conditions must you evacuate the bus?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How far from the nearest rail should you stop at a highway-rail crossing?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "What is a passive highway-rail crossing? Why should you be extra cautious at this type of crossing?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How should you use your brakes if your vehicle is equipped with antilock brakes (ABS)?",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "You are loading students along the route.",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "After unloading at school, why should you",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How far from the nearest rail should you",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       },
       {
         "q": "How should you use your brakes if your",
-        "a": "Option A",
-        "b": "Option B",
-        "c": "Option C",
-        "d": "Option D",
-        "module": 10
+        "options": [
+          "Option A",
+          "Option B",
+          "Option C",
+          "Option D"
+        ],
+        "correct": 0,
+        "explain": ""
       }
     ]
   },
@@ -5671,7 +6199,7 @@
           "Only inspect the engine compartment"
         ],
         "correct": 1,
-        "explain": "Full verbal explanation of each item is required."
+        "explain": ""
       },
       {
         "q": "A vehicle cannot be used for the inspection test if:",
@@ -5682,7 +6210,7 @@
           "It was manufactured before 2010"
         ],
         "correct": 1,
-        "explain": "Labeled/marked components would give away answers, so such vehicles are disqualified from testing."
+        "explain": ""
       },
       {
         "q": "During the hydraulic brake check, you must pump the pedal 3 times, then hold it for how long?",
@@ -5693,7 +6221,7 @@
           "1 minute"
         ],
         "correct": 1,
-        "explain": "Hold for 5 seconds \u2014 the pedal should not move at all."
+        "explain": ""
       },
       {
         "q": "Skipping either step of the hydraulic brake check results in:",
@@ -5704,7 +6232,7 @@
           "A retest opportunity only"
         ],
         "correct": 1,
-        "explain": "Both components (pump 3x, hold 5 sec) must be performed correctly."
+        "explain": ""
       },
       {
         "q": "In the 3-part air brake check, holding the foot brake for 1 minute, the leak rate must stay under how much for a combination vehicle?",
@@ -5715,7 +6243,7 @@
           "It's unlimited"
         ],
         "correct": 1,
-        "explain": "Under 4 psi/minute for combination vehicles (3 psi/minute for a single vehicle)."
+        "explain": ""
       },
       {
         "q": "In part 2 of the air brake check (fanning the brakes), the low air warning must trigger before pressure drops below:",
@@ -5726,7 +6254,7 @@
           "100 psi"
         ],
         "correct": 1,
-        "explain": "Before 55 psi, matching the general low-air-warning rule."
+        "explain": ""
       },
       {
         "q": "In part 3 of the air brake check, the tractor protection valve should pop out (close) in what pressure range?",
@@ -5737,7 +6265,7 @@
           "100-120 psi"
         ],
         "correct": 1,
-        "explain": "Somewhere in the 20-45 psi range, per manufacturer spec."
+        "explain": ""
       },
       {
         "q": "Minimum tread depth required on steering axle tires during inspection is:",
@@ -5748,7 +6276,7 @@
           "8/32 inch"
         ],
         "correct": 1,
-        "explain": "4/32 inch on steer tires; 2/32 inch on all other tires."
+        "explain": ""
       },
       {
         "q": "During inspection, air pressure should build toward a governor cut-out of approximately:",
@@ -5759,7 +6287,7 @@
           "160-180 psi"
         ],
         "correct": 2,
-        "explain": "Roughly 120-140 psi, or per manufacturer specification."
+        "explain": ""
       },
       {
         "q": "On a combination vehicle's fifth wheel, what should you check for after coupling?",
@@ -5770,7 +6298,7 @@
           "Nothing \u2014 fifth wheels are self-checking"
         ],
         "correct": 1,
-        "explain": "A gap, missing grease, or unseated jaws all indicate a coupling problem."
+        "explain": ""
       },
       {
         "q": "The FLHSMV seven-step inspection method is used for:",
@@ -5781,7 +6309,7 @@
           "Cargo securement only"
         ],
         "correct": 1,
-        "explain": "Florida's official pre-trip framework: approach, engine compartment, cab, lights, walk-around, signal/brake checks, then the air brake test."
+        "explain": ""
       }
     ]
   },
@@ -5843,7 +6371,7 @@
           "Ride the brake and gas at the same time"
         ],
         "correct": 1,
-        "explain": "Clutch feathering at idle gives much finer control than trying to modulate the throttle."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): where should your right foot generally stay during a backing exercise?",
@@ -5854,7 +6382,7 @@
           "It doesn't matter"
         ],
         "correct": 1,
-        "explain": "Covering the brake shaves reaction time off corrections and helps avoid encroachments."
+        "explain": ""
       },
       {
         "q": "Which exercise allows only ONE outside vehicle observation ('look'), instead of the usual two?",
@@ -5865,7 +6393,7 @@
           "Offset back/left"
         ],
         "correct": 2,
-        "explain": "Straight line backing allows just 1 look; other exercises allow up to 2."
+        "explain": ""
       },
       {
         "q": "What counts as an 'encroachment' during the basic control skills test?",
@@ -5876,7 +6404,7 @@
           "Pulling forward to reposition"
         ],
         "correct": 1,
-        "explain": "Each touch or crossing of a boundary/cone is scored as an error."
+        "explain": ""
       },
       {
         "q": "Before exiting the vehicle to take a 'look,' you must:",
@@ -5887,7 +6415,7 @@
           "Nothing special is required"
         ],
         "correct": 1,
-        "explain": "Neutral, parking brake set, then exit safely with three points of contact."
+        "explain": ""
       },
       {
         "q": "How many points of contact should you maintain when exiting the vehicle to check your position?",
@@ -5898,7 +6426,7 @@
           "Four"
         ],
         "correct": 2,
-        "explain": "Three points of contact while facing the vehicle during exit."
+        "explain": ""
       },
       {
         "q": "Are initial pull-ups penalized on the basic control skills test?",
@@ -5909,7 +6437,7 @@
           "Only during the alley dock exercise"
         ],
         "correct": 1,
-        "explain": "Some pull-ups are expected; too many becomes a scoring issue."
+        "explain": ""
       },
       {
         "q": "If you don't end an exercise in the exact final position the examiner described, you:",
@@ -5920,7 +6448,7 @@
           "Only lose points on the alley dock"
         ],
         "correct": 1,
-        "explain": "Final position matters \u2014 finish exactly where instructed."
+        "explain": ""
       },
       {
         "q": "Which of these is NOT one of the basic control skills test exercises listed in the manual?",
@@ -5931,7 +6459,7 @@
           "Parallel park"
         ],
         "correct": 2,
-        "explain": "Highway merging is part of the on-road test, not the basic control skills test."
+        "explain": ""
       },
       {
         "q": "What is the maximum number of 'looks' generally allowed during most basic control exercises (excluding straight line backing)?",
@@ -5942,7 +6470,7 @@
           "Unlimited"
         ],
         "correct": 2,
-        "explain": "Up to 2 looks for most exercises; only 1 for straight line backing."
+        "explain": ""
       }
     ]
   },
@@ -6026,7 +6554,7 @@
           "No requirement beyond finishing the route"
         ],
         "correct": 1,
-        "explain": "Any accident or moving violation fails the on-road test."
+        "explain": ""
       },
       {
         "q": "'Unsafe coasting' during the on-road test means being out of gear for longer than:",
@@ -6037,7 +6565,7 @@
           "It's never considered unsafe"
         ],
         "correct": 1,
-        "explain": "Coasting (clutch depressed or in neutral) longer than your vehicle's length counts as unsafe coasting."
+        "explain": ""
       },
       {
         "q": "A right turn should be completed in which lane?",
@@ -6048,7 +6576,7 @@
           "The left lane"
         ],
         "correct": 1,
-        "explain": "Finish right turns in the right-most lane."
+        "explain": ""
       },
       {
         "q": "During the roadside stop/start maneuver, after coming to a full stop you should:",
@@ -6059,7 +6587,7 @@
           "Rev the engine to signal your intent"
         ],
         "correct": 1,
-        "explain": "This sequence secures the vehicle properly at a roadside stop."
+        "explain": ""
       },
       {
         "q": "When resuming from a roadside stop, you should turn the steering wheel:",
@@ -6070,7 +6598,7 @@
           "Never turn the wheel during this maneuver"
         ],
         "correct": 1,
-        "explain": "Don't turn the wheel before your vehicle moves \u2014 steer once you're rolling."
+        "explain": ""
       },
       {
         "q": "While crossing railroad tracks during the road test, you must never:",
@@ -6081,7 +6609,7 @@
           "Deactivate flashers after crossing"
         ],
         "correct": 1,
-        "explain": "No stopping, shifting, or lane changes while any part of the vehicle is on the tracks."
+        "explain": ""
       },
       {
         "q": "On a manual transmission vehicle with an unsynchronized gearbox, you are required to:",
@@ -6092,7 +6620,7 @@
           "Ride the clutch continuously"
         ],
         "correct": 1,
-        "explain": "Double-clutching is required on unsynchronized manual transmissions."
+        "explain": ""
       },
       {
         "q": "'Riding' or 'pumping' the brake pedal during the on-road test is considered:",
@@ -6103,7 +6631,7 @@
           "Only a problem on hills"
         ],
         "correct": 1,
-        "explain": "Smooth, steady brake pressure is expected \u2014 no riding or pumping."
+        "explain": ""
       },
       {
         "q": "Your hands should be on the steering wheel at all times, except:",
@@ -6114,7 +6642,7 @@
           "There's no exception"
         ],
         "correct": 0,
-        "explain": "Return both hands to the wheel immediately after completing a shift."
+        "explain": ""
       },
       {
         "q": "If your test route doesn't include a railroad crossing, the examiner may:",
@@ -6125,7 +6653,7 @@
           "End the test early"
         ],
         "correct": 1,
-        "explain": "You may need to describe/demonstrate the proper procedure verbally at a simulated location."
+        "explain": ""
       },
       {
         "q": "Bonus (manual transmission): before every intersection or turn on the road test, you should:",
@@ -6136,7 +6664,7 @@
           "Keep the clutch pedal fully depressed the whole time"
         ],
         "correct": 1,
-        "explain": "Pre-selecting your gear before the stop line is the biggest visible difference between a smooth and a nervous manual driver."
+        "explain": ""
       },
       {
         "q": "During the on-road test, repeated grinding or clashing of gears is:",
@@ -6147,7 +6675,7 @@
           "Automatically forgiven if you finish the route"
         ],
         "correct": 1,
-        "explain": "Each occurrence is scored; repeated grinding or a grind that creates an unsafe moment will fail the road test."
+        "explain": ""
       }
     ]
   },
@@ -6256,7 +6784,7 @@
           "60"
         ],
         "correct": 2,
-        "explain": "50 questions \u2014 you need 40 correct (80%) to pass."
+        "explain": ""
       },
       {
         "q": "How many correct answers do you need to pass the 50-question General Knowledge test?",
@@ -6267,7 +6795,7 @@
           "45"
         ],
         "correct": 2,
-        "explain": "80% of 50 = 40 correct."
+        "explain": ""
       },
       {
         "q": "A Class A applicant must pass which three knowledge tests?",
@@ -6278,7 +6806,7 @@
           "Combination, Air Brakes, School Bus"
         ],
         "correct": 1,
-        "explain": "General Knowledge (50 Q), Combination Vehicles (20 Q), and Air Brakes (25 Q) are the standard Class A set."
+        "explain": ""
       },
       {
         "q": "How many questions are on the Combination Vehicles test, and how many do you need correct?",
@@ -6289,7 +6817,7 @@
           "20 questions, 18 correct"
         ],
         "correct": 0,
-        "explain": "20 questions with an 80% pass mark = 16 correct."
+        "explain": ""
       },
       {
         "q": "If you skip or fail the Air Brakes knowledge test, what restriction goes on your CDL?",
@@ -6300,7 +6828,7 @@
           "Z"
         ],
         "correct": 2,
-        "explain": "L = no air-brake-equipped CMV. If your truck has air brakes you must take and pass this test."
+        "explain": ""
       },
       {
         "q": "What happens if you take the skills test in an automatic transmission truck?",
@@ -6311,7 +6839,7 @@
           "You must retake the written test"
         ],
         "correct": 1,
-        "explain": "Testing in an automatic (including AMTs) adds the E restriction. Test in a manual and you can drive both."
+        "explain": ""
       },
       {
         "q": "For the E restriction, an automated manual transmission (AMT) like an Eaton UltraShift counts as:",
@@ -6322,7 +6850,7 @@
           "A manual only if you double-clutch"
         ],
         "correct": 1,
-        "explain": "Any transmission that doesn't operate fully on the gear-shift-and-clutch principle counts as automatic."
+        "explain": ""
       },
       {
         "q": "You already have a CDL with the E restriction. To remove it you must:",
@@ -6333,7 +6861,7 @@
           "Take a written manual-transmission test only"
         ],
         "correct": 1,
-        "explain": "Restriction removal uses a modified skills test \u2014 no ELDT and no full retest required."
+        "explain": ""
       },
       {
         "q": "How long must you hold your Florida CLP before taking the skills test?",
@@ -6344,7 +6872,7 @@
           "90 days"
         ],
         "correct": 1,
-        "explain": "The CLP must be held 14 days before the skills test (federal rule)."
+        "explain": ""
       },
       {
         "q": "What is ELDT and when is it required?",
@@ -6355,7 +6883,7 @@
           "Only required for hazmat endorsements"
         ],
         "correct": 1,
-        "explain": "Since Feb 7, 2022, first-time CDL applicants must complete ELDT (theory, range, road) before the skills test."
+        "explain": ""
       },
       {
         "q": "How many attempts per test do you get in a single day in Florida?",
@@ -6366,7 +6894,7 @@
           "Unlimited"
         ],
         "correct": 1,
-        "explain": "2 attempts per test per day \u2014 and you can review your missed questions between attempts."
+        "explain": ""
       },
       {
         "q": "You fail the pre-trip inspection portion of the skills test. What happens?",
@@ -6377,7 +6905,7 @@
           "You're done for the year"
         ],
         "correct": 1,
-        "explain": "Fail the pre-trip and all three segments restart \u2014 FMCSA denied Florida's waiver request. This is why pre-trip practice matters most."
+        "explain": ""
       },
       {
         "q": "Which exercise is part of Florida's basic control skills test?",
@@ -6388,7 +6916,7 @@
           "Highway merging"
         ],
         "correct": 1,
-        "explain": "Florida uses Forward Stop, Straight-Line Backing, Forward Offset Tracking, and Reverse Offset Backing."
+        "explain": ""
       },
       {
         "q": "A driver self-certifies as intrastate-only. What restriction applies?",
@@ -6399,7 +6927,7 @@
           "O"
         ],
         "correct": 1,
-        "explain": "K = intrastate only. Under-21 drivers get it automatically; older drivers get it if they self-certify intrastate."
+        "explain": ""
       },
       {
         "q": "How many correct answers do you need on the 25-question Air Brakes test?",
@@ -6410,7 +6938,7 @@
           "22"
         ],
         "correct": 2,
-        "explain": "80% of 25 = 20 correct."
+        "explain": ""
       },
       {
         "q": "What's the most important reason to take your Class A skills test in a manual transmission truck?",
@@ -6421,7 +6949,7 @@
           "Manual trucks are cheaper to rent"
         ],
         "correct": 1,
-        "explain": "Passing in a manual = no E restriction = you can drive both types. That's the entire reason to prefer manual."
+        "explain": ""
       }
     ],
     "tips": [

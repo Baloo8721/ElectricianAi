@@ -1,5 +1,5 @@
 // Generated — do not edit. Run: npm run build
 window.APP_CONFIG = {
-  "pinHash": "38f1b1198f54fc91c7fb8a025a2bb106c15f3304a4458c0bb446c877d778e4e3",
-  "salt": "5049553ba06747d38b6c5e8491a92c92"
+  "pinHash": "7d80be8a73521ba506c0a526e3770e1346f377d050dfccdf7101789052c120f5",
+  "salt": "58309422d81cd7b574503f15af7cbcf2"
 };

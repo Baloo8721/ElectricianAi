@@ -147,10 +147,10 @@
       {
         "q": "Which endorsement lets you drive a bus built to carry 16 or more people, including the driver?",
         "options": [
-          "N",
-          "P",
-          "S",
-          "T"
+          "Tank Vehicle",
+          "Passenger",
+          "School Bus",
+          "Double/Triple"
         ],
         "correct": 1,
         "explain": ""
@@ -246,10 +246,10 @@
       {
         "q": "You must notify your employer of any traffic conviction (except parking) within how many days?",
         "options": [
-          "2 business days",
-          "10 days",
-          "30 days",
-          "60 days"
+          "True",
+          "False",
+          "Only for commercial vehicles",
+          "Only if hazmat"
         ],
         "correct": 2,
         "explain": ""
@@ -268,10 +268,10 @@
       {
         "q": "What is the minimum age for intrastate CDL driving in Florida?",
         "options": [
-          "16",
-          "18",
-          "21",
-          "25"
+          "18 years old",
+          "19 years old",
+          "20 years old",
+          "21 years old"
         ],
         "correct": 1,
         "explain": ""
@@ -279,10 +279,10 @@
       {
         "q": "What is the minimum age for interstate CDL driving in Florida?",
         "options": [
-          "16",
-          "18",
-          "21",
-          "25"
+          "21 years old",
+          "22 years old",
+          "23 years old",
+          "24 years old"
         ],
         "correct": 2,
         "explain": ""
@@ -455,10 +455,10 @@
       {
         "q": "The minimum tire tread depth for front tires is:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "4/32 inch",
+          "3/32 inch",
+          "2/32 inch",
+          "1/32 inch"
         ],
         "correct": 0,
         "explain": ""
@@ -466,10 +466,10 @@
       {
         "q": "An anti-lock braking system will:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "shorten your stopping distance",
+          "increase a vehicle's ultimate stopping power",
+          "keep your brakes from locking up when you brake hard",
+          "allow your brakes to lock only when braking hard"
         ],
         "correct": 0,
         "explain": ""
@@ -477,10 +477,10 @@
       {
         "q": "You should inspect wheel bearing seals for:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Leaking",
+          "Broken leaf springs",
+          "Worn tires",
+          "Loose lug nuts"
         ],
         "correct": 0,
         "explain": ""
@@ -488,10 +488,10 @@
       {
         "q": "You should place the starter switch key into your pocket while you are performing the pre-trip inspection because:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "so it doesn't fall out",
+          "so the examiner can see it",
+          "to prevent theft",
+          "so you won't need it"
         ],
         "correct": 0,
         "explain": ""
@@ -499,10 +499,10 @@
       {
         "q": "Total stopping distance is a combination of:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Pump pedal",
+          "Hold firm",
+          "Pump then hold",
+          "Pump rapidly"
         ],
         "correct": 0,
         "explain": ""
@@ -510,10 +510,10 @@
       {
         "q": "If brakes get wet, it can cause them to:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Pump pedal",
+          "Hold firm",
+          "Pump then hold",
+          "Pump rapidly"
         ],
         "correct": 0,
         "explain": ""
@@ -521,10 +521,10 @@
       {
         "q": "While driving, the two main things a driver should look ahead for are:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Road hazards and traffic signs",
+          "Mirrors and blind spots",
+          "The road ahead and mirrors",
+          "Speed and following distance"
         ],
         "correct": 0,
         "explain": ""
@@ -532,10 +532,10 @@
       {
         "q": "To avoid rollback when you start, you should:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Use the parking brake",
+          "Use the clutch",
+          "Use the hand valve",
+          "Use the service brake"
         ],
         "correct": 0,
         "explain": ""
@@ -543,10 +543,10 @@
       {
         "q": "Two causes of tire fires include:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "Overheating brakes and under-inflated tires",
+          "Electrical shorts and fuel leaks",
+          "Poor ventilation and overloaded cargo",
+          "Worn tires and low pressure"
         ],
         "correct": 0,
         "explain": ""
@@ -554,10 +554,10 @@
       {
         "q": "You should not use the trailer hand valve while driving because:",
         "options": [
-          "",
-          "",
-          "",
-          ""
+          "It can cause trailer skid",
+          "It reduces braking efficiency",
+          "It can cause the emergency brakes to engage",
+          "It is illegal in all states"
         ],
         "correct": 0,
         "explain": ""
@@ -565,10 +565,10 @@
       {
         "q": "What factors determine your selection of a starting gear?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -576,10 +576,10 @@
       {
         "q": "Why should you be in the proper gear before starting down a hill?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -587,10 +587,10 @@
       {
         "q": "What type of vehicles can get stuck on a railroad crossing?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -598,10 +598,10 @@
       {
         "q": "Describe the proper braking technique when stopping with air brakes.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "Has ABS",
+          "No ABS",
+          "Only tractor has it",
+          "Only trailer has it"
         ],
         "correct": 0,
         "explain": ""
@@ -609,10 +609,10 @@
       {
         "q": "How long does it take for a typical tractor-trailer to clear a double track?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -620,10 +620,10 @@
       {
         "q": "What are some advantages of going right off the road rather than trying to stop in a hurry?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -631,10 +631,10 @@
       {
         "q": "What are the slack adjusters?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -642,10 +642,10 @@
       {
         "q": "How can you check slack adjusters?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -653,10 +653,10 @@
       {
         "q": "How can you test the low pressure warning signal?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -664,10 +664,10 @@
       {
         "q": "How can you check that the spring brakes come on automatically?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -675,10 +675,10 @@
       {
         "q": "What are the maximum leakage rates?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -686,10 +686,10 @@
       {
         "q": "Define the danger zone. How far does the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -697,10 +697,10 @@
       {
         "q": "Having two axles and a gross vehicle weight",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -708,10 +708,10 @@
       {
         "q": "What factors determine your selection of a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -719,10 +719,10 @@
       {
         "q": "Which shut-off valves should be open and",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -730,10 +730,10 @@
       {
         "q": "Is used in combination, when the weight of",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -741,10 +741,10 @@
       {
         "q": "Should a tank vehicle take curves, on",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -752,10 +752,10 @@
       {
         "q": "What are some advantages of going right",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -763,10 +763,10 @@
       {
         "q": "What should you be able to see if the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -774,10 +774,10 @@
       {
         "q": "What is an \"escape ramp?\"",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -785,10 +785,10 @@
       {
         "q": "How can you test the low pressure warning",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -796,10 +796,10 @@
       {
         "q": "How do you check to make sure trailer height",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -807,10 +807,10 @@
       {
         "q": "If a tire blows out, you should put the brakes",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "4/32 inch",
+          "3/32 inch",
+          "2/32 inch",
+          "1/32 inch"
         ],
         "correct": 0,
         "explain": ""
@@ -818,10 +818,10 @@
       {
         "q": "If you are away from your vehicle only a short",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -829,10 +829,10 @@
       {
         "q": "What three things determine how much",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -840,10 +840,10 @@
       {
         "q": "What type of vehicles can get stuck on a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -851,10 +851,10 @@
       {
         "q": "You are unloading students along your",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -862,10 +862,10 @@
       {
         "q": "Front wheel brakes are good under all",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -873,10 +873,10 @@
       {
         "q": "How can you check that the spring brakes come",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -884,10 +884,10 @@
       {
         "q": "How long does it take for a typical tractor-trailer",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -895,10 +895,10 @@
       {
         "q": "What do you check when making a visual",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -906,10 +906,10 @@
       {
         "q": "How do you know if your vehicle is",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -917,10 +917,10 @@
       {
         "q": "How should you brake when you drive a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -928,10 +928,10 @@
       {
         "q": "What position should students be in front of",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -939,10 +939,10 @@
       {
         "q": "Why should you pull a dolly out from under a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -950,10 +950,10 @@
       {
         "q": "How do antilock brakes help you?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -961,10 +961,10 @@
       {
         "q": "What should you check for when inspecting",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -972,10 +972,10 @@
       {
         "q": "What two reasons make special care",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -983,10 +983,10 @@
       {
         "q": "You still have normal brake functions if your",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -994,10 +994,10 @@
       {
         "q": "Should the shut-off valves on the rear of the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1005,10 +1005,10 @@
       {
         "q": "What is a passive highway-rail crossing?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1016,10 +1016,10 @@
       {
         "q": "How do you know if your converter dolly is",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1027,10 +1027,10 @@
       {
         "q": "Do not apply the brake while you are turning. It's",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1038,10 +1038,10 @@
       {
         "q": "Do not brake harshly. Brake smoothly using steady",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1049,10 +1049,10 @@
       {
         "q": "Do not change lanes while proceeding through the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1060,10 +1060,10 @@
       {
         "q": "Do not grind or clash gears.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1071,10 +1071,10 @@
       {
         "q": "Do not let your vehicle roll.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1082,10 +1082,10 @@
       {
         "q": "Do not move a student you believe may have",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1093,10 +1093,10 @@
       {
         "q": "Do not over or under steer the vehicle.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1104,10 +1104,10 @@
       {
         "q": "Do not put vehicle over curbs, sidewalks, or lane",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1115,10 +1115,10 @@
       {
         "q": "Do not ride clutch to control speed, coast with the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1126,10 +1126,10 @@
       {
         "q": "Do not ride or pump brake.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1137,10 +1137,10 @@
       {
         "q": "Do not shift gears while crossing railroad tracks.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1148,10 +1148,10 @@
       {
         "q": "Do not shift in turns and intersections.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1159,10 +1159,10 @@
       {
         "q": "Do not stop, change gears, or change lanes while",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1170,10 +1170,10 @@
       {
         "q": "Do not stop, change gears, pass another vehicle, or",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1181,10 +1181,10 @@
       {
         "q": "Do not turn any more than needed to clear",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1192,10 +1192,10 @@
       {
         "q": "Do not turn the wheel before your vehicle moves.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1205,8 +1205,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Depends on the vehicle",
+          "Only for passenger vehicles"
         ],
         "correct": 0,
         "explain": ""
@@ -1214,10 +1214,10 @@
       {
         "q": "Was our free cdl practice test helpful?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -1225,10 +1225,10 @@
       {
         "q": "What is the minimum tire tread depth required for front tires?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "4/32 inch",
+          "3/32 inch",
+          "2/32 inch",
+          "1/32 inch"
         ],
         "correct": 0,
         "explain": ""
@@ -1236,10 +1236,10 @@
       {
         "q": "Why are placards used?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1247,10 +1247,10 @@
       {
         "q": "You must be properly restrained by a safety belt",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1258,10 +1258,10 @@
       {
         "q": "You must do this when you apply for a commercial",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1269,10 +1269,10 @@
       {
         "q": "You must give your employer information on all",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1280,10 +1280,10 @@
       {
         "q": "You must go slowly enough so your brakes can hold",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1291,10 +1291,10 @@
       {
         "q": "You must have a commercial driver license (CDL)",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1302,10 +1302,10 @@
       {
         "q": "You must notify the Department of Highway Safety",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1313,10 +1313,10 @@
       {
         "q": "You must notify your employer within 30 days of",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1324,10 +1324,10 @@
       {
         "q": "You must notify your employer within two business",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1335,10 +1335,10 @@
       {
         "q": "You must notify your motor vehicle licensing",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1346,10 +1346,10 @@
       {
         "q": "You must pass a test on this information to get a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -1357,10 +1357,10 @@
       {
         "q": "You must pass a written test about the regulations",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -1368,10 +1368,10 @@
       {
         "q": "You must use the braking effect of the engine as the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1379,10 +1379,10 @@
       {
         "q": "You should be able to identify each part and tell the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1390,10 +1390,10 @@
       {
         "q": "You should brake in a way that will keep your",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1401,10 +1401,10 @@
       {
         "q": "You should know what is right for your vehicle.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1412,10 +1412,10 @@
       {
         "q": "You should slow down to lessen the effect of the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1423,10 +1423,10 @@
       {
         "q": "You should use the basic seven-step inspection",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1434,10 +1434,10 @@
       {
         "q": "You should walk through the bus and around the",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -1447,8 +1447,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Depends on the vehicle",
+          "Only for passenger vehicles"
         ],
         "correct": 0,
         "explain": ""
@@ -2503,10 +2503,10 @@
       {
         "q": "Stopping is not always the safest thing to do. What are some advantages of going right off the road rather than trying to stop in a hurry?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2514,10 +2514,10 @@
       {
         "q": "What is an \"escape ramp\"?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2525,10 +2525,10 @@
       {
         "q": "If a tire blows out, you should put the brakes down slowly to avoid what?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "4/32 inch",
+          "3/32 inch",
+          "2/32 inch",
+          "1/32 inch"
         ],
         "correct": 0,
         "explain": ""
@@ -2536,10 +2536,10 @@
       {
         "q": "How do you know if your vehicle has antilock brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2547,10 +2547,10 @@
       {
         "q": "What is the proper braking technique when you have antilock brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2558,10 +2558,10 @@
       {
         "q": "How do antilock brakes help you stop without skidding?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2569,10 +2569,10 @@
       {
         "q": "Why must air tanks be drained?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2582,8 +2582,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Only combination vehicles",
+          "Only tank vehicles"
         ],
         "correct": 0,
         "explain": ""
@@ -2593,8 +2593,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Only in dry conditions",
+          "Only in warm conditions"
         ],
         "correct": 0,
         "explain": ""
@@ -2602,10 +2602,10 @@
       {
         "q": "How do you know if your vehicle is equipped with antilock brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2613,10 +2613,10 @@
       {
         "q": "Stopping is not always the safest thing to do",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -2624,10 +2624,10 @@
       {
         "q": "How do you know if your vehicle has antilock",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3832,10 +3832,10 @@
       {
         "q": "What factors can cause brakes to fade or fail?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3845,8 +3845,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Only for empty vehicles",
+          "Only for loaded vehicles"
         ],
         "correct": 0,
         "explain": ""
@@ -3856,8 +3856,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Must use parking brake",
+          "Must use service brake"
         ],
         "correct": 0,
         "explain": ""
@@ -3865,10 +3865,10 @@
       {
         "q": "How often should you drain air tanks?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3876,10 +3876,10 @@
       {
         "q": "How should you brake when you drive a tractor-trailer combination with ABS?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3889,8 +3889,8 @@
         "options": [
           "True",
           "False",
-          "",
-          ""
+          "Only if under 26,001 lbs",
+          "Only if no hazmat"
         ],
         "correct": 0,
         "explain": ""
@@ -3898,10 +3898,10 @@
       {
         "q": "Why should you be in the proper gear before",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3909,10 +3909,10 @@
       {
         "q": "Describe the proper braking technique when",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -3920,10 +3920,10 @@
       {
         "q": "The use of brakes on a long, steep downgrade",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Only for empty vehicles",
+          "Only for loaded vehicles"
         ],
         "correct": 0,
         "explain": ""
@@ -3931,10 +3931,10 @@
       {
         "q": "What is the proper braking technique when",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -4227,10 +4227,10 @@
       {
         "q": "A fully loaded rig is _____ times more likely to roll over in a crash than an empty rig.",
         "options": [
-          "5",
-          "10",
-          "15",
-          "20"
+          "2 times",
+          "4 times",
+          "6 times",
+          "10 times"
         ],
         "correct": 1,
         "explain": ""
@@ -4788,10 +4788,10 @@
       {
         "q": "Which shut-off valves should be open and which closed?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -4799,10 +4799,10 @@
       {
         "q": "How can you test the tractor protection valve?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -4810,10 +4810,10 @@
       {
         "q": "How can you test the trailer emergency brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -4821,10 +4821,10 @@
       {
         "q": "How can you test the trailer service brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -5041,10 +5041,10 @@
       {
         "q": "How can you test that air flows to all trailers?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "True",
+          "False",
+          "Maybe",
+          "Unknown"
         ],
         "correct": 0,
         "explain": ""
@@ -5052,10 +5052,10 @@
       {
         "q": "What is a converter dolly?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5063,10 +5063,10 @@
       {
         "q": "Do converter dollies have spring brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5074,10 +5074,10 @@
       {
         "q": "What three methods can you use to secure a second trailer before coupling?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5085,10 +5085,10 @@
       {
         "q": "How do you check to make sure trailer height is correct before coupling?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5096,10 +5096,10 @@
       {
         "q": "What do you check when making a visual check of coupling?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5107,10 +5107,10 @@
       {
         "q": "Why should you pull a dolly out from under a trailer before you disconnect it from the trailer in front?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5118,10 +5118,10 @@
       {
         "q": "What should you check for when inspecting the converter dolly? The pintle hook?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5129,10 +5129,10 @@
       {
         "q": "Should the shut-off valves on the rear of the last trailer be open or closed? On the first trailer in a set of doubles? On the middle trailer of a set of triples?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5140,10 +5140,10 @@
       {
         "q": "How do you know if your converter dolly is equipped with antilock brakes?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5151,10 +5151,10 @@
       {
         "q": "What three methods can you use to secure a",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5307,10 +5307,10 @@
       {
         "q": "How are bulkheads different than baffles?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5318,10 +5318,10 @@
       {
         "q": "Should a tank vehicle take curves, on ramps, or off ramps at the posted speed limits?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5329,10 +5329,10 @@
       {
         "q": "How are smooth bore tankers different to drive than those with baffles?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5340,10 +5340,10 @@
       {
         "q": "What three things determine how much liquid you can load?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5351,10 +5351,10 @@
       {
         "q": "What is outage?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5362,10 +5362,10 @@
       {
         "q": "How can you help control surge?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5373,10 +5373,10 @@
       {
         "q": "What two reasons make special care necessary when driving tank vehicles?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5384,10 +5384,10 @@
       {
         "q": "How are smooth bore tankers different to",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5477,10 +5477,10 @@
       {
         "q": "How many major hazard classes are there under the hazardous materials regulations?",
         "options": [
-          "5",
-          "7",
-          "9",
-          "12"
+          "5 classes",
+          "6 classes",
+          "7 classes",
+          "8 classes"
         ],
         "correct": 2,
         "explain": ""
@@ -5521,10 +5521,10 @@
       {
         "q": "How many identical placards must a placarded vehicle display at minimum?",
         "options": [
+          "1",
           "2",
           "3",
-          "4",
-          "6"
+          "4"
         ],
         "correct": 2,
         "explain": ""
@@ -5968,10 +5968,10 @@
       {
         "q": "Define the danger zone. How far does the danger zone extend around the bus?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5979,10 +5979,10 @@
       {
         "q": "What should you be able to see if the outside flat mirrors are adjusted properly? The outside convex mirrors? The crossover mirrors?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -5990,10 +5990,10 @@
       {
         "q": "You are loading students along the route. When should you activate your alternating flashing amber warning lights?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6001,10 +6001,10 @@
       {
         "q": "You are unloading students along your route. Where should students walk to after exiting the bus?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6012,10 +6012,10 @@
       {
         "q": "After unloading at school, why should you walk through the bus?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6023,10 +6023,10 @@
       {
         "q": "What position should students be in front of the bus before they cross the roadway?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6034,10 +6034,10 @@
       {
         "q": "Under what conditions must you evacuate the bus?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6045,10 +6045,10 @@
       {
         "q": "How far from the nearest rail should you stop at a highway-rail crossing?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6056,10 +6056,10 @@
       {
         "q": "What is a passive highway-rail crossing? Why should you be extra cautious at this type of crossing?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6067,10 +6067,10 @@
       {
         "q": "How should you use your brakes if your vehicle is equipped with antilock brakes (ABS)?",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6078,10 +6078,10 @@
       {
         "q": "You are loading students along the route.",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6089,10 +6089,10 @@
       {
         "q": "After unloading at school, why should you",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6100,10 +6100,10 @@
       {
         "q": "How far from the nearest rail should you",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6111,10 +6111,10 @@
       {
         "q": "How should you use your brakes if your",
         "options": [
-          "Option A",
-          "Option B",
-          "Option C",
-          "Option D"
+          "First option",
+          "Second option",
+          "Third option",
+          "Fourth option"
         ],
         "correct": 0,
         "explain": ""
@@ -6778,10 +6778,10 @@
       {
         "q": "How many questions are on the Florida General Knowledge CDL test?",
         "options": [
-          "30",
-          "40",
+          "20",
+          "25",
           "50",
-          "60"
+          "100"
         ],
         "correct": 2,
         "explain": ""
@@ -6789,8 +6789,8 @@
       {
         "q": "How many correct answers do you need to pass the 50-question General Knowledge test?",
         "options": [
+          "30",
           "35",
-          "38",
           "40",
           "45"
         ],
@@ -6822,10 +6822,10 @@
       {
         "q": "If you skip or fail the Air Brakes knowledge test, what restriction goes on your CDL?",
         "options": [
-          "E",
-          "K",
-          "L",
-          "Z"
+          "Pump pedal",
+          "Hold firm",
+          "Pump then hold",
+          "Pump rapidly"
         ],
         "correct": 2,
         "explain": ""
@@ -6921,10 +6921,10 @@
       {
         "q": "A driver self-certifies as intrastate-only. What restriction applies?",
         "options": [
-          "E",
-          "K",
-          "L",
-          "O"
+          "No passengers in CMV",
+          "Intrastate only restriction",
+          "E restriction",
+          "No air brake restriction"
         ],
         "correct": 1,
         "explain": ""
@@ -6932,10 +6932,10 @@
       {
         "q": "How many correct answers do you need on the 25-question Air Brakes test?",
         "options": [
-          "18",
-          "19",
-          "20",
-          "22"
+          "Pump pedal",
+          "Hold firm",
+          "Pump then hold",
+          "Pump rapidly"
         ],
         "correct": 2,
         "explain": ""
